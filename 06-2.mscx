@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
-  <programVersion>2.3.2</programVersion>
-  <programRevision>3543170</programRevision>
+  <programVersion>2.0.3</programVersion>
+  <programRevision>3c7a69d</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -2660,9 +2660,16 @@
             <tpc>11</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>ii</name>
+          </Harmony>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
+        <Harmony>
+          <name>#viio6/vi</name>
+          <pos x="0.75" y="-2.5"/>
+          </Harmony>
         <Beam id="11">
           </Beam>
         <Chord>
@@ -2674,6 +2681,10 @@
             <tpc>11</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>vi</name>
+          <pos x="1.05" y="-2.65"/>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Beam>11</Beam>
@@ -2816,9 +2827,18 @@
             <tpc>13</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>vi</name>
+          </Harmony>
         <Rest>
-          <durationType>quarter</durationType>
+          <durationType>eighth</durationType>
           </Rest>
+        <Rest>
+          <durationType>eighth</durationType>
+          </Rest>
+        <Harmony>
+          <name>#viio6/iii</name>
+          </Harmony>
         <Beam id="12">
           </Beam>
         <Chord>
@@ -2833,6 +2853,9 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>iii</name>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Beam>12</Beam>
@@ -2965,6 +2988,9 @@
             <tpc>10</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>iii</name>
+          </Harmony>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -3422,9 +3448,18 @@
             <tpc>11</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>ii</name>
+          </Harmony>
         <Rest>
-          <durationType>quarter</durationType>
+          <durationType>eighth</durationType>
           </Rest>
+        <Rest>
+          <durationType>eighth</durationType>
+          </Rest>
+        <Harmony>
+          <name>#viio6/vi</name>
+          </Harmony>
         <Beam id="15">
           </Beam>
         <Chord>
@@ -3440,6 +3475,9 @@
             <tpc>11</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>vi</name>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Beam>15</Beam>
@@ -4109,9 +4147,18 @@
             <tpc>11</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>ii</name>
+          </Harmony>
         <Rest>
-          <durationType>quarter</durationType>
+          <durationType>eighth</durationType>
           </Rest>
+        <Rest>
+          <durationType>eighth</durationType>
+          </Rest>
+        <Harmony>
+          <name>#viio6/vi</name>
+          </Harmony>
         <Beam id="18">
           </Beam>
         <Chord>
@@ -4127,6 +4174,9 @@
             <tpc>11</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>vi</name>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Beam>18</Beam>
@@ -4354,6 +4404,7 @@
       <Measure number="114">
         <Harmony>
           <name>V(b964)</name>
+          <pos x="-2.4" y="-2.8"/>
           </Harmony>
         <Chord>
           <dots>1</dots>
