@@ -8,7 +8,7 @@ The empty scores in the folder unannotated are from kernScores
 | Piano Sonata No.3 in C major        | Op.2 No.3                         |                              |
 | Piano Sonata No.4 in E-flat major   | Op.7 ("Grand Sonata")             |                              |
 | Piano Sonata No.5 in C minor        | Op.10 No.1 ("Little Pathétique")  |                              |
-| Piano Sonata No.6 in F major        | Op.10 No.2                        |                              |
+| Piano Sonata No.6 in F major        | Op.10 No.2                        |Gabriela Ortiz Würth (only II)|
 | Piano Sonata No.7 in D major        | Op.10 No.3                        |                              |
 | Piano Sonata No.8 in C minor        | Op.13 ("Pathétique")              |                              |
 | Piano Sonata No.9 in E major        | Op.14 No.1                        |                              |
