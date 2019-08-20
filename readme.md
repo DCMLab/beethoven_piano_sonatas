@@ -21,7 +21,7 @@ The empty scores in the folder unannotated are from kernScores
 | Piano Sonata No.16 in G major       | Op.31 No.1                        |                                                |                 |
 | Piano Sonata No.17 in D minor       | Op.31 No.2 ("The Tempest")        |                                                |                 |
 | Piano Sonata No.18 in E-flat major  | Op.31 No.3 ("The Hunt")           |                                                |                 |
-| Piano Sonata No.19 in G minor       | Op.49 No.1 ("Leichte Sonata")     | Daniel Grote (_DG) Gabriela Ortiz Würth (_GOW) | Adrian Nagel JH |
+| Piano Sonata No.19 in G minor       | Op.49 No.1 ("Leichte Sonata")     | Daniel Grote (_DG)\ Gabriela Ortiz Würth (_GOW) | Adrian Nagel\ JH |
 | Piano Sonata No.20 in G major       | Op.49 No.2 ("Leichte Sonata")     |                                                |                 |
 | Piano Sonata No.21 in C major       | Op.53 ("Waldstein")               |                                                |                 |
 | Piano Sonata No.22 in F major       | Op.54                             |                                                |                 |
