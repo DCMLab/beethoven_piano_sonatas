@@ -9,6 +9,8 @@
       </Synthesizer>
     <Division>480</Division>
     <Style>
+      <minSystemDistance>15</minSystemDistance>
+      <harmonyY>6</harmonyY>
       <page-layout>
         <page-height>1683.78</page-height>
         <page-width>1190.55</page-width>
@@ -59,28 +61,8 @@
           </System>
         <System>
           </System>
-        <System>
-          </System>
         </Page>
       <Page>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        </Page>
-      <Page>
-        <System>
-          </System>
         <System>
           </System>
         <System>
@@ -103,32 +85,8 @@
           </System>
         <System>
           </System>
-        <System>
-          </System>
-        <System>
-          </System>
         </Page>
       <Page>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        </Page>
-      <Page>
-        <System>
-          </System>
-        <System>
-          </System>
         <System>
           </System>
         <System>
@@ -151,6 +109,14 @@
           </System>
         <System>
           </System>
+        </Page>
+      <Page>
+        <System>
+          </System>
+        <System>
+          </System>
+        <System>
+          </System>
         <System>
           </System>
         <System>
@@ -167,6 +133,14 @@
           </System>
         <System>
           </System>
+        </Page>
+      <Page>
+        <System>
+          </System>
+        <System>
+          </System>
+        <System>
+          </System>
         <System>
           </System>
         <System>
@@ -177,6 +151,26 @@
           </System>
         <System>
           </System>
+        <System>
+          </System>
+        <System>
+          </System>
+        <System>
+          </System>
+        </Page>
+      <Page>
+        <System>
+          </System>
+        <System>
+          </System>
+        <System>
+          </System>
+        <System>
+          </System>
+        <System>
+          </System>
+        </Page>
+      <Page>
         <System>
           </System>
         </Page>
@@ -209,15 +203,18 @@
       <VBox>
         <height>8.854</height>
         <Text>
+          <pos x="0" y="-3.4341"/>
           <style>Composer</style>
           <text><font size="12"></font>Ludwig van Beethoven 
 (1770 - 1827)</text>
           </Text>
         <Text>
+          <pos x="1.00161" y="-6.15275"/>
           <style>Title</style>
           <text><font size="24"></font>Sonate No. 1</text>
           </Text>
         <Text>
+          <pos x="0.572349" y="0.370947"/>
           <style>Subtitle</style>
           <xoffset>0</xoffset>
           <yoffset>8.41276</yoffset>
@@ -243,18 +240,20 @@ Opus 2 No. 1</text>
         <Tempo>
           <tempo>3.33333</tempo>
           <followText>1</followText>
+          <pos x="-13.0675" y="-13.5868"/>
           <text>Prestissimo</text>
           </Tempo>
         <Harmony>
-          <name>.f.i&quot;i</name>
+          <name>.f.i[i</name>
           </Harmony>
         <Rest>
           <durationType>measure</durationType>
           <duration z="1" n="2"/>
           </Rest>
         </Measure>
-      <Measure number="2" len="1/2">
+      <Measure number="1" len="1/2">
         <startRepeat/>
+        <noOffset>-1</noOffset>
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
@@ -322,9 +321,9 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="3">
+      <Measure number="2">
         <Harmony>
-          <name>i&quot;</name>
+          <name>i]</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -405,12 +404,9 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="4">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="3">
         <Harmony>
-          <name>i&quot;i</name>
+          <name>i[i</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -506,9 +502,9 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="5">
+      <Measure number="4">
         <Harmony>
-          <name>i&quot;</name>
+          <name>i]</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -594,16 +590,16 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="6">
+      <Measure number="5">
         <Harmony>
-          <name>i</name>
+          <name>i\\</name>
           </Harmony>
         <HairPin id="2">
           <subtype>1</subtype>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="39.4555" y="6.5"/>
+            <pos x="45.2381" y="6.5"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -682,7 +678,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="7">
+      <Measure number="6">
         <Harmony>
           <name>III</name>
           </Harmony>
@@ -742,7 +738,10 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="8">
+      <Measure number="7">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Harmony>
           <name>III</name>
           </Harmony>
@@ -775,9 +774,14 @@ Opus 2 No. 1</text>
         <HairPin id="7">
           <subtype>0</subtype>
           <Segment>
-            <subtype>0</subtype>
+            <subtype>1</subtype>
             <off2 x="0" y="0"/>
-            <pos x="86.2764" y="6.5"/>
+            <pos x="107.479" y="6.5"/>
+            </Segment>
+          <Segment>
+            <subtype>3</subtype>
+            <off2 x="0" y="0"/>
+            <pos x="9.88562" y="6.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -815,7 +819,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="9">
+      <Measure number="8">
         <Harmony>
           <name>i6</name>
           </Harmony>
@@ -829,7 +833,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>#viio6</name>
+          <name>#viio</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -868,10 +872,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="10">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="9">
         <Harmony>
           <name>V</name>
           </Harmony>
@@ -930,7 +931,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="11">
+      <Measure number="10">
         <Harmony>
           <name>i</name>
           </Harmony>
@@ -990,7 +991,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="12">
+      <Measure number="11">
         <Harmony>
           <name>i</name>
           </Harmony>
@@ -1107,19 +1108,14 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="13">
+      <Measure number="12">
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
           <pos x="0.329531" y="7.32332"/>
           </Dynamic>
-        <Dynamic>
-          <subtype>f</subtype>
-          <velocity>96</velocity>
-          <pos x="0.329531" y="7.32332"/>
-          </Dynamic>
         <Harmony>
-          <name>.v.iv</name>
+          <name>i</name>
           </Harmony>
         <Slur id="14">
           <track>0</track>
@@ -1179,7 +1175,8 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>V65/V</name>
+          <name>v.V65/V</name>
+          <pos x="-1" y="-6"/>
           </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
@@ -1204,12 +1201,9 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="14">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="13">
         <Harmony>
-          <name>V&quot;V</name>
+          <name>V[V\\</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -1262,7 +1256,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>#viio43/V</name>
+          <name>viio43/V</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -1302,7 +1296,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="15">
+      <Measure number="14">
         <Harmony>
           <name>V</name>
           </Harmony>
@@ -1396,7 +1390,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="16">
+      <Measure number="15">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -1463,7 +1457,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>#viio43/V</name>
+          <name>viio43/V</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -1503,12 +1497,9 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="17">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="16">
         <Harmony>
-          <name>V&quot;</name>
+          <name>V</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -1548,9 +1539,6 @@ Opus 2 No. 1</text>
           <velocity>112</velocity>
           <pos x="0.329531" y="7.32332"/>
           </Dynamic>
-        <Harmony>
-          <name>V7</name>
-          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -1606,7 +1594,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="18">
+      <Measure number="17">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -1648,6 +1636,92 @@ Opus 2 No. 1</text>
           <velocity>112</velocity>
           <pos x="0.329531" y="7.32332"/>
           </Dynamic>
+        <Harmony>
+          <name>V7]\\</name>
+          </Harmony>
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
+          <StemDirection>down</StemDirection>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            </Note>
+          <Note>
+            <pitch>83</pitch>
+            <tpc>19</tpc>
+            </Note>
+          <Note>
+            <pitch>86</pitch>
+            <tpc>16</tpc>
+            </Note>
+          <Note>
+            <pitch>89</pitch>
+            <tpc>13</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
+          <StemDirection>down</StemDirection>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            </Note>
+          <Note>
+            <pitch>83</pitch>
+            <tpc>19</tpc>
+            </Note>
+          <Note>
+            <pitch>86</pitch>
+            <tpc>16</tpc>
+            </Note>
+          <Note>
+            <pitch>89</pitch>
+            <tpc>13</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="18">
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
+          <StemDirection>down</StemDirection>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            </Note>
+          <Note>
+            <Accidental>
+              <subtype>natural</subtype>
+              </Accidental>
+            <pitch>83</pitch>
+            <tpc>19</tpc>
+            </Note>
+          <Note>
+            <Accidental>
+              <subtype>natural</subtype>
+              </Accidental>
+            <pitch>86</pitch>
+            <tpc>16</tpc>
+            </Note>
+          <Note>
+            <pitch>89</pitch>
+            <tpc>13</tpc>
+            </Note>
+          </Chord>
+        <Rest>
+          <durationType>quarter</durationType>
+          </Rest>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -1698,6 +1772,11 @@ Opus 2 No. 1</text>
           </Chord>
         </Measure>
       <Measure number="19">
+        <Dynamic>
+          <subtype>sf</subtype>
+          <velocity>0</velocity>
+          <pos x="0.329531" y="7.32332"/>
+          </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -1731,6 +1810,11 @@ Opus 2 No. 1</text>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
+        <Dynamic>
+          <subtype>sf</subtype>
+          <velocity>0</velocity>
+          <pos x="0.329531" y="7.32332"/>
+          </Dynamic>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -1755,107 +1839,11 @@ Opus 2 No. 1</text>
             <tpc>13</tpc>
             </Note>
           </Chord>
-        <Chord>
-          <BeamMode>no</BeamMode>
+        <Rest>
           <durationType>quarter</durationType>
-          <Articulation>
-            <subtype>staccato</subtype>
-            </Articulation>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <pitch>77</pitch>
-            <tpc>13</tpc>
-            </Note>
-          <Note>
-            <pitch>83</pitch>
-            <tpc>19</tpc>
-            </Note>
-          <Note>
-            <pitch>86</pitch>
-            <tpc>16</tpc>
-            </Note>
-          <Note>
-            <pitch>89</pitch>
-            <tpc>13</tpc>
-            </Note>
-          </Chord>
+          </Rest>
         </Measure>
       <Measure number="20">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
-        <Dynamic>
-          <subtype>sf</subtype>
-          <velocity>0</velocity>
-          <pos x="0.329531" y="7.32332"/>
-          </Dynamic>
-        <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>quarter</durationType>
-          <Articulation>
-            <subtype>staccato</subtype>
-            </Articulation>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <pitch>77</pitch>
-            <tpc>13</tpc>
-            </Note>
-          <Note>
-            <Accidental>
-              <subtype>natural</subtype>
-              </Accidental>
-            <pitch>83</pitch>
-            <tpc>19</tpc>
-            </Note>
-          <Note>
-            <Accidental>
-              <subtype>natural</subtype>
-              </Accidental>
-            <pitch>86</pitch>
-            <tpc>16</tpc>
-            </Note>
-          <Note>
-            <pitch>89</pitch>
-            <tpc>13</tpc>
-            </Note>
-          </Chord>
-        <Rest>
-          <durationType>quarter</durationType>
-          </Rest>
-        <Dynamic>
-          <subtype>sf</subtype>
-          <velocity>0</velocity>
-          <pos x="0.329531" y="7.32332"/>
-          </Dynamic>
-        <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>quarter</durationType>
-          <Articulation>
-            <subtype>staccato</subtype>
-            </Articulation>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <pitch>77</pitch>
-            <tpc>13</tpc>
-            </Note>
-          <Note>
-            <pitch>83</pitch>
-            <tpc>19</tpc>
-            </Note>
-          <Note>
-            <pitch>86</pitch>
-            <tpc>16</tpc>
-            </Note>
-          <Note>
-            <pitch>89</pitch>
-            <tpc>13</tpc>
-            </Note>
-          </Chord>
-        <Rest>
-          <durationType>quarter</durationType>
-          </Rest>
-        </Measure>
-      <Measure number="21">
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>112</velocity>
@@ -2046,7 +2034,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="22">
+      <Measure number="21">
         <Beam id="7">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -2152,7 +2140,7 @@ Opus 2 No. 1</text>
           <durationType>quarter</durationType>
           </Rest>
         </Measure>
-      <Measure number="23">
+      <Measure number="22">
         <Harmony>
           <name>i</name>
           </Harmony>
@@ -2295,7 +2283,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>#viio7/V</name>
+          <name>viio7/V</name>
           </Harmony>
         <Beam id="12">
           <StemDirection>up</StemDirection>
@@ -2344,7 +2332,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="24">
+      <Measure number="23">
         <Harmony>
           <name>i64</name>
           </Harmony>
@@ -2484,7 +2472,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>#viio7/V</name>
+          <name>viio7/V</name>
           </Harmony>
         <Beam id="16">
           <StemDirection>up</StemDirection>
@@ -2533,7 +2521,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="25">
+      <Measure number="24">
         <Harmony>
           <name>i64</name>
           </Harmony>
@@ -2551,6 +2539,9 @@ Opus 2 No. 1</text>
           <pos x="0" y="5.98108"/>
           <text>crescendo</text>
           </StaffText>
+        <Harmony>
+          <name>VI</name>
+          </Harmony>
         <Slur id="17">
           <track>0</track>
           </Slur>
@@ -2598,6 +2589,9 @@ Opus 2 No. 1</text>
             <tpc>10</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>i64</name>
+          </Harmony>
         <Beam id="18">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -2642,7 +2636,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>#viio7/V</name>
+          <name>viio7/V</name>
           </Harmony>
         <Beam id="19">
           <StemDirection>down</StemDirection>
@@ -2691,10 +2685,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="26">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="25">
         <Harmony>
           <name>i64</name>
           </Harmony>
@@ -2741,6 +2732,9 @@ Opus 2 No. 1</text>
             <tpc>15</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>VI</name>
+          </Harmony>
         <Beam id="21">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -2784,6 +2778,9 @@ Opus 2 No. 1</text>
             <tpc>10</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>i64</name>
+          </Harmony>
         <Beam id="22">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -2828,7 +2825,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>#viio7/V</name>
+          <name>viio7/V</name>
           </Harmony>
         <Beam id="23">
           <StemDirection>down</StemDirection>
@@ -2877,7 +2874,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="27">
+      <Measure number="26">
         <Harmony>
           <name>i64</name>
           </Harmony>
@@ -2897,7 +2894,7 @@ Opus 2 No. 1</text>
           <pos x="0.329531" y="7.32332"/>
           </Dynamic>
         <Harmony>
-          <name>i.III</name>
+          <name>VI</name>
           </Harmony>
         <Slur id="18">
           <track>0</track>
@@ -2947,7 +2944,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>VIM65</name>
+          <name>.bIIM65</name>
           </Harmony>
         <Beam id="25">
           <StemDirection>down</StemDirection>
@@ -2997,7 +2994,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>iio</name>
+          <name>vo</name>
           </Harmony>
         <Beam id="26">
           <StemDirection>down</StemDirection>
@@ -3043,9 +3040,9 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="28">
+      <Measure number="27">
         <Harmony>
-          <name>V65</name>
+          <name>V65/iv</name>
           </Harmony>
         <Beam id="27">
           <StemDirection>down</StemDirection>
@@ -3091,7 +3088,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>i</name>
+          <name>iv</name>
           </Harmony>
         <Beam id="28">
           <StemDirection>down</StemDirection>
@@ -3137,7 +3134,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>v.V65</name>
+          <name>V65</name>
           </Harmony>
         <Beam id="29">
           <StemDirection>down</StemDirection>
@@ -3232,10 +3229,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="29">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="28">
         <Harmony>
           <name>#viio6</name>
           </Harmony>
@@ -3384,7 +3378,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>#viio7/V</name>
+          <name>viio7/V</name>
           </Harmony>
         <Beam id="34">
           <StemDirection>up</StemDirection>
@@ -3433,7 +3427,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="30">
+      <Measure number="29">
         <Harmony>
           <name>V(64)</name>
           </Harmony>
@@ -3619,7 +3613,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="31">
+      <Measure number="30">
         <Harmony>
           <name>i</name>
           </Harmony>
@@ -3673,7 +3667,7 @@ Opus 2 No. 1</text>
           <pos x="0.659062" y="7.32332"/>
           </Dynamic>
         <Harmony>
-          <name>i.III</name>
+          <name>VI</name>
           </Harmony>
         <Slur id="19">
           <track>0</track>
@@ -3723,7 +3717,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>VIM65</name>
+          <name>.bIIM65</name>
           </Harmony>
         <Beam id="41">
           <StemDirection>up</StemDirection>
@@ -3773,7 +3767,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>iio</name>
+          <name>vo</name>
           </Harmony>
         <Beam id="42">
           <StemDirection>up</StemDirection>
@@ -3819,12 +3813,9 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="32">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="31">
         <Harmony>
-          <name>V65</name>
+          <name>V65/iv</name>
           </Harmony>
         <Beam id="43">
           <StemDirection>up</StemDirection>
@@ -3870,7 +3861,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>i</name>
+          <name>iv</name>
           </Harmony>
         <Beam id="44">
           <StemDirection>up</StemDirection>
@@ -3916,7 +3907,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>v.V65</name>
+          <name>V65</name>
           </Harmony>
         <Beam id="45">
           <StemDirection>up</StemDirection>
@@ -4015,7 +4006,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="33">
+      <Measure number="32">
         <Harmony>
           <name>V43</name>
           </Harmony>
@@ -4169,7 +4160,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>#viio7/V</name>
+          <name>viio7/V</name>
           </Harmony>
         <Beam id="50">
           <StemDirection>down</StemDirection>
@@ -4218,7 +4209,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="34">
+      <Measure number="33">
         <Dynamic>
           <subtype>mp</subtype>
           <velocity>64</velocity>
@@ -4409,10 +4400,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="35">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="34">
         <Harmony>
           <name>i\\</name>
           </Harmony>
@@ -4483,7 +4471,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="36">
+      <Measure number="35">
         <Harmony>
           <name>V6/III</name>
           </Harmony>
@@ -4492,7 +4480,7 @@ Opus 2 No. 1</text>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="12.9751" y="6.5"/>
+            <pos x="48.5754" y="6.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -4550,6 +4538,9 @@ Opus 2 No. 1</text>
             <tpc>12</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>V65/III</name>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -4565,7 +4556,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="37">
+      <Measure number="36">
         <Harmony>
           <name>III</name>
           </Harmony>
@@ -4614,9 +4605,14 @@ Opus 2 No. 1</text>
         <HairPin id="24">
           <subtype>0</subtype>
           <Segment>
-            <subtype>0</subtype>
+            <subtype>1</subtype>
             <off2 x="0" y="0"/>
-            <pos x="71.5124" y="6.5"/>
+            <pos x="112.161" y="6.5"/>
+            </Segment>
+          <Segment>
+            <subtype>3</subtype>
+            <off2 x="0" y="0"/>
+            <pos x="9.88562" y="6.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -4643,12 +4639,9 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="38">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="37">
         <Harmony>
-          <name>iv(4)</name>
+          <name>iv</name>
           </Harmony>
         <Slur id="25">
           <track>0</track>
@@ -4667,9 +4660,6 @@ Opus 2 No. 1</text>
             <tpc>12</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>iv</name>
-          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -4684,7 +4674,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>viio6(4)/III</name>
+          <name>viio6/III</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -4699,9 +4689,6 @@ Opus 2 No. 1</text>
             <tpc>15</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>viio6/III</name>
-          </Harmony>
         <endSpanner id="24"/>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -4717,7 +4704,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="39">
+      <Measure number="38">
         <Harmony>
           <name>III6</name>
           </Harmony>
@@ -4781,7 +4768,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="40">
+      <Measure number="39">
         <Harmony>
           <name>iv6</name>
           </Harmony>
@@ -4851,10 +4838,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="41">
-        <LayoutBreak>
-          <subtype>page</subtype>
-          </LayoutBreak>
+      <Measure number="40">
         <StaffText>
           <pos x="0" y="5.98108"/>
           <text>diminuendo</text>
@@ -4914,7 +4898,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="42">
+      <Measure number="41">
         <Harmony>
           <name>V</name>
           </Harmony>
@@ -4969,9 +4953,9 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="43">
+      <Measure number="42">
         <Harmony>
-          <name>i</name>
+          <name>i\\</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -5023,10 +5007,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="44">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="43">
         <Harmony>
           <name>V6/III</name>
           </Harmony>
@@ -5035,7 +5016,7 @@ Opus 2 No. 1</text>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="85.9499" y="6.5"/>
+            <pos x="85.4943" y="6.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -5093,6 +5074,9 @@ Opus 2 No. 1</text>
             <tpc>12</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>V65/III</name>
+          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -5108,7 +5092,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="45">
+      <Measure number="44">
         <Harmony>
           <name>III</name>
           </Harmony>
@@ -5172,16 +5156,16 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="46">
+      <Measure number="45">
         <Harmony>
-          <name>iv(4)</name>
+          <name>iv</name>
           </Harmony>
         <HairPin id="34">
           <subtype>0</subtype>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="45.764" y="6.5"/>
+            <pos x="48.0214" y="6.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -5207,9 +5191,6 @@ Opus 2 No. 1</text>
             <tpc>12</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>iv</name>
-          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -5224,7 +5205,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>viio6(4)/III</name>
+          <name>viio6/III</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -5239,9 +5220,6 @@ Opus 2 No. 1</text>
             <tpc>15</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>viio6/III</name>
-          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -5256,10 +5234,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="47">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="46">
         <Harmony>
           <name>III6</name>
           </Harmony>
@@ -5324,7 +5299,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="48">
+      <Measure number="47">
         <Harmony>
           <name>iv6</name>
           </Harmony>
@@ -5408,7 +5383,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="49">
+      <Measure number="48">
         <StaffText>
           <pos x="0" y="5.98108"/>
           <text>crescendo</text>
@@ -5469,10 +5444,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="50">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="49">
         <Harmony>
           <name>V</name>
           </Harmony>
@@ -5527,14 +5499,14 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="51">
+      <Measure number="50">
         <Dynamic>
           <subtype>f</subtype>
           <velocity>96</velocity>
           <pos x="0.659062" y="-1.64274"/>
           </Dynamic>
         <Harmony>
-          <name>i&quot;i</name>
+          <name>i[i\\</name>
           </Harmony>
         <HairPin id="41">
           <subtype>0</subtype>
@@ -5633,9 +5605,9 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="52">
+      <Measure number="51">
         <Harmony>
-          <name>i&quot;</name>
+          <name>i]</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -5727,12 +5699,9 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="53">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="52">
         <Harmony>
-          <name>i&quot;i</name>
+          <name>i[i</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -5826,9 +5795,9 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="54">
+      <Measure number="53">
         <Harmony>
-          <name>i&quot;</name>
+          <name>i]</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -5852,6 +5821,95 @@ Opus 2 No. 1</text>
           <Note>
             <pitch>84</pitch>
             <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Rest>
+          <durationType>quarter</durationType>
+          </Rest>
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
+          <StemDirection>down</StemDirection>
+          <Note>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          <Note>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            </Note>
+          <Note>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            </Note>
+          <Note>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Harmony>
+          <name>V</name>
+          </Harmony>
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
+          <StemDirection>down</StemDirection>
+          <Note>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          <Note>
+            <Accidental>
+              <subtype>natural</subtype>
+              </Accidental>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            </Note>
+          <Note>
+            <Accidental>
+              <subtype>natural</subtype>
+              </Accidental>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          <Note>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="54">
+        <Harmony>
+          <name>i</name>
+          </Harmony>
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
+          <StemDirection>down</StemDirection>
+          <Note>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          <Note>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            </Note>
+          <Note>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            </Note>
+          <Note>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
             </Note>
           </Chord>
         <Rest>
@@ -5965,111 +6023,19 @@ Opus 2 No. 1</text>
             <pitch>75</pitch>
             <tpc>11</tpc>
             </Note>
-          <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
-            </Note>
           </Chord>
-        <Harmony>
-          <name>V</name>
-          </Harmony>
-        <Chord>
-          <BeamMode>no</BeamMode>
+        <Rest>
           <durationType>quarter</durationType>
-          <Articulation>
-            <subtype>staccato</subtype>
-            </Articulation>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          <Note>
-            <Accidental>
-              <subtype>natural</subtype>
-              </Accidental>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
-            </Note>
-          <Note>
-            <Accidental>
-              <subtype>natural</subtype>
-              </Accidental>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
-            </Note>
-          <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
+          </Rest>
         </Measure>
       <Measure number="56">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
-        <Harmony>
-          <name>i</name>
-          </Harmony>
-        <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>quarter</durationType>
-          <Articulation>
-            <subtype>staccato</subtype>
-            </Articulation>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          <Note>
-            <pitch>72</pitch>
-            <tpc>14</tpc>
-            </Note>
-          <Note>
-            <pitch>75</pitch>
-            <tpc>11</tpc>
-            </Note>
-          <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Rest>
-          <durationType>quarter</durationType>
-          </Rest>
-        <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>quarter</durationType>
-          <Articulation>
-            <subtype>staccato</subtype>
-            </Articulation>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          <Note>
-            <pitch>72</pitch>
-            <tpc>14</tpc>
-            </Note>
-          <Note>
-            <pitch>75</pitch>
-            <tpc>11</tpc>
-            </Note>
-          </Chord>
-        <Rest>
-          <durationType>quarter</durationType>
-          </Rest>
-        </Measure>
-      <Measure number="57">
         <Dynamic>
           <subtype>f</subtype>
           <velocity>96</velocity>
           <pos x="0.659062" y="7.32332"/>
           </Dynamic>
         <Harmony>
-          <name>i</name>
+          <name>i\\</name>
           </Harmony>
         <Volta id="42">
           <endHook>1</endHook>
@@ -6140,7 +6106,7 @@ Opus 2 No. 1</text>
           <durationType>quarter</durationType>
           </Rest>
         </Measure>
-      <Measure number="58" len="1/2">
+      <Measure number="57" len="1/2">
         <endRepeat>2</endRepeat>
         <Dynamic>
           <subtype>p</subtype>
@@ -6170,7 +6136,8 @@ Opus 2 No. 1</text>
           <durationType>quarter</durationType>
           </Rest>
         </Measure>
-      <Measure number="59">
+      <Measure number="56">
+        <noOffset>-2</noOffset>
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>112</velocity>
@@ -6214,7 +6181,7 @@ Opus 2 No. 1</text>
           <durationType>half</durationType>
           </Rest>
         </Measure>
-      <Measure number="60">
+      <Measure number="57">
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>112</velocity>
@@ -6286,7 +6253,7 @@ Opus 2 No. 1</text>
           <durationType>quarter</durationType>
           </Rest>
         </Measure>
-      <Measure number="61">
+      <Measure number="58">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -6314,7 +6281,7 @@ Opus 2 No. 1</text>
           <durationType>half</durationType>
           </Rest>
         </Measure>
-      <Measure number="62">
+      <Measure number="59">
         <StaffText>
           <text>sempre piano e dolce</text>
           </StaffText>
@@ -6340,10 +6307,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="63">
-        <LayoutBreak>
-          <subtype>page</subtype>
-          </LayoutBreak>
+      <Measure number="60">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -6363,7 +6327,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="64">
+      <Measure number="61">
         <Dynamic>
           <subtype>mf</subtype>
           <velocity>80</velocity>
@@ -6397,13 +6361,13 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="65">
+      <Measure number="62">
         <HairPin id="46">
           <subtype>1</subtype>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="24.5241" y="6.5"/>
+            <pos x="25.155" y="6.5"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -6452,7 +6416,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="66">
+      <Measure number="63">
         <Dynamic>
           <subtype>mp</subtype>
           <velocity>64</velocity>
@@ -6501,9 +6465,9 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="67">
+      <Measure number="64">
         <Harmony>
-          <name>I64</name>
+          <name>V(64)</name>
           </Harmony>
         <Slur id="47">
           <track>0</track>
@@ -6544,7 +6508,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="68">
+      <Measure number="65">
         <Harmony>
           <name>ii6</name>
           </Harmony>
@@ -6553,7 +6517,7 @@ Opus 2 No. 1</text>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="67.3256" y="6.5"/>
+            <pos x="69.8493" y="6.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -6645,7 +6609,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="69">
+      <Measure number="66">
         <Dynamic>
           <subtype>mf</subtype>
           <velocity>80</velocity>
@@ -6720,14 +6684,14 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>V7(6)</name>
+          <name>V7</name>
           </Harmony>
         <HairPin id="50">
           <subtype>1</subtype>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="97.5014" y="6.5"/>
+            <pos x="99.9818" y="6.5"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -6745,9 +6709,6 @@ Opus 2 No. 1</text>
             <tpc>14</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>V7</name>
-          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -6759,14 +6720,14 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="70">
+      <Measure number="67">
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
           <pos x="0.329531" y="7.32332"/>
           </Dynamic>
         <Harmony>
-          <name>I(42)</name>
+          <name>I(94)</name>
           </Harmony>
         <endSpanner id="50"/>
         <Slur id="51">
@@ -6793,10 +6754,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="71">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="68">
         <Harmony>
           <name>I</name>
           </Harmony>
@@ -6817,7 +6775,7 @@ Opus 2 No. 1</text>
           <durationType>half</durationType>
           </Rest>
         </Measure>
-      <Measure number="72">
+      <Measure number="69">
         <Chord>
           <BeamMode>no</BeamMode>
           <dots>1</dots>
@@ -6841,13 +6799,13 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="73">
+      <Measure number="70">
         <HairPin id="52">
           <subtype>0</subtype>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="26.1872" y="6.5"/>
+            <pos x="42.9003" y="6.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -6906,7 +6864,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="74">
+      <Measure number="71">
         <Harmony>
           <name>V6</name>
           </Harmony>
@@ -6959,13 +6917,13 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="75">
+      <Measure number="72">
         <HairPin id="57">
           <subtype>1</subtype>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="54.9436" y="6.5"/>
+            <pos x="74.7917" y="6.5"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -7015,7 +6973,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="76">
+      <Measure number="73">
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
@@ -7068,7 +7026,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="77">
+      <Measure number="74">
         <Harmony>
           <name>#viio64/ii</name>
           </Harmony>
@@ -7111,10 +7069,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="78">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="75">
         <Harmony>
           <name>ii6</name>
           </Harmony>
@@ -7123,7 +7078,7 @@ Opus 2 No. 1</text>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="98.2222" y="6.5"/>
+            <pos x="11.6673" y="6.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -7215,7 +7170,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="79">
+      <Measure number="76">
         <Dynamic>
           <subtype>mf</subtype>
           <velocity>80</velocity>
@@ -7230,7 +7185,7 @@ Opus 2 No. 1</text>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="11.6576" y="6.5"/>
+            <pos x="36.3646" y="6.5"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -7304,7 +7259,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>V7(6)</name>
+          <name>V7</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -7320,9 +7275,6 @@ Opus 2 No. 1</text>
           <velocity>64</velocity>
           <pos x="0.329531" y="7.32332"/>
           </Dynamic>
-        <Harmony>
-          <name>V7</name>
-          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -7334,7 +7286,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="80">
+      <Measure number="77">
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
@@ -7378,7 +7330,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="81">
+      <Measure number="78">
         <Harmony>
           <name>I\\</name>
           </Harmony>
@@ -7416,7 +7368,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="82">
+      <Measure number="79">
         <Harmony>
           <name>V6</name>
           </Harmony>
@@ -7461,7 +7413,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="83">
+      <Measure number="80">
         <Harmony>
           <name>V43</name>
           </Harmony>
@@ -7502,7 +7454,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="84">
+      <Measure number="81">
         <Harmony>
           <name>I</name>
           </Harmony>
@@ -7583,10 +7535,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="85">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="82">
         <Harmony>
           <name>I6</name>
           </Harmony>
@@ -7616,7 +7565,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="86">
+      <Measure number="83">
         <Harmony>
           <name>V64</name>
           </Harmony>
@@ -7625,7 +7574,7 @@ Opus 2 No. 1</text>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="11.6576" y="6.5"/>
+            <pos x="63.885" y="6.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -7720,7 +7669,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="87">
+      <Measure number="84">
         <Dynamic>
           <subtype>mf</subtype>
           <velocity>80</velocity>
@@ -7777,7 +7726,7 @@ Opus 2 No. 1</text>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="47.9448" y="6.5"/>
+            <pos x="112.007" y="6.5"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -7830,14 +7779,14 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="88">
+      <Measure number="85">
         <Dynamic>
           <subtype>mp</subtype>
           <velocity>64</velocity>
           <pos x="0.329531" y="7.32332"/>
           </Dynamic>
         <Harmony>
-          <name>V6</name>
+          <name>V</name>
           </Harmony>
         <endSpanner id="67"/>
         <Slur id="68">
@@ -7853,6 +7802,9 @@ Opus 2 No. 1</text>
             <tpc>11</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>V65</name>
+          </Harmony>
         <Beam id="66">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -8013,7 +7965,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="89">
+      <Measure number="86">
         <Harmony>
           <name>I</name>
           </Harmony>
@@ -8034,10 +7986,7 @@ Opus 2 No. 1</text>
           <durationType>half</durationType>
           </Rest>
         </Measure>
-      <Measure number="90">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="87">
         <Slur id="69">
           <track>0</track>
           </Slur>
@@ -8055,7 +8004,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="91">
+      <Measure number="88">
         <Harmony>
           <name>V2/IV</name>
           </Harmony>
@@ -8064,7 +8013,7 @@ Opus 2 No. 1</text>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="11.7234" y="6.5"/>
+            <pos x="84.1951" y="6.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -8106,7 +8055,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="92">
+      <Measure number="89">
         <Dynamic>
           <subtype>f</subtype>
           <velocity>96</velocity>
@@ -8172,7 +8121,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="93">
+      <Measure number="90">
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
@@ -8220,7 +8169,7 @@ Opus 2 No. 1</text>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="57.9464" y="6.5"/>
+            <pos x="24.1361" y="6.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -8246,7 +8195,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="94">
+      <Measure number="91">
         <Harmony>
           <name>ii6</name>
           </Harmony>
@@ -8291,7 +8240,7 @@ Opus 2 No. 1</text>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="70.3968" y="6.5"/>
+            <pos x="36.5376" y="6.5"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -8327,7 +8276,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="95">
+      <Measure number="92">
         <Dynamic>
           <subtype>f</subtype>
           <velocity>96</velocity>
@@ -8394,14 +8343,14 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="96">
+      <Measure number="93">
         <Dynamic>
           <subtype>mp</subtype>
           <velocity>64</velocity>
           <pos x="0.329531" y="7.32332"/>
           </Dynamic>
         <Harmony>
-          <name>I(42)</name>
+          <name>I(94)</name>
           </Harmony>
         <Slur id="76">
           <track>0</track>
@@ -8436,7 +8385,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="97">
+      <Measure number="94">
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
@@ -8482,24 +8431,16 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="98">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="95">
         <Harmony>
           <name>V6</name>
           </Harmony>
         <HairPin id="77">
           <subtype>0</subtype>
           <Segment>
-            <subtype>1</subtype>
+            <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="11.7234" y="6.5"/>
-            </Segment>
-          <Segment>
-            <subtype>3</subtype>
-            <off2 x="0" y="0"/>
-            <pos x="9.87945" y="6.5"/>
+            <pos x="89.9752" y="6.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -8549,7 +8490,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="99">
+      <Measure number="96">
         <Harmony>
           <name>V43</name>
           </Harmony>
@@ -8590,7 +8531,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="100">
+      <Measure number="97">
         <Dynamic>
           <subtype>mp</subtype>
           <velocity>64</velocity>
@@ -8615,7 +8556,7 @@ Opus 2 No. 1</text>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="42.6818" y="6.5"/>
+            <pos x="26.3706" y="6.5"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -8691,7 +8632,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="101">
+      <Measure number="98">
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
@@ -8727,7 +8668,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="102">
+      <Measure number="99">
         <Harmony>
           <name>V64</name>
           </Harmony>
@@ -8817,7 +8758,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="103">
+      <Measure number="100">
         <Harmony>
           <name>V2</name>
           </Harmony>
@@ -8826,7 +8767,7 @@ Opus 2 No. 1</text>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="94.8249" y="6.5"/>
+            <pos x="89.8706" y="6.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -8921,7 +8862,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="104">
+      <Measure number="101">
         <Dynamic>
           <subtype>mf</subtype>
           <velocity>80</velocity>
@@ -8944,6 +8885,10 @@ Opus 2 No. 1</text>
             <tpc>11</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>V65</name>
+          <pos x="0" y="-7"/>
+          </Harmony>
         <Beam id="75">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -9104,7 +9049,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="105">
+      <Measure number="102">
         <Harmony>
           <name>I</name>
           </Harmony>
@@ -9125,7 +9070,7 @@ Opus 2 No. 1</text>
           <durationType>half</durationType>
           </Rest>
         </Measure>
-      <Measure number="106">
+      <Measure number="103">
         <Slur id="83">
           <track>0</track>
           </Slur>
@@ -9143,7 +9088,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="107">
+      <Measure number="104">
         <Harmony>
           <name>V2/IV</name>
           </Harmony>
@@ -9189,10 +9134,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="108">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="105">
         <Dynamic>
           <subtype>f</subtype>
           <velocity>96</velocity>
@@ -9258,7 +9200,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="109">
+      <Measure number="106">
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
@@ -9318,7 +9260,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="110">
+      <Measure number="107">
         <Harmony>
           <name>ii6</name>
           </Harmony>
@@ -9327,7 +9269,7 @@ Opus 2 No. 1</text>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="31.5992" y="6.5"/>
+            <pos x="53.1049" y="6.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -9393,7 +9335,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="111">
+      <Measure number="108">
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>112</velocity>
@@ -9408,7 +9350,7 @@ Opus 2 No. 1</text>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="49.3071" y="6.5"/>
+            <pos x="72.7064" y="6.5"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -9475,14 +9417,14 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="112">
+      <Measure number="109">
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
           <pos x="0.329531" y="7.32332"/>
           </Dynamic>
         <Harmony>
-          <name>I</name>
+          <name>I\\</name>
           </Harmony>
         <endSpanner id="89"/>
         <Chord>
@@ -9527,7 +9469,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>I(+2)</name>
+          <name>I(+#2)</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -9552,10 +9494,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="113">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="110">
         <Harmony>
           <name>I</name>
           </Harmony>
@@ -9595,7 +9534,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>I(+2)</name>
+          <name>I(+#2)</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -9620,7 +9559,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="114">
+      <Measure number="111">
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
@@ -9634,7 +9573,7 @@ Opus 2 No. 1</text>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="11.6679" y="6.5"/>
+            <pos x="42.4296" y="6.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -9721,7 +9660,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="115">
+      <Measure number="112">
         <Dynamic>
           <subtype>f</subtype>
           <velocity>96</velocity>
@@ -9738,7 +9677,7 @@ Opus 2 No. 1</text>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="36.8855" y="6.5"/>
+            <pos x="68.904" y="6.5"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -9772,7 +9711,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="116">
+      <Measure number="113">
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
@@ -9824,7 +9763,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>V43(+6)</name>
+          <name>V43(+#6)</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -9849,7 +9788,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="117">
+      <Measure number="114">
         <Harmony>
           <name>V43</name>
           </Harmony>
@@ -9889,7 +9828,8 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>V43(+6)</name>
+          <name>V43(+#6)</name>
+          <pos x="-2" y="-6"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -9914,10 +9854,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="118">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="115">
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
@@ -9931,7 +9868,7 @@ Opus 2 No. 1</text>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="11.6679" y="6.5"/>
+            <pos x="43.5319" y="6.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -10018,7 +9955,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="119">
+      <Measure number="116">
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
@@ -10055,7 +9992,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="120">
+      <Measure number="117">
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
@@ -10106,7 +10043,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>i(2)</name>
+          <name>i(9)</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -10125,7 +10062,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="121">
+      <Measure number="118">
         <Harmony>
           <name>i</name>
           </Harmony>
@@ -10165,7 +10102,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>i(2)</name>
+          <name>i(9)</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -10184,7 +10121,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="122">
+      <Measure number="119">
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
@@ -10198,7 +10135,7 @@ Opus 2 No. 1</text>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="85.8427" y="6.5"/>
+            <pos x="36.8987" y="6.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -10282,10 +10219,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="123">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="120">
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
@@ -10321,7 +10255,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="124">
+      <Measure number="121">
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
@@ -10355,7 +10289,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="125">
+      <Measure number="122">
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
@@ -10389,7 +10323,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="126">
+      <Measure number="123">
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
@@ -10423,7 +10357,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="127">
+      <Measure number="124">
         <Harmony>
           <name>V43/iv</name>
           </Harmony>
@@ -10458,7 +10392,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="128">
+      <Measure number="125">
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>112</velocity>
@@ -10476,7 +10410,7 @@ Opus 2 No. 1</text>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="92.2027" y="6.5"/>
+            <pos x="34.7502" y="6.5"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -10552,10 +10486,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="129">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="126">
         <Dynamic>
           <subtype>mf</subtype>
           <velocity>80</velocity>
@@ -10613,14 +10544,14 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="130">
+      <Measure number="127">
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
           <pos x="0.329531" y="7.32332"/>
           </Dynamic>
         <Harmony>
-          <name>V</name>
+          <name>V[V</name>
           </Harmony>
         <endSpanner id="101"/>
         <Chord>
@@ -10731,6 +10662,10 @@ Opus 2 No. 1</text>
             <tpc>18</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>viio43/V</name>
+          <pos x="-1.2" y="-6"/>
+          </Harmony>
         <Beam id="84">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -10781,7 +10716,10 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="131">
+      <Measure number="128">
+        <Harmony>
+          <name>V]</name>
+          </Harmony>
         <Beam id="85">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -10912,7 +10850,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>#viio/V</name>
+          <name>viio7/V</name>
           </Harmony>
         <Tuplet id="67">
           <bracketType>1</bracketType>
@@ -10952,9 +10890,9 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="132">
+      <Measure number="129">
         <Harmony>
-          <name>V</name>
+          <name>V[V</name>
           </Harmony>
         <Rest>
           <durationType>quarter</durationType>
@@ -11051,6 +10989,9 @@ Opus 2 No. 1</text>
             <tpc>18</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>viio43/V</name>
+          </Harmony>
         <Beam id="91">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -11101,7 +11042,10 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="133">
+      <Measure number="130">
+        <Harmony>
+          <name>V]</name>
+          </Harmony>
         <Beam id="92">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -11232,7 +11176,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>#viio7</name>
+          <name>viio7/V</name>
           </Harmony>
         <Tuplet id="74">
           <bracketType>1</bracketType>
@@ -11272,13 +11216,13 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="134">
+      <Measure number="131">
         <StaffText>
           <pos x="0" y="5.98108"/>
           <text>crescendo</text>
           </StaffText>
         <Harmony>
-          <name>V</name>
+          <name>V[V</name>
           </Harmony>
         <Tuplet id="75">
           <bracketType>1</bracketType>
@@ -11364,7 +11308,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>V7b9</name>
+          <name>#viio43</name>
           </Harmony>
         <Beam id="98">
           <StemDirection>down</StemDirection>
@@ -11413,7 +11357,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>V(+6)</name>
+          <name>V(+#6)</name>
           </Harmony>
         <Beam id="99">
           <StemDirection>down</StemDirection>
@@ -11491,12 +11435,9 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="135">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="132">
         <Harmony>
-          <name>V7b9</name>
+          <name>#viio43</name>
           </Harmony>
         <Beam id="100">
           <StemDirection>down</StemDirection>
@@ -11629,7 +11570,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>V(+6)</name>
+          <name>V(+#6)</name>
           </Harmony>
         <Beam id="103">
           <StemDirection>down</StemDirection>
@@ -11719,9 +11660,9 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="136">
+      <Measure number="133">
         <Harmony>
-          <name>V7b9</name>
+          <name>#viio43</name>
           </Harmony>
         <Beam id="104">
           <StemDirection>down</StemDirection>
@@ -11858,7 +11799,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>V(+6)</name>
+          <name>V(+#6)</name>
           </Harmony>
         <Beam id="107">
           <StemDirection>down</StemDirection>
@@ -11944,7 +11885,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="137">
+      <Measure number="134">
         <StaffText>
           <pos x="0" y="5.98108"/>
           <text>diminuendo</text>
@@ -11955,7 +11896,7 @@ Opus 2 No. 1</text>
           <pos x="0.329531" y="7.32332"/>
           </Dynamic>
         <Harmony>
-          <name>V7b9</name>
+          <name>#viio43</name>
           </Harmony>
         <Beam id="108">
           <StemDirection>down</StemDirection>
@@ -12003,6 +11944,9 @@ Opus 2 No. 1</text>
             <tpc>18</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>V7</name>
+          </Harmony>
         <Beam id="109">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -12046,6 +11990,9 @@ Opus 2 No. 1</text>
             <tpc>18</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>#viio43</name>
+          </Harmony>
         <Beam id="110">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -12089,6 +12036,9 @@ Opus 2 No. 1</text>
             <tpc>18</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>V7</name>
+          </Harmony>
         <Beam id="111">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -12178,15 +12128,15 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="138">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="135">
         <Dynamic>
           <subtype>mf</subtype>
           <velocity>80</velocity>
           <pos x="0.329531" y="7.32332"/>
           </Dynamic>
+        <Harmony>
+          <name>#viio43</name>
+          </Harmony>
         <Beam id="112">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -12233,6 +12183,9 @@ Opus 2 No. 1</text>
             <tpc>18</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>V</name>
+          </Harmony>
         <Beam id="113">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -12276,6 +12229,9 @@ Opus 2 No. 1</text>
             <tpc>18</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>#viio43</name>
+          </Harmony>
         <Beam id="114">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -12319,6 +12275,9 @@ Opus 2 No. 1</text>
             <tpc>18</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>V</name>
+          </Harmony>
         <Beam id="115">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -12409,12 +12368,15 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="139">
+      <Measure number="136">
         <Dynamic>
           <subtype>mp</subtype>
           <velocity>64</velocity>
           <pos x="0.659062" y="7.32332"/>
           </Dynamic>
+        <Harmony>
+          <name>#viio43</name>
+          </Harmony>
         <Slur id="108">
           <track>0</track>
           </Slur>
@@ -12465,6 +12427,9 @@ Opus 2 No. 1</text>
             <tpc>18</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>V</name>
+          </Harmony>
         <Beam id="117">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -12508,6 +12473,9 @@ Opus 2 No. 1</text>
             <tpc>18</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>#viio43</name>
+          </Harmony>
         <Beam id="118">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -12551,6 +12519,9 @@ Opus 2 No. 1</text>
             <tpc>18</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>V</name>
+          </Harmony>
         <Beam id="119">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -12595,12 +12566,15 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="140">
+      <Measure number="137">
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
           <pos x="0.659062" y="7.32332"/>
           </Dynamic>
+        <Harmony>
+          <name>#viio43</name>
+          </Harmony>
         <Beam id="120">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -12647,6 +12621,9 @@ Opus 2 No. 1</text>
             <tpc>18</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>V7</name>
+          </Harmony>
         <Beam id="121">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -12690,6 +12667,9 @@ Opus 2 No. 1</text>
             <tpc>18</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>#viio43</name>
+          </Harmony>
         <Beam id="122">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -12733,6 +12713,9 @@ Opus 2 No. 1</text>
             <tpc>18</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>V7</name>
+          </Harmony>
         <Beam id="123">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -12777,17 +12760,14 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="141">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="138">
         <Dynamic>
           <subtype>f</subtype>
           <velocity>96</velocity>
           <pos x="0.659062" y="7.32332"/>
           </Dynamic>
         <Harmony>
-          <name>i&quot;i</name>
+          <name>i[i</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -12864,9 +12844,9 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="142">
+      <Measure number="139">
         <Harmony>
-          <name>i&quot;</name>
+          <name>i]</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -12947,9 +12927,9 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="143">
+      <Measure number="140">
         <Harmony>
-          <name>i&quot;i</name>
+          <name>i[i</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -13040,9 +13020,9 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="144">
+      <Measure number="141">
         <Harmony>
-          <name>i&quot;</name>
+          <name>i]</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -13123,19 +13103,16 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="145">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="142">
         <Harmony>
-          <name>i</name>
+          <name>i\\</name>
           </Harmony>
         <HairPin id="109">
           <subtype>1</subtype>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="99.0811" y="6.5"/>
+            <pos x="11.6467" y="6.5"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -13214,7 +13191,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="146">
+      <Measure number="143">
         <Harmony>
           <name>III</name>
           </Harmony>
@@ -13274,7 +13251,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="147">
+      <Measure number="144">
         <Harmony>
           <name>III</name>
           </Harmony>
@@ -13319,6 +13296,7 @@ Opus 2 No. 1</text>
           </Chord>
         <Harmony>
           <name>#viio6</name>
+          <pos x="0" y="-9"/>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -13333,7 +13311,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="148">
+      <Measure number="145">
         <Harmony>
           <name>i6</name>
           </Harmony>
@@ -13342,7 +13320,7 @@ Opus 2 No. 1</text>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="44.7402" y="6.5"/>
+            <pos x="74.9604" y="6.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -13400,7 +13378,10 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="149">
+      <Measure number="146">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Harmony>
           <name>V</name>
           </Harmony>
@@ -13454,7 +13435,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="150">
+      <Measure number="147">
         <Harmony>
           <name>i</name>
           </Harmony>
@@ -13522,16 +13503,13 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="151">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="148">
         <HairPin id="119">
           <subtype>1</subtype>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="102.332" y="6.5"/>
+            <pos x="33.857" y="6.5"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -13592,7 +13570,7 @@ Opus 2 No. 1</text>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="113.688" y="6.5"/>
+            <pos x="47.1299" y="6.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -13631,7 +13609,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="152">
+      <Measure number="149">
         <Harmony>
           <name>i</name>
           </Harmony>
@@ -13641,7 +13619,7 @@ Opus 2 No. 1</text>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="11.602" y="6.5"/>
+            <pos x="58.2007" y="6.5"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -13742,7 +13720,7 @@ Opus 2 No. 1</text>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="27.4857" y="6.5"/>
+            <pos x="76.0493" y="6.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -13786,14 +13764,14 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="153">
+      <Measure number="150">
         <endSpanner id="124"/>
         <HairPin id="126">
           <subtype>1</subtype>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="38.1471" y="6.5"/>
+            <pos x="87.8613" y="6.5"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -13874,6 +13852,9 @@ Opus 2 No. 1</text>
             <tpc>9</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>V65</name>
+          </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
@@ -13893,7 +13874,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="154">
+      <Measure number="151">
         <Dynamic>
           <subtype>mf</subtype>
           <velocity>80</velocity>
@@ -13907,7 +13888,7 @@ Opus 2 No. 1</text>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="67.8218" y="6.5"/>
+            <pos x="11.6358" y="6.5"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -14010,14 +13991,14 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="155">
+      <Measure number="152">
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
           <pos x="0.329531" y="7.32332"/>
           </Dynamic>
         <Harmony>
-          <name>V&quot;V</name>
+          <name>V[V</name>
           </Harmony>
         <endSpanner id="127"/>
         <Chord>
@@ -14063,7 +14044,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>#viio/V</name>
+          <name>viio43/V</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -14103,7 +14084,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="156">
+      <Measure number="153">
         <Harmony>
           <name>V</name>
           </Harmony>
@@ -14194,7 +14175,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="157">
+      <Measure number="154">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -14258,7 +14239,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>#viio/V</name>
+          <name>viio43/V</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -14298,12 +14279,9 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="158">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="155">
         <Harmony>
-          <name>V&quot;</name>
+          <name>V</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -14392,7 +14370,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="159">
+      <Measure number="156">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -14429,7 +14407,7 @@ Opus 2 No. 1</text>
           <pos x="0.329531" y="7.32332"/>
           </Dynamic>
         <Harmony>
-          <name>V7</name>
+          <name>V7]\\</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -14488,7 +14466,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="160">
+      <Measure number="157">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -14568,10 +14546,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="161">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="158">
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>112</velocity>
@@ -14635,7 +14610,7 @@ Opus 2 No. 1</text>
           <durationType>quarter</durationType>
           </Rest>
         </Measure>
-      <Measure number="162">
+      <Measure number="159">
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
@@ -14820,7 +14795,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="163">
+      <Measure number="160">
         <Beam id="136">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -14928,10 +14903,7 @@ Opus 2 No. 1</text>
           <durationType>quarter</durationType>
           </Rest>
         </Measure>
-      <Measure number="164">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="161">
         <Harmony>
           <name>i</name>
           </Harmony>
@@ -15078,7 +15050,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>#viio7/V</name>
+          <name>viio7/V</name>
           </Harmony>
         <Beam id="141">
           <StemDirection>up</StemDirection>
@@ -15127,7 +15099,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="165">
+      <Measure number="162">
         <Harmony>
           <name>i64</name>
           </Harmony>
@@ -15267,7 +15239,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>#viio7/V</name>
+          <name>viio7/V</name>
           </Harmony>
         <Beam id="145">
           <StemDirection>up</StemDirection>
@@ -15316,7 +15288,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="166">
+      <Measure number="163">
         <Harmony>
           <name>i64</name>
           </Harmony>
@@ -15461,7 +15433,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>#viio7/V</name>
+          <name>viio7/V</name>
           </Harmony>
         <Beam id="149">
           <StemDirection>up</StemDirection>
@@ -15510,10 +15482,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="167">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="164">
         <Harmony>
           <name>i64</name>
           </Harmony>
@@ -15653,7 +15622,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>#viio7/V</name>
+          <name>viio7/V</name>
           </Harmony>
         <Beam id="153">
           <StemDirection>up</StemDirection>
@@ -15702,7 +15671,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="168">
+      <Measure number="165">
         <Harmony>
           <name>i64</name>
           </Harmony>
@@ -15756,7 +15725,7 @@ Opus 2 No. 1</text>
           <pos x="0.659062" y="7.32332"/>
           </Dynamic>
         <Harmony>
-          <name>vi.III</name>
+          <name>VI</name>
           </Harmony>
         <Slur id="130">
           <track>0</track>
@@ -15806,7 +15775,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>V65/iv</name>
+          <name>V65/vii</name>
           </Harmony>
         <Beam id="156">
           <StemDirection>down</StemDirection>
@@ -15852,7 +15821,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>iv</name>
+          <name>vii</name>
           </Harmony>
         <Beam id="157">
           <StemDirection>down</StemDirection>
@@ -15901,9 +15870,9 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="169">
+      <Measure number="166">
         <Harmony>
-          <name>V65</name>
+          <name>V65/iv</name>
           </Harmony>
         <Beam id="158">
           <StemDirection>down</StemDirection>
@@ -15949,7 +15918,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>i</name>
+          <name>iv</name>
           </Harmony>
         <Beam id="159">
           <StemDirection>down</StemDirection>
@@ -15995,7 +15964,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>i.#viio65</name>
+          <name>#viio65</name>
           </Harmony>
         <Beam id="160">
           <StemDirection>down</StemDirection>
@@ -16090,10 +16059,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="170">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="167">
         <Harmony>
           <name>V65</name>
           </Harmony>
@@ -16233,7 +16199,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>#viio7/V</name>
+          <name>viio7/V</name>
           </Harmony>
         <Beam id="165">
           <StemDirection>up</StemDirection>
@@ -16282,7 +16248,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="171">
+      <Measure number="168">
         <Harmony>
           <name>V(64)</name>
           </Harmony>
@@ -16291,7 +16257,7 @@ Opus 2 No. 1</text>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="11.6294" y="6.5"/>
+            <pos x="87.455" y="6.5"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -16489,7 +16455,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="172">
+      <Measure number="169">
         <Dynamic>
           <subtype>f</subtype>
           <velocity>96</velocity>
@@ -16504,7 +16470,7 @@ Opus 2 No. 1</text>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="45.8921" y="6.5"/>
+            <pos x="11.6731" y="6.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -16562,9 +16528,6 @@ Opus 2 No. 1</text>
           <velocity>112</velocity>
           <pos x="0.329531" y="7.32332"/>
           </Dynamic>
-        <Harmony>
-          <name>iv.v</name>
-          </Harmony>
         <endSpanner id="132"/>
         <Slur id="133">
           <track>0</track>
@@ -16614,7 +16577,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>V65/iv</name>
+          <name>V65/vii</name>
           </Harmony>
         <Beam id="172">
           <StemDirection>down</StemDirection>
@@ -16660,7 +16623,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>iv</name>
+          <name>vii</name>
           </Harmony>
         <Beam id="173">
           <StemDirection>down</StemDirection>
@@ -16709,9 +16672,9 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="173">
+      <Measure number="170">
         <Harmony>
-          <name>V65</name>
+          <name>V65/iv</name>
           </Harmony>
         <Beam id="174">
           <StemDirection>down</StemDirection>
@@ -16757,7 +16720,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>i</name>
+          <name>iv</name>
           </Harmony>
         <Beam id="175">
           <StemDirection>down</StemDirection>
@@ -16803,7 +16766,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>i.#viio65</name>
+          <name>#viio65</name>
           </Harmony>
         <Beam id="176">
           <StemDirection>down</StemDirection>
@@ -16898,7 +16861,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="174">
+      <Measure number="171">
         <Harmony>
           <name>V65</name>
           </Harmony>
@@ -17038,7 +17001,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>#viio7/V</name>
+          <name>viio7/V</name>
           </Harmony>
         <Beam id="181">
           <StemDirection>up</StemDirection>
@@ -17087,7 +17050,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="175">
+      <Measure number="172">
         <Dynamic>
           <subtype>f</subtype>
           <velocity>96</velocity>
@@ -17101,7 +17064,7 @@ Opus 2 No. 1</text>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="49.8606" y="6.5"/>
+            <pos x="11.682" y="6.5"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -17304,10 +17267,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="176">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="173">
         <Harmony>
           <name>i\\</name>
           </Harmony>
@@ -17372,16 +17332,16 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="177">
+      <Measure number="174">
         <Harmony>
-          <name>iio</name>
+          <name>viio/III</name>
           </Harmony>
         <HairPin id="136">
           <subtype>0</subtype>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="11.6294" y="6.5"/>
+            <pos x="66.6532" y="6.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -17450,7 +17410,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="178">
+      <Measure number="175">
         <Dynamic>
           <subtype>mp</subtype>
           <velocity>64</velocity>
@@ -17475,7 +17435,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>V/iv</name>
+          <name>V6/iv</name>
           </Harmony>
         <Slur id="138">
           <track>0</track>
@@ -17515,10 +17475,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="179">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="176">
         <Harmony>
           <name>iv</name>
           </Harmony>
@@ -17527,7 +17484,7 @@ Opus 2 No. 1</text>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="85.7199" y="6.5"/>
+            <pos x="11.6429" y="6.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -17596,7 +17553,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="180">
+      <Measure number="177">
         <Dynamic>
           <subtype>mf</subtype>
           <velocity>80</velocity>
@@ -17657,7 +17614,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="181">
+      <Measure number="178">
         <Harmony>
           <name>iv6</name>
           </Harmony>
@@ -17666,7 +17623,7 @@ Opus 2 No. 1</text>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="48.0184" y="6.5"/>
+            <pos x="66.1011" y="6.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -17735,10 +17692,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="182">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="179">
         <Dynamic>
           <subtype>f</subtype>
           <velocity>96</velocity>
@@ -17767,12 +17721,12 @@ Opus 2 No. 1</text>
           <Segment>
             <subtype>1</subtype>
             <off2 x="0" y="0"/>
-            <pos x="103.929" y="6.5"/>
+            <pos x="108.357" y="6.5"/>
             </Segment>
           <Segment>
             <subtype>3</subtype>
             <off2 x="0" y="0"/>
-            <pos x="9.87945" y="6.5"/>
+            <pos x="9.88562" y="6.5"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -17819,7 +17773,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="183">
+      <Measure number="180">
         <Dynamic>
           <subtype>mf</subtype>
           <velocity>80</velocity>
@@ -17880,9 +17834,9 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="184">
+      <Measure number="181">
         <Harmony>
-          <name>i</name>
+          <name>i\\</name>
           </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
@@ -17939,19 +17893,16 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="185">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="182">
         <Harmony>
-          <name>iio</name>
+          <name>viio/III</name>
           </Harmony>
         <HairPin id="148">
           <subtype>0</subtype>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="85.7328" y="6.5"/>
+            <pos x="66.6857" y="6.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -18020,7 +17971,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="186">
+      <Measure number="183">
         <Dynamic>
           <subtype>mp</subtype>
           <velocity>64</velocity>
@@ -18085,7 +18036,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="187">
+      <Measure number="184">
         <Harmony>
           <name>iv</name>
           </Harmony>
@@ -18094,7 +18045,7 @@ Opus 2 No. 1</text>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="48.4003" y="6.5"/>
+            <pos x="11.6485" y="6.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -18163,10 +18114,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="188">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="185">
         <Dynamic>
           <subtype>mf</subtype>
           <velocity>80</velocity>
@@ -18227,7 +18175,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="189">
+      <Measure number="186">
         <Harmony>
           <name>iv6</name>
           </Harmony>
@@ -18236,7 +18184,7 @@ Opus 2 No. 1</text>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="11.6294" y="6.5"/>
+            <pos x="66.0854" y="6.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -18305,7 +18253,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="190">
+      <Measure number="187">
         <Dynamic>
           <subtype>f</subtype>
           <velocity>96</velocity>
@@ -18367,10 +18315,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="191">
-        <LayoutBreak>
-          <subtype>page</subtype>
-          </LayoutBreak>
+      <Measure number="188">
         <Dynamic>
           <subtype>mf</subtype>
           <velocity>80</velocity>
@@ -18435,14 +18380,14 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="192">
+      <Measure number="189">
         <Dynamic>
           <subtype>f</subtype>
           <velocity>96</velocity>
           <pos x="0.659062" y="7.32332"/>
           </Dynamic>
         <Harmony>
-          <name>i&quot;i</name>
+          <name>i[i\\</name>
           </Harmony>
         <Beam id="186">
           <StemDirection>up</StemDirection>
@@ -18580,7 +18525,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>#viio43/V</name>
+          <name>#viio43</name>
           </Harmony>
         <Beam id="189">
           <StemDirection>down</StemDirection>
@@ -18632,9 +18577,9 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="193">
+      <Measure number="190">
         <Harmony>
-          <name>i&quot;</name>
+          <name>i]</name>
           </Harmony>
         <Beam id="190">
           <StemDirection>down</StemDirection>
@@ -18824,12 +18769,9 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="194">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="191">
         <Harmony>
-          <name>i&quot;i</name>
+          <name>i[i</name>
           </Harmony>
         <Beam id="194">
           <StemDirection>up</StemDirection>
@@ -18967,7 +18909,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>#viio/V</name>
+          <name>#viio43</name>
           </Harmony>
         <Beam id="197">
           <StemDirection>down</StemDirection>
@@ -19019,9 +18961,9 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="195">
+      <Measure number="192">
         <Harmony>
-          <name>i&quot;</name>
+          <name>i]</name>
           </Harmony>
         <Beam id="198">
           <StemDirection>down</StemDirection>
@@ -19211,9 +19153,9 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="196">
+      <Measure number="193">
         <Harmony>
-          <name>i&quot;i</name>
+          <name>i[i</name>
           </Harmony>
         <Beam id="202">
           <StemDirection>up</StemDirection>
@@ -19356,7 +19298,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>#viio43/V</name>
+          <name>#viio43</name>
           </Harmony>
         <Beam id="205">
           <StemDirection>down</StemDirection>
@@ -19408,10 +19350,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="197">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="194">
         <Harmony>
           <name>i</name>
           </Harmony>
@@ -19551,7 +19490,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>#viio43/V</name>
+          <name>#viio43</name>
           </Harmony>
         <Beam id="209">
           <StemDirection>down</StemDirection>
@@ -19603,9 +19542,9 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="198">
+      <Measure number="195">
         <Harmony>
-          <name>i&quot;\\</name>
+          <name>i]\\</name>
           </Harmony>
         <Beam id="210">
           <StemDirection>down</StemDirection>
@@ -19743,7 +19682,7 @@ Opus 2 No. 1</text>
           <durationType>quarter</durationType>
           </Rest>
         </Measure>
-      <Measure number="199">
+      <Measure number="196">
         <Rest>
           <durationType>measure</durationType>
           <duration z="1" n="1"/>
@@ -19867,7 +19806,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="2" len="1/2">
+      <Measure number="1" len="1/2">
         <Beam id="215">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -19955,7 +19894,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="3">
+      <Measure number="2">
         <Beam id="217">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -20137,7 +20076,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="4">
+      <Measure number="3">
         <Beam id="221">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -20311,7 +20250,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="5">
+      <Measure number="4">
         <Beam id="225">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -20488,7 +20427,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="6">
+      <Measure number="5">
         <Beam id="229">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -20610,7 +20549,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="7">
+      <Measure number="6">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -20667,7 +20606,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="8">
+      <Measure number="7">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -20724,7 +20663,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="9">
+      <Measure number="8">
         <Slur id="161">
           <track>4</track>
           </Slur>
@@ -20786,7 +20725,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="10">
+      <Measure number="9">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -20862,7 +20801,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="11">
+      <Measure number="10">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -20923,7 +20862,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="12">
+      <Measure number="11">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -20988,7 +20927,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="13">
+      <Measure number="12">
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
@@ -21046,7 +20985,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="14">
+      <Measure number="13">
         <Beam id="231">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -21226,7 +21165,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="15">
+      <Measure number="14">
         <Beam id="235">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -21412,7 +21351,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="16">
+      <Measure number="15">
         <Beam id="239">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -21598,7 +21537,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="17">
+      <Measure number="16">
         <Beam id="243">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -21784,7 +21723,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="18">
+      <Measure number="17">
         <Beam id="247">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -21964,7 +21903,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="19">
+      <Measure number="18">
         <Beam id="251">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -22144,7 +22083,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="20">
+      <Measure number="19">
         <Beam id="255">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -22324,7 +22263,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="21">
+      <Measure number="20">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -22341,7 +22280,7 @@ Opus 2 No. 1</text>
           <durationType>half</durationType>
           </Rest>
         </Measure>
-      <Measure number="22">
+      <Measure number="21">
         <Rest>
           <durationType>half</durationType>
           </Rest>
@@ -22429,7 +22368,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="23">
+      <Measure number="22">
         <Slur id="166">
           <track>4</track>
           </Slur>
@@ -22474,7 +22413,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="24">
+      <Measure number="23">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -22515,7 +22454,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="25">
+      <Measure number="24">
         <Beam id="261">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -22697,7 +22636,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="26">
+      <Measure number="25">
         <Beam id="265">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -22874,7 +22813,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="27">
+      <Measure number="26">
         <Beam id="269">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -22997,7 +22936,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="28">
+      <Measure number="27">
         <Beam id="272">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -23089,7 +23028,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="29">
+      <Measure number="28">
         <Beam id="274">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -23181,7 +23120,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="30">
+      <Measure number="29">
         <Beam id="276">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -23261,7 +23200,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="31">
+      <Measure number="30">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -23337,7 +23276,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="32">
+      <Measure number="31">
         <Beam id="280">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -23429,7 +23368,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="33">
+      <Measure number="32">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -23473,7 +23412,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="34">
+      <Measure number="33">
         <Beam id="282">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -23553,7 +23492,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="35">
+      <Measure number="34">
         <Pedal id="170">
           <beginHook>1</beginHook>
           <beginHookHeight>-1.2</beginHookHeight>
@@ -23735,7 +23674,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="36">
+      <Measure number="35">
         <Pedal id="171">
           <beginHook>1</beginHook>
           <beginHookHeight>-1.2</beginHookHeight>
@@ -23923,7 +23862,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="37">
+      <Measure number="36">
         <Pedal id="172">
           <beginHook>1</beginHook>
           <beginHookHeight>-1.2</beginHookHeight>
@@ -24114,7 +24053,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="38">
+      <Measure number="37">
         <Pedal id="174">
           <beginHook>1</beginHook>
           <beginHookHeight>-1.2</beginHookHeight>
@@ -24305,7 +24244,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="39">
+      <Measure number="38">
         <Pedal id="176">
           <beginHook>1</beginHook>
           <beginHookHeight>-1.2</beginHookHeight>
@@ -24496,7 +24435,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="40">
+      <Measure number="39">
         <Pedal id="178">
           <beginHook>1</beginHook>
           <beginHookHeight>-1.2</beginHookHeight>
@@ -24687,7 +24626,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="41">
+      <Measure number="40">
         <Pedal id="180">
           <beginHook>1</beginHook>
           <beginHookHeight>-1.2</beginHookHeight>
@@ -24868,7 +24807,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="42">
+      <Measure number="41">
         <Pedal id="181">
           <beginHook>1</beginHook>
           <beginHookHeight>-1.2</beginHookHeight>
@@ -25055,7 +24994,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="43">
+      <Measure number="42">
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
@@ -25241,7 +25180,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="44">
+      <Measure number="43">
         <Pedal id="183">
           <beginHook>1</beginHook>
           <beginHookHeight>-1.2</beginHookHeight>
@@ -25429,7 +25368,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="45">
+      <Measure number="44">
         <Pedal id="184">
           <beginHook>1</beginHook>
           <beginHookHeight>-1.2</beginHookHeight>
@@ -25613,7 +25552,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="46">
+      <Measure number="45">
         <Pedal id="185">
           <beginHook>1</beginHook>
           <beginHookHeight>-1.2</beginHookHeight>
@@ -25804,7 +25743,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="47">
+      <Measure number="46">
         <Pedal id="187">
           <beginHook>1</beginHook>
           <beginHookHeight>-1.2</beginHookHeight>
@@ -25995,7 +25934,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="48">
+      <Measure number="47">
         <Pedal id="189">
           <beginHook>1</beginHook>
           <beginHookHeight>-1.2</beginHookHeight>
@@ -26186,7 +26125,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="49">
+      <Measure number="48">
         <Pedal id="191">
           <beginHook>1</beginHook>
           <beginHookHeight>-1.2</beginHookHeight>
@@ -26367,7 +26306,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="50">
+      <Measure number="49">
         <Pedal id="192">
           <beginHook>1</beginHook>
           <beginHookHeight>-1.2</beginHookHeight>
@@ -26554,7 +26493,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="51">
+      <Measure number="50">
         <Beam id="348">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -26728,7 +26667,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="52">
+      <Measure number="51">
         <Beam id="352">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -26905,7 +26844,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="53">
+      <Measure number="52">
         <Beam id="356">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -27079,7 +27018,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="54">
+      <Measure number="53">
         <Beam id="360">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -27256,7 +27195,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="55">
+      <Measure number="54">
         <Beam id="364">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -27433,7 +27372,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="56">
+      <Measure number="55">
         <Beam id="368">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -27607,7 +27546,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="57">
+      <Measure number="56">
         <Beam id="372">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -27789,7 +27728,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="58" len="1/2">
+      <Measure number="57" len="1/2">
         <Beam id="376">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -27877,7 +27816,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="59">
+      <Measure number="56">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -27897,7 +27836,7 @@ Opus 2 No. 1</text>
           <durationType>half</durationType>
           </Rest>
         </Measure>
-      <Measure number="60">
+      <Measure number="57">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -27957,7 +27896,7 @@ Opus 2 No. 1</text>
           <durationType>quarter</durationType>
           </Rest>
         </Measure>
-      <Measure number="61">
+      <Measure number="58">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -27989,7 +27928,7 @@ Opus 2 No. 1</text>
           <durationType>half</durationType>
           </Rest>
         </Measure>
-      <Measure number="62">
+      <Measure number="59">
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -28047,7 +27986,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="63">
+      <Measure number="60">
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -28103,7 +28042,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="64">
+      <Measure number="61">
         <endSpanner id="193"/>
         <Rest>
           <durationType>quarter</durationType>
@@ -28160,7 +28099,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="65">
+      <Measure number="62">
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -28216,7 +28155,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="66">
+      <Measure number="63">
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -28265,6 +28204,162 @@ Opus 2 No. 1</text>
           <Note>
             <pitch>56</pitch>
             <tpc>10</tpc>
+            </Note>
+          <Note>
+            <pitch>61</pitch>
+            <tpc>9</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="64">
+        <Rest>
+          <durationType>quarter</durationType>
+          </Rest>
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>quarter</durationType>
+          <StemDirection>down</StemDirection>
+          <Note>
+            <pitch>51</pitch>
+            <tpc>11</tpc>
+            </Note>
+          <Note>
+            <pitch>56</pitch>
+            <tpc>10</tpc>
+            </Note>
+          <Note>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>quarter</durationType>
+          <StemDirection>down</StemDirection>
+          <Note>
+            <pitch>51</pitch>
+            <tpc>11</tpc>
+            </Note>
+          <Note>
+            <pitch>56</pitch>
+            <tpc>10</tpc>
+            </Note>
+          <Note>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>quarter</durationType>
+          <StemDirection>down</StemDirection>
+          <Note>
+            <pitch>51</pitch>
+            <tpc>11</tpc>
+            </Note>
+          <Note>
+            <pitch>56</pitch>
+            <tpc>10</tpc>
+            </Note>
+          <Note>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="65">
+        <Rest>
+          <durationType>quarter</durationType>
+          </Rest>
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>quarter</durationType>
+          <StemDirection>down</StemDirection>
+          <Note>
+            <pitch>49</pitch>
+            <tpc>9</tpc>
+            </Note>
+          <Note>
+            <pitch>53</pitch>
+            <tpc>13</tpc>
+            </Note>
+          <Note>
+            <pitch>58</pitch>
+            <tpc>12</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>quarter</durationType>
+          <StemDirection>down</StemDirection>
+          <Note>
+            <pitch>49</pitch>
+            <tpc>9</tpc>
+            </Note>
+          <Note>
+            <pitch>53</pitch>
+            <tpc>13</tpc>
+            </Note>
+          <Note>
+            <pitch>58</pitch>
+            <tpc>12</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>quarter</durationType>
+          <StemDirection>down</StemDirection>
+          <Note>
+            <pitch>49</pitch>
+            <tpc>9</tpc>
+            </Note>
+          <Note>
+            <pitch>53</pitch>
+            <tpc>13</tpc>
+            </Note>
+          <Note>
+            <pitch>58</pitch>
+            <tpc>12</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="66">
+        <Rest>
+          <durationType>quarter</durationType>
+          </Rest>
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>quarter</durationType>
+          <StemDirection>down</StemDirection>
+          <Note>
+            <pitch>51</pitch>
+            <tpc>11</tpc>
+            </Note>
+          <Note>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>quarter</durationType>
+          <StemDirection>down</StemDirection>
+          <Note>
+            <pitch>51</pitch>
+            <tpc>11</tpc>
+            </Note>
+          <Note>
+            <pitch>61</pitch>
+            <tpc>9</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>quarter</durationType>
+          <StemDirection>down</StemDirection>
+          <Note>
+            <pitch>51</pitch>
+            <tpc>11</tpc>
             </Note>
           <Note>
             <pitch>61</pitch>
@@ -28281,16 +28376,12 @@ Opus 2 No. 1</text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <pitch>51</pitch>
-            <tpc>11</tpc>
-            </Note>
-          <Note>
             <pitch>56</pitch>
             <tpc>10</tpc>
             </Note>
           <Note>
-            <pitch>60</pitch>
-            <tpc>14</tpc>
+            <pitch>61</pitch>
+            <tpc>9</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -28298,16 +28389,12 @@ Opus 2 No. 1</text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <pitch>51</pitch>
-            <tpc>11</tpc>
-            </Note>
-          <Note>
             <pitch>56</pitch>
             <tpc>10</tpc>
             </Note>
           <Note>
-            <pitch>60</pitch>
-            <tpc>14</tpc>
+            <pitch>61</pitch>
+            <tpc>9</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -28315,164 +28402,16 @@ Opus 2 No. 1</text>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <pitch>51</pitch>
-            <tpc>11</tpc>
-            </Note>
-          <Note>
             <pitch>56</pitch>
             <tpc>10</tpc>
             </Note>
           <Note>
-            <pitch>60</pitch>
-            <tpc>14</tpc>
+            <pitch>61</pitch>
+            <tpc>9</tpc>
             </Note>
           </Chord>
         </Measure>
       <Measure number="68">
-        <Rest>
-          <durationType>quarter</durationType>
-          </Rest>
-        <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>quarter</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <pitch>49</pitch>
-            <tpc>9</tpc>
-            </Note>
-          <Note>
-            <pitch>53</pitch>
-            <tpc>13</tpc>
-            </Note>
-          <Note>
-            <pitch>58</pitch>
-            <tpc>12</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>quarter</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <pitch>49</pitch>
-            <tpc>9</tpc>
-            </Note>
-          <Note>
-            <pitch>53</pitch>
-            <tpc>13</tpc>
-            </Note>
-          <Note>
-            <pitch>58</pitch>
-            <tpc>12</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>quarter</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <pitch>49</pitch>
-            <tpc>9</tpc>
-            </Note>
-          <Note>
-            <pitch>53</pitch>
-            <tpc>13</tpc>
-            </Note>
-          <Note>
-            <pitch>58</pitch>
-            <tpc>12</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="69">
-        <Rest>
-          <durationType>quarter</durationType>
-          </Rest>
-        <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>quarter</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <pitch>51</pitch>
-            <tpc>11</tpc>
-            </Note>
-          <Note>
-            <pitch>60</pitch>
-            <tpc>14</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>quarter</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <pitch>51</pitch>
-            <tpc>11</tpc>
-            </Note>
-          <Note>
-            <pitch>61</pitch>
-            <tpc>9</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>quarter</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <pitch>51</pitch>
-            <tpc>11</tpc>
-            </Note>
-          <Note>
-            <pitch>61</pitch>
-            <tpc>9</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="70">
-        <Rest>
-          <durationType>quarter</durationType>
-          </Rest>
-        <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>quarter</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <pitch>56</pitch>
-            <tpc>10</tpc>
-            </Note>
-          <Note>
-            <pitch>61</pitch>
-            <tpc>9</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>quarter</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <pitch>56</pitch>
-            <tpc>10</tpc>
-            </Note>
-          <Note>
-            <pitch>61</pitch>
-            <tpc>9</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>quarter</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <pitch>56</pitch>
-            <tpc>10</tpc>
-            </Note>
-          <Note>
-            <pitch>61</pitch>
-            <tpc>9</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="71">
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -28504,7 +28443,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="72">
+      <Measure number="69">
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -28552,6 +28491,174 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
+      <Measure number="70">
+        <Rest>
+          <durationType>quarter</durationType>
+          </Rest>
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>quarter</durationType>
+          <StemDirection>down</StemDirection>
+          <Note>
+            <pitch>68</pitch>
+            <tpc>10</tpc>
+            </Note>
+          <Note>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            </Note>
+          <Note>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>quarter</durationType>
+          <StemDirection>down</StemDirection>
+          <Note>
+            <pitch>68</pitch>
+            <tpc>10</tpc>
+            </Note>
+          <Note>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            </Note>
+          <Note>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>quarter</durationType>
+          <StemDirection>down</StemDirection>
+          <Note>
+            <pitch>68</pitch>
+            <tpc>10</tpc>
+            </Note>
+          <Note>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            </Note>
+          <Note>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="71">
+        <Rest>
+          <durationType>quarter</durationType>
+          </Rest>
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>quarter</durationType>
+          <StemDirection>down</StemDirection>
+          <Note>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          <Note>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            </Note>
+          <Note>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>quarter</durationType>
+          <StemDirection>down</StemDirection>
+          <Note>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          <Note>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            </Note>
+          <Note>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>quarter</durationType>
+          <StemDirection>down</StemDirection>
+          <Note>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          <Note>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            </Note>
+          <Note>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="72">
+        <Rest>
+          <durationType>quarter</durationType>
+          </Rest>
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>quarter</durationType>
+          <StemDirection>down</StemDirection>
+          <Note>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          <Note>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            </Note>
+          <Note>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>quarter</durationType>
+          <StemDirection>down</StemDirection>
+          <Note>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          <Note>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            </Note>
+          <Note>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>quarter</durationType>
+          <StemDirection>down</StemDirection>
+          <Note>
+            <pitch>67</pitch>
+            <tpc>15</tpc>
+            </Note>
+          <Note>
+            <pitch>70</pitch>
+            <tpc>12</tpc>
+            </Note>
+          <Note>
+            <pitch>75</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        </Measure>
       <Measure number="73">
         <Rest>
           <durationType>quarter</durationType>
@@ -28559,224 +28666,56 @@ Opus 2 No. 1</text>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
-          <StemDirection>down</StemDirection>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>65</pitch>
+            <tpc>13</tpc>
+            </Note>
           <Note>
             <pitch>68</pitch>
             <tpc>10</tpc>
             </Note>
           <Note>
-            <pitch>72</pitch>
-            <tpc>14</tpc>
-            </Note>
-          <Note>
-            <pitch>75</pitch>
-            <tpc>11</tpc>
+            <pitch>73</pitch>
+            <tpc>9</tpc>
             </Note>
           </Chord>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
-          <StemDirection>down</StemDirection>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>65</pitch>
+            <tpc>13</tpc>
+            </Note>
           <Note>
             <pitch>68</pitch>
             <tpc>10</tpc>
             </Note>
           <Note>
-            <pitch>72</pitch>
-            <tpc>14</tpc>
-            </Note>
-          <Note>
-            <pitch>75</pitch>
-            <tpc>11</tpc>
+            <pitch>73</pitch>
+            <tpc>9</tpc>
             </Note>
           </Chord>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
-          <StemDirection>down</StemDirection>
+          <StemDirection>up</StemDirection>
+          <Note>
+            <pitch>65</pitch>
+            <tpc>13</tpc>
+            </Note>
           <Note>
             <pitch>68</pitch>
             <tpc>10</tpc>
             </Note>
           <Note>
-            <pitch>72</pitch>
-            <tpc>14</tpc>
-            </Note>
-          <Note>
-            <pitch>75</pitch>
-            <tpc>11</tpc>
+            <pitch>73</pitch>
+            <tpc>9</tpc>
             </Note>
           </Chord>
         </Measure>
       <Measure number="74">
-        <Rest>
-          <durationType>quarter</durationType>
-          </Rest>
-        <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>quarter</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          <Note>
-            <pitch>70</pitch>
-            <tpc>12</tpc>
-            </Note>
-          <Note>
-            <pitch>75</pitch>
-            <tpc>11</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>quarter</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          <Note>
-            <pitch>70</pitch>
-            <tpc>12</tpc>
-            </Note>
-          <Note>
-            <pitch>75</pitch>
-            <tpc>11</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>quarter</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          <Note>
-            <pitch>70</pitch>
-            <tpc>12</tpc>
-            </Note>
-          <Note>
-            <pitch>75</pitch>
-            <tpc>11</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="75">
-        <Rest>
-          <durationType>quarter</durationType>
-          </Rest>
-        <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>quarter</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          <Note>
-            <pitch>70</pitch>
-            <tpc>12</tpc>
-            </Note>
-          <Note>
-            <pitch>75</pitch>
-            <tpc>11</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>quarter</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          <Note>
-            <pitch>70</pitch>
-            <tpc>12</tpc>
-            </Note>
-          <Note>
-            <pitch>75</pitch>
-            <tpc>11</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>quarter</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            </Note>
-          <Note>
-            <pitch>70</pitch>
-            <tpc>12</tpc>
-            </Note>
-          <Note>
-            <pitch>75</pitch>
-            <tpc>11</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="76">
-        <Rest>
-          <durationType>quarter</durationType>
-          </Rest>
-        <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>quarter</durationType>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <pitch>65</pitch>
-            <tpc>13</tpc>
-            </Note>
-          <Note>
-            <pitch>68</pitch>
-            <tpc>10</tpc>
-            </Note>
-          <Note>
-            <pitch>73</pitch>
-            <tpc>9</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>quarter</durationType>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <pitch>65</pitch>
-            <tpc>13</tpc>
-            </Note>
-          <Note>
-            <pitch>68</pitch>
-            <tpc>10</tpc>
-            </Note>
-          <Note>
-            <pitch>73</pitch>
-            <tpc>9</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>quarter</durationType>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <pitch>65</pitch>
-            <tpc>13</tpc>
-            </Note>
-          <Note>
-            <pitch>68</pitch>
-            <tpc>10</tpc>
-            </Note>
-          <Note>
-            <pitch>73</pitch>
-            <tpc>9</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="77">
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -28835,7 +28774,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="78">
+      <Measure number="75">
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -28891,7 +28830,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="79">
+      <Measure number="76">
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -28935,7 +28874,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="80">
+      <Measure number="77">
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -28971,7 +28910,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="81">
+      <Measure number="78">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -29010,7 +28949,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="82">
+      <Measure number="79">
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -29070,7 +29009,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="83">
+      <Measure number="80">
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -29126,7 +29065,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="84">
+      <Measure number="81">
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -29182,7 +29121,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="85">
+      <Measure number="82">
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -29242,7 +29181,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="86">
+      <Measure number="83">
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -29298,7 +29237,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="87">
+      <Measure number="84">
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -29354,7 +29293,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="88">
+      <Measure number="85">
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -29406,7 +29345,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="89">
+      <Measure number="86">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -29461,7 +29400,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="90">
+      <Measure number="87">
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -29505,7 +29444,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="91">
+      <Measure number="88">
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -29564,7 +29503,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="92">
+      <Measure number="89">
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -29620,7 +29559,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="93">
+      <Measure number="90">
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -29682,7 +29621,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="94">
+      <Measure number="91">
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -29738,7 +29677,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="95">
+      <Measure number="92">
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -29798,7 +29737,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="96">
+      <Measure number="93">
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -29839,6 +29778,162 @@ Opus 2 No. 1</text>
           <Note>
             <pitch>61</pitch>
             <tpc>9</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="94">
+        <Rest>
+          <durationType>quarter</durationType>
+          </Rest>
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>quarter</durationType>
+          <StemDirection>down</StemDirection>
+          <Note>
+            <pitch>56</pitch>
+            <tpc>10</tpc>
+            </Note>
+          <Note>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>quarter</durationType>
+          <StemDirection>down</StemDirection>
+          <Note>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            </Note>
+          <Note>
+            <pitch>63</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>quarter</durationType>
+          <StemDirection>down</StemDirection>
+          <Note>
+            <pitch>56</pitch>
+            <tpc>10</tpc>
+            </Note>
+          <Note>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="95">
+        <Rest>
+          <durationType>quarter</durationType>
+          </Rest>
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>quarter</durationType>
+          <StemDirection>down</StemDirection>
+          <Note>
+            <pitch>55</pitch>
+            <tpc>15</tpc>
+            </Note>
+          <Note>
+            <pitch>58</pitch>
+            <tpc>12</tpc>
+            </Note>
+          <Note>
+            <pitch>63</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>quarter</durationType>
+          <StemDirection>down</StemDirection>
+          <Note>
+            <pitch>55</pitch>
+            <tpc>15</tpc>
+            </Note>
+          <Note>
+            <pitch>58</pitch>
+            <tpc>12</tpc>
+            </Note>
+          <Note>
+            <pitch>63</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>quarter</durationType>
+          <StemDirection>down</StemDirection>
+          <Note>
+            <pitch>55</pitch>
+            <tpc>15</tpc>
+            </Note>
+          <Note>
+            <pitch>58</pitch>
+            <tpc>12</tpc>
+            </Note>
+          <Note>
+            <pitch>63</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="96">
+        <Rest>
+          <durationType>quarter</durationType>
+          </Rest>
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>quarter</durationType>
+          <StemDirection>down</StemDirection>
+          <Note>
+            <pitch>58</pitch>
+            <tpc>12</tpc>
+            </Note>
+          <Note>
+            <pitch>61</pitch>
+            <tpc>9</tpc>
+            </Note>
+          <Note>
+            <pitch>63</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>quarter</durationType>
+          <StemDirection>down</StemDirection>
+          <Note>
+            <pitch>58</pitch>
+            <tpc>12</tpc>
+            </Note>
+          <Note>
+            <pitch>61</pitch>
+            <tpc>9</tpc>
+            </Note>
+          <Note>
+            <pitch>63</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>quarter</durationType>
+          <StemDirection>down</StemDirection>
+          <Note>
+            <pitch>58</pitch>
+            <tpc>12</tpc>
+            </Note>
+          <Note>
+            <pitch>61</pitch>
+            <tpc>9</tpc>
+            </Note>
+          <Note>
+            <pitch>63</pitch>
+            <tpc>11</tpc>
             </Note>
           </Chord>
         </Measure>
@@ -29858,11 +29953,19 @@ Opus 2 No. 1</text>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
+          <Note>
+            <pitch>63</pitch>
+            <tpc>11</tpc>
+            </Note>
           </Chord>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
+          <Note>
+            <pitch>56</pitch>
+            <tpc>10</tpc>
+            </Note>
           <Note>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -29883,178 +29986,14 @@ Opus 2 No. 1</text>
           <Note>
             <pitch>60</pitch>
             <tpc>14</tpc>
+            </Note>
+          <Note>
+            <pitch>63</pitch>
+            <tpc>11</tpc>
             </Note>
           </Chord>
         </Measure>
       <Measure number="98">
-        <Rest>
-          <durationType>quarter</durationType>
-          </Rest>
-        <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>quarter</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <pitch>55</pitch>
-            <tpc>15</tpc>
-            </Note>
-          <Note>
-            <pitch>58</pitch>
-            <tpc>12</tpc>
-            </Note>
-          <Note>
-            <pitch>63</pitch>
-            <tpc>11</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>quarter</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <pitch>55</pitch>
-            <tpc>15</tpc>
-            </Note>
-          <Note>
-            <pitch>58</pitch>
-            <tpc>12</tpc>
-            </Note>
-          <Note>
-            <pitch>63</pitch>
-            <tpc>11</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>quarter</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <pitch>55</pitch>
-            <tpc>15</tpc>
-            </Note>
-          <Note>
-            <pitch>58</pitch>
-            <tpc>12</tpc>
-            </Note>
-          <Note>
-            <pitch>63</pitch>
-            <tpc>11</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="99">
-        <Rest>
-          <durationType>quarter</durationType>
-          </Rest>
-        <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>quarter</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <pitch>58</pitch>
-            <tpc>12</tpc>
-            </Note>
-          <Note>
-            <pitch>61</pitch>
-            <tpc>9</tpc>
-            </Note>
-          <Note>
-            <pitch>63</pitch>
-            <tpc>11</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>quarter</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <pitch>58</pitch>
-            <tpc>12</tpc>
-            </Note>
-          <Note>
-            <pitch>61</pitch>
-            <tpc>9</tpc>
-            </Note>
-          <Note>
-            <pitch>63</pitch>
-            <tpc>11</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>quarter</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <pitch>58</pitch>
-            <tpc>12</tpc>
-            </Note>
-          <Note>
-            <pitch>61</pitch>
-            <tpc>9</tpc>
-            </Note>
-          <Note>
-            <pitch>63</pitch>
-            <tpc>11</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="100">
-        <Rest>
-          <durationType>quarter</durationType>
-          </Rest>
-        <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>quarter</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <pitch>56</pitch>
-            <tpc>10</tpc>
-            </Note>
-          <Note>
-            <pitch>60</pitch>
-            <tpc>14</tpc>
-            </Note>
-          <Note>
-            <pitch>63</pitch>
-            <tpc>11</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>quarter</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <pitch>56</pitch>
-            <tpc>10</tpc>
-            </Note>
-          <Note>
-            <pitch>60</pitch>
-            <tpc>14</tpc>
-            </Note>
-          <Note>
-            <pitch>63</pitch>
-            <tpc>11</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <BeamMode>no</BeamMode>
-          <durationType>quarter</durationType>
-          <StemDirection>down</StemDirection>
-          <Note>
-            <pitch>56</pitch>
-            <tpc>10</tpc>
-            </Note>
-          <Note>
-            <pitch>60</pitch>
-            <tpc>14</tpc>
-            </Note>
-          <Note>
-            <pitch>63</pitch>
-            <tpc>11</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="101">
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -30114,7 +30053,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="102">
+      <Measure number="99">
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -30170,7 +30109,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="103">
+      <Measure number="100">
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -30226,7 +30165,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="104">
+      <Measure number="101">
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -30278,7 +30217,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="105">
+      <Measure number="102">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -30333,7 +30272,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="106">
+      <Measure number="103">
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -30377,7 +30316,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="107">
+      <Measure number="104">
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -30436,7 +30375,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="108">
+      <Measure number="105">
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -30492,7 +30431,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="109">
+      <Measure number="106">
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -30554,7 +30493,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="110">
+      <Measure number="107">
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -30610,7 +30549,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="111">
+      <Measure number="108">
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -30670,7 +30609,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="112">
+      <Measure number="109">
         <Beam id="378">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -30844,7 +30783,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="113">
+      <Measure number="110">
         <Beam id="382">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -31018,7 +30957,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="114">
+      <Measure number="111">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -31080,7 +31019,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="115">
+      <Measure number="112">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -31150,7 +31089,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="116">
+      <Measure number="113">
         <Beam id="386">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -31327,7 +31266,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="117">
+      <Measure number="114">
         <Beam id="390">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -31504,7 +31443,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="118">
+      <Measure number="115">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -31569,7 +31508,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="119">
+      <Measure number="116">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -31595,7 +31534,7 @@ Opus 2 No. 1</text>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="16.8498" y="-2.5"/>
+            <pos x="75.9799" y="-2.5"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -31656,7 +31595,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="120">
+      <Measure number="117">
         <endSpanner id="197"/>
         <Beam id="394">
           <StemDirection>up</StemDirection>
@@ -31831,7 +31770,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="121">
+      <Measure number="118">
         <Beam id="398">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -32005,7 +31944,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="122">
+      <Measure number="119">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -32055,7 +31994,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="123">
+      <Measure number="120">
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
@@ -32125,7 +32064,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="124">
+      <Measure number="121">
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
@@ -32198,7 +32137,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="125">
+      <Measure number="122">
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
@@ -32271,7 +32210,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="126">
+      <Measure number="123">
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
@@ -32341,7 +32280,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="127">
+      <Measure number="124">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -32406,7 +32345,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="128">
+      <Measure number="125">
         <Rest>
           <offset x="0" y="-1"/>
           <durationType>quarter</durationType>
@@ -32462,7 +32401,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="129">
+      <Measure number="126">
         <Rest>
           <offset x="0" y="-1"/>
           <durationType>quarter</durationType>
@@ -32528,7 +32467,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="130">
+      <Measure number="127">
         <Beam id="402">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -32603,7 +32542,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="131">
+      <Measure number="128">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -32647,7 +32586,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="132">
+      <Measure number="129">
         <Beam id="403">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -32722,7 +32661,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="133">
+      <Measure number="130">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -32766,7 +32705,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="134">
+      <Measure number="131">
         <Rest>
           <offset x="0" y="-2"/>
           <durationType>half</durationType>
@@ -32818,7 +32757,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="135">
+      <Measure number="132">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -32895,7 +32834,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="136">
+      <Measure number="133">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -32969,7 +32908,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="137">
+      <Measure number="134">
         <Slur id="203">
           <track>4</track>
           </Slur>
@@ -32998,7 +32937,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="138">
+      <Measure number="135">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
@@ -33023,7 +32962,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="139">
+      <Measure number="136">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
@@ -33051,7 +32990,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="140">
+      <Measure number="137">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>whole</durationType>
@@ -33074,7 +33013,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="141">
+      <Measure number="138">
         <Beam id="404">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -33248,7 +33187,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="142">
+      <Measure number="139">
         <Beam id="408">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -33425,7 +33364,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="143">
+      <Measure number="140">
         <Beam id="412">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -33599,7 +33538,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="144">
+      <Measure number="141">
         <Beam id="416">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -33776,7 +33715,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="145">
+      <Measure number="142">
         <Beam id="420">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -33898,7 +33837,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="146">
+      <Measure number="143">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -33955,7 +33894,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="147">
+      <Measure number="144">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -34012,7 +33951,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="148">
+      <Measure number="145">
         <Slur id="210">
           <track>4</track>
           </Slur>
@@ -34074,7 +34013,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="149">
+      <Measure number="146">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -34150,7 +34089,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="150">
+      <Measure number="147">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -34199,7 +34138,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="151">
+      <Measure number="148">
         <Slur id="213">
           <track>4</track>
           </Slur>
@@ -34270,7 +34209,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="152">
+      <Measure number="149">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>half</durationType>
@@ -34318,7 +34257,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="153">
+      <Measure number="150">
         <Slur id="216">
           <track>4</track>
           </Slur>
@@ -34435,7 +34374,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="154">
+      <Measure number="151">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -34469,7 +34408,7 @@ Opus 2 No. 1</text>
           <durationType>quarter</durationType>
           </Rest>
         </Measure>
-      <Measure number="155">
+      <Measure number="152">
         <Beam id="423">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -34646,7 +34585,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="156">
+      <Measure number="153">
         <Beam id="427">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -34826,7 +34765,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="157">
+      <Measure number="154">
         <Beam id="431">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -35006,7 +34945,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="158">
+      <Measure number="155">
         <Beam id="435">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -35186,7 +35125,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="159">
+      <Measure number="156">
         <Beam id="439">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -35363,7 +35302,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="160">
+      <Measure number="157">
         <Beam id="443">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -35540,7 +35479,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="161">
+      <Measure number="158">
         <Beam id="447">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -35717,7 +35656,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="162">
+      <Measure number="159">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -35734,7 +35673,7 @@ Opus 2 No. 1</text>
           <durationType>half</durationType>
           </Rest>
         </Measure>
-      <Measure number="163">
+      <Measure number="160">
         <Rest>
           <durationType>half</durationType>
           </Rest>
@@ -35824,7 +35763,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="164">
+      <Measure number="161">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -35870,7 +35809,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="165">
+      <Measure number="162">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -35911,7 +35850,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="166">
+      <Measure number="163">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -35972,7 +35911,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="167">
+      <Measure number="164">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -36032,7 +35971,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="168">
+      <Measure number="165">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -36087,7 +36026,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="169">
+      <Measure number="166">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -36131,7 +36070,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="170">
+      <Measure number="167">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -36175,7 +36114,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="171">
+      <Measure number="168">
         <Slur id="221">
           <track>4</track>
           </Slur>
@@ -36260,7 +36199,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="172">
+      <Measure number="169">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -36342,7 +36281,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="173">
+      <Measure number="170">
         <Beam id="457">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -36434,7 +36373,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="174">
+      <Measure number="171">
         <Beam id="459">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -36526,7 +36465,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="175">
+      <Measure number="172">
         <Beam id="461">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -36606,7 +36545,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="176">
+      <Measure number="173">
         <Pedal id="223">
           <beginHook>1</beginHook>
           <beginHookHeight>-1.2</beginHookHeight>
@@ -36788,7 +36727,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="177">
+      <Measure number="174">
         <Pedal id="224">
           <beginHook>1</beginHook>
           <beginHookHeight>-1.2</beginHookHeight>
@@ -36969,7 +36908,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="178">
+      <Measure number="175">
         <Pedal id="225">
           <beginHook>1</beginHook>
           <beginHookHeight>-1.2</beginHookHeight>
@@ -37153,7 +37092,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="179">
+      <Measure number="176">
         <Pedal id="226">
           <beginHook>1</beginHook>
           <beginHookHeight>-1.2</beginHookHeight>
@@ -37341,7 +37280,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="180">
+      <Measure number="177">
         <Pedal id="228">
           <beginHook>1</beginHook>
           <beginHookHeight>-1.2</beginHookHeight>
@@ -37532,7 +37471,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="181">
+      <Measure number="178">
         <Pedal id="230">
           <beginHook>1</beginHook>
           <beginHookHeight>-1.2</beginHookHeight>
@@ -37726,7 +37665,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="182">
+      <Measure number="179">
         <Pedal id="232">
           <beginHook>1</beginHook>
           <beginHookHeight>-1.2</beginHookHeight>
@@ -37907,7 +37846,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="183">
+      <Measure number="180">
         <Pedal id="233">
           <beginHook>1</beginHook>
           <beginHookHeight>-1.2</beginHookHeight>
@@ -38096,7 +38035,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="184">
+      <Measure number="181">
         <Pedal id="234">
           <beginHook>1</beginHook>
           <beginHookHeight>-1.2</beginHookHeight>
@@ -38277,7 +38216,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="185">
+      <Measure number="182">
         <Pedal id="235">
           <beginHook>1</beginHook>
           <beginHookHeight>-1.2</beginHookHeight>
@@ -38458,7 +38397,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="186">
+      <Measure number="183">
         <Pedal id="236">
           <beginHook>1</beginHook>
           <beginHookHeight>-1.2</beginHookHeight>
@@ -38649,7 +38588,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="187">
+      <Measure number="184">
         <Pedal id="238">
           <beginHook>1</beginHook>
           <beginHookHeight>-1.2</beginHookHeight>
@@ -38837,7 +38776,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="188">
+      <Measure number="185">
         <Pedal id="240">
           <beginHook>1</beginHook>
           <beginHookHeight>-1.2</beginHookHeight>
@@ -39028,7 +38967,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="189">
+      <Measure number="186">
         <Pedal id="242">
           <beginHook>1</beginHook>
           <beginHookHeight>-1.2</beginHookHeight>
@@ -39222,7 +39161,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="190">
+      <Measure number="187">
         <Pedal id="244">
           <beginHook>1</beginHook>
           <beginHookHeight>-1.2</beginHookHeight>
@@ -39318,9 +39257,14 @@ Opus 2 No. 1</text>
         <HairPin id="245">
           <subtype>1</subtype>
           <Segment>
-            <subtype>0</subtype>
+            <subtype>1</subtype>
             <off2 x="0" y="0"/>
-            <pos x="66.5775" y="-2.5"/>
+            <pos x="108.361" y="-2.5"/>
+            </Segment>
+          <Segment>
+            <subtype>3</subtype>
+            <off2 x="0" y="0"/>
+            <pos x="9.88562" y="-2.5"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -39417,7 +39361,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="191">
+      <Measure number="188">
         <Pedal id="246">
           <beginHook>1</beginHook>
           <beginHookHeight>-1.2</beginHookHeight>
@@ -39602,7 +39546,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="192">
+      <Measure number="189">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -39664,7 +39608,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="193">
+      <Measure number="190">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -39733,7 +39677,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="194">
+      <Measure number="191">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -39802,7 +39746,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="195">
+      <Measure number="192">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -39871,7 +39815,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="196">
+      <Measure number="193">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -39936,7 +39880,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="197">
+      <Measure number="194">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -40001,7 +39945,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="198">
+      <Measure number="195">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -40069,7 +40013,7 @@ Opus 2 No. 1</text>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="199">
+      <Measure number="196">
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>

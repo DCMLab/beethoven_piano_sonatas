@@ -9,10 +9,11 @@
       </Synthesizer>
     <Division>480</Division>
     <Style>
-      <minSystemDistance>8</minSystemDistance>
-      <maxSystemDistance>12</maxSystemDistance>
+      <minSystemDistance>15</minSystemDistance>
+      <maxSystemDistance>20</maxSystemDistance>
       <measureSpacing>1</measureSpacing>
-      <smallStaffMag>0.6625</smallStaffMag>
+      <harmonyY>6</harmonyY>
+      <smallStaffMag>0.662</smallStaffMag>
       <page-layout>
         <page-height>1683.78</page-height>
         <page-width>1190.55</page-width>
@@ -61,32 +62,8 @@
           </System>
         <System>
           </System>
-        <System>
-          </System>
-        <System>
-          </System>
         </Page>
       <Page>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        </Page>
-      <Page>
-        <System>
-          </System>
-        <System>
-          </System>
         <System>
           </System>
         <System>
@@ -109,6 +86,14 @@
           </System>
         <System>
           </System>
+        </Page>
+      <Page>
+        <System>
+          </System>
+        <System>
+          </System>
+        <System>
+          </System>
         <System>
           </System>
         <System>
@@ -125,14 +110,20 @@
           </System>
         <System>
           </System>
+        </Page>
+      <Page>
+        <System>
+          </System>
+        <System>
+          </System>
+        <System>
+          </System>
         <System>
           </System>
         <System>
           </System>
         </Page>
       <Page>
-        <System>
-          </System>
         <System>
           </System>
         </Page>
@@ -159,7 +150,8 @@
         </Instrument>
       </Part>
     <Staff id="1">
-      <Measure number="1" len="4/8">
+      <Measure number="0" len="4/8">
+        <noOffset>-1</noOffset>
         <KeySig>
           <accidental>1</accidental>
           </KeySig>
@@ -170,6 +162,7 @@
           </TimeSig>
         <Harmony>
           <name>.G.I6</name>
+          <pos x="0" y="-5.87827"/>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -205,7 +198,7 @@
           </Chord>
         <Harmony>
           <name>viio6</name>
-          <pos x="0" y="-4.6947"/>
+          <pos x="-0.7" y="-5.9947"/>
           </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
@@ -219,7 +212,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="2">
+      <Measure number="1">
         <Harmony>
           <name>I</name>
           </Harmony>
@@ -295,7 +288,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="3">
+      <Measure number="2">
         <Harmony>
           <name>ii</name>
           </Harmony>
@@ -358,6 +351,7 @@
           </Chord>
         <Harmony>
           <name>I</name>
+          <pos x="0.6" y="-6"/>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -371,9 +365,12 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="4">
+      <Measure number="3">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Harmony>
-          <name>ii</name>
+          <name>viio6</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -415,7 +412,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>#viio7/V</name>
+          <name>viio7/V</name>
           </Harmony>
         <Slur id="4">
           <track>0</track>
@@ -447,6 +444,9 @@
             <tpc>12</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>V6/V</name>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Slur type="stop" id="4"/>
@@ -455,6 +455,9 @@
             <tpc>17</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>viio/V</name>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -463,10 +466,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="5">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="4">
         <Harmony>
           <name>V</name>
           </Harmony>
@@ -502,9 +502,6 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>I6</name>
-          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -516,6 +513,9 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>I6</name>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -529,6 +529,7 @@
           </Chord>
         <Harmony>
           <name>viio6</name>
+          <pos x="-0.8" y="-6"/>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -542,11 +543,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="6">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
+      <Measure number="5">
         <Harmony>
           <name>I</name>
           </Harmony>
@@ -622,7 +619,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="7">
+      <Measure number="6">
         <Harmony>
           <name>ii</name>
           </Harmony>
@@ -670,7 +667,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>vii</name>
+          <name>viio</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -698,9 +695,9 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="8">
+      <Measure number="7">
         <Harmony>
-          <name>ii</name>
+          <name>viio6</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -742,7 +739,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V7(64)</name>
+          <name>V(64)</name>
           </Harmony>
         <Slur id="8">
           <track>0</track>
@@ -764,7 +761,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V</name>
+          <name>V7</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -776,7 +773,7 @@
             <tpc>20</tpc>
             </Note>
           </Chord>
-        <tick>9840</tick>
+        <tick>10320</tick>
         <Chord>
           <track>1</track>
           <durationType>quarter</durationType>
@@ -786,17 +783,11 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <Chord>
-          <track>1</track>
-          <durationType>eighth</durationType>
-          <Note>
-            <track>1</track>
-            <pitch>60</pitch>
-            <tpc>14</tpc>
-            </Note>
-          </Chord>
         </Measure>
-      <Measure number="9">
+      <Measure number="8">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Harmony>
           <name>I\\</name>
           </Harmony>
@@ -852,10 +843,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="10">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="9">
         <Harmony>
           <name>V65</name>
           </Harmony>
@@ -927,11 +915,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="11">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
+      <Measure number="10">
         <Harmony>
           <name>V65</name>
           </Harmony>
@@ -1012,7 +996,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="12">
+      <Measure number="11">
         <Harmony>
           <name>V65</name>
           </Harmony>
@@ -1090,7 +1074,10 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="13">
+      <Measure number="12">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Harmony>
           <name>V65\\</name>
           </Harmony>
@@ -1129,9 +1116,6 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>I6</name>
-          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -1143,6 +1127,9 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>I6</name>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -1169,7 +1156,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="14">
+      <Measure number="13">
         <Harmony>
           <name>I</name>
           </Harmony>
@@ -1194,6 +1181,9 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>ii6</name>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -1205,9 +1195,6 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>ii6</name>
-          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -1245,10 +1232,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="15">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="14">
         <Harmony>
           <name>ii</name>
           </Harmony>
@@ -1296,7 +1280,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>vii</name>
+          <name>viio</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -1324,13 +1308,9 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="16">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
+      <Measure number="15">
         <Harmony>
-          <name>ii</name>
+          <name>viio6</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -1381,7 +1361,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V7(64)</name>
+          <name>V(64)</name>
           </Harmony>
         <Slur id="11">
           <track>0</track>
@@ -1403,7 +1383,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V</name>
+          <name>V7</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -1435,27 +1415,11 @@
             <tpc>17</tpc>
             </Note>
           </Chord>
-        <tick>21360</tick>
-        <Chord>
-          <track>1</track>
-          <durationType>quarter</durationType>
-          <Note>
-            <track>1</track>
-            <pitch>74</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <track>1</track>
-          <durationType>eighth</durationType>
-          <Note>
-            <track>1</track>
-            <pitch>72</pitch>
-            <tpc>14</tpc>
-            </Note>
-          </Chord>
         </Measure>
-      <Measure number="17">
+      <Measure number="16">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Harmony>
           <name>I\\</name>
           </Harmony>
@@ -1474,6 +1438,9 @@
           <subtype>f</subtype>
           <velocity>96</velocity>
           </Dynamic>
+        <Harmony>
+          <name>i.V</name>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -1517,30 +1484,28 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="18">
+      <Measure number="17">
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
+          <pos x="0.329141" y="6.98936"/>
           </Dynamic>
         <Harmony>
-          <name>i.iv</name>
+          <name>iio</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
             <Accidental>
-              <subtype>sharp</subtype>
+              <subtype>flat</subtype>
               </Accidental>
             <pitch>75</pitch>
-            <tpc>23</tpc>
+            <tpc>11</tpc>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <Accidental>
-              <subtype>natural</subtype>
-              </Accidental>
             <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
@@ -1570,7 +1535,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="19">
+      <Measure number="18">
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
@@ -1620,10 +1585,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="20">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="19">
         <Harmony>
           <name>iio6</name>
           </Harmony>
@@ -1632,10 +1594,10 @@
           <StemDirection>up</StemDirection>
           <Note>
             <Accidental>
-              <subtype>sharp</subtype>
+              <subtype>flat</subtype>
               </Accidental>
             <pitch>63</pitch>
-            <tpc>23</tpc>
+            <tpc>11</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -1685,11 +1647,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="21">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
+      <Measure number="20">
         <KeySig>
           <accidental>-2</accidental>
           </KeySig>
@@ -1703,30 +1661,6 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
-        <Dynamic>
-          <subtype>p</subtype>
-          <velocity>49</velocity>
-          </Dynamic>
-        <StaffText>
-          <pos x="-1.375" y="6.84375"/>
-          <valign>baseline</valign>
-          <xoffset>0</xoffset>
-          <yoffset>2</yoffset>
-          <family>Times New Roman</family>
-          <bold>1</bold>
-          <italic>1</italic>
-          <text>(</text>
-          </StaffText>
-        <StaffText>
-          <pos x="1.125" y="6.84375"/>
-          <valign>baseline</valign>
-          <xoffset>0</xoffset>
-          <yoffset>2</yoffset>
-          <family>Times New Roman</family>
-          <bold>1</bold>
-          <italic>1</italic>
-          <text>)</text>
-          </StaffText>
         <Chord>
           <durationType>eighth</durationType>
           <StemDirection>down</StemDirection>
@@ -1777,14 +1711,11 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="22">
+      <Measure number="21">
         <Harmony>
           <name>i</name>
           </Harmony>
-        <Slur id="13">
-          <track>0</track>
-          </Slur>
-        <HairPin id="14">
+        <HairPin id="13">
           <subtype>0</subtype>
           <beginText>
             <text>cresc.</text>
@@ -1793,9 +1724,12 @@
             <text>(cresc.)</text>
             </continueText>
           </HairPin>
+        <Slur id="14">
+          <track>0</track>
+          </Slur>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="start" id="13"/>
+          <Slur type="start" id="14"/>
           <StemDirection>down</StemDirection>
           <Note>
             <pitch>86</pitch>
@@ -1804,7 +1738,7 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="13"/>
+          <Slur type="stop" id="14"/>
           <StemDirection>down</StemDirection>
           <Note>
             <Accidental>
@@ -1855,7 +1789,7 @@
             <tpc>9</tpc>
             </Note>
           </Chord>
-        <endSpanner id="14"/>
+        <endSpanner id="13"/>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -1871,10 +1805,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="23">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="22">
         <Dynamic>
           <subtype>f</subtype>
           <velocity>96</velocity>
@@ -1954,11 +1885,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="24">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
+      <Measure number="23">
         <Harmony>
           <name>V(64)/v</name>
           </Harmony>
@@ -2011,6 +1938,9 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>V43</name>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <StemDirection>down</StemDirection>
@@ -2020,7 +1950,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="25">
+      <Measure number="24">
         <Harmony>
           <name>i</name>
           </Harmony>
@@ -2120,10 +2050,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="26">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="25">
         <Harmony>
           <name>i</name>
           </Harmony>
@@ -2174,7 +2101,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>.biii.IV6</name>
+          <name>.bIII.IV6</name>
           </Harmony>
         <Slur id="22">
           <track>0</track>
@@ -2217,7 +2144,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="27">
+      <Measure number="26">
         <Clef>
           <concertClefType>G</concertClefType>
           <transposingClefType>G</transposingClefType>
@@ -2272,7 +2199,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="28">
+      <Measure number="27">
         <Harmony>
           <name>ii6</name>
           </Harmony>
@@ -2339,10 +2266,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="29">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="28">
         <Harmony>
           <name>I6</name>
           </Harmony>
@@ -2377,7 +2301,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>I64</name>
+          <name>V(64)</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -2405,11 +2329,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="30">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
+      <Measure number="29">
         <Harmony>
           <name>ii6</name>
           </Harmony>
@@ -2481,7 +2401,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="31">
+      <Measure number="30">
         <Harmony>
           <name>I\\</name>
           </Harmony>
@@ -2539,7 +2459,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="32">
+      <Measure number="31">
         <Slur id="27">
           <track>0</track>
           </Slur>
@@ -2603,10 +2523,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="33">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="32">
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
@@ -2620,9 +2537,6 @@
           <italic>1</italic>
           <text>dolce</text>
           </StaffText>
-        <Harmony>
-          <name>I</name>
-          </Harmony>
         <Chord>
           <dots>1</dots>
           <durationType>quarter</durationType>
@@ -2670,11 +2584,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="34">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
+      <Measure number="33">
         <Harmony>
           <name>V43</name>
           </Harmony>
@@ -2731,7 +2641,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="35">
+      <Measure number="34">
         <Harmony>
           <name>I6</name>
           </Harmony>
@@ -2780,7 +2690,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="36">
+      <Measure number="35">
         <Harmony>
           <name>V(64)/V</name>
           </Harmony>
@@ -2843,7 +2753,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="37">
+      <Measure number="36">
         <Harmony>
           <name>V</name>
           </Harmony>
@@ -2892,10 +2802,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="38">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="37">
         <Harmony>
           <name>I6</name>
           </Harmony>
@@ -2964,11 +2871,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="39">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
+      <Measure number="38">
         <Harmony>
           <name>V6</name>
           </Harmony>
@@ -3040,7 +2943,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="40">
+      <Measure number="39">
         <Harmony>
           <name>I</name>
           </Harmony>
@@ -3109,7 +3012,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="41">
+      <Measure number="40">
         <Harmony>
           <name>V</name>
           </Harmony>
@@ -3163,7 +3066,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="42">
+      <Measure number="41">
         <Harmony>
           <name>V43</name>
           </Harmony>
@@ -3220,10 +3123,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="43">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="42">
         <Harmony>
           <name>I6</name>
           </Harmony>
@@ -3272,7 +3172,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="44">
+      <Measure number="43">
         <Clef>
           <concertClefType>G</concertClefType>
           <transposingClefType>G</transposingClefType>
@@ -3339,7 +3239,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="45">
+      <Measure number="44">
         <Harmony>
           <name>V</name>
           </Harmony>
@@ -3388,7 +3288,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="46">
+      <Measure number="45">
         <Harmony>
           <name>I6</name>
           </Harmony>
@@ -3457,7 +3357,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="47">
+      <Measure number="46">
         <Harmony>
           <name>V6</name>
           </Harmony>
@@ -3542,7 +3442,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="48">
+      <Measure number="47">
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -3603,13 +3503,9 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="49">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
+      <Measure number="48">
         <Harmony>
-          <name>I</name>
+          <name>I\\</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -3659,9 +3555,9 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="50">
+      <Measure number="49">
         <Harmony>
-          <name>.bvii.VI6</name>
+          <name>I6</name>
           </Harmony>
         <HairPin id="52">
           <subtype>0</subtype>
@@ -3687,7 +3583,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>.It</name>
+          <name>.It6/V</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -3730,9 +3626,9 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="51">
+      <Measure number="50">
         <Harmony>
-          <name>V(4)</name>
+          <name>V(4)/V</name>
           </Harmony>
         <HairPin id="53">
           <subtype>1</subtype>
@@ -3751,7 +3647,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V</name>
+          <name>V/V</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -3816,9 +3712,9 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="52">
+      <Measure number="51">
         <Harmony>
-          <name>.bIIIi.ii</name>
+          <name>ii</name>
           </Harmony>
         <HairPin id="55">
           <subtype>0</subtype>
@@ -3883,10 +3779,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="53">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="52">
         <Harmony>
           <name>I(4)</name>
           </Harmony>
@@ -3966,7 +3859,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="54">
+      <Measure number="53">
         <Clef>
           <concertClefType>G</concertClefType>
           <transposingClefType>G</transposingClefType>
@@ -4027,7 +3920,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="55">
+      <Measure number="54">
         <Harmony>
           <name>I</name>
           </Harmony>
@@ -4047,7 +3940,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>IV(2)</name>
+          <name>IV(9)</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -4082,7 +3975,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="56">
+      <Measure number="55">
         <Harmony>
           <name>V(64)</name>
           </Harmony>
@@ -4126,7 +4019,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="57">
+      <Measure number="56">
         <Harmony>
           <name>I\\</name>
           </Harmony>
@@ -4179,12 +4072,9 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="58">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="57">
         <Harmony>
-          <name>.bvii.VI6</name>
+          <name>I6</name>
           </Harmony>
         <HairPin id="63">
           <subtype>0</subtype>
@@ -4210,7 +4100,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>.It</name>
+          <name>.It6/V</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -4253,13 +4143,9 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="59">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
+      <Measure number="58">
         <Harmony>
-          <name>V(4)</name>
+          <name>V(4)/V</name>
           </Harmony>
         <HairPin id="64">
           <subtype>1</subtype>
@@ -4278,7 +4164,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V</name>
+          <name>V/V</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -4343,9 +4229,9 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="60">
+      <Measure number="59">
         <Harmony>
-          <name>.bIIIi.ii</name>
+          <name>ii</name>
           </Harmony>
         <HairPin id="66">
           <subtype>0</subtype>
@@ -4410,7 +4296,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="61">
+      <Measure number="60">
         <Harmony>
           <name>I(4)</name>
           </Harmony>
@@ -4490,7 +4376,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="62">
+      <Measure number="61">
         <Harmony>
           <name>V43</name>
           </Harmony>
@@ -4547,10 +4433,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="63">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="62">
         <Harmony>
           <name>I</name>
           </Harmony>
@@ -4566,7 +4449,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>IV(2)</name>
+          <name>IV(9)</name>
           </Harmony>
         <Slur id="71">
           <track>0</track>
@@ -4605,11 +4488,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="64">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
+      <Measure number="63">
         <Harmony>
           <name>V(64)</name>
           </Harmony>
@@ -4641,7 +4520,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V</name>
+          <name>V7</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -4653,7 +4532,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="65">
+      <Measure number="64">
         <Harmony>
           <name>I\\</name>
           </Harmony>
@@ -4669,6 +4548,9 @@
           <subtype>f</subtype>
           <velocity>96</velocity>
           </Dynamic>
+        <Harmony>
+          <name>i.V</name>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <StemDirection>down</StemDirection>
@@ -4710,9 +4592,9 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="66">
+      <Measure number="65">
         <Harmony>
-          <name>i.iv</name>
+          <name>iio</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -4755,7 +4637,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="67">
+      <Measure number="66">
         <Harmony>
           <name>i</name>
           </Harmony>
@@ -4797,10 +4679,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="68">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="67">
         <Harmony>
           <name>iio6</name>
           </Harmony>
@@ -4853,11 +4732,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="69">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
+      <Measure number="68">
         <Harmony>
           <name>i</name>
           </Harmony>
@@ -4883,10 +4758,7 @@
         <Harmony>
           <name>V6</name>
           </Harmony>
-        <Slur id="73">
-          <track>0</track>
-          </Slur>
-        <HairPin id="74">
+        <HairPin id="73">
           <subtype>0</subtype>
           <beginText>
             <text>cresc.</text>
@@ -4895,9 +4767,12 @@
             <text>(cresc.)</text>
             </continueText>
           </HairPin>
+        <Slur id="74">
+          <track>0</track>
+          </Slur>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="start" id="73"/>
+          <Slur type="start" id="74"/>
           <StemDirection>down</StemDirection>
           <Note>
             <pitch>86</pitch>
@@ -4906,7 +4781,7 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="73"/>
+          <Slur type="stop" id="74"/>
           <StemDirection>down</StemDirection>
           <Note>
             <Accidental>
@@ -4931,7 +4806,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="70">
+      <Measure number="69">
         <Harmony>
           <name>i</name>
           </Harmony>
@@ -5000,7 +4875,7 @@
             <tpc>9</tpc>
             </Note>
           </Chord>
-        <endSpanner id="74"/>
+        <endSpanner id="73"/>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -5016,10 +4891,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="71">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="70">
         <Dynamic>
           <subtype>f</subtype>
           <velocity>96</velocity>
@@ -5095,7 +4967,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="72">
+      <Measure number="71">
         <Clef>
           <concertClefType>G</concertClefType>
           <transposingClefType>G</transposingClefType>
@@ -5156,6 +5028,9 @@
           <subtype>p</subtype>
           <velocity>49</velocity>
           </Dynamic>
+        <Harmony>
+          <name>V43</name>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <StemDirection>down</StemDirection>
@@ -5165,7 +5040,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="73">
+      <Measure number="72">
         <Harmony>
           <name>i</name>
           </Harmony>
@@ -5218,10 +5093,7 @@
         <Harmony>
           <name>V6</name>
           </Harmony>
-        <Slur id="80">
-          <track>0</track>
-          </Slur>
-        <HairPin id="81">
+        <HairPin id="80">
           <subtype>0</subtype>
           <beginText>
             <text>cresc.</text>
@@ -5230,6 +5102,9 @@
             <text>(cresc.)</text>
             </continueText>
           </HairPin>
+        <Slur id="81">
+          <track>0</track>
+          </Slur>
         <Chord>
           <durationType>eighth</durationType>
           <appoggiatura/>
@@ -5241,7 +5116,7 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="start" id="80"/>
+          <Slur type="start" id="81"/>
           <Note>
             <pitch>86</pitch>
             <tpc>16</tpc>
@@ -5249,7 +5124,7 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="80"/>
+          <Slur type="stop" id="81"/>
           <StemDirection>down</StemDirection>
           <Note>
             <Accidental>
@@ -5274,10 +5149,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="74">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="73">
         <Harmony>
           <name>i</name>
           </Harmony>
@@ -5359,7 +5231,7 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <endSpanner id="81"/>
+        <endSpanner id="80"/>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -5372,7 +5244,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="75">
+      <Measure number="74">
         <Clef>
           <concertClefType>G</concertClefType>
           <transposingClefType>G</transposingClefType>
@@ -5427,7 +5299,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="76">
+      <Measure number="75">
         <Harmony>
           <name>VI6</name>
           </Harmony>
@@ -5478,10 +5350,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="77">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="76">
         <Harmony>
           <name>V6</name>
           </Harmony>
@@ -5532,11 +5401,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="78">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
+      <Measure number="77">
         <Dynamic>
           <subtype>f</subtype>
           <velocity>96</velocity>
@@ -5593,9 +5458,9 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="79">
+      <Measure number="78">
         <Harmony>
-          <name>i</name>
+          <name>i\\</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -5649,7 +5514,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="80">
+      <Measure number="79">
         <Slur id="87">
           <track>0</track>
           </Slur>
@@ -5669,6 +5534,9 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>V7</name>
+          </Harmony>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
@@ -5703,13 +5571,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="81">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
-        <Harmony>
-          <name>V7</name>
-          </Harmony>
+      <Measure number="80">
         <Slur id="88">
           <track>0</track>
           </Slur>
@@ -5744,6 +5606,9 @@
           <italic>1</italic>
           <text>(</text>
           </StaffText>
+        <Harmony>
+          <name>I.I6</name>
+          </Harmony>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
@@ -5758,9 +5623,6 @@
           <italic>1</italic>
           <text>)</text>
           </StaffText>
-        <Harmony>
-          <name>.I.I6</name>
-          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -5795,11 +5657,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="82">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
+      <Measure number="81">
         <KeySig>
           <accidental>1</accidental>
           </KeySig>
@@ -5878,7 +5736,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="83">
+      <Measure number="82">
         <Harmony>
           <name>ii</name>
           </Harmony>
@@ -5926,7 +5784,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>vii</name>
+          <name>viio</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -5954,9 +5812,9 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="84">
+      <Measure number="83">
         <Harmony>
-          <name>ii</name>
+          <name>viio6</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -5998,7 +5856,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>#viio7/V</name>
+          <name>viio7/V</name>
           </Harmony>
         <Slur id="91">
           <track>0</track>
@@ -6030,6 +5888,9 @@
             <tpc>12</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>V6/V</name>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Slur type="stop" id="91"/>
@@ -6038,6 +5899,9 @@
             <tpc>17</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>viio/V</name>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -6050,7 +5914,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="85">
+      <Measure number="84">
         <Harmony>
           <name>V</name>
           </Harmony>
@@ -6086,9 +5950,6 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>I6</name>
-          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -6100,6 +5961,9 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>I6</name>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -6111,6 +5975,10 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>viio6</name>
+          <pos x="-0.8" y="-6"/>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -6123,10 +5991,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="86">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="85">
         <Harmony>
           <name>I</name>
           </Harmony>
@@ -6187,6 +6052,9 @@
             <tpc>17</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>I6</name>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -6199,11 +6067,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="87">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
+      <Measure number="86">
         <Harmony>
           <name>ii</name>
           </Harmony>
@@ -6251,7 +6115,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>vii</name>
+          <name>viio</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -6279,9 +6143,9 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="88">
+      <Measure number="87">
         <Harmony>
-          <name>ii</name>
+          <name>viio6</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -6323,7 +6187,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V7(64)</name>
+          <name>V(64)</name>
           </Harmony>
         <Slur id="95">
           <track>0</track>
@@ -6344,7 +6208,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V</name>
+          <name>V7</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -6379,7 +6243,10 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="89">
+      <Measure number="88">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Harmony>
           <name>I\\</name>
           </Harmony>
@@ -6435,7 +6302,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="90">
+      <Measure number="89">
         <Harmony>
           <name>V65</name>
           </Harmony>
@@ -6510,10 +6377,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="91">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="90">
         <Harmony>
           <name>V65</name>
           </Harmony>
@@ -6594,11 +6458,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="92">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
+      <Measure number="91">
         <Harmony>
           <name>V65</name>
           </Harmony>
@@ -6676,7 +6536,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="93">
+      <Measure number="92">
         <Harmony>
           <name>V65\\</name>
           </Harmony>
@@ -6711,9 +6571,6 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>I6</name>
-          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -6725,6 +6582,9 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>I6</name>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -6738,6 +6598,7 @@
           </Chord>
         <Harmony>
           <name>viio6</name>
+          <pos x="-0.7" y="-6"/>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -6751,7 +6612,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="94">
+      <Measure number="93">
         <Harmony>
           <name>I</name>
           </Harmony>
@@ -6776,6 +6637,9 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>ii6</name>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -6787,9 +6651,6 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>ii6</name>
-          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -6827,10 +6688,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="95">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="94">
         <Harmony>
           <name>ii</name>
           </Harmony>
@@ -6878,7 +6736,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>vii</name>
+          <name>viio</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -6906,13 +6764,13 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="96">
+      <Measure number="95">
         <Clef>
           <concertClefType>G</concertClefType>
           <transposingClefType>G</transposingClefType>
           </Clef>
         <Harmony>
-          <name>ii</name>
+          <name>viio6</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -6963,7 +6821,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V7(64)</name>
+          <name>V(64)</name>
           </Harmony>
         <Slur id="98">
           <track>0</track>
@@ -6985,7 +6843,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V</name>
+          <name>V7</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -7017,7 +6875,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="97">
+      <Measure number="96">
         <Harmony>
           <name>I\\</name>
           </Harmony>
@@ -7033,6 +6891,9 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>iio/vi</name>
+          </Harmony>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
@@ -7062,10 +6923,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="98">
-        <Harmony>
-          <name>iio/vi</name>
-          </Harmony>
+      <Measure number="97">
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -7157,10 +7015,9 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="99">
+      <Measure number="98">
         <Harmony>
-          <name>vi/9</name>
-          <rightParen/>
+          <name>vi(9)</name>
           </Harmony>
         <Slur id="100">
           <track>0</track>
@@ -7184,6 +7041,9 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>ii6/IV</name>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -7242,13 +7102,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="100">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
-        <Harmony>
-          <name>ii/IV</name>
-          </Harmony>
+      <Measure number="99">
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -7341,7 +7195,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="101">
+      <Measure number="100">
         <Clef>
           <concertClefType>G</concertClefType>
           <transposingClefType>G</transposingClefType>
@@ -7449,7 +7303,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="102">
+      <Measure number="101">
         <Harmony>
           <name>ii(9)</name>
           </Harmony>
@@ -7553,7 +7407,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="103">
+      <Measure number="102">
         <Harmony>
           <name>I(9)</name>
           </Harmony>
@@ -7649,9 +7503,9 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="104">
+      <Measure number="103">
         <Harmony>
-          <name>V</name>
+          <name>V\\</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -7707,7 +7561,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="105">
+      <Measure number="104">
         <Harmony>
           <name>V43</name>
           </Harmony>
@@ -7762,10 +7616,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="106">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="105">
         <Harmony>
           <name>I6</name>
           </Harmony>
@@ -7814,11 +7665,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="107">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
+      <Measure number="106">
         <Harmony>
           <name>V(64)/V</name>
           </Harmony>
@@ -7890,7 +7737,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="108">
+      <Measure number="107">
         <Harmony>
           <name>V</name>
           </Harmony>
@@ -7939,7 +7786,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="109">
+      <Measure number="108">
         <Harmony>
           <name>I6</name>
           </Harmony>
@@ -8007,7 +7854,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="110">
+      <Measure number="109">
         <Harmony>
           <name>V6</name>
           </Harmony>
@@ -8082,10 +7929,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="111">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="110">
         <Harmony>
           <name>I</name>
           </Harmony>
@@ -8151,11 +7995,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="112">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
+      <Measure number="111">
         <Harmony>
           <name>V</name>
           </Harmony>
@@ -8210,7 +8050,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="113">
+      <Measure number="112">
         <Harmony>
           <name>V43</name>
           </Harmony>
@@ -8267,7 +8107,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="114">
+      <Measure number="113">
         <Harmony>
           <name>I6</name>
           </Harmony>
@@ -8316,7 +8156,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="115">
+      <Measure number="114">
         <Harmony>
           <name>V(64)/V</name>
           </Harmony>
@@ -8388,10 +8228,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="116">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="115">
         <Harmony>
           <name>V</name>
           </Harmony>
@@ -8440,11 +8277,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="117">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
+      <Measure number="116">
         <Harmony>
           <name>I6</name>
           </Harmony>
@@ -8456,16 +8289,16 @@
           <appoggiatura/>
           <StemDirection>up</StemDirection>
           <Note>
-            <pitch>83</pitch>
-            <tpc>19</tpc>
+            <pitch>81</pitch>
+            <tpc>17</tpc>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Slur type="start" id="127"/>
           <Note>
-            <pitch>81</pitch>
-            <tpc>17</tpc>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -8513,7 +8346,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="118">
+      <Measure number="117">
         <Harmony>
           <name>V6</name>
           </Harmony>
@@ -8598,7 +8431,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="119">
+      <Measure number="118">
         <Harmony>
           <name>ii6</name>
           </Harmony>
@@ -8640,7 +8473,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V97</name>
+          <name>V7(9)</name>
           </Harmony>
         <Slur id="131">
           <track>0</track>
@@ -8654,6 +8487,9 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>V7</name>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Slur type="stop" id="131"/>
@@ -8664,10 +8500,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="120">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="119">
         <Harmony>
           <name>I\\</name>
           </Harmony>
@@ -8719,13 +8552,13 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="121">
+      <Measure number="120">
         <Clef>
           <concertClefType>G</concertClefType>
           <transposingClefType>G</transposingClefType>
           </Clef>
         <Harmony>
-          <name>I</name>
+          <name>I6</name>
           </Harmony>
         <HairPin id="133">
           <subtype>0</subtype>
@@ -8751,7 +8584,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>It/ii</name>
+          <name>.It6/V</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -8794,14 +8627,11 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="122">
+      <Measure number="121">
         <Harmony>
           <name>V(4)/V</name>
           </Harmony>
-        <Slur id="134">
-          <track>0</track>
-          </Slur>
-        <HairPin id="135">
+        <HairPin id="134">
           <subtype>1</subtype>
           <beginText>
             <text>dim.</text>
@@ -8810,9 +8640,12 @@
             <text>(dim.)</text>
             </continueText>
           </HairPin>
+        <Slur id="135">
+          <track>0</track>
+          </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="134"/>
+          <Slur type="start" id="135"/>
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -8821,10 +8654,10 @@
         <Harmony>
           <name>V/V</name>
           </Harmony>
-        <endSpanner id="135"/>
+        <endSpanner id="134"/>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="134"/>
+          <Slur type="stop" id="135"/>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -8885,7 +8718,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="123">
+      <Measure number="122">
         <Harmony>
           <name>ii</name>
           </Harmony>
@@ -8952,14 +8785,11 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="124">
+      <Measure number="123">
         <Harmony>
           <name>I(4)</name>
           </Harmony>
-        <Slur id="138">
-          <track>0</track>
-          </Slur>
-        <HairPin id="139">
+        <HairPin id="138">
           <subtype>1</subtype>
           <beginText>
             <text>dim.</text>
@@ -8968,9 +8798,12 @@
             <text>(dim.)</text>
             </continueText>
           </HairPin>
+        <Slur id="139">
+          <track>0</track>
+          </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="138"/>
+          <Slur type="start" id="139"/>
           <Note>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -8979,10 +8812,10 @@
         <Harmony>
           <name>I</name>
           </Harmony>
-        <endSpanner id="139"/>
+        <endSpanner id="138"/>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="138"/>
+          <Slur type="stop" id="139"/>
           <Note>
             <pitch>71</pitch>
             <tpc>19</tpc>
@@ -9037,10 +8870,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="125">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="124">
         <Harmony>
           <name>V43</name>
           </Harmony>
@@ -9096,13 +8926,9 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="126">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
+      <Measure number="125">
         <Harmony>
-          <name>I6</name>
+          <name>I</name>
           </Harmony>
         <Slur id="142">
           <track>0</track>
@@ -9120,7 +8946,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>IV(2)</name>
+          <name>IV(9)</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -9155,7 +8981,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="127">
+      <Measure number="126">
         <Harmony>
           <name>V(64)</name>
           </Harmony>
@@ -9199,9 +9025,9 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="128">
+      <Measure number="127">
         <Harmony>
-          <name>I</name>
+          <name>I\\</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -9250,9 +9076,9 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="129">
+      <Measure number="128">
         <Harmony>
-          <name>I</name>
+          <name>I6</name>
           </Harmony>
         <HairPin id="146">
           <subtype>0</subtype>
@@ -9280,7 +9106,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>It/ii</name>
+          <name>.It6/V</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -9327,10 +9153,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="130">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="129">
         <Harmony>
           <name>V(4)/V</name>
           </Harmony>
@@ -9413,11 +9236,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="131">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
+      <Measure number="130">
         <Harmony>
           <name>ii</name>
           </Harmony>
@@ -9484,7 +9303,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="132">
+      <Measure number="131">
         <Harmony>
           <name>I(4)</name>
           </Harmony>
@@ -9559,7 +9378,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="133">
+      <Measure number="132">
         <Harmony>
           <name>V43</name>
           </Harmony>
@@ -9615,9 +9434,9 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="134">
+      <Measure number="133">
         <Harmony>
-          <name>I6</name>
+          <name>I</name>
           </Harmony>
         <Slur id="153">
           <track>0</track>
@@ -9635,7 +9454,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>IV(2)</name>
+          <name>IV(9)</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -9670,10 +9489,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="135">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="134">
         <Harmony>
           <name>V(64)</name>
           </Harmony>
@@ -9717,13 +9533,9 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="136">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
+      <Measure number="135">
         <Harmony>
-          <name>I</name>
+          <name>I\\</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -9765,6 +9577,10 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>viio6</name>
+          <pos x="-0.6" y="-6"/>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -9776,7 +9592,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="137">
+      <Measure number="136">
         <Harmony>
           <name>I</name>
           </Harmony>
@@ -9809,9 +9625,6 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>V43</name>
-          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -9822,6 +9635,9 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>viio6</name>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -9832,6 +9648,9 @@
             <tpc>17</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>I</name>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -9843,9 +9662,9 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="138">
+      <Measure number="137">
         <Harmony>
-          <name>V65</name>
+          <name>viio</name>
           </Harmony>
         <Slur id="157">
           <track>0</track>
@@ -9892,6 +9711,10 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>viio6</name>
+          <pos x="-1" y="-6"/>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -9907,7 +9730,10 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="139">
+      <Measure number="138">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Harmony>
           <name>I6</name>
           </Harmony>
@@ -9934,15 +9760,18 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <Rest>
-          <durationType>eighth</durationType>
-          </Rest>
         <Harmony>
-          <name>V7</name>
+          <name>V</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
+        <Rest>
+          <durationType>eighth</durationType>
+          </Rest>
+        <Harmony>
+          <name>viio6</name>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -9957,6 +9786,9 @@
             <tpc>14</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>I6</name>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -9972,10 +9804,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="140">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="139">
         <Harmony>
           <name>V2</name>
           </Harmony>
@@ -10041,6 +9870,7 @@
           </Chord>
         <Harmony>
           <name>viio6</name>
+          <pos x="-0.6" y="-6"/>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -10053,11 +9883,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="141">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
+      <Measure number="140">
         <Harmony>
           <name>I</name>
           </Harmony>
@@ -10090,9 +9916,6 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>V43</name>
-          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -10103,6 +9926,9 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>ii6</name>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -10127,9 +9953,9 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="142">
+      <Measure number="141">
         <Harmony>
-          <name>V65</name>
+          <name>ii</name>
           </Harmony>
         <Slur id="161">
           <track>0</track>
@@ -10174,6 +10000,9 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>viio</name>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -10184,6 +10013,9 @@
             <tpc>14</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>I</name>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -10195,7 +10027,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="143">
+      <Measure number="142">
         <Harmony>
           <name>viio6</name>
           </Harmony>
@@ -10262,7 +10094,10 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="144">
+      <Measure number="143">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
@@ -10351,10 +10186,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="145">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="144">
         <Harmony>
           <name>viio6</name>
           </Harmony>
@@ -10421,11 +10253,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="146">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
+      <Measure number="145">
         <Dynamic>
           <subtype>sf</subtype>
           <velocity>0</velocity>
@@ -10484,10 +10312,10 @@
           <StemDirection>down</StemDirection>
           <Note>
             <Accidental>
-              <subtype>natural</subtype>
+              <subtype>sharp</subtype>
               </Accidental>
             <pitch>77</pitch>
-            <tpc>13</tpc>
+            <tpc>25</tpc>
             </Note>
           <Note>
             <Accidental>
@@ -10505,9 +10333,6 @@
           <Slur type="stop" id="166"/>
           <StemDirection>down</StemDirection>
           <Note>
-            <Accidental>
-              <subtype>sharp</subtype>
-              </Accidental>
             <pitch>78</pitch>
             <tpc>20</tpc>
             </Note>
@@ -10520,14 +10345,11 @@
           <durationType>eighth</durationType>
           </Rest>
         </Measure>
-      <Measure number="147">
+      <Measure number="146">
         <Harmony>
           <name>V(#5)</name>
           </Harmony>
-        <Slur id="167">
-          <track>0</track>
-          </Slur>
-        <HairPin id="168">
+        <HairPin id="167">
           <subtype>0</subtype>
           <beginText>
             <text>cresc.</text>
@@ -10536,9 +10358,12 @@
             <text>(cresc.)</text>
             </continueText>
           </HairPin>
+        <Slur id="168">
+          <track>0</track>
+          </Slur>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="start" id="167"/>
+          <Slur type="start" id="168"/>
           <StemDirection>down</StemDirection>
           <Note>
             <pitch>78</pitch>
@@ -10546,10 +10371,10 @@
             </Note>
           <Note>
             <Accidental>
-              <subtype>flat</subtype>
+              <subtype>sharp</subtype>
               </Accidental>
             <pitch>82</pitch>
-            <tpc>12</tpc>
+            <tpc>24</tpc>
             </Note>
           </Chord>
         <Harmony>
@@ -10557,16 +10382,13 @@
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="167"/>
+          <Slur type="stop" id="168"/>
           <StemDirection>down</StemDirection>
           <Note>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
           <Note>
-            <Accidental>
-              <subtype>natural</subtype>
-              </Accidental>
             <pitch>83</pitch>
             <tpc>19</tpc>
             </Note>
@@ -10597,13 +10419,16 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V7</name>
+          <name>V7\\</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Slur type="stop" id="169"/>
           <StemDirection>down</StemDirection>
           <Note>
+            <Accidental>
+              <subtype>natural</subtype>
+              </Accidental>
             <pitch>81</pitch>
             <tpc>17</tpc>
             </Note>
@@ -10612,19 +10437,16 @@
             <tpc>14</tpc>
             </Note>
           </Chord>
-        <endSpanner id="168"/>
+        <endSpanner id="167"/>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
         </Measure>
-      <Measure number="148">
+      <Measure number="147">
         <Dynamic>
           <subtype>fp</subtype>
           <velocity>0</velocity>
           </Dynamic>
-        <Harmony>
-          <name>V7\\</name>
-          </Harmony>
         <Chord>
           <dots>1</dots>
           <durationType>quarter</durationType>
@@ -10687,7 +10509,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="149">
+      <Measure number="148">
         <Chord>
           <durationType>quarter</durationType>
           <Articulation>
@@ -10699,6 +10521,9 @@
             <tpc>20</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>V</name>
+          </Harmony>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
@@ -10720,10 +10545,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="150">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="149">
         <Harmony>
           <name>V2</name>
           </Harmony>
@@ -10812,11 +10634,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="151">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
+      <Measure number="150">
         <Harmony>
           <name>V43</name>
           </Harmony>
@@ -10900,7 +10718,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="152">
+      <Measure number="151">
         <Harmony>
           <name>ii6</name>
           </Harmony>
@@ -10956,7 +10774,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="153">
+      <Measure number="152">
         <Harmony>
           <name>V(64)</name>
           </Harmony>
@@ -11037,13 +10855,13 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="154">
+      <Measure number="153">
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
           </Dynamic>
         <Harmony>
-          <name>I&quot;I</name>
+          <name>I[I</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -11097,10 +10915,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="155">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="154">
         <Harmony>
           <name>V7</name>
           </Harmony>
@@ -11153,11 +10968,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="156">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
+      <Measure number="155">
         <Chord>
           <durationType>quarter</durationType>
           <Articulation>
@@ -11202,7 +11013,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="157">
+      <Measure number="156">
         <Harmony>
           <name>I</name>
           </Harmony>
@@ -11250,7 +11061,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="158">
+      <Measure number="157">
         <Chord>
           <durationType>quarter</durationType>
           <Articulation>
@@ -11295,7 +11106,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="159">
+      <Measure number="158">
         <Harmony>
           <name>V7</name>
           </Harmony>
@@ -11343,10 +11154,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="160">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+      <Measure number="159">
         <Chord>
           <durationType>quarter</durationType>
           <Articulation>
@@ -11391,11 +11199,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="161">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
+      <Measure number="160">
         <Harmony>
           <name>I</name>
           </Harmony>
@@ -11412,6 +11216,9 @@
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
+        <Harmony>
+          <name>V7</name>
+          </Harmony>
         <Slur id="186">
           <track>0</track>
           </Slur>
@@ -11439,7 +11246,10 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="162">
+      <Measure number="161">
+        <Harmony>
+          <name>I</name>
+          </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Articulation>
@@ -11453,6 +11263,9 @@
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
+        <Harmony>
+          <name>V7</name>
+          </Harmony>
         <Slur id="187">
           <track>0</track>
           </Slur>
@@ -11480,7 +11293,10 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="163">
+      <Measure number="162">
+        <Harmony>
+          <name>I</name>
+          </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Articulation>
@@ -11494,6 +11310,9 @@
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
+        <Harmony>
+          <name>V7</name>
+          </Harmony>
         <Slur id="188">
           <track>0</track>
           </Slur>
@@ -11521,7 +11340,10 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="164">
+      <Measure number="163">
+        <Harmony>
+          <name>I]\\</name>
+          </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -11559,13 +11381,7 @@
           <durationType>eighth</durationType>
           </Rest>
         </Measure>
-      <Measure number="165" len="5/8">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
-        <Harmony>
-          <name>I&quot;\\</name>
-          </Harmony>
+      <Measure number="164" len="5/8">
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -11602,7 +11418,7 @@
         </Measure>
       </Staff>
     <Staff id="2">
-      <Measure number="1" len="4/8">
+      <Measure number="0" len="4/8">
         <Clef>
           <concertClefType>F</concertClefType>
           <transposingClefType>F</transposingClefType>
@@ -11650,7 +11466,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="2">
+      <Measure number="1">
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -11697,7 +11513,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="3">
+      <Measure number="2">
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -11744,7 +11560,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="4">
+      <Measure number="3">
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -11807,7 +11623,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="5">
+      <Measure number="4">
         <Chord>
           <durationType>quarter</durationType>
           <Slur type="stop" id="189"/>
@@ -11851,11 +11667,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="6">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
+      <Measure number="5">
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -11902,7 +11714,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="7">
+      <Measure number="6">
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -11949,7 +11761,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="8">
+      <Measure number="7">
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -12015,7 +11827,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="9">
+      <Measure number="8">
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -12036,6 +11848,58 @@
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
+        </Measure>
+      <Measure number="9">
+        <Rest>
+          <durationType>eighth</durationType>
+          </Rest>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>54</pitch>
+            <tpc>20</tpc>
+            </Note>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>54</pitch>
+            <tpc>20</tpc>
+            </Note>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Rest>
+          <durationType>eighth</durationType>
+          </Rest>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>55</pitch>
+            <tpc>15</tpc>
+            </Note>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>55</pitch>
+            <tpc>15</tpc>
+            </Note>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
         </Measure>
       <Measure number="10">
         <Rest>
@@ -12090,10 +11954,6 @@
           </Chord>
         </Measure>
       <Measure number="11">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
@@ -12108,25 +11968,25 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>54</pitch>
-            <tpc>20</tpc>
-            </Note>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Rest>
-          <durationType>eighth</durationType>
-          </Rest>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
             <pitch>55</pitch>
             <tpc>15</tpc>
+            </Note>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Rest>
+          <durationType>eighth</durationType>
+          </Rest>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>54</pitch>
+            <tpc>20</tpc>
             </Note>
           <Note>
             <pitch>62</pitch>
@@ -12146,58 +12006,6 @@
           </Chord>
         </Measure>
       <Measure number="12">
-        <Rest>
-          <durationType>eighth</durationType>
-          </Rest>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>54</pitch>
-            <tpc>20</tpc>
-            </Note>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>55</pitch>
-            <tpc>15</tpc>
-            </Note>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Rest>
-          <durationType>eighth</durationType>
-          </Rest>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>54</pitch>
-            <tpc>20</tpc>
-            </Note>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>55</pitch>
-            <tpc>15</tpc>
-            </Note>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="13">
         <Chord>
           <durationType>quarter</durationType>
           <Articulation>
@@ -12252,7 +12060,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="14">
+      <Measure number="13">
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -12299,7 +12107,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="15">
+      <Measure number="14">
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -12346,11 +12154,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="16">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
+      <Measure number="15">
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -12416,7 +12220,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="17">
+      <Measure number="16">
         <Clef>
           <concertClefType>F</concertClefType>
           <transposingClefType>F</transposingClefType>
@@ -12476,23 +12280,20 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="18">
+      <Measure number="17">
         <Chord>
           <durationType>quarter</durationType>
           <Note>
             <Accidental>
-              <subtype>sharp</subtype>
+              <subtype>flat</subtype>
               </Accidental>
             <pitch>63</pitch>
-            <tpc>23</tpc>
+            <tpc>11</tpc>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <Accidental>
-              <subtype>natural</subtype>
-              </Accidental>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
@@ -12522,7 +12323,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="19">
+      <Measure number="18">
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -12562,7 +12363,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="20">
+      <Measure number="19">
         <Chord>
           <dots>1</dots>
           <durationType>quarter</durationType>
@@ -12588,14 +12389,99 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="21">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
+      <Measure number="20">
         <KeySig>
           <accidental>-2</accidental>
           </KeySig>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>55</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>58</pitch>
+            <tpc>12</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>58</pitch>
+            <tpc>12</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <Accidental>
+              <subtype>sharp</subtype>
+              </Accidental>
+            <pitch>54</pitch>
+            <tpc>20</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>57</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>57</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="21">
         <Chord>
           <durationType>16th</durationType>
           <Note>
@@ -12730,6 +12616,188 @@
         <Chord>
           <durationType>16th</durationType>
           <Note>
+            <pitch>55</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>58</pitch>
+            <tpc>12</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>58</pitch>
+            <tpc>12</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="23">
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>57</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>57</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>57</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <Accidental>
+              <subtype>sharp</subtype>
+              </Accidental>
+            <pitch>61</pitch>
+            <tpc>21</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>50</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <Accidental>
+              <role>1</role>
+              <subtype>sharp</subtype>
+              </Accidental>
+            <pitch>61</pitch>
+            <tpc>21</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <Accidental>
+              <subtype>natural</subtype>
+              </Accidental>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>57</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="24">
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>55</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>58</pitch>
+            <tpc>12</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>58</pitch>
+            <tpc>12</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
             <Accidental>
               <subtype>sharp</subtype>
               </Accidental>
@@ -12770,194 +12838,6 @@
           <Note>
             <pitch>62</pitch>
             <tpc>16</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="23">
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>55</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>58</pitch>
-            <tpc>12</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>58</pitch>
-            <tpc>12</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>55</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>58</pitch>
-            <tpc>12</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>58</pitch>
-            <tpc>12</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="24">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <Accidental>
-              <subtype>flat</subtype>
-              </Accidental>
-            <pitch>61</pitch>
-            <tpc>9</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>50</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <Accidental>
-              <subtype>natural</subtype>
-              </Accidental>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <Accidental>
-              <subtype>flat</subtype>
-              </Accidental>
-            <pitch>61</pitch>
-            <tpc>9</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <Accidental>
-              <subtype>natural</subtype>
-              </Accidental>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>60</pitch>
-            <tpc>14</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
             </Note>
           </Chord>
         </Measure>
@@ -13007,136 +12887,47 @@
         <Chord>
           <durationType>16th</durationType>
           <Note>
-            <Accidental>
-              <subtype>sharp</subtype>
-              </Accidental>
-            <pitch>54</pitch>
-            <tpc>20</tpc>
+            <pitch>55</pitch>
+            <tpc>15</tpc>
             </Note>
           </Chord>
         <Chord>
           <durationType>16th</durationType>
           <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
+            <pitch>63</pitch>
+            <tpc>11</tpc>
             </Note>
           </Chord>
         <Chord>
           <durationType>16th</durationType>
           <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
+            <pitch>58</pitch>
+            <tpc>12</tpc>
             </Note>
           </Chord>
         <Chord>
           <durationType>16th</durationType>
           <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
+            <pitch>63</pitch>
+            <tpc>11</tpc>
             </Note>
           </Chord>
         <Chord>
           <durationType>16th</durationType>
           <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
+            <pitch>58</pitch>
+            <tpc>12</tpc>
             </Note>
           </Chord>
         <Chord>
           <durationType>16th</durationType>
           <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
+            <pitch>63</pitch>
+            <tpc>11</tpc>
             </Note>
           </Chord>
         </Measure>
       <Measure number="26">
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>55</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>58</pitch>
-            <tpc>12</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>58</pitch>
-            <tpc>12</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>55</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>63</pitch>
-            <tpc>11</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>58</pitch>
-            <tpc>12</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>63</pitch>
-            <tpc>11</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>58</pitch>
-            <tpc>12</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>63</pitch>
-            <tpc>11</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="27">
         <Clef>
           <concertClefType>F</concertClefType>
           <transposingClefType>F</transposingClefType>
@@ -13226,7 +13017,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="28">
+      <Measure number="27">
         <Chord>
           <durationType>16th</durationType>
           <Note>
@@ -13312,7 +13103,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="29">
+      <Measure number="28">
         <Chord>
           <durationType>16th</durationType>
           <Note>
@@ -13398,11 +13189,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="30">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
+      <Measure number="29">
         <Chord>
           <durationType>16th</durationType>
           <Note>
@@ -13488,7 +13275,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="31">
+      <Measure number="30">
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -13510,13 +13297,13 @@
           <durationType>eighth</durationType>
           </Rest>
         </Measure>
-      <Measure number="32">
+      <Measure number="31">
         <Rest>
           <durationType>measure</durationType>
           <duration z="6" n="8"/>
           </Rest>
         </Measure>
-      <Measure number="33">
+      <Measure number="32">
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
@@ -13556,11 +13343,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="34">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
+      <Measure number="33">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -13604,7 +13387,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="35">
+      <Measure number="34">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -13648,7 +13431,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="36">
+      <Measure number="35">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -13695,7 +13478,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="37">
+      <Measure number="36">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -13739,7 +13522,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="38">
+      <Measure number="37">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -13783,11 +13566,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="39">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
+      <Measure number="38">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -13831,7 +13610,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="40">
+      <Measure number="39">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -13875,7 +13654,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="41">
+      <Measure number="40">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -13919,7 +13698,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="42">
+      <Measure number="41">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -13963,7 +13742,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="43">
+      <Measure number="42">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -14007,7 +13786,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="44">
+      <Measure number="43">
         <Clef>
           <concertClefType>F</concertClefType>
           <transposingClefType>F</transposingClefType>
@@ -14058,7 +13837,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="45">
+      <Measure number="44">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -14102,7 +13881,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="46">
+      <Measure number="45">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -14146,7 +13925,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="47">
+      <Measure number="46">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -14190,7 +13969,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="48">
+      <Measure number="47">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -14234,11 +14013,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="49">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
+      <Measure number="48">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -14267,7 +14042,7 @@
           <durationType>eighth</durationType>
           </Rest>
         </Measure>
-      <Measure number="50">
+      <Measure number="49">
         <Clef>
           <concertClefType>G</concertClefType>
           <transposingClefType>G</transposingClefType>
@@ -14304,7 +14079,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="51">
+      <Measure number="50">
         <Chord>
           <dots>1</dots>
           <durationType>quarter</durationType>
@@ -14325,7 +14100,7 @@
           <durationType>eighth</durationType>
           </Rest>
         </Measure>
-      <Measure number="52">
+      <Measure number="51">
         <Slur id="191">
           <track>4</track>
           </Slur>
@@ -14351,14 +14126,14 @@
             </Note>
           <Note>
             <Accidental>
-              <subtype>sharp</subtype>
+              <subtype>flat</subtype>
               </Accidental>
             <pitch>66</pitch>
-            <tpc>20</tpc>
+            <tpc>8</tpc>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="53">
+      <Measure number="52">
         <Chord>
           <dots>1</dots>
           <durationType>quarter</durationType>
@@ -14398,7 +14173,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="54">
+      <Measure number="53">
         <Clef>
           <concertClefType>F</concertClefType>
           <transposingClefType>F</transposingClefType>
@@ -14446,7 +14221,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="55">
+      <Measure number="54">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -14490,7 +14265,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="56">
+      <Measure number="55">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -14534,7 +14309,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="57">
+      <Measure number="56">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -14563,7 +14338,7 @@
           <durationType>eighth</durationType>
           </Rest>
         </Measure>
-      <Measure number="58">
+      <Measure number="57">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -14610,11 +14385,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="59">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
+      <Measure number="58">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -14658,7 +14429,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="60">
+      <Measure number="59">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -14691,21 +14462,21 @@
           <durationType>eighth</durationType>
           <Note>
             <Accidental>
-              <subtype>sharp</subtype>
+              <subtype>flat</subtype>
               </Accidental>
             <pitch>66</pitch>
-            <tpc>20</tpc>
+            <tpc>8</tpc>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
             <pitch>66</pitch>
-            <tpc>20</tpc>
+            <tpc>8</tpc>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="61">
+      <Measure number="60">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -14749,7 +14520,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="62">
+      <Measure number="61">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -14793,7 +14564,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="63">
+      <Measure number="62">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -14837,11 +14608,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="64">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
+      <Measure number="63">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -14885,7 +14652,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="65">
+      <Measure number="64">
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -14941,7 +14708,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="66">
+      <Measure number="65">
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -14978,7 +14745,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="67">
+      <Measure number="66">
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -15015,7 +14782,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="68">
+      <Measure number="67">
         <Chord>
           <dots>1</dots>
           <durationType>quarter</durationType>
@@ -15041,11 +14808,96 @@
             </Note>
           </Chord>
         </Measure>
+      <Measure number="68">
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>55</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>58</pitch>
+            <tpc>12</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>58</pitch>
+            <tpc>12</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <Accidental>
+              <subtype>sharp</subtype>
+              </Accidental>
+            <pitch>54</pitch>
+            <tpc>20</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>57</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>57</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        </Measure>
       <Measure number="69">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
         <Chord>
           <durationType>16th</durationType>
           <Note>
@@ -15180,11 +15032,8 @@
         <Chord>
           <durationType>16th</durationType>
           <Note>
-            <Accidental>
-              <subtype>sharp</subtype>
-              </Accidental>
-            <pitch>54</pitch>
-            <tpc>20</tpc>
+            <pitch>55</pitch>
+            <tpc>15</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -15197,8 +15046,8 @@
         <Chord>
           <durationType>16th</durationType>
           <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
+            <pitch>58</pitch>
+            <tpc>12</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -15211,8 +15060,8 @@
         <Chord>
           <durationType>16th</durationType>
           <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
+            <pitch>58</pitch>
+            <tpc>12</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -15224,92 +15073,6 @@
           </Chord>
         </Measure>
       <Measure number="71">
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>55</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>58</pitch>
-            <tpc>12</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>58</pitch>
-            <tpc>12</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>55</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>58</pitch>
-            <tpc>12</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>58</pitch>
-            <tpc>12</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="72">
         <Clef>
           <concertClefType>F</concertClefType>
           <transposingClefType>F</transposingClefType>
@@ -15353,10 +15116,10 @@
           <durationType>16th</durationType>
           <Note>
             <Accidental>
-              <subtype>flat</subtype>
+              <subtype>sharp</subtype>
               </Accidental>
             <pitch>61</pitch>
-            <tpc>9</tpc>
+            <tpc>21</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -15369,9 +15132,6 @@
         <Chord>
           <durationType>16th</durationType>
           <Note>
-            <Accidental>
-              <subtype>natural</subtype>
-              </Accidental>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
@@ -15380,10 +15140,18 @@
           <durationType>16th</durationType>
           <Note>
             <Accidental>
-              <subtype>flat</subtype>
+              <role>1</role>
+              <subtype>sharp</subtype>
               </Accidental>
             <pitch>61</pitch>
-            <tpc>9</tpc>
+            <tpc>21</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -15392,13 +15160,6 @@
             <Accidental>
               <subtype>natural</subtype>
               </Accidental>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
@@ -15408,6 +15169,95 @@
           <Note>
             <pitch>57</pitch>
             <tpc>17</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="72">
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>55</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>58</pitch>
+            <tpc>12</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>58</pitch>
+            <tpc>12</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <Accidental>
+              <subtype>sharp</subtype>
+              </Accidental>
+            <pitch>54</pitch>
+            <tpc>20</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>57</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>57</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
             </Note>
           </Chord>
         </Measure>
@@ -15457,136 +15307,47 @@
         <Chord>
           <durationType>16th</durationType>
           <Note>
-            <Accidental>
-              <subtype>sharp</subtype>
-              </Accidental>
-            <pitch>54</pitch>
-            <tpc>20</tpc>
+            <pitch>55</pitch>
+            <tpc>15</tpc>
             </Note>
           </Chord>
         <Chord>
           <durationType>16th</durationType>
           <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
+            <pitch>63</pitch>
+            <tpc>11</tpc>
             </Note>
           </Chord>
         <Chord>
           <durationType>16th</durationType>
           <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
+            <pitch>58</pitch>
+            <tpc>12</tpc>
             </Note>
           </Chord>
         <Chord>
           <durationType>16th</durationType>
           <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
+            <pitch>63</pitch>
+            <tpc>11</tpc>
             </Note>
           </Chord>
         <Chord>
           <durationType>16th</durationType>
           <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
+            <pitch>58</pitch>
+            <tpc>12</tpc>
             </Note>
           </Chord>
         <Chord>
           <durationType>16th</durationType>
           <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
+            <pitch>63</pitch>
+            <tpc>11</tpc>
             </Note>
           </Chord>
         </Measure>
       <Measure number="74">
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>55</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>58</pitch>
-            <tpc>12</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>58</pitch>
-            <tpc>12</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>55</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>63</pitch>
-            <tpc>11</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>58</pitch>
-            <tpc>12</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>63</pitch>
-            <tpc>11</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>58</pitch>
-            <tpc>12</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>63</pitch>
-            <tpc>11</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="75">
         <Clef>
           <concertClefType>F</concertClefType>
           <transposingClefType>F</transposingClefType>
@@ -15673,6 +15434,92 @@
           <Note>
             <pitch>65</pitch>
             <tpc>13</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="75">
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>55</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>63</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>58</pitch>
+            <tpc>12</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>63</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>58</pitch>
+            <tpc>12</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>63</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>57</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>63</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>63</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>63</pitch>
+            <tpc>11</tpc>
             </Note>
           </Chord>
         </Measure>
@@ -15680,92 +15527,6 @@
         <Chord>
           <durationType>16th</durationType>
           <Note>
-            <pitch>55</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>63</pitch>
-            <tpc>11</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>58</pitch>
-            <tpc>12</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>63</pitch>
-            <tpc>11</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>58</pitch>
-            <tpc>12</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>63</pitch>
-            <tpc>11</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>63</pitch>
-            <tpc>11</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>60</pitch>
-            <tpc>14</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>63</pitch>
-            <tpc>11</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>60</pitch>
-            <tpc>14</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
-            <pitch>63</pitch>
-            <tpc>11</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="77">
-        <Chord>
-          <durationType>16th</durationType>
-          <Note>
             <Accidental>
               <subtype>sharp</subtype>
               </Accidental>
@@ -15851,11 +15612,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="78">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
+      <Measure number="77">
         <Chord>
           <durationType>16th</durationType>
           <Note>
@@ -15944,7 +15701,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="79">
+      <Measure number="78">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -15969,7 +15726,7 @@
           <durationType>eighth</durationType>
           </Rest>
         </Measure>
-      <Measure number="80">
+      <Measure number="79">
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -15990,7 +15747,7 @@
           <durationType>eighth</durationType>
           </Rest>
         </Measure>
-      <Measure number="81">
+      <Measure number="80">
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -16039,11 +15796,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="82">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
+      <Measure number="81">
         <KeySig>
           <accidental>1</accidental>
           </KeySig>
@@ -16093,7 +15846,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="83">
+      <Measure number="82">
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -16140,7 +15893,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="84">
+      <Measure number="83">
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -16203,7 +15956,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="85">
+      <Measure number="84">
         <Chord>
           <durationType>quarter</durationType>
           <Slur type="stop" id="192"/>
@@ -16247,7 +16000,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="86">
+      <Measure number="85">
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -16294,11 +16047,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="87">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
+      <Measure number="86">
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -16345,7 +16094,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="88">
+      <Measure number="87">
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -16411,7 +16160,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="89">
+      <Measure number="88">
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -16432,6 +16181,58 @@
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
+        </Measure>
+      <Measure number="89">
+        <Rest>
+          <durationType>eighth</durationType>
+          </Rest>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>54</pitch>
+            <tpc>20</tpc>
+            </Note>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>54</pitch>
+            <tpc>20</tpc>
+            </Note>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Rest>
+          <durationType>eighth</durationType>
+          </Rest>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>55</pitch>
+            <tpc>15</tpc>
+            </Note>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>55</pitch>
+            <tpc>15</tpc>
+            </Note>
+          <Note>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
         </Measure>
       <Measure number="90">
         <Rest>
@@ -16503,8 +16304,8 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>54</pitch>
-            <tpc>20</tpc>
+            <pitch>55</pitch>
+            <tpc>15</tpc>
             </Note>
           <Note>
             <pitch>62</pitch>
@@ -16517,8 +16318,8 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>55</pitch>
-            <tpc>15</tpc>
+            <pitch>54</pitch>
+            <tpc>20</tpc>
             </Note>
           <Note>
             <pitch>62</pitch>
@@ -16538,62 +16339,6 @@
           </Chord>
         </Measure>
       <Measure number="92">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
-        <Rest>
-          <durationType>eighth</durationType>
-          </Rest>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>54</pitch>
-            <tpc>20</tpc>
-            </Note>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>55</pitch>
-            <tpc>15</tpc>
-            </Note>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Rest>
-          <durationType>eighth</durationType>
-          </Rest>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>54</pitch>
-            <tpc>20</tpc>
-            </Note>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>55</pitch>
-            <tpc>15</tpc>
-            </Note>
-          <Note>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="93">
         <Chord>
           <durationType>quarter</durationType>
           <Articulation>
@@ -16648,7 +16393,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="94">
+      <Measure number="93">
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -16695,7 +16440,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="95">
+      <Measure number="94">
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -16742,7 +16487,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="96">
+      <Measure number="95">
         <Clef>
           <concertClefType>G</concertClefType>
           <transposingClefType>G</transposingClefType>
@@ -16812,7 +16557,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="97">
+      <Measure number="96">
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -16869,7 +16614,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="98">
+      <Measure number="97">
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -16933,7 +16678,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="99">
+      <Measure number="98">
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -16970,7 +16715,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="100">
+      <Measure number="99">
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -17042,7 +16787,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="101">
+      <Measure number="100">
         <Clef>
           <concertClefType>F</concertClefType>
           <transposingClefType>F</transposingClefType>
@@ -17096,7 +16841,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="102">
+      <Measure number="101">
         <Chord>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
@@ -17147,7 +16892,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="103">
+      <Measure number="102">
         <Chord>
           <dots>1</dots>
           <durationType>quarter</durationType>
@@ -17173,7 +16918,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="104">
+      <Measure number="103">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -17217,7 +16962,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="105">
+      <Measure number="104">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -17261,7 +17006,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="106">
+      <Measure number="105">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -17305,11 +17050,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="107">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
+      <Measure number="106">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -17356,7 +17097,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="108">
+      <Measure number="107">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -17400,7 +17141,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="109">
+      <Measure number="108">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -17444,7 +17185,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="110">
+      <Measure number="109">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -17488,7 +17229,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="111">
+      <Measure number="110">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -17532,11 +17273,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="112">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
+      <Measure number="111">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -17580,7 +17317,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="113">
+      <Measure number="112">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -17624,7 +17361,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="114">
+      <Measure number="113">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -17668,7 +17405,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="115">
+      <Measure number="114">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -17715,7 +17452,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="116">
+      <Measure number="115">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -17759,11 +17496,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="117">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
+      <Measure number="116">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -17807,7 +17540,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="118">
+      <Measure number="117">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -17851,7 +17584,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="119">
+      <Measure number="118">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -17899,7 +17632,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="120">
+      <Measure number="119">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -17928,7 +17661,7 @@
           <durationType>eighth</durationType>
           </Rest>
         </Measure>
-      <Measure number="121">
+      <Measure number="120">
         <Clef>
           <concertClefType>F</concertClefType>
           <transposingClefType>F</transposingClefType>
@@ -17965,7 +17698,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="122">
+      <Measure number="121">
         <Chord>
           <dots>1</dots>
           <durationType>quarter</durationType>
@@ -17986,7 +17719,7 @@
           <durationType>eighth</durationType>
           </Rest>
         </Measure>
-      <Measure number="123">
+      <Measure number="122">
         <Slur id="194">
           <track>4</track>
           </Slur>
@@ -18012,14 +17745,14 @@
             </Note>
           <Note>
             <Accidental>
-              <subtype>sharp</subtype>
+              <subtype>flat</subtype>
               </Accidental>
             <pitch>63</pitch>
-            <tpc>23</tpc>
+            <tpc>11</tpc>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="124">
+      <Measure number="123">
         <Chord>
           <dots>1</dots>
           <durationType>quarter</durationType>
@@ -18055,7 +17788,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="125">
+      <Measure number="124">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -18099,11 +17832,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="126">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
+      <Measure number="125">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -18147,7 +17876,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="127">
+      <Measure number="126">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -18191,7 +17920,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="128">
+      <Measure number="127">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -18220,7 +17949,7 @@
           <durationType>eighth</durationType>
           </Rest>
         </Measure>
-      <Measure number="129">
+      <Measure number="128">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -18267,7 +17996,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="130">
+      <Measure number="129">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -18311,11 +18040,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="131">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
+      <Measure number="130">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -18348,21 +18073,21 @@
           <durationType>eighth</durationType>
           <Note>
             <Accidental>
-              <subtype>sharp</subtype>
+              <subtype>flat</subtype>
               </Accidental>
             <pitch>63</pitch>
-            <tpc>23</tpc>
+            <tpc>11</tpc>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
             <pitch>63</pitch>
-            <tpc>23</tpc>
+            <tpc>11</tpc>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="132">
+      <Measure number="131">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -18406,7 +18131,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="133">
+      <Measure number="132">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -18450,7 +18175,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="134">
+      <Measure number="133">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -18461,8 +18186,8 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>57</pitch>
-            <tpc>17</tpc>
+            <pitch>55</pitch>
+            <tpc>15</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -18494,7 +18219,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="135">
+      <Measure number="134">
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -18538,11 +18263,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="136">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
+      <Measure number="135">
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -18589,7 +18310,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="137">
+      <Measure number="136">
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -18636,7 +18357,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="138">
+      <Measure number="137">
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -18693,7 +18414,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="139">
+      <Measure number="138">
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -18742,7 +18463,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="140">
+      <Measure number="139">
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -18785,11 +18506,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="141">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
+      <Measure number="140">
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -18836,7 +18553,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="142">
+      <Measure number="141">
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -18883,7 +18600,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="143">
+      <Measure number="142">
         <Slur id="195">
           <track>4</track>
           </Slur>
@@ -18956,7 +18673,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="144">
+      <Measure number="143">
         <Slur id="196">
           <track>4</track>
           </Slur>
@@ -19011,7 +18728,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="145">
+      <Measure number="144">
         <Slur id="197">
           <track>4</track>
           </Slur>
@@ -19084,11 +18801,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="146">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
+      <Measure number="145">
         <Slur id="198">
           <track>4</track>
           </Slur>
@@ -19132,7 +18845,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="147">
+      <Measure number="146">
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
@@ -19166,7 +18879,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="148">
+      <Measure number="147">
         <Chord>
           <dots>1</dots>
           <durationType>half</durationType>
@@ -19196,7 +18909,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="149">
+      <Measure number="148">
         <Chord>
           <durationType>quarter</durationType>
           <Articulation>
@@ -19257,7 +18970,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="150">
+      <Measure number="149">
         <Slur id="203">
           <track>4</track>
           </Slur>
@@ -19280,11 +18993,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="151">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
+      <Measure number="150">
         <Slur id="204">
           <track>4</track>
           </Slur>
@@ -19307,7 +19016,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="152">
+      <Measure number="151">
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -19334,7 +19043,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="153">
+      <Measure number="152">
         <Chord>
           <dots>1</dots>
           <durationType>quarter</durationType>
@@ -19360,6 +19069,50 @@
             </Note>
           </Chord>
         </Measure>
+      <Measure number="153">
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>43</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>50</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>55</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>43</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>50</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>55</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        </Measure>
       <Measure number="154">
         <Chord>
           <durationType>eighth</durationType>
@@ -19378,8 +19131,8 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>55</pitch>
-            <tpc>15</tpc>
+            <pitch>54</pitch>
+            <tpc>20</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -19399,8 +19152,8 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>55</pitch>
-            <tpc>15</tpc>
+            <pitch>54</pitch>
+            <tpc>20</tpc>
             </Note>
           </Chord>
         </Measure>
@@ -19449,10 +19202,6 @@
           </Chord>
         </Measure>
       <Measure number="156">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -19470,8 +19219,8 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>54</pitch>
-            <tpc>20</tpc>
+            <pitch>55</pitch>
+            <tpc>15</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -19491,8 +19240,8 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>54</pitch>
-            <tpc>20</tpc>
+            <pitch>55</pitch>
+            <tpc>15</tpc>
             </Note>
           </Chord>
         </Measure>
@@ -19558,8 +19307,8 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>55</pitch>
-            <tpc>15</tpc>
+            <pitch>54</pitch>
+            <tpc>20</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -19579,8 +19328,8 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>55</pitch>
-            <tpc>15</tpc>
+            <pitch>54</pitch>
+            <tpc>20</tpc>
             </Note>
           </Chord>
         </Measure>
@@ -19646,8 +19395,8 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>54</pitch>
-            <tpc>20</tpc>
+            <pitch>55</pitch>
+            <tpc>15</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -19673,10 +19422,6 @@
           </Chord>
         </Measure>
       <Measure number="161">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -19803,56 +19548,12 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>54</pitch>
-            <tpc>20</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="164">
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>43</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>50</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>55</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>43</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>50</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="165" len="5/8">
+      <Measure number="164" len="5/8">
         <Chord>
           <durationType>quarter</durationType>
           <Note>

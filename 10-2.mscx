@@ -9,7 +9,8 @@
       </Synthesizer>
     <Division>480</Division>
     <Style>
-      <minSystemDistance>9.2</minSystemDistance>
+      <minSystemDistance>20</minSystemDistance>
+      <maxSystemDistance>20</maxSystemDistance>
       <lyricsMinBottomDistance>6</lyricsMinBottomDistance>
       <frameSystemDistance>1</frameSystemDistance>
       <minMeasureWidth>4</minMeasureWidth>
@@ -23,7 +24,7 @@
       <beamWidth>0.48</beamWidth>
       <beamMinLen>1.25</beamMinLen>
       <propertyDistanceStem>0.5</propertyDistanceStem>
-      <harmonyY>0</harmonyY>
+      <harmonyY>2</harmonyY>
       <chordStyle>custom</chordStyle>
       <chordsXmlFile>1</chordsXmlFile>
       <chordDescriptionFile>stdchords.xml</chordDescriptionFile>
@@ -45,17 +46,17 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="noted" value="d"/>
-          <sym name="notee" value="e"/>
-          <sym name="notef" value="f"/>
-          <sym name="accidentalis" code="0x266f"/>
-          <sym name="noteg" value="g"/>
-          <sym name="noteh" value="h"/>
-          <sym name="accidentals" code="0x266d"/>
           <sym name="notea" value="a"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
+          <sym name="accidentalis" code="0x266f"/>
+          <sym name="noted" value="d"/>
+          <sym name="notee" value="e"/>
+          <sym name="accidentals" code="0x266d"/>
+          <sym name="notef" value="f"/>
+          <sym name="noteg" value="g"/>
+          <sym name="noteh" value="h"/>
+          <sym name="accidentales" code="0x266d"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -1468,28 +1469,8 @@
           </System>
         <System>
           </System>
-        <System>
-          </System>
-        <System>
-          </System>
         </Page>
       <Page>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        </Page>
-      <Page>
-        <System>
-          </System>
-        <System>
-          </System>
         <System>
           </System>
         <System>
@@ -1508,6 +1489,12 @@
           </System>
         <System>
           </System>
+        </Page>
+      <Page>
+        <System>
+          </System>
+        <System>
+          </System>
         <System>
           </System>
         <System>
@@ -1518,6 +1505,22 @@
           </System>
         <System>
           </System>
+        <System>
+          </System>
+        <System>
+          </System>
+        </Page>
+      <Page>
+        <System>
+          </System>
+        <System>
+          </System>
+        <System>
+          </System>
+        <System>
+          </System>
+        </Page>
+      <Page>
         <System>
           </System>
         <System>
@@ -1580,17 +1583,18 @@
         <height>10</height>
         <bottomGap>7</bottomGap>
         <Text>
+          <pos x="0.507457" y="-5.45516"/>
           <style>Title</style>
           <text><font face="Times New Roman"></font>Sonate No. 10</text>
           </Text>
         <Text>
-          <pos x="0" y="6.11891"/>
+          <pos x="1.01491" y="-0.478031"/>
           <style>Subtitle</style>
           <text><font face="Times New Roman"></font>2nd Movement
 Opus 14 No. 2</text>
           </Text>
         <Text>
-          <pos x="0" y="2.84982"/>
+          <pos x="-0.253729" y="-5.01576"/>
           <style>Composer</style>
           <text><font face="Times New Roman"></font>Ludwig van Beethoven
 (1770 - 1827)</text>
@@ -1615,13 +1619,13 @@ Opus 14 No. 2</text>
           </Dynamic>
         <Tempo>
           <tempo>1.5</tempo>
-          <pos x="-1.09993" y="-5.19992"/>
+          <pos x="-15.5625" y="-15.9834"/>
           <text><font face="Times New Roman"></font><b>Andante</b>
 <font size="9.99937"></font>La prima parte senza replica</text>
           </Tempo>
         <Harmony>
-          <root>14</root>
-          <name>.</name>
+          <name>.C.V</name>
+          <pos x="-1" y="-6"/>
           </Harmony>
         <Chord>
           <durationType>16th</durationType>
@@ -1958,6 +1962,7 @@ Opus 14 No. 2</text>
             <track>2</track>
             <userLen>-7.89951</userLen>
             </Stem>
+          <StemDirection>up</StemDirection>
           <Note>
             <track>2</track>
             <pitch>57</pitch>
@@ -2083,9 +2088,6 @@ Opus 14 No. 2</text>
           </Rest>
         </Measure>
       <Measure number="4">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>vi</name>
           </Harmony>
@@ -2408,7 +2410,7 @@ Opus 14 No. 2</text>
           <text><font face="Times New Roman"></font><i>cresc.</i></text>
           </Dynamic>
         <Harmony>
-          <name>V.IV</name>
+          <name>I</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -2436,7 +2438,7 @@ Opus 14 No. 2</text>
           <durationType>eighth</durationType>
           </Rest>
         <Harmony>
-          <name>V43</name>
+          <name>V.V43</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -2883,9 +2885,6 @@ Opus 14 No. 2</text>
           </Chord>
         </Measure>
       <Measure number="10">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>IV6</name>
           </Harmony>
@@ -3029,8 +3028,8 @@ Opus 14 No. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>viio6/ii</name>
-          <pos x="-0.9" y="-4"/>
+          <name>#viio6/ii</name>
+          <pos x="-2.9" y="-6"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -3382,25 +3381,24 @@ Opus 14 No. 2</text>
           <velocity>96</velocity>
           <pos x="0.181799" y="7.80361"/>
           </Dynamic>
-        <Harmony>
-          <name>V2</name>
-          </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <Tie id="11">
-              </Tie>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
           </Chord>
+        <tick>26760</tick>
+        <Harmony>
+          <name>V2</name>
+          </Harmony>
         <tick>26520</tick>
         <Chord>
           <track>1</track>
           <durationType>quarter</durationType>
           <Note>
             <track>1</track>
-            <Tie id="12">
+            <Tie id="11">
               <track>1</track>
               </Tie>
             <pitch>67</pitch>
@@ -3416,7 +3414,6 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <endSpanner id="11"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -3427,14 +3424,14 @@ Opus 14 No. 2</text>
           <pos x="-1.30907" y="7.14576"/>
           </Dynamic>
         <Harmony>
-          <name>viio65/ii</name>
+          <name>#viio65/ii</name>
           </Harmony>
-        <HairPin id="13">
+        <HairPin id="12">
           <subtype>1</subtype>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0.999937" y="0"/>
-            <pos x="21.4766" y="6.1179"/>
+            <pos x="62.4318" y="6.1179"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -3443,14 +3440,14 @@ Opus 14 No. 2</text>
             <text>(dim.)</text>
             </continueText>
           </HairPin>
-        <Slur id="14">
+        <Slur id="13">
           <track>0</track>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="14"/>
+          <Slur type="start" id="13"/>
           <Note>
-            <Tie id="15">
+            <Tie id="14">
               </Tie>
             <pitch>79</pitch>
             <tpc>15</tpc>
@@ -3459,12 +3456,12 @@ Opus 14 No. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>ii6(#74)</name>
+          <name>ii6(11#7)</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <endSpanner id="15"/>
+            <endSpanner id="14"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             <velocity>77</velocity>
@@ -3474,7 +3471,7 @@ Opus 14 No. 2</text>
         <Harmony>
           <name>ii6</name>
           </Harmony>
-        <endSpanner id="13"/>
+        <endSpanner id="12"/>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -3490,18 +3487,18 @@ Opus 14 No. 2</text>
           <durationType>quarter</durationType>
           <Note>
             <track>1</track>
-            <endSpanner id="12"/>
+            <endSpanner id="11"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
           </Chord>
-        <Slur id="16">
+        <Slur id="15">
           <track>1</track>
           </Slur>
         <Chord>
           <track>1</track>
           <durationType>quarter</durationType>
-          <Slur type="start" id="16"/>
+          <Slur type="start" id="15"/>
           <Note>
             <track>1</track>
             <Accidental>
@@ -3517,7 +3514,7 @@ Opus 14 No. 2</text>
         <Chord>
           <track>1</track>
           <durationType>half</durationType>
-          <Slur type="stop" id="16"/>
+          <Slur type="stop" id="15"/>
           <Note>
             <track>1</track>
             <pitch>69</pitch>
@@ -3528,9 +3525,6 @@ Opus 14 No. 2</text>
           </Chord>
         </Measure>
       <Measure number="16">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
@@ -3549,7 +3543,7 @@ Opus 14 No. 2</text>
             <subtype>staccato</subtype>
             <visible>0</visible>
             </Articulation>
-          <Slur type="stop" id="14"/>
+          <Slur type="stop" id="13"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -3964,7 +3958,7 @@ Opus 14 No. 2</text>
               <role>1</role>
               <subtype>natural</subtype>
               </Accidental>
-            <Tie id="17">
+            <Tie id="16">
               </Tie>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -4045,7 +4039,7 @@ Opus 14 No. 2</text>
             </Stem>
           <Note>
             <track>2</track>
-            <Tie id="18">
+            <Tie id="17">
               <track>2</track>
               </Tie>
             <pitch>55</pitch>
@@ -4055,7 +4049,7 @@ Opus 14 No. 2</text>
             </Note>
           <Note>
             <track>2</track>
-            <Tie id="19">
+            <Tie id="18">
               <track>2</track>
               </Tie>
             <pitch>59</pitch>
@@ -4074,18 +4068,18 @@ Opus 14 No. 2</text>
         <Harmony>
           <name>I(74)</name>
           </Harmony>
-        <Slur id="20">
+        <Slur id="19">
           <track>0</track>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="20"/>
+          <Slur type="start" id="19"/>
           <Note>
             <Accidental>
               <role>1</role>
               <subtype>natural</subtype>
               </Accidental>
-            <endSpanner id="17"/>
+            <endSpanner id="16"/>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
@@ -4127,7 +4121,7 @@ Opus 14 No. 2</text>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="stop" id="20"/>
+          <Slur type="stop" id="19"/>
           <Note>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -4148,13 +4142,13 @@ Opus 14 No. 2</text>
             </Stem>
           <Note>
             <track>2</track>
-            <endSpanner id="18"/>
+            <endSpanner id="17"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
           <Note>
             <track>2</track>
-            <endSpanner id="19"/>
+            <endSpanner id="18"/>
             <pitch>59</pitch>
             <tpc>19</tpc>
             </Note>
@@ -4209,6 +4203,9 @@ Opus 14 No. 2</text>
         </Measure>
       <Measure number="20" len="15/16">
         <endRepeat>2</endRepeat>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Harmony>
           <name>V(64)</name>
           </Harmony>
@@ -4384,6 +4381,9 @@ Opus 14 No. 2</text>
           <velocity>49</velocity>
           <pos x="-0.000376" y="7.1079"/>
           </Dynamic>
+        <Harmony>
+          <name>V</name>
+          </Harmony>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
@@ -4434,7 +4434,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <Tie id="21">
+            <Tie id="20">
               </Tie>
             <pitch>79</pitch>
             <tpc>15</tpc>
@@ -4448,7 +4448,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <endSpanner id="21"/>
+            <endSpanner id="20"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -4462,7 +4462,7 @@ Opus 14 No. 2</text>
           </Chord>
         <tick>40920</tick>
         <Harmony>
-          <name>ii7</name>
+          <name>V43</name>
           </Harmony>
         <tick>41160</tick>
         <Chord>
@@ -4561,13 +4561,13 @@ Opus 14 No. 2</text>
           </Harmony>
         <tick>44040</tick>
         <Harmony>
-          <name>V43/vi</name>
+          <name>#viio6/vi</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="22">
+            <Tie id="21">
               <up>1</up>
               </Tie>
             <pitch>74</pitch>
@@ -4583,7 +4583,7 @@ Opus 14 No. 2</text>
           <durationType>eighth</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="22"/>
+            <endSpanner id="21"/>
             <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
@@ -4607,7 +4607,7 @@ Opus 14 No. 2</text>
         <Harmony>
           <name>ii6</name>
           </Harmony>
-        <Slur id="23">
+        <Slur id="22">
           <track>0</track>
           <SlurSegment no="0">
             <o1 x="0" y="-0.79995"/>
@@ -4616,7 +4616,7 @@ Opus 14 No. 2</text>
           </Slur>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="start" id="23"/>
+          <Slur type="start" id="22"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>74</pitch>
@@ -4659,7 +4659,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>eighth</durationType>
           <Beam>5</Beam>
-          <Slur type="stop" id="23"/>
+          <Slur type="stop" id="22"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -4735,7 +4735,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <Tie id="24">
+            <Tie id="23">
               </Tie>
             <pitch>79</pitch>
             <tpc>15</tpc>
@@ -4743,15 +4743,18 @@ Opus 14 No. 2</text>
           </Chord>
         </Measure>
       <Measure number="26">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Dynamic>
           <subtype>other-dynamics</subtype>
           <pos x="-0.180164" y="7.25266"/>
           <text><font face="Times New Roman"></font><i>cresc.</i></text>
           </Dynamic>
         <Harmony>
-          <name>V.IV</name>
+          <name>I</name>
           </Harmony>
-        <Slur id="25">
+        <Slur id="24">
           <track>0</track>
           </Slur>
         <Beam id="6">
@@ -4763,9 +4766,9 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>eighth</durationType>
           <Beam>6</Beam>
-          <Slur type="start" id="25"/>
+          <Slur type="start" id="24"/>
           <Note>
-            <endSpanner id="24"/>
+            <endSpanner id="23"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -4773,7 +4776,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>eighth</durationType>
           <Beam>6</Beam>
-          <Slur type="stop" id="25"/>
+          <Slur type="stop" id="24"/>
           <Note>
             <pitch>84</pitch>
             <tpc>14</tpc>
@@ -4782,7 +4785,7 @@ Opus 14 No. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>V43</name>
+          <name>V.viio6</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -4821,9 +4824,9 @@ Opus 14 No. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>I6(4)</name>
+          <name>I6(11)</name>
           </Harmony>
-        <Slur id="26">
+        <Slur id="25">
           <track>0</track>
           </Slur>
         <Beam id="7">
@@ -4831,7 +4834,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>eighth</durationType>
           <Beam>7</Beam>
-          <Slur type="start" id="26"/>
+          <Slur type="start" id="25"/>
           <Note>
             <pitch>84</pitch>
             <tpc>14</tpc>
@@ -4865,7 +4868,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>eighth</durationType>
           <Beam>7</Beam>
-          <Slur type="stop" id="26"/>
+          <Slur type="stop" id="25"/>
           <Note>
             <pitch>79</pitch>
             <tpc>15</tpc>
@@ -4907,6 +4910,7 @@ Opus 14 No. 2</text>
           </Chord>
         <Harmony>
           <name>viio7/V</name>
+          <pos x="0" y="-7"/>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -4945,9 +4949,10 @@ Opus 14 No. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>V(642)</name>
+          <name>V(964)</name>
+          <pos x="0" y="-7"/>
           </Harmony>
-        <Slur id="27">
+        <Slur id="26">
           <track>0</track>
           </Slur>
         <Beam id="9">
@@ -4959,7 +4964,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>eighth</durationType>
           <Beam>9</Beam>
-          <Slur type="start" id="27"/>
+          <Slur type="start" id="26"/>
           <Note>
             <pitch>88</pitch>
             <tpc>18</tpc>
@@ -4969,6 +4974,7 @@ Opus 14 No. 2</text>
           </Chord>
         <Harmony>
           <name>V(64)</name>
+          <pos x="0" y="-7"/>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -4996,9 +5002,9 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>eighth</durationType>
           <Beam>9</Beam>
-          <Slur type="stop" id="27"/>
+          <Slur type="stop" id="26"/>
           <Note>
-            <Tie id="28">
+            <Tie id="27">
               </Tie>
             <pitch>86</pitch>
             <tpc>16</tpc>
@@ -5026,18 +5032,18 @@ Opus 14 No. 2</text>
           <durationType>eighth</durationType>
           <Beam>10</Beam>
           <Note>
-            <endSpanner id="28"/>
+            <endSpanner id="27"/>
             <pitch>86</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <Slur id="29">
+        <Slur id="28">
           <track>0</track>
           </Slur>
         <Chord>
           <durationType>eighth</durationType>
           <Beam>10</Beam>
-          <Slur type="start" id="29"/>
+          <Slur type="start" id="28"/>
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -5057,12 +5063,12 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>eighth</durationType>
           <Beam>10</Beam>
-          <Slur type="stop" id="29"/>
+          <Slur type="stop" id="28"/>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
               </Accidental>
-            <Tie id="30">
+            <Tie id="29">
               </Tie>
             <pitch>78</pitch>
             <tpc>20</tpc>
@@ -5071,7 +5077,7 @@ Opus 14 No. 2</text>
         <Harmony>
           <name>I(7)</name>
           </Harmony>
-        <Slur id="31">
+        <Slur id="30">
           <track>0</track>
           </Slur>
         <Beam id="11">
@@ -5083,9 +5089,9 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>eighth</durationType>
           <Beam>11</Beam>
-          <Slur type="start" id="31"/>
+          <Slur type="start" id="30"/>
           <Note>
-            <endSpanner id="30"/>
+            <endSpanner id="29"/>
             <pitch>78</pitch>
             <tpc>20</tpc>
             </Note>
@@ -5112,7 +5118,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>eighth</durationType>
           <Beam>11</Beam>
-          <Slur type="stop" id="31"/>
+          <Slur type="stop" id="30"/>
           <Note>
             <pitch>71</pitch>
             <tpc>19</tpc>
@@ -5120,9 +5126,6 @@ Opus 14 No. 2</text>
           </Chord>
         </Measure>
       <Measure number="29">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>I.I6</name>
           </Harmony>
@@ -5162,22 +5165,18 @@ Opus 14 No. 2</text>
           </Chord>
         <tick>55320</tick>
         <Harmony>
-          <name>IV.V2</name>
+          <name>viio64/IV</name>
           </Harmony>
         <tick>55560</tick>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <Tie id="32">
+            <Tie id="31">
               </Tie>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
           </Chord>
-        <BarLine>
-          <subtype>double</subtype>
-          <span>2</span>
-          </BarLine>
         </Measure>
       <Measure number="30">
         <startRepeat/>
@@ -5186,18 +5185,18 @@ Opus 14 No. 2</text>
           <span>2</span>
           </BarLine>
         <Harmony>
-          <name>I6(2)</name>
+          <name>IV6(2)</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <endSpanner id="32"/>
+            <endSpanner id="31"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
           </Chord>
         <Harmony>
-          <name>I6</name>
+          <name>IV6</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -5212,25 +5211,25 @@ Opus 14 No. 2</text>
           </Chord>
         <tick>56280</tick>
         <Harmony>
-          <name>V43(4)</name>
+          <name>V43(4)/IV</name>
           </Harmony>
         <tick>56520</tick>
         <Harmony>
-          <name>V43</name>
+          <name>V43/IV</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <Tie id="33">
+            <Tie id="32">
               </Tie>
             <pitch>76</pitch>
             <tpc>18</tpc>
             </Note>
           </Chord>
         <Harmony>
-          <name>I(7)</name>
+          <name>IV(7)</name>
           </Harmony>
-        <Slur id="34">
+        <Slur id="33">
           <track>0</track>
           <SlurSegment no="0">
             <o2 x="0" y="1"/>
@@ -5242,15 +5241,15 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>eighth</durationType>
           <Beam>12</Beam>
-          <Slur type="start" id="34"/>
+          <Slur type="start" id="33"/>
           <Note>
-            <endSpanner id="33"/>
+            <endSpanner id="32"/>
             <pitch>76</pitch>
             <tpc>18</tpc>
             </Note>
           </Chord>
         <Harmony>
-          <name>I</name>
+          <name>IV</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -5271,7 +5270,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>eighth</durationType>
           <Beam>12</Beam>
-          <Slur type="stop" id="34"/>
+          <Slur type="stop" id="33"/>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -5281,13 +5280,13 @@ Opus 14 No. 2</text>
             </Note>
           </Chord>
         <tick>55800</tick>
-        <Slur id="35">
+        <Slur id="34">
           <track>1</track>
           </Slur>
         <Chord>
           <track>1</track>
           <durationType>quarter</durationType>
-          <Slur type="start" id="35"/>
+          <Slur type="start" id="34"/>
           <Note>
             <track>1</track>
             <pitch>72</pitch>
@@ -5310,7 +5309,7 @@ Opus 14 No. 2</text>
         <Chord>
           <track>1</track>
           <durationType>half</durationType>
-          <Slur type="stop" id="35"/>
+          <Slur type="stop" id="34"/>
           <Note>
             <track>1</track>
             <pitch>69</pitch>
@@ -5324,9 +5323,6 @@ Opus 14 No. 2</text>
           <pos x="-0.595714" y="5.40718"/>
           <text><font face="Times New Roman"></font><i>cresc.</i></text>
           </Dynamic>
-        <Harmony>
-          <name>ii.III</name>
-          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -5345,7 +5341,7 @@ Opus 14 No. 2</text>
           </Chord>
         <tick>58200</tick>
         <Harmony>
-          <name>V65</name>
+          <name>V65/ii</name>
           </Harmony>
         <tick>58440</tick>
         <Chord>
@@ -5359,7 +5355,7 @@ Opus 14 No. 2</text>
           </Chord>
         <tick>58680</tick>
         <Harmony>
-          <name>i</name>
+          <name>ii</name>
           </Harmony>
         <tick>58920</tick>
         <Chord>
@@ -5373,13 +5369,13 @@ Opus 14 No. 2</text>
           </Chord>
         <tick>59160</tick>
         <Harmony>
-          <name>V2</name>
+          <name>V2/ii</name>
           </Harmony>
         <tick>59400</tick>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <Tie id="36">
+            <Tie id="35">
               </Tie>
             <pitch>81</pitch>
             <tpc>17</tpc>
@@ -5390,12 +5386,12 @@ Opus 14 No. 2</text>
         </Measure>
       <Measure number="32">
         <Harmony>
-          <name>I.ii6</name>
+          <name>ii6</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <endSpanner id="36"/>
+            <endSpanner id="35"/>
             <pitch>81</pitch>
             <tpc>17</tpc>
             <velocity>58</velocity>
@@ -5419,7 +5415,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <Tie id="37">
+            <Tie id="36">
               </Tie>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -5433,7 +5429,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <endSpanner id="37"/>
+            <endSpanner id="36"/>
             <pitch>74</pitch>
             <tpc>16</tpc>
             <velocity>63</velocity>
@@ -5445,12 +5441,12 @@ Opus 14 No. 2</text>
           <velocity>0</velocity>
           <pos x="-0.100887" y="6.16897"/>
           </Dynamic>
-        <Slur id="38">
+        <Slur id="37">
           <track>0</track>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="38"/>
+          <Slur type="start" id="37"/>
           <Note>
             <pitch>79</pitch>
             <tpc>15</tpc>
@@ -5460,9 +5456,12 @@ Opus 14 No. 2</text>
           </Chord>
         <tick>61080</tick>
         <Harmony>
-          <name>V\\</name>
+          <name>V</name>
           </Harmony>
         <tick>61320</tick>
+        <Harmony>
+          <name>V7\\</name>
+          </Harmony>
         <Beam id="13">
           </Beam>
         <Chord>
@@ -5482,7 +5481,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>13</Beam>
-          <Slur type="stop" id="38"/>
+          <Slur type="stop" id="37"/>
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -5546,7 +5545,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <Tie id="39">
+            <Tie id="38">
               </Tie>
             <pitch>79</pitch>
             <tpc>15</tpc>
@@ -5560,7 +5559,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <endSpanner id="39"/>
+            <endSpanner id="38"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -5610,7 +5609,7 @@ Opus 14 No. 2</text>
           <durationType>eighth</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="40">
+            <Tie id="39">
               <up>1</up>
               </Tie>
             <pitch>71</pitch>
@@ -5629,7 +5628,7 @@ Opus 14 No. 2</text>
           <durationType>eighth</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="40"/>
+            <endSpanner id="39"/>
             <pitch>71</pitch>
             <tpc>19</tpc>
             </Note>
@@ -5651,7 +5650,7 @@ Opus 14 No. 2</text>
           </Harmony>
         <tick>66120</tick>
         <Harmony>
-          <name>viio7/ii</name>
+          <name>#viio7/ii</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -5666,7 +5665,7 @@ Opus 14 No. 2</text>
           </Chord>
         <tick>66360</tick>
         <Harmony>
-          <name>ii64(#74)</name>
+          <name>V7/ii</name>
           </Harmony>
         <tick>66600</tick>
         <Harmony>
@@ -5689,7 +5688,7 @@ Opus 14 No. 2</text>
           <durationType>eighth</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="41">
+            <Tie id="40">
               <up>1</up>
               </Tie>
             <pitch>81</pitch>
@@ -5704,24 +5703,27 @@ Opus 14 No. 2</text>
           <pos x="-1.14469" y="6.98848"/>
           </Dynamic>
         <Harmony>
-          <name>V(64)</name>
+          <name>V(964)</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="41"/>
+            <endSpanner id="40"/>
             <pitch>81</pitch>
             <tpc>17</tpc>
             </Note>
           </Chord>
-        <Slur id="42">
+        <Harmony>
+          <name>V(64)</name>
+          </Harmony>
+        <Slur id="41">
           <track>0</track>
           <up>1</up>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="42"/>
+          <Slur type="start" id="41"/>
           <StemDirection>up</StemDirection>
           <Note>
             <Accidental>
@@ -5742,7 +5744,7 @@ Opus 14 No. 2</text>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="42"/>
+          <Slur type="stop" id="41"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>71</pitch>
@@ -5752,7 +5754,7 @@ Opus 14 No. 2</text>
         <Harmony>
           <name>I\\</name>
           </Harmony>
-        <Slur id="43">
+        <Slur id="42">
           <track>0</track>
           </Slur>
         <Beam id="14">
@@ -5760,7 +5762,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>eighth</durationType>
           <Beam>14</Beam>
-          <Slur type="start" id="43"/>
+          <Slur type="start" id="42"/>
           <Note>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -5785,7 +5787,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>eighth</durationType>
           <Beam>14</Beam>
-          <Slur type="stop" id="43"/>
+          <Slur type="stop" id="42"/>
           <Note>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -5804,13 +5806,13 @@ Opus 14 No. 2</text>
           <velocity>0</velocity>
           <pos x="-0.441649" y="-1.19942"/>
           </Dynamic>
-        <Slur id="44">
+        <Slur id="43">
           <track>0</track>
           <up>1</up>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="44"/>
+          <Slur type="start" id="43"/>
           <Note>
             <pitch>59</pitch>
             <tpc>19</tpc>
@@ -5820,7 +5822,7 @@ Opus 14 No. 2</text>
           </Chord>
         <tick>69720</tick>
         <Harmony>
-          <name>I(742)</name>
+          <name>I(974)</name>
           </Harmony>
         <tick>69960</tick>
         <Harmony>
@@ -5828,7 +5830,7 @@ Opus 14 No. 2</text>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="44"/>
+          <Slur type="stop" id="43"/>
           <Stem>
             <visible>0</visible>
             </Stem>
@@ -5852,13 +5854,13 @@ Opus 14 No. 2</text>
           <velocity>0</velocity>
           <pos x="-0.141669" y="-0.69945"/>
           </Dynamic>
-        <Slur id="45">
+        <Slur id="44">
           <track>0</track>
           <up>1</up>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="45"/>
+          <Slur type="start" id="44"/>
           <StemDirection>up</StemDirection>
           <Note>
             <Accidental>
@@ -5872,7 +5874,7 @@ Opus 14 No. 2</text>
           </Chord>
         <tick>70680</tick>
         <Harmony>
-          <name>ii(#742)</name>
+          <name>ii(9#74)</name>
           </Harmony>
         <tick>70920</tick>
         <Harmony>
@@ -5880,7 +5882,7 @@ Opus 14 No. 2</text>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="45"/>
+          <Slur type="stop" id="44"/>
           <Stem>
             <visible>0</visible>
             </Stem>
@@ -5894,20 +5896,10 @@ Opus 14 No. 2</text>
             </Note>
           </Chord>
         <tick>69480</tick>
-        <Slur id="46">
-          <track>2</track>
-          <SlurSegment no="0">
-            <o1 x="-0.299981" y="4.89969"/>
-            <o4 x="0" y="6.59958"/>
-            <pos x="0" y="11.5993"/>
-            <track>2</track>
-            </SlurSegment>
-          </Slur>
         <Chord>
           <track>2</track>
           <move>1</move>
           <durationType>quarter</durationType>
-          <Slur type="start" id="46"/>
           <Stem>
             <track>2</track>
             <userLen>-4.7997</userLen>
@@ -5931,7 +5923,6 @@ Opus 14 No. 2</text>
           <track>2</track>
           <move>1</move>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="46"/>
           <Stem>
             <track>2</track>
             <userLen>-6.79957</userLen>
@@ -5948,20 +5939,10 @@ Opus 14 No. 2</text>
             </Note>
           </Chord>
         <tick>70440</tick>
-        <Slur id="47">
-          <track>2</track>
-          <SlurSegment no="0">
-            <o1 x="0" y="5.69964"/>
-            <o4 x="0" y="7.09955"/>
-            <pos x="-0.299981" y="11.2993"/>
-            <track>2</track>
-            </SlurSegment>
-          </Slur>
         <Chord>
           <track>2</track>
           <move>1</move>
           <durationType>quarter</durationType>
-          <Slur type="start" id="47"/>
           <Stem>
             <track>2</track>
             <userLen>-5.69964</userLen>
@@ -5986,7 +5967,6 @@ Opus 14 No. 2</text>
           <track>2</track>
           <move>1</move>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="47"/>
           <Stem>
             <track>2</track>
             <userLen>-6.89957</userLen>
@@ -6015,12 +5995,12 @@ Opus 14 No. 2</text>
           <velocity>0</velocity>
           <pos x="-0.841629" y="-0.79945"/>
           </Dynamic>
-        <Slur id="48">
+        <Slur id="45">
           <track>0</track>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="48"/>
+          <Slur type="start" id="45"/>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -6033,7 +6013,7 @@ Opus 14 No. 2</text>
           </Chord>
         <tick>71640</tick>
         <Harmony>
-          <name>iii(#74#2)</name>
+          <name>iii(#9#74)</name>
           </Harmony>
         <tick>71880</tick>
         <Harmony>
@@ -6041,7 +6021,7 @@ Opus 14 No. 2</text>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="48"/>
+          <Slur type="stop" id="45"/>
           <Stem>
             <visible>0</visible>
             </Stem>
@@ -6088,7 +6068,7 @@ Opus 14 No. 2</text>
             <visible>0</visible>
             </Hook>
           <Note>
-            <Tie id="49">
+            <Tie id="46">
               <up>1</up>
               </Tie>
             <pitch>65</pitch>
@@ -6096,19 +6076,10 @@ Opus 14 No. 2</text>
             </Note>
           </Chord>
         <tick>71400</tick>
-        <Slur id="50">
-          <track>2</track>
-          <SlurSegment no="0">
-            <o4 x="0.999937" y="1.99987"/>
-            <pos x="-0.999937" y="16.099"/>
-            <track>2</track>
-            </SlurSegment>
-          </Slur>
         <Chord>
           <track>2</track>
           <move>1</move>
           <durationType>quarter</durationType>
-          <Slur type="start" id="50"/>
           <Stem>
             <track>2</track>
             <userLen>-4.39972</userLen>
@@ -6136,7 +6107,6 @@ Opus 14 No. 2</text>
           <track>2</track>
           <move>1</move>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="50"/>
           <Stem>
             <track>2</track>
             <userLen>-7</userLen>
@@ -6186,7 +6156,7 @@ Opus 14 No. 2</text>
             </Stem>
           <Note>
             <track>2</track>
-            <Tie id="51">
+            <Tie id="47">
               <track>2</track>
               </Tie>
             <pitch>55</pitch>
@@ -6194,7 +6164,7 @@ Opus 14 No. 2</text>
             </Note>
           <Note>
             <track>2</track>
-            <Tie id="52">
+            <Tie id="48">
               <track>2</track>
               </Tie>
             <pitch>59</pitch>
@@ -6221,7 +6191,7 @@ Opus 14 No. 2</text>
             <visible>0</visible>
             </Hook>
           <Note>
-            <endSpanner id="49"/>
+            <endSpanner id="46"/>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
@@ -6255,7 +6225,7 @@ Opus 14 No. 2</text>
           </Chord>
         <tick>74040</tick>
         <Harmony>
-          <name>ii43(42)</name>
+          <name>vi7</name>
           </Harmony>
         <tick>74280</tick>
         <Harmony>
@@ -6278,9 +6248,12 @@ Opus 14 No. 2</text>
           </Chord>
         <tick>74520</tick>
         <Harmony>
-          <name>ii7</name>
+          <name>ii65</name>
           </Harmony>
         <tick>74760</tick>
+        <Harmony>
+          <name>IV</name>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Stem>
@@ -6291,7 +6264,7 @@ Opus 14 No. 2</text>
             <visible>0</visible>
             </Hook>
           <Note>
-            <Tie id="53">
+            <Tie id="49">
               </Tie>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -6299,7 +6272,7 @@ Opus 14 No. 2</text>
             <veloType>user</veloType>
             </Note>
           <Note>
-            <Tie id="54">
+            <Tie id="50">
               </Tie>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -6318,13 +6291,13 @@ Opus 14 No. 2</text>
             </Stem>
           <Note>
             <track>2</track>
-            <endSpanner id="51"/>
+            <endSpanner id="47"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
           <Note>
             <track>2</track>
-            <endSpanner id="52"/>
+            <endSpanner id="48"/>
             <pitch>59</pitch>
             <tpc>19</tpc>
             </Note>
@@ -6394,7 +6367,7 @@ Opus 14 No. 2</text>
             </Stem>
           <Note>
             <track>2</track>
-            <Tie id="55">
+            <Tie id="51">
               <track>2</track>
               </Tie>
             <pitch>57</pitch>
@@ -6405,20 +6378,28 @@ Opus 14 No. 2</text>
           </Chord>
         </Measure>
       <Measure number="40">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
           <pos x="-0.0370217" y="7.20447"/>
           </Dynamic>
         <Harmony>
-          <name>V7(42)</name>
+          <name>V7(94)</name>
           </Harmony>
-        <Volta id="56">
+        <Volta id="52">
           <endHook>1</endHook>
           <Segment>
-            <subtype>0</subtype>
+            <subtype>1</subtype>
             <off2 x="0" y="0"/>
             <offset x="0.346055" y="-1.35158"/>
+            </Segment>
+          <Segment>
+            <subtype>3</subtype>
+            <off2 x="0" y="0"/>
+            <offset x="0" y="-1.35158"/>
             </Segment>
           <beginText>
             <text><font face="Times New Roman"></font><b>1.</b></text>
@@ -6435,12 +6416,12 @@ Opus 14 No. 2</text>
             <visible>0</visible>
             </Hook>
           <Note>
-            <endSpanner id="53"/>
+            <endSpanner id="49"/>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
           <Note>
-            <endSpanner id="54"/>
+            <endSpanner id="50"/>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
@@ -6493,6 +6474,9 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
+        <Harmony>
+          <name>V</name>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -6511,7 +6495,7 @@ Opus 14 No. 2</text>
             </Stem>
           <Note>
             <track>2</track>
-            <endSpanner id="55"/>
+            <endSpanner id="51"/>
             <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>
@@ -6566,9 +6550,6 @@ Opus 14 No. 2</text>
         </Measure>
       <Measure number="41">
         <endRepeat>2</endRepeat>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>I6</name>
           </Harmony>
@@ -6612,10 +6593,10 @@ Opus 14 No. 2</text>
           </Chord>
         <tick>78360</tick>
         <Harmony>
-          <name>IV.V2</name>
+          <name>viio64/IV</name>
           </Harmony>
         <tick>78600</tick>
-        <Slur id="57">
+        <Slur id="53">
           <track>0</track>
           <SlurSegment no="0">
             <o2 x="0" y="0.199962"/>
@@ -6623,39 +6604,21 @@ Opus 14 No. 2</text>
             <o4 x="-1.39993" y="0"/>
             <pos x="0.999937" y="0.599962"/>
             </SlurSegment>
-          <SlurSegment no="1">
-            <o1 x="-0.3" y="0"/>
-            <o2 x="0" y="0.2"/>
-            <o3 x="0" y="0.1"/>
-            <pos x="-1.09993" y="4.29973"/>
-            </SlurSegment>
           </Slur>
-        <Slur id="58">
+        <Slur id="54">
           <track>0</track>
           <SlurSegment no="0">
             <pos x="0" y="-0.999937"/>
             </SlurSegment>
-          <SlurSegment no="1">
-            <o1 x="-0.3" y="0"/>
-            <o2 x="0" y="0.1"/>
-            <o3 x="0" y="0.1"/>
-            <pos x="-0.699956" y="2.39985"/>
-            </SlurSegment>
           </Slur>
-        <Slur id="59">
+        <Slur id="55">
           <track>0</track>
-          <SlurSegment no="1">
-            <o1 x="-0.4" y="0"/>
-            <o2 x="0" y="0.1"/>
-            <o3 x="0" y="0.1"/>
-            <pos x="-0.699956" y="8.99943"/>
-            </SlurSegment>
           </Slur>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="start" id="57"/>
-          <Slur type="start" id="58"/>
-          <Slur type="start" id="59"/>
+          <Slur type="start" id="53"/>
+          <Slur type="start" id="54"/>
+          <Slur type="start" id="55"/>
           <Note>
             <pitch>79</pitch>
             <tpc>15</tpc>
@@ -6664,16 +6627,19 @@ Opus 14 No. 2</text>
         </Measure>
       <Measure number="40">
         <noOffset>-2</noOffset>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
           <pos x="-0.244748" y="7.24003"/>
           </Dynamic>
         <Harmony>
-          <name>V7(42)</name>
+          <name>V7(94)</name>
           </Harmony>
-        <endSpanner id="56"/>
-        <Volta id="60">
+        <endSpanner id="52"/>
+        <Volta id="56">
           <endHook>1</endHook>
           <Segment>
             <subtype>0</subtype>
@@ -6687,9 +6653,9 @@ Opus 14 No. 2</text>
           </Volta>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="57"/>
-          <Slur type="stop" id="58"/>
-          <Slur type="stop" id="59"/>
+          <Slur type="stop" id="53"/>
+          <Slur type="stop" id="54"/>
+          <Slur type="stop" id="55"/>
           <Stem>
             <visible>0</visible>
             </Stem>
@@ -6756,6 +6722,9 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
+        <Harmony>
+          <name>V</name>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -6838,10 +6807,10 @@ Opus 14 No. 2</text>
           <pos x="-0.120074" y="7.02155"/>
           </Dynamic>
         <Harmony>
-          <name>I&quot;I6</name>
+          <name>I[I6</name>
           </Harmony>
-        <endSpanner id="60"/>
-        <Slur id="61">
+        <endSpanner id="56"/>
+        <Slur id="57">
           <track>0</track>
           </Slur>
         <Beam id="15">
@@ -6852,7 +6821,7 @@ Opus 14 No. 2</text>
             <subtype>staccato</subtype>
             </Articulation>
           <Beam>15</Beam>
-          <Slur type="start" id="61"/>
+          <Slur type="start" id="57"/>
           <Note>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -6864,7 +6833,7 @@ Opus 14 No. 2</text>
             <subtype>staccato</subtype>
             </Articulation>
           <Beam>15</Beam>
-          <Slur type="stop" id="61"/>
+          <Slur type="stop" id="57"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -6880,7 +6849,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
-        <Slur id="62">
+        <Slur id="58">
           <track>0</track>
           </Slur>
         <Chord>
@@ -6888,7 +6857,7 @@ Opus 14 No. 2</text>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
-          <Slur type="start" id="62"/>
+          <Slur type="start" id="58"/>
           <Note>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -6937,7 +6906,7 @@ Opus 14 No. 2</text>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
-          <Slur type="stop" id="62"/>
+          <Slur type="stop" id="58"/>
           <Note>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -6959,7 +6928,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
-        <Slur id="63">
+        <Slur id="59">
           <track>0</track>
           </Slur>
         <Chord>
@@ -6967,7 +6936,7 @@ Opus 14 No. 2</text>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
-          <Slur type="start" id="63"/>
+          <Slur type="start" id="59"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -7040,7 +7009,7 @@ Opus 14 No. 2</text>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
-          <Slur type="stop" id="63"/>
+          <Slur type="stop" id="59"/>
           <Note>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -7056,9 +7025,6 @@ Opus 14 No. 2</text>
           </Chord>
         </Measure>
       <Measure number="43">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>V2</name>
           </Harmony>
@@ -7139,7 +7105,8 @@ Opus 14 No. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>V+7/IV&quot;</name>
+          <name>V+7/IV]</name>
+          <pos x="-0.6" y="-6"/>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -7224,7 +7191,7 @@ Opus 14 No. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>V(b2)</name>
+          <name>V(b9)</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -7259,7 +7226,7 @@ Opus 14 No. 2</text>
           <name>V</name>
           </Harmony>
         <tick>87720</tick>
-        <Slur id="64">
+        <Slur id="60">
           <track>1</track>
           <SlurSegment no="0">
             <o1 x="0" y="1.09993"/>
@@ -7269,7 +7236,7 @@ Opus 14 No. 2</text>
         <Chord>
           <track>1</track>
           <durationType>quarter</durationType>
-          <Slur type="start" id="64"/>
+          <Slur type="start" id="60"/>
           <Note>
             <track>1</track>
             <Accidental>
@@ -7303,7 +7270,7 @@ Opus 14 No. 2</text>
           <track>1</track>
           <durationType>16th</durationType>
           <Beam>16</Beam>
-          <Slur type="stop" id="64"/>
+          <Slur type="stop" id="60"/>
           <Note>
             <track>1</track>
             <pitch>65</pitch>
@@ -7318,12 +7285,12 @@ Opus 14 No. 2</text>
           <pos x="0.15987" y="6.34663"/>
           </Dynamic>
         <Harmony>
-          <name>I&quot;I6</name>
+          <name>I[I6</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
-        <Slur id="65">
+        <Slur id="61">
           <track>0</track>
           </Slur>
         <Chord>
@@ -7331,7 +7298,7 @@ Opus 14 No. 2</text>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
-          <Slur type="start" id="65"/>
+          <Slur type="start" id="61"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -7400,7 +7367,7 @@ Opus 14 No. 2</text>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
-          <Slur type="stop" id="65"/>
+          <Slur type="stop" id="61"/>
           <Note>
             <pitch>62</pitch>
             <tpc>16</tpc>
@@ -7417,7 +7384,7 @@ Opus 14 No. 2</text>
         </Measure>
       <Measure number="46">
         <Harmony>
-          <name>V.IV&quot;</name>
+          <name>I]</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -7446,7 +7413,7 @@ Opus 14 No. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>viio65</name>
+          <name>V.viio65</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -7532,9 +7499,6 @@ Opus 14 No. 2</text>
           </Chord>
         </Measure>
       <Measure number="47">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>ii65</name>
           </Harmony>
@@ -7738,7 +7702,7 @@ Opus 14 No. 2</text>
             <veloType>user</veloType>
             </Note>
           </Chord>
-        <Slur id="66">
+        <Slur id="62">
           <track>0</track>
           <SlurSegment no="0">
             <o2 x="0" y="-0.599962"/>
@@ -7763,7 +7727,7 @@ Opus 14 No. 2</text>
           <Tuplet>2</Tuplet>
           <durationType>16th</durationType>
           <Beam>17</Beam>
-          <Slur type="start" id="66"/>
+          <Slur type="start" id="62"/>
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -7782,7 +7746,7 @@ Opus 14 No. 2</text>
           <Tuplet>2</Tuplet>
           <durationType>16th</durationType>
           <Beam>17</Beam>
-          <Slur type="stop" id="66"/>
+          <Slur type="stop" id="62"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -7791,18 +7755,22 @@ Opus 14 No. 2</text>
         </Measure>
       <Measure number="49">
         <startRepeat/>
+        <BarLine>
+          <subtype>start-repeat</subtype>
+          <span>2</span>
+          </BarLine>
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
           <pos x="0.198243" y="6.95136"/>
           </Dynamic>
         <Harmony>
-          <name>IV.viio65</name>
+          <name>I.#viio43/ii</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
-        <Slur id="67">
+        <Slur id="63">
           <track>0</track>
           </Slur>
         <Chord>
@@ -7810,7 +7778,7 @@ Opus 14 No. 2</text>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
-          <Slur type="start" id="67"/>
+          <Slur type="start" id="63"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -7837,9 +7805,6 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
-        <Harmony>
-          <name>viio65(2)</name>
-          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -7869,9 +7834,6 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
-        <Harmony>
-          <name>viio65</name>
-          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -7895,7 +7857,7 @@ Opus 14 No. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>V43</name>
+          <name>V43/IV</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -7905,7 +7867,7 @@ Opus 14 No. 2</text>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
-          <Slur type="stop" id="67"/>
+          <Slur type="stop" id="63"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -7929,7 +7891,7 @@ Opus 14 No. 2</text>
         </Measure>
       <Measure number="50">
         <Harmony>
-          <name>I6</name>
+          <name>IV6</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -7954,7 +7916,7 @@ Opus 14 No. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>V43</name>
+          <name>V43/IV</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -7989,7 +7951,7 @@ Opus 14 No. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>I</name>
+          <name>IV</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -8018,7 +7980,7 @@ Opus 14 No. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>I+</name>
+          <name>IV+</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -8051,17 +8013,13 @@ Opus 14 No. 2</text>
           </Chord>
         </Measure>
       <Measure number="51">
-        <vspacerDown>6.99975</vspacerDown>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Dynamic>
           <subtype>other-dynamics</subtype>
           <pos x="-0.795722" y="7.16318"/>
           <text><font face="Times New Roman"></font><i>cresc.</i></text>
           </Dynamic>
         <Harmony>
-          <name>I.IV&quot;ii</name>
+          <name>IV[ii</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -8090,7 +8048,7 @@ Opus 14 No. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>viio2/ii</name>
+          <name>#viio2/ii</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -8158,7 +8116,7 @@ Opus 14 No. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>viio43/ii</name>
+          <name>#viio43/ii</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -8193,7 +8151,7 @@ Opus 14 No. 2</text>
         </Measure>
       <Measure number="52">
         <Harmony>
-          <name>ii6&quot;</name>
+          <name>ii6]</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -8319,12 +8277,12 @@ Opus 14 No. 2</text>
           <pos x="0.0564845" y="6.91629"/>
           </Dynamic>
         <Harmony>
-          <name>I&quot;I</name>
+          <name>I[I</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
-        <Slur id="68">
+        <Slur id="64">
           <track>0</track>
           </Slur>
         <Chord>
@@ -8332,7 +8290,7 @@ Opus 14 No. 2</text>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
-          <Slur type="start" id="68"/>
+          <Slur type="start" id="64"/>
           <Note>
             <Accidental>
               <role>1</role>
@@ -8409,7 +8367,7 @@ Opus 14 No. 2</text>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
-          <Slur type="stop" id="68"/>
+          <Slur type="stop" id="64"/>
           <Note>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -8431,7 +8389,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
-        <Slur id="69">
+        <Slur id="65">
           <track>0</track>
           </Slur>
         <Chord>
@@ -8439,7 +8397,7 @@ Opus 14 No. 2</text>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
-          <Slur type="start" id="69"/>
+          <Slur type="start" id="65"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -8502,7 +8460,7 @@ Opus 14 No. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>V7&quot;</name>
+          <name>V7]</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -8512,7 +8470,7 @@ Opus 14 No. 2</text>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
-          <Slur type="stop" id="69"/>
+          <Slur type="stop" id="65"/>
           <Note>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -8528,9 +8486,6 @@ Opus 14 No. 2</text>
           </Chord>
         </Measure>
       <Measure number="55">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>V2</name>
           </Harmony>
@@ -8569,7 +8524,7 @@ Opus 14 No. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>viio65/ii</name>
+          <name>#viio65/ii</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -8612,7 +8567,7 @@ Opus 14 No. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>ii6(#7b64)</name>
+          <name>ii6(11#7b6)</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -8765,7 +8720,7 @@ Opus 14 No. 2</text>
             <veloType>user</veloType>
             </Note>
           </Chord>
-        <Slur id="70">
+        <Slur id="66">
           <track>0</track>
           <SlurSegment no="0">
             <o1 x="0" y="0.699956"/>
@@ -8789,7 +8744,7 @@ Opus 14 No. 2</text>
           <Tuplet>3</Tuplet>
           <durationType>16th</durationType>
           <Beam>18</Beam>
-          <Slur type="start" id="70"/>
+          <Slur type="start" id="66"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -8808,7 +8763,7 @@ Opus 14 No. 2</text>
           <Tuplet>3</Tuplet>
           <durationType>16th</durationType>
           <Beam>18</Beam>
-          <Slur type="stop" id="70"/>
+          <Slur type="stop" id="66"/>
           <Note>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -9074,7 +9029,7 @@ Opus 14 No. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>ii</name>
+          <name>iii</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -9274,9 +9229,6 @@ Opus 14 No. 2</text>
           </Chord>
         </Measure>
       <Measure number="59">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Dynamic>
           <subtype>other-dynamics</subtype>
           <pos x="-0.683593" y="7.71606"/>
@@ -9514,7 +9466,7 @@ Opus 14 No. 2</text>
         <Harmony>
           <name>V(64)</name>
           </Harmony>
-        <Volta id="71">
+        <Volta id="67">
           <endHook>1</endHook>
           <Segment>
             <subtype>0</subtype>
@@ -9585,7 +9537,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
-        <Slur id="72">
+        <Slur id="68">
           <track>0</track>
           <up>2</up>
           </Slur>
@@ -9598,7 +9550,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>eighth</durationType>
           <Beam>21</Beam>
-          <Slur type="start" id="72"/>
+          <Slur type="start" id="68"/>
           <Note>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -9607,7 +9559,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>eighth</durationType>
           <Beam>21</Beam>
-          <Slur type="stop" id="72"/>
+          <Slur type="stop" id="68"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -9682,8 +9634,8 @@ Opus 14 No. 2</text>
         <Harmony>
           <name>V(64)</name>
           </Harmony>
-        <endSpanner id="71"/>
-        <Volta id="73">
+        <endSpanner id="67"/>
+        <Volta id="69">
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
@@ -9753,7 +9705,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
-        <Slur id="74">
+        <Slur id="70">
           <track>0</track>
           <SlurSegment no="0">
             <o2 x="0.399975" y="0"/>
@@ -9770,7 +9722,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>eighth</durationType>
           <Beam>22</Beam>
-          <Slur type="start" id="74"/>
+          <Slur type="start" id="70"/>
           <Note>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -9779,7 +9731,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>eighth</durationType>
           <Beam>22</Beam>
-          <Slur type="stop" id="74"/>
+          <Slur type="stop" id="70"/>
           <Note>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -9851,13 +9803,13 @@ Opus 14 No. 2</text>
           <pos x="0.0041215" y="7.07418"/>
           </Dynamic>
         <Harmony>
-          <name>V&quot;viio6(2)</name>
+          <name>V7(4)</name>
           </Harmony>
-        <endSpanner id="73"/>
+        <endSpanner id="69"/>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
-        <Slur id="75">
+        <Slur id="71">
           <track>0</track>
           </Slur>
         <Chord>
@@ -9865,7 +9817,7 @@ Opus 14 No. 2</text>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
-          <Slur type="start" id="75"/>
+          <Slur type="start" id="71"/>
           <Note>
             <pitch>62</pitch>
             <tpc>16</tpc>
@@ -9880,7 +9832,7 @@ Opus 14 No. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>viio6</name>
+          <name>V7</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -9904,7 +9856,7 @@ Opus 14 No. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>viio7</name>
+          <name>V7(b9)</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -9931,7 +9883,7 @@ Opus 14 No. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>V43</name>
+          <name>V7</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -9941,7 +9893,7 @@ Opus 14 No. 2</text>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
-          <Slur type="stop" id="75"/>
+          <Slur type="stop" id="71"/>
           <Note>
             <pitch>62</pitch>
             <tpc>16</tpc>
@@ -9958,12 +9910,12 @@ Opus 14 No. 2</text>
         </Measure>
       <Measure number="62">
         <Harmony>
-          <name>viio(2)</name>
+          <name>V7(4)</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
-        <Slur id="76">
+        <Slur id="72">
           <track>0</track>
           </Slur>
         <Chord>
@@ -9971,7 +9923,7 @@ Opus 14 No. 2</text>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
-          <Slur type="start" id="76"/>
+          <Slur type="start" id="72"/>
           <Note>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -9986,7 +9938,7 @@ Opus 14 No. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>viio</name>
+          <name>V7</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -10010,7 +9962,7 @@ Opus 14 No. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>viio2</name>
+          <name>V7(b9)</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -10047,7 +9999,7 @@ Opus 14 No. 2</text>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
-          <Slur type="stop" id="76"/>
+          <Slur type="stop" id="72"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -10063,16 +10015,13 @@ Opus 14 No. 2</text>
           </Chord>
         </Measure>
       <Measure number="63">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
-          <name>V6(b2)</name>
+          <name>V(b9)</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
-        <Slur id="77">
+        <Slur id="73">
           <track>0</track>
           </Slur>
         <Chord>
@@ -10080,7 +10029,7 @@ Opus 14 No. 2</text>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
-          <Slur type="start" id="77"/>
+          <Slur type="start" id="73"/>
           <Note>
             <pitch>71</pitch>
             <tpc>19</tpc>
@@ -10104,7 +10053,7 @@ Opus 14 No. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>V6</name>
+          <name>V</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -10134,7 +10083,7 @@ Opus 14 No. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>viio(b6)</name>
+          <name>V(#7)</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -10167,7 +10116,7 @@ Opus 14 No. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>viio</name>
+          <name>V7</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -10177,7 +10126,7 @@ Opus 14 No. 2</text>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
-          <Slur type="stop" id="77"/>
+          <Slur type="stop" id="73"/>
           <Note>
             <pitch>71</pitch>
             <tpc>19</tpc>
@@ -10203,12 +10152,12 @@ Opus 14 No. 2</text>
         </Measure>
       <Measure number="64">
         <Harmony>
-          <name>ii64(b6)</name>
+          <name>v7</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
-        <Slur id="78">
+        <Slur id="74">
           <track>0</track>
           </Slur>
         <Chord>
@@ -10216,7 +10165,7 @@ Opus 14 No. 2</text>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
-          <Slur type="start" id="78"/>
+          <Slur type="start" id="74"/>
           <Note>
             <Accidental>
               <subtype>flat</subtype>
@@ -10234,7 +10183,7 @@ Opus 14 No. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>ii64</name>
+          <name>V7(9)</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -10262,7 +10211,7 @@ Opus 14 No. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>V7(b2)</name>
+          <name>V7(b9)</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -10289,7 +10238,7 @@ Opus 14 No. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>V7&quot;\\</name>
+          <name>V7\\</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -10299,7 +10248,7 @@ Opus 14 No. 2</text>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
-          <Slur type="stop" id="78"/>
+          <Slur type="stop" id="74"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -10326,7 +10275,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="79">
+        <Slur id="75">
           <track>0</track>
           </Slur>
         <Beam id="23">
@@ -10334,7 +10283,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>23</Beam>
-          <Slur type="start" id="79"/>
+          <Slur type="start" id="75"/>
           <Note>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -10351,7 +10300,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>23</Beam>
-          <Slur type="stop" id="79"/>
+          <Slur type="stop" id="75"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -10363,7 +10312,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="80">
+        <Slur id="76">
           <track>0</track>
           </Slur>
         <Beam id="24">
@@ -10371,7 +10320,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>24</Beam>
-          <Slur type="start" id="80"/>
+          <Slur type="start" id="76"/>
           <Note>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -10392,19 +10341,19 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>24</Beam>
-          <Slur type="stop" id="80"/>
+          <Slur type="stop" id="76"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
           </Chord>
         <Harmony>
-          <name>I6(#4)</name>
+          <name>I6</name>
           </Harmony>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="81">
+        <Slur id="77">
           <track>0</track>
           </Slur>
         <Beam id="25">
@@ -10416,7 +10365,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>25</Beam>
-          <Slur type="start" id="81"/>
+          <Slur type="start" id="77"/>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -10433,13 +10382,10 @@ Opus 14 No. 2</text>
             <tpc>14</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>I6</name>
-          </Harmony>
         <Chord>
           <durationType>16th</durationType>
           <Beam>25</Beam>
-          <Slur type="stop" id="81"/>
+          <Slur type="stop" id="77"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -10451,7 +10397,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="82">
+        <Slur id="78">
           <track>0</track>
           </Slur>
         <Beam id="26">
@@ -10459,7 +10405,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>26</Beam>
-          <Slur type="start" id="82"/>
+          <Slur type="start" id="78"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -10476,7 +10422,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>26</Beam>
-          <Slur type="stop" id="82"/>
+          <Slur type="stop" id="78"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -10484,16 +10430,13 @@ Opus 14 No. 2</text>
           </Chord>
         </Measure>
       <Measure number="66">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>I</name>
           </Harmony>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="83">
+        <Slur id="79">
           <track>0</track>
           <SlurSegment no="0">
             <o4 x="0" y="0.299981"/>
@@ -10509,7 +10452,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>27</Beam>
-          <Slur type="start" id="83"/>
+          <Slur type="start" id="79"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -10526,7 +10469,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>27</Beam>
-          <Slur type="stop" id="83"/>
+          <Slur type="stop" id="79"/>
           <Note>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -10538,7 +10481,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="84">
+        <Slur id="80">
           <track>0</track>
           <SlurSegment no="0">
             <o4 x="0" y="0.199987"/>
@@ -10554,7 +10497,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>28</Beam>
-          <Slur type="start" id="84"/>
+          <Slur type="start" id="80"/>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -10571,7 +10514,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>28</Beam>
-          <Slur type="stop" id="84"/>
+          <Slur type="stop" id="80"/>
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -10583,7 +10526,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="85">
+        <Slur id="81">
           <track>0</track>
           <SlurSegment no="0">
             <o1 x="0" y="-0.999937"/>
@@ -10598,7 +10541,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>29</Beam>
-          <Slur type="start" id="85"/>
+          <Slur type="start" id="81"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -10643,7 +10586,8 @@ Opus 14 No. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>V2</name>
+          <name>viio64</name>
+          <pos x="-1" y="-6"/>
           </Harmony>
         <Chord>
           <durationType>16th</durationType>
@@ -10656,7 +10600,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>30</Beam>
-          <Slur type="stop" id="85"/>
+          <Slur type="stop" id="81"/>
           <Note>
             <pitch>71</pitch>
             <tpc>19</tpc>
@@ -10670,7 +10614,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="86">
+        <Slur id="82">
           <track>0</track>
           <SlurSegment no="0">
             <o1 x="-0.599962" y="0"/>
@@ -10687,7 +10631,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>31</Beam>
-          <Slur type="start" id="86"/>
+          <Slur type="start" id="82"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -10704,7 +10648,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>31</Beam>
-          <Slur type="stop" id="86"/>
+          <Slur type="stop" id="82"/>
           <Note>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -10716,7 +10660,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="87">
+        <Slur id="83">
           <track>0</track>
           <SlurSegment no="0">
             <o1 x="0" y="-1.69989"/>
@@ -10731,7 +10675,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>32</Beam>
-          <Slur type="start" id="87"/>
+          <Slur type="start" id="83"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -10748,7 +10692,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>32</Beam>
-          <Slur type="stop" id="87"/>
+          <Slur type="stop" id="83"/>
           <Note>
             <pitch>77</pitch>
             <tpc>13</tpc>
@@ -10760,7 +10704,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="88">
+        <Slur id="84">
           <track>0</track>
           <SlurSegment no="0">
             <o2 x="0" y="-0.79995"/>
@@ -10777,7 +10721,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>33</Beam>
-          <Slur type="start" id="88"/>
+          <Slur type="start" id="84"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -10794,19 +10738,19 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>33</Beam>
-          <Slur type="stop" id="88"/>
+          <Slur type="stop" id="84"/>
           <Note>
             <pitch>76</pitch>
             <tpc>18</tpc>
             </Note>
           </Chord>
         <Harmony>
-          <name>viio6/vi</name>
+          <name>#viio6/vi</name>
           </Harmony>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="89">
+        <Slur id="85">
           <track>0</track>
           <SlurSegment no="0">
             <pos x="0" y="-0.999937"/>
@@ -10821,7 +10765,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>34</Beam>
-          <Slur type="start" id="89"/>
+          <Slur type="start" id="85"/>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -10844,7 +10788,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>34</Beam>
-          <Slur type="stop" id="89"/>
+          <Slur type="stop" id="85"/>
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -10858,7 +10802,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="90">
+        <Slur id="86">
           <track>0</track>
           <SlurSegment no="0">
             <pos x="0" y="-1.89988"/>
@@ -10873,7 +10817,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>35</Beam>
-          <Slur type="start" id="90"/>
+          <Slur type="start" id="86"/>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -10890,19 +10834,19 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>35</Beam>
-          <Slur type="stop" id="90"/>
+          <Slur type="stop" id="86"/>
           <Note>
             <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
           </Chord>
         <Harmony>
-          <name>ii6</name>
+          <name>IV</name>
           </Harmony>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="91">
+        <Slur id="87">
           <track>0</track>
           <SlurSegment no="0">
             <o4 x="0.499969" y="0.999937"/>
@@ -10918,7 +10862,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>36</Beam>
-          <Slur type="start" id="91"/>
+          <Slur type="start" id="87"/>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -10935,7 +10879,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>36</Beam>
-          <Slur type="stop" id="91"/>
+          <Slur type="stop" id="87"/>
           <Note>
             <pitch>77</pitch>
             <tpc>13</tpc>
@@ -10944,7 +10888,7 @@ Opus 14 No. 2</text>
         <Harmony>
           <name>V7</name>
           </Harmony>
-        <Slur id="92">
+        <Slur id="88">
           <track>0</track>
           </Slur>
         <Beam id="37">
@@ -10952,7 +10896,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>37</Beam>
-          <Slur type="start" id="92"/>
+          <Slur type="start" id="88"/>
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -11011,7 +10955,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>38</Beam>
-          <Slur type="stop" id="92"/>
+          <Slur type="stop" id="88"/>
           <Note>
             <pitch>62</pitch>
             <tpc>16</tpc>
@@ -11019,16 +10963,13 @@ Opus 14 No. 2</text>
           </Chord>
         </Measure>
       <Measure number="69">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>I</name>
           </Harmony>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="93">
+        <Slur id="89">
           <track>0</track>
           </Slur>
         <Beam id="39">
@@ -11040,7 +10981,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>39</Beam>
-          <Slur type="start" id="93"/>
+          <Slur type="start" id="89"/>
           <Note>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -11059,7 +11000,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>39</Beam>
-          <Slur type="stop" id="93"/>
+          <Slur type="stop" id="89"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -11073,7 +11014,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="94">
+        <Slur id="90">
           <track>0</track>
           </Slur>
         <Beam id="40">
@@ -11085,7 +11026,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>40</Beam>
-          <Slur type="start" id="94"/>
+          <Slur type="start" id="90"/>
           <Note>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -11106,7 +11047,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>40</Beam>
-          <Slur type="stop" id="94"/>
+          <Slur type="stop" id="90"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -11115,12 +11056,12 @@ Opus 14 No. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>I6(#4)</name>
+          <name>I6</name>
           </Harmony>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="95">
+        <Slur id="91">
           <track>0</track>
           </Slur>
         <Beam id="41">
@@ -11132,7 +11073,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>41</Beam>
-          <Slur type="start" id="95"/>
+          <Slur type="start" id="91"/>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -11153,13 +11094,10 @@ Opus 14 No. 2</text>
             <veloType>user</veloType>
             </Note>
           </Chord>
-        <Harmony>
-          <name>I6</name>
-          </Harmony>
         <Chord>
           <durationType>16th</durationType>
           <Beam>41</Beam>
-          <Slur type="stop" id="95"/>
+          <Slur type="stop" id="91"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -11173,7 +11111,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="96">
+        <Slur id="92">
           <track>0</track>
           </Slur>
         <Beam id="42">
@@ -11185,7 +11123,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>42</Beam>
-          <Slur type="start" id="96"/>
+          <Slur type="start" id="92"/>
           <Note>
             <pitch>62</pitch>
             <tpc>16</tpc>
@@ -11206,7 +11144,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>42</Beam>
-          <Slur type="stop" id="96"/>
+          <Slur type="stop" id="92"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -11222,7 +11160,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="97">
+        <Slur id="93">
           <track>0</track>
           <SlurSegment no="0">
             <o4 x="0" y="0.79995"/>
@@ -11239,7 +11177,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>43</Beam>
-          <Slur type="start" id="97"/>
+          <Slur type="start" id="93"/>
           <Note>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -11260,7 +11198,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>43</Beam>
-          <Slur type="stop" id="97"/>
+          <Slur type="stop" id="93"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -11269,12 +11207,12 @@ Opus 14 No. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>viio6/V</name>
+          <name>V.viio6</name>
           </Harmony>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="98">
+        <Slur id="94">
           <track>0</track>
           <SlurSegment no="0">
             <o1 x="0" y="-1.09993"/>
@@ -11290,7 +11228,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>44</Beam>
-          <Slur type="start" id="98"/>
+          <Slur type="start" id="94"/>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -11317,7 +11255,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>44</Beam>
-          <Slur type="stop" id="98"/>
+          <Slur type="stop" id="94"/>
           <Note>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -11332,12 +11270,12 @@ Opus 14 No. 2</text>
           <text><font face="Times New Roman"></font><i>rinf.</i></text>
           </Dynamic>
         <Harmony>
-          <name>V65</name>
+          <name>I6</name>
           </Harmony>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="99">
+        <Slur id="95">
           <track>0</track>
           <SlurSegment no="0">
             <o1 x="-0.299981" y="0"/>
@@ -11354,7 +11292,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>45</Beam>
-          <Slur type="start" id="99"/>
+          <Slur type="start" id="95"/>
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -11405,7 +11343,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>46</Beam>
-          <Slur type="stop" id="99"/>
+          <Slur type="stop" id="95"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -11419,12 +11357,12 @@ Opus 14 No. 2</text>
           <text><font face="Times New Roman"></font><i>cresc.</i></text>
           </Dynamic>
         <Harmony>
-          <name>V.ii65</name>
+          <name>ii65</name>
           </Harmony>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="100">
+        <Slur id="96">
           <track>0</track>
           </Slur>
         <Beam id="47">
@@ -11436,7 +11374,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>47</Beam>
-          <Slur type="start" id="100"/>
+          <Slur type="start" id="96"/>
           <Note>
             <pitch>76</pitch>
             <tpc>18</tpc>
@@ -11457,7 +11395,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>47</Beam>
-          <Slur type="stop" id="100"/>
+          <Slur type="stop" id="96"/>
           <Note>
             <pitch>79</pitch>
             <tpc>15</tpc>
@@ -11471,7 +11409,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="101">
+        <Slur id="97">
           <track>0</track>
           </Slur>
         <Beam id="48">
@@ -11483,7 +11421,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>48</Beam>
-          <Slur type="start" id="101"/>
+          <Slur type="start" id="97"/>
           <Note>
             <pitch>76</pitch>
             <tpc>18</tpc>
@@ -11507,7 +11445,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>48</Beam>
-          <Slur type="stop" id="101"/>
+          <Slur type="stop" id="97"/>
           <Note>
             <pitch>79</pitch>
             <tpc>15</tpc>
@@ -11527,7 +11465,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="102">
+        <Slur id="98">
           <track>0</track>
           <SlurSegment no="0">
             <o4 x="0" y="-1.19992"/>
@@ -11542,7 +11480,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>49</Beam>
-          <Slur type="start" id="102"/>
+          <Slur type="start" id="98"/>
           <Note>
             <pitch>79</pitch>
             <tpc>15</tpc>
@@ -11593,7 +11531,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>50</Beam>
-          <Slur type="stop" id="102"/>
+          <Slur type="stop" id="98"/>
           <Note>
             <pitch>71</pitch>
             <tpc>19</tpc>
@@ -11601,15 +11539,15 @@ Opus 14 No. 2</text>
           </Chord>
         </Measure>
       <Measure number="72">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
           <pos x="-0.538482" y="7.82676"/>
           </Dynamic>
-        <Slur id="103">
+        <Harmony>
+          <name>V7</name>
+          </Harmony>
+        <Slur id="99">
           <track>0</track>
           </Slur>
         <Beam id="51">
@@ -11621,7 +11559,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>51</Beam>
-          <Slur type="start" id="103"/>
+          <Slur type="start" id="99"/>
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -11683,7 +11621,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>52</Beam>
-          <Slur type="stop" id="103"/>
+          <Slur type="stop" id="99"/>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -11695,7 +11633,7 @@ Opus 14 No. 2</text>
         <Harmony>
           <name>I\\</name>
           </Harmony>
-        <Slur id="104">
+        <Slur id="100">
           <track>0</track>
           </Slur>
         <Beam id="53">
@@ -11703,7 +11641,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>53</Beam>
-          <Slur type="start" id="104"/>
+          <Slur type="start" id="100"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -11766,7 +11704,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>54</Beam>
-          <Slur type="stop" id="104"/>
+          <Slur type="stop" id="100"/>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -11788,7 +11726,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="105">
+        <Slur id="101">
           <track>0</track>
           <SlurSegment no="0">
             <pos x="0" y="-1.49991"/>
@@ -11803,7 +11741,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>55</Beam>
-          <Slur type="start" id="105"/>
+          <Slur type="start" id="101"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -11820,7 +11758,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>55</Beam>
-          <Slur type="stop" id="105"/>
+          <Slur type="stop" id="101"/>
           <Note>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -11832,7 +11770,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="106">
+        <Slur id="102">
           <track>0</track>
           <SlurSegment no="0">
             <pos x="0" y="-1.29992"/>
@@ -11847,7 +11785,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>56</Beam>
-          <Slur type="start" id="106"/>
+          <Slur type="start" id="102"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -11868,7 +11806,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>56</Beam>
-          <Slur type="stop" id="106"/>
+          <Slur type="stop" id="102"/>
           <Note>
             <pitch>71</pitch>
             <tpc>19</tpc>
@@ -11880,7 +11818,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="107">
+        <Slur id="103">
           <track>0</track>
           <SlurSegment no="0">
             <o1 x="0" y="-0.599962"/>
@@ -11895,7 +11833,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>57</Beam>
-          <Slur type="start" id="107"/>
+          <Slur type="start" id="103"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -11912,7 +11850,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>57</Beam>
-          <Slur type="stop" id="107"/>
+          <Slur type="stop" id="103"/>
           <Note>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -11924,7 +11862,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="108">
+        <Slur id="104">
           <track>0</track>
           <SlurSegment no="0">
             <o1 x="0" y="-1.29992"/>
@@ -11939,7 +11877,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>58</Beam>
-          <Slur type="start" id="108"/>
+          <Slur type="start" id="104"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -11956,7 +11894,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>58</Beam>
-          <Slur type="stop" id="108"/>
+          <Slur type="stop" id="104"/>
           <Note>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -11970,7 +11908,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="109">
+        <Slur id="105">
           <track>0</track>
           <SlurSegment no="0">
             <o1 x="0" y="-1.09993"/>
@@ -11986,7 +11924,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>59</Beam>
-          <Slur type="start" id="109"/>
+          <Slur type="start" id="105"/>
           <Note>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -12003,7 +11941,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>59</Beam>
-          <Slur type="stop" id="109"/>
+          <Slur type="stop" id="105"/>
           <Note>
             <pitch>77</pitch>
             <tpc>13</tpc>
@@ -12015,7 +11953,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="110">
+        <Slur id="106">
           <track>0</track>
           <SlurSegment no="0">
             <pos x="0" y="-1.49991"/>
@@ -12030,7 +11968,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>60</Beam>
-          <Slur type="start" id="110"/>
+          <Slur type="start" id="106"/>
           <Note>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -12050,7 +11988,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>60</Beam>
-          <Slur type="stop" id="110"/>
+          <Slur type="stop" id="106"/>
           <Note>
             <pitch>76</pitch>
             <tpc>18</tpc>
@@ -12062,7 +12000,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="111">
+        <Slur id="107">
           <track>0</track>
           <SlurSegment no="0">
             <o1 x="0" y="-1.49991"/>
@@ -12077,7 +12015,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>61</Beam>
-          <Slur type="start" id="111"/>
+          <Slur type="start" id="107"/>
           <Note>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -12132,7 +12070,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>62</Beam>
-          <Slur type="stop" id="111"/>
+          <Slur type="stop" id="107"/>
           <Note>
             <pitch>77</pitch>
             <tpc>13</tpc>
@@ -12140,9 +12078,6 @@ Opus 14 No. 2</text>
           </Chord>
         </Measure>
       <Measure number="75">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
@@ -12151,7 +12086,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="112">
+        <Slur id="108">
           <track>0</track>
           <SlurSegment no="0">
             <pos x="0" y="-1.79989"/>
@@ -12166,7 +12101,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>63</Beam>
-          <Slur type="start" id="112"/>
+          <Slur type="start" id="108"/>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -12183,7 +12118,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>63</Beam>
-          <Slur type="stop" id="112"/>
+          <Slur type="stop" id="108"/>
           <Note>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -12195,7 +12130,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="113">
+        <Slur id="109">
           <track>0</track>
           <SlurSegment no="0">
             <pos x="-0.199987" y="-1.09993"/>
@@ -12210,7 +12145,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>64</Beam>
-          <Slur type="start" id="113"/>
+          <Slur type="start" id="109"/>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -12227,7 +12162,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>64</Beam>
-          <Slur type="stop" id="113"/>
+          <Slur type="stop" id="109"/>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -12247,7 +12182,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="114">
+        <Slur id="110">
           <track>0</track>
           <SlurSegment no="0">
             <pos x="0" y="-0.599962"/>
@@ -12262,7 +12197,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>65</Beam>
-          <Slur type="start" id="114"/>
+          <Slur type="start" id="110"/>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -12281,7 +12216,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>65</Beam>
-          <Slur type="stop" id="114"/>
+          <Slur type="stop" id="110"/>
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -12290,12 +12225,12 @@ Opus 14 No. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>V43/ii</name>
+          <name>#viio6/ii</name>
           </Harmony>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="115">
+        <Slur id="111">
           <track>0</track>
           <SlurSegment no="0">
             <o1 x="0" y="-0.599962"/>
@@ -12311,7 +12246,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>66</Beam>
-          <Slur type="start" id="115"/>
+          <Slur type="start" id="111"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -12332,7 +12267,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>66</Beam>
-          <Slur type="stop" id="115"/>
+          <Slur type="stop" id="111"/>
           <Note>
             <pitch>73</pitch>
             <tpc>21</tpc>
@@ -12348,7 +12283,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="116">
+        <Slur id="112">
           <track>0</track>
           </Slur>
         <Beam id="67">
@@ -12360,7 +12295,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>67</Beam>
-          <Slur type="start" id="116"/>
+          <Slur type="start" id="112"/>
           <Note>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -12381,7 +12316,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>67</Beam>
-          <Slur type="stop" id="116"/>
+          <Slur type="stop" id="112"/>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -12395,7 +12330,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="117">
+        <Slur id="113">
           <track>0</track>
           </Slur>
         <Beam id="68">
@@ -12407,7 +12342,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>68</Beam>
-          <Slur type="start" id="117"/>
+          <Slur type="start" id="113"/>
           <Note>
             <Accidental>
               <subtype>flat</subtype>
@@ -12435,7 +12370,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>68</Beam>
-          <Slur type="stop" id="117"/>
+          <Slur type="stop" id="113"/>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -12449,7 +12384,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="118">
+        <Slur id="114">
           <track>0</track>
           </Slur>
         <Beam id="69">
@@ -12461,7 +12396,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>69</Beam>
-          <Slur type="start" id="118"/>
+          <Slur type="start" id="114"/>
           <Note>
             <pitch>62</pitch>
             <tpc>16</tpc>
@@ -12530,7 +12465,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>70</Beam>
-          <Slur type="stop" id="118"/>
+          <Slur type="stop" id="114"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -12551,7 +12486,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="119">
+        <Slur id="115">
           <track>0</track>
           </Slur>
         <Beam id="71">
@@ -12563,7 +12498,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>71</Beam>
-          <Slur type="start" id="119"/>
+          <Slur type="start" id="115"/>
           <Note>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -12580,7 +12515,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>71</Beam>
-          <Slur type="stop" id="119"/>
+          <Slur type="stop" id="115"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -12592,7 +12527,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="120">
+        <Slur id="116">
           <track>0</track>
           </Slur>
         <Beam id="72">
@@ -12604,7 +12539,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>72</Beam>
-          <Slur type="start" id="120"/>
+          <Slur type="start" id="116"/>
           <Note>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -12621,7 +12556,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>72</Beam>
-          <Slur type="stop" id="120"/>
+          <Slur type="stop" id="116"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -12633,7 +12568,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="121">
+        <Slur id="117">
           <track>0</track>
           </Slur>
         <Beam id="73">
@@ -12645,7 +12580,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>73</Beam>
-          <Slur type="start" id="121"/>
+          <Slur type="start" id="117"/>
           <Note>
             <Accidental>
               <role>1</role>
@@ -12666,7 +12601,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>73</Beam>
-          <Slur type="stop" id="121"/>
+          <Slur type="stop" id="117"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -12678,7 +12613,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="122">
+        <Slur id="118">
           <track>0</track>
           </Slur>
         <Beam id="74">
@@ -12690,7 +12625,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>74</Beam>
-          <Slur type="start" id="122"/>
+          <Slur type="start" id="118"/>
           <Note>
             <pitch>62</pitch>
             <tpc>16</tpc>
@@ -12707,7 +12642,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>74</Beam>
-          <Slur type="stop" id="122"/>
+          <Slur type="stop" id="118"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -12715,16 +12650,13 @@ Opus 14 No. 2</text>
           </Chord>
         </Measure>
       <Measure number="78">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>I</name>
           </Harmony>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="123">
+        <Slur id="119">
           <track>0</track>
           <SlurSegment no="0">
             <pos x="0" y="-0.79995"/>
@@ -12739,7 +12671,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>75</Beam>
-          <Slur type="start" id="123"/>
+          <Slur type="start" id="119"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -12756,7 +12688,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>75</Beam>
-          <Slur type="stop" id="123"/>
+          <Slur type="stop" id="119"/>
           <Note>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -12768,7 +12700,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="124">
+        <Slur id="120">
           <track>0</track>
           <SlurSegment no="0">
             <o1 x="0" y="-0.79995"/>
@@ -12783,7 +12715,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>76</Beam>
-          <Slur type="start" id="124"/>
+          <Slur type="start" id="120"/>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -12800,7 +12732,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>76</Beam>
-          <Slur type="stop" id="124"/>
+          <Slur type="stop" id="120"/>
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -12812,7 +12744,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="125">
+        <Slur id="121">
           <track>0</track>
           <SlurSegment no="0">
             <o1 x="0" y="-0.999937"/>
@@ -12827,7 +12759,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>77</Beam>
-          <Slur type="start" id="125"/>
+          <Slur type="start" id="121"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -12885,7 +12817,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>78</Beam>
-          <Slur type="stop" id="125"/>
+          <Slur type="stop" id="121"/>
           <Note>
             <pitch>71</pitch>
             <tpc>19</tpc>
@@ -12904,7 +12836,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="126">
+        <Slur id="122">
           <track>0</track>
           <SlurSegment no="0">
             <o1 x="0" y="-0.899943"/>
@@ -12920,7 +12852,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>79</Beam>
-          <Slur type="start" id="126"/>
+          <Slur type="start" id="122"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -12939,7 +12871,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>79</Beam>
-          <Slur type="stop" id="126"/>
+          <Slur type="stop" id="122"/>
           <Note>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -12948,12 +12880,12 @@ Opus 14 No. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>viio65/ii</name>
+          <name>#viio65/ii</name>
           </Harmony>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="127">
+        <Slur id="123">
           <track>0</track>
           <SlurSegment no="0">
             <pos x="0" y="-0.79995"/>
@@ -12968,7 +12900,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>80</Beam>
-          <Slur type="start" id="127"/>
+          <Slur type="start" id="123"/>
           <Note>
             <Accidental>
               <subtype>flat</subtype>
@@ -12992,7 +12924,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>80</Beam>
-          <Slur type="stop" id="127"/>
+          <Slur type="stop" id="123"/>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -13004,12 +12936,12 @@ Opus 14 No. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>ii6(#74)</name>
+          <name>ii6(11#7)</name>
           </Harmony>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="128">
+        <Slur id="124">
           <track>0</track>
           <SlurSegment no="0">
             <pos x="0" y="-1.39991"/>
@@ -13024,7 +12956,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>81</Beam>
-          <Slur type="start" id="128"/>
+          <Slur type="start" id="124"/>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -13045,7 +12977,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>81</Beam>
-          <Slur type="stop" id="128"/>
+          <Slur type="stop" id="124"/>
           <Note>
             <pitch>73</pitch>
             <tpc>21</tpc>
@@ -13059,7 +12991,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="129">
+        <Slur id="125">
           <track>0</track>
           <SlurSegment no="0">
             <pos x="-0.0999937" y="-0.79995"/>
@@ -13074,7 +13006,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>82</Beam>
-          <Slur type="start" id="129"/>
+          <Slur type="start" id="125"/>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -13095,7 +13027,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>82</Beam>
-          <Slur type="stop" id="129"/>
+          <Slur type="stop" id="125"/>
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -13111,7 +13043,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="130">
+        <Slur id="126">
           <track>0</track>
           <SlurSegment no="0">
             <o1 x="0" y="-1.09993"/>
@@ -13126,7 +13058,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>83</Beam>
-          <Slur type="start" id="130"/>
+          <Slur type="start" id="126"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -13147,7 +13079,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>83</Beam>
-          <Slur type="stop" id="130"/>
+          <Slur type="stop" id="126"/>
           <Note>
             <Accidental>
               <role>1</role>
@@ -13165,7 +13097,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="131">
+        <Slur id="127">
           <track>0</track>
           </Slur>
         <Beam id="84">
@@ -13178,7 +13110,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>84</Beam>
-          <Slur type="start" id="131"/>
+          <Slur type="start" id="127"/>
           <Note>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -13199,7 +13131,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>84</Beam>
-          <Slur type="stop" id="131"/>
+          <Slur type="stop" id="127"/>
           <Note>
             <Accidental>
               <role>1</role>
@@ -13217,7 +13149,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="132">
+        <Slur id="128">
           <track>0</track>
           </Slur>
         <Beam id="85">
@@ -13229,7 +13161,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>85</Beam>
-          <Slur type="start" id="132"/>
+          <Slur type="start" id="128"/>
           <Note>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -13292,7 +13224,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>86</Beam>
-          <Slur type="stop" id="132"/>
+          <Slur type="stop" id="128"/>
           <Note>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -13303,9 +13235,6 @@ Opus 14 No. 2</text>
         </Measure>
       <Measure number="81">
         <vspacerDown>7</vspacerDown>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Dynamic>
           <subtype>other-dynamics</subtype>
           <pos x="-0.17567" y="5.4817"/>
@@ -13318,7 +13247,7 @@ Opus 14 No. 2</text>
           <offset x="0" y="8"/>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="133">
+        <Slur id="129">
           <track>0</track>
           <SlurSegment no="0">
             <pos x="0" y="10.9993"/>
@@ -13331,7 +13260,7 @@ Opus 14 No. 2</text>
           <move>1</move>
           <durationType>16th</durationType>
           <Beam>87</Beam>
-          <Slur type="start" id="133"/>
+          <Slur type="start" id="129"/>
           <Note>
             <pitch>50</pitch>
             <tpc>16</tpc>
@@ -13354,7 +13283,7 @@ Opus 14 No. 2</text>
           <move>1</move>
           <durationType>16th</durationType>
           <Beam>87</Beam>
-          <Slur type="stop" id="133"/>
+          <Slur type="stop" id="129"/>
           <Note>
             <pitch>53</pitch>
             <tpc>13</tpc>
@@ -13369,7 +13298,7 @@ Opus 14 No. 2</text>
           <offset x="0" y="8"/>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="134">
+        <Slur id="130">
           <track>0</track>
           <SlurSegment no="0">
             <pos x="0" y="11.2993"/>
@@ -13382,7 +13311,7 @@ Opus 14 No. 2</text>
           <move>1</move>
           <durationType>16th</durationType>
           <Beam>88</Beam>
-          <Slur type="start" id="134"/>
+          <Slur type="start" id="130"/>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -13405,7 +13334,7 @@ Opus 14 No. 2</text>
           <move>1</move>
           <durationType>16th</durationType>
           <Beam>88</Beam>
-          <Slur type="stop" id="134"/>
+          <Slur type="stop" id="130"/>
           <Note>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -13420,7 +13349,7 @@ Opus 14 No. 2</text>
           <offset x="0" y="8"/>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="135">
+        <Slur id="131">
           <track>0</track>
           <SlurSegment no="0">
             <pos x="-0.0999937" y="11.1993"/>
@@ -13433,7 +13362,7 @@ Opus 14 No. 2</text>
           <move>1</move>
           <durationType>16th</durationType>
           <Beam>89</Beam>
-          <Slur type="start" id="135"/>
+          <Slur type="start" id="131"/>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -13459,7 +13388,7 @@ Opus 14 No. 2</text>
           <move>1</move>
           <durationType>16th</durationType>
           <Beam>89</Beam>
-          <Slur type="stop" id="135"/>
+          <Slur type="stop" id="131"/>
           <Note>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -13474,7 +13403,7 @@ Opus 14 No. 2</text>
           <offset x="0" y="8"/>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="136">
+        <Slur id="132">
           <track>0</track>
           <SlurSegment no="0">
             <pos x="0" y="11.2993"/>
@@ -13487,7 +13416,7 @@ Opus 14 No. 2</text>
           <move>1</move>
           <durationType>16th</durationType>
           <Beam>90</Beam>
-          <Slur type="start" id="136"/>
+          <Slur type="start" id="132"/>
           <Note>
             <pitch>53</pitch>
             <tpc>13</tpc>
@@ -13510,7 +13439,7 @@ Opus 14 No. 2</text>
           <move>1</move>
           <durationType>16th</durationType>
           <Beam>90</Beam>
-          <Slur type="stop" id="136"/>
+          <Slur type="stop" id="132"/>
           <Note>
             <pitch>57</pitch>
             <tpc>17</tpc>
@@ -13526,7 +13455,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="137">
+        <Slur id="133">
           <track>0</track>
           <SlurSegment no="0">
             <pos x="0" y="10.6993"/>
@@ -13543,7 +13472,7 @@ Opus 14 No. 2</text>
           <move>1</move>
           <durationType>16th</durationType>
           <Beam>91</Beam>
-          <Slur type="start" id="137"/>
+          <Slur type="start" id="133"/>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -13571,7 +13500,7 @@ Opus 14 No. 2</text>
           <move>1</move>
           <durationType>16th</durationType>
           <Beam>91</Beam>
-          <Slur type="stop" id="137"/>
+          <Slur type="stop" id="133"/>
           <Note>
             <pitch>57</pitch>
             <tpc>17</tpc>
@@ -13585,7 +13514,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="138">
+        <Slur id="134">
           <track>0</track>
           <SlurSegment no="0">
             <pos x="0" y="10.3993"/>
@@ -13602,7 +13531,7 @@ Opus 14 No. 2</text>
           <move>1</move>
           <durationType>16th</durationType>
           <Beam>92</Beam>
-          <Slur type="start" id="138"/>
+          <Slur type="start" id="134"/>
           <Note>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -13624,7 +13553,7 @@ Opus 14 No. 2</text>
           <move>1</move>
           <durationType>16th</durationType>
           <Beam>92</Beam>
-          <Slur type="stop" id="138"/>
+          <Slur type="stop" id="134"/>
           <Note>
             <pitch>59</pitch>
             <tpc>19</tpc>
@@ -13643,7 +13572,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="139">
+        <Slur id="135">
           <track>0</track>
           <SlurSegment no="0">
             <o1 x="0.0999937" y="9.89938"/>
@@ -13660,7 +13589,7 @@ Opus 14 No. 2</text>
           <move>1</move>
           <durationType>16th</durationType>
           <Beam>93</Beam>
-          <Slur type="start" id="139"/>
+          <Slur type="start" id="135"/>
           <Note>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -13719,7 +13648,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>94</Beam>
-          <Slur type="stop" id="139"/>
+          <Slur type="stop" id="135"/>
           <Note>
             <pitch>59</pitch>
             <tpc>19</tpc>
@@ -13738,7 +13667,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="140">
+        <Slur id="136">
           <track>0</track>
           <SlurSegment no="0">
             <o1 x="0.0999937" y="10.4993"/>
@@ -13755,7 +13684,7 @@ Opus 14 No. 2</text>
           <move>1</move>
           <durationType>16th</durationType>
           <Beam>95</Beam>
-          <Slur type="start" id="140"/>
+          <Slur type="start" id="136"/>
           <Note>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -13776,7 +13705,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>95</Beam>
-          <Slur type="stop" id="140"/>
+          <Slur type="stop" id="136"/>
           <Note>
             <pitch>59</pitch>
             <tpc>19</tpc>
@@ -13790,7 +13719,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="141">
+        <Slur id="137">
           <track>0</track>
           <SlurSegment no="0">
             <o1 x="0" y="10.3993"/>
@@ -13807,7 +13736,7 @@ Opus 14 No. 2</text>
           <move>1</move>
           <durationType>16th</durationType>
           <Beam>96</Beam>
-          <Slur type="start" id="141"/>
+          <Slur type="start" id="137"/>
           <Note>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -13828,7 +13757,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>96</Beam>
-          <Slur type="stop" id="141"/>
+          <Slur type="stop" id="137"/>
           <Note>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -13842,7 +13771,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="142">
+        <Slur id="138">
           <track>0</track>
           <SlurSegment no="0">
             <o1 x="0" y="10.4993"/>
@@ -13859,7 +13788,7 @@ Opus 14 No. 2</text>
           <move>1</move>
           <durationType>16th</durationType>
           <Beam>97</Beam>
-          <Slur type="start" id="142"/>
+          <Slur type="start" id="138"/>
           <Note>
             <pitch>53</pitch>
             <tpc>13</tpc>
@@ -13880,7 +13809,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>97</Beam>
-          <Slur type="stop" id="142"/>
+          <Slur type="stop" id="138"/>
           <Note>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -13894,7 +13823,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="143">
+        <Slur id="139">
           <track>0</track>
           <SlurSegment no="0">
             <o1 x="0.0999937" y="10.4993"/>
@@ -13911,7 +13840,7 @@ Opus 14 No. 2</text>
           <move>1</move>
           <durationType>16th</durationType>
           <Beam>98</Beam>
-          <Slur type="start" id="143"/>
+          <Slur type="start" id="139"/>
           <Note>
             <pitch>57</pitch>
             <tpc>17</tpc>
@@ -13932,7 +13861,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>98</Beam>
-          <Slur type="stop" id="143"/>
+          <Slur type="stop" id="139"/>
           <Note>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -13942,21 +13871,18 @@ Opus 14 No. 2</text>
           </Chord>
         </Measure>
       <Measure number="84">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
           <pos x="0.212447" y="7.7585"/>
           </Dynamic>
         <Harmony>
-          <name>V)64(</name>
+          <name>V(64)</name>
           </Harmony>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="144">
+        <Slur id="140">
           <track>0</track>
           <SlurSegment no="0">
             <o1 x="0" y="10.7993"/>
@@ -13973,7 +13899,7 @@ Opus 14 No. 2</text>
           <move>1</move>
           <durationType>16th</durationType>
           <Beam>99</Beam>
-          <Slur type="start" id="144"/>
+          <Slur type="start" id="140"/>
           <Note>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -13990,7 +13916,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>99</Beam>
-          <Slur type="stop" id="144"/>
+          <Slur type="stop" id="140"/>
           <Note>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -14002,7 +13928,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="145">
+        <Slur id="141">
           <track>0</track>
           <SlurSegment no="0">
             <o1 x="0" y="10.7993"/>
@@ -14019,7 +13945,7 @@ Opus 14 No. 2</text>
           <move>1</move>
           <durationType>16th</durationType>
           <Beam>100</Beam>
-          <Slur type="start" id="145"/>
+          <Slur type="start" id="141"/>
           <Note>
             <pitch>53</pitch>
             <tpc>13</tpc>
@@ -14036,7 +13962,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>100</Beam>
-          <Slur type="stop" id="145"/>
+          <Slur type="stop" id="141"/>
           <Note>
             <pitch>59</pitch>
             <tpc>19</tpc>
@@ -14048,7 +13974,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>16th</durationType>
           </Rest>
-        <Slur id="146">
+        <Slur id="142">
           <track>0</track>
           </Slur>
         <Beam id="101">
@@ -14056,7 +13982,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>101</Beam>
-          <Slur type="start" id="146"/>
+          <Slur type="start" id="142"/>
           <Note>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -14107,7 +14033,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>102</Beam>
-          <Slur type="stop" id="146"/>
+          <Slur type="stop" id="142"/>
           <Note>
             <pitch>71</pitch>
             <tpc>19</tpc>
@@ -14519,9 +14445,6 @@ Opus 14 No. 2</text>
           </Rest>
         </Measure>
       <Measure number="90" len="15/16">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>112</velocity>
@@ -14696,7 +14619,7 @@ Opus 14 No. 2</text>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
-        <Slur id="147">
+        <Slur id="143">
           <track>4</track>
           <SlurSegment no="0">
             <o1 x="-0.0999937" y="-1.5999"/>
@@ -14704,7 +14627,7 @@ Opus 14 No. 2</text>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="147"/>
+          <Slur type="start" id="143"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>43</pitch>
@@ -14742,7 +14665,7 @@ Opus 14 No. 2</text>
             <subtype>staccato</subtype>
             <visible>0</visible>
             </Articulation>
-          <Slur type="stop" id="147"/>
+          <Slur type="stop" id="143"/>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -15137,7 +15060,7 @@ Opus 14 No. 2</text>
           </Clef>
         </Measure>
       <Measure number="9">
-        <Slur id="148">
+        <Slur id="144">
           <track>4</track>
           <SlurSegment no="0">
             <o4 x="0.399975" y="1.29992"/>
@@ -15146,7 +15069,7 @@ Opus 14 No. 2</text>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="148"/>
+          <Slur type="start" id="144"/>
           <Note>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -15222,7 +15145,7 @@ Opus 14 No. 2</text>
           </Chord>
         <Chord>
           <durationType>half</durationType>
-          <Slur type="stop" id="148"/>
+          <Slur type="stop" id="144"/>
           <Note>
             <pitch>53</pitch>
             <tpc>13</tpc>
@@ -15234,12 +15157,12 @@ Opus 14 No. 2</text>
           </Chord>
         </Measure>
       <Measure number="11">
-        <Slur id="149">
+        <Slur id="145">
           <track>4</track>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="149"/>
+          <Slur type="start" id="145"/>
           <Note>
             <pitch>53</pitch>
             <tpc>13</tpc>
@@ -15343,7 +15266,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>16th</durationType>
           <Beam>104</Beam>
-          <Slur type="stop" id="149"/>
+          <Slur type="stop" id="145"/>
           <Note>
             <Accidental>
               <role>1</role>
@@ -15574,17 +15497,17 @@ Opus 14 No. 2</text>
             <tpc>14</tpc>
             </Note>
           </Chord>
-        <Slur id="150">
+        <Slur id="146">
           <track>4</track>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="150"/>
+          <Slur type="start" id="146"/>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
               </Accidental>
-            <Tie id="151">
+            <Tie id="147">
               </Tie>
             <pitch>61</pitch>
             <tpc>21</tpc>
@@ -15595,7 +15518,7 @@ Opus 14 No. 2</text>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <endSpanner id="151"/>
+            <endSpanner id="147"/>
             <pitch>61</pitch>
             <tpc>21</tpc>
             <velocity>77</velocity>
@@ -15604,7 +15527,7 @@ Opus 14 No. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="stop" id="150"/>
+          <Slur type="stop" id="146"/>
           <Note>
             <pitch>62</pitch>
             <tpc>16</tpc>
@@ -15622,14 +15545,14 @@ Opus 14 No. 2</text>
             <tpc>18</tpc>
             </Note>
           </Chord>
-        <Slur id="152">
+        <Slur id="148">
           <track>5</track>
           <track2>4</track2>
           </Slur>
         <Chord>
           <track>5</track>
           <durationType>quarter</durationType>
-          <Slur type="start" id="152"/>
+          <Slur type="start" id="148"/>
           <Note>
             <track>5</track>
             <pitch>52</pitch>
@@ -15661,7 +15584,7 @@ Opus 14 No. 2</text>
             <subtype>staccato</subtype>
             <visible>0</visible>
             </Articulation>
-          <Slur type="stop" id="152"/>
+          <Slur type="stop" id="148"/>
           <Note>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -15885,13 +15808,13 @@ Opus 14 No. 2</text>
           </Chord>
         </Measure>
       <Measure number="19">
-        <Slur id="153">
+        <Slur id="149">
           <track>4</track>
           <up>2</up>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="153"/>
+          <Slur type="start" id="149"/>
           <StemDirection>down</StemDirection>
           <Note>
             <pitch>36</pitch>
@@ -15916,7 +15839,7 @@ Opus 14 No. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="stop" id="153"/>
+          <Slur type="stop" id="149"/>
           <StemDirection>down</StemDirection>
           <Note>
             <pitch>41</pitch>
@@ -15925,7 +15848,6 @@ Opus 14 No. 2</text>
           </Chord>
         </Measure>
       <Measure number="20" len="15/16">
-        <vspacerDown>11.9994</vspacerDown>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -16005,12 +15927,12 @@ Opus 14 No. 2</text>
           <pos x="-0.0679344" y="7.4138"/>
           <text><font face="Times New Roman"></font><i>sempre legato</i></text>
           </Dynamic>
-        <Slur id="154">
+        <Slur id="150">
           <track>4</track>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="154"/>
+          <Slur type="start" id="150"/>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -16079,7 +16001,7 @@ Opus 14 No. 2</text>
           </Chord>
         <Chord>
           <durationType>half</durationType>
-          <Slur type="stop" id="154"/>
+          <Slur type="stop" id="150"/>
           <Note>
             <pitch>59</pitch>
             <tpc>19</tpc>
@@ -16091,7 +16013,7 @@ Opus 14 No. 2</text>
           </Chord>
         </Measure>
       <Measure number="23">
-        <Slur id="155">
+        <Slur id="151">
           <track>4</track>
           <SlurSegment no="0">
             <pos x="0" y="-9.5994"/>
@@ -16105,7 +16027,7 @@ Opus 14 No. 2</text>
         <Chord>
           <move>-1</move>
           <durationType>quarter</durationType>
-          <Slur type="start" id="155"/>
+          <Slur type="start" id="151"/>
           <Note>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -16159,7 +16081,7 @@ Opus 14 No. 2</text>
         <Chord>
           <move>-1</move>
           <durationType>quarter</durationType>
-          <Slur type="stop" id="155"/>
+          <Slur type="stop" id="151"/>
           <Note>
             <pitch>57</pitch>
             <tpc>17</tpc>
@@ -16185,12 +16107,12 @@ Opus 14 No. 2</text>
           </Chord>
         </Measure>
       <Measure number="25">
-        <Slur id="156">
+        <Slur id="152">
           <track>4</track>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="156"/>
+          <Slur type="start" id="152"/>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -16224,7 +16146,7 @@ Opus 14 No. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="stop" id="156"/>
+          <Slur type="stop" id="152"/>
           <Note>
             <pitch>59</pitch>
             <tpc>19</tpc>
@@ -16240,12 +16162,12 @@ Opus 14 No. 2</text>
           </Clef>
         </Measure>
       <Measure number="26">
-        <Slur id="157">
+        <Slur id="153">
           <track>4</track>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="157"/>
+          <Slur type="start" id="153"/>
           <Note>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -16275,7 +16197,7 @@ Opus 14 No. 2</text>
           </Chord>
         <Chord>
           <durationType>half</durationType>
-          <Slur type="stop" id="157"/>
+          <Slur type="stop" id="153"/>
           <Note>
             <pitch>59</pitch>
             <tpc>19</tpc>
@@ -16291,12 +16213,12 @@ Opus 14 No. 2</text>
           </Chord>
         </Measure>
       <Measure number="27">
-        <Slur id="158">
+        <Slur id="154">
           <track>4</track>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="158"/>
+          <Slur type="start" id="154"/>
           <Note>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -16333,7 +16255,7 @@ Opus 14 No. 2</text>
           </Chord>
         <Chord>
           <durationType>half</durationType>
-          <Slur type="stop" id="158"/>
+          <Slur type="stop" id="154"/>
           <Note>
             <pitch>62</pitch>
             <tpc>16</tpc>
@@ -16449,13 +16371,13 @@ Opus 14 No. 2</text>
           </Clef>
         </Measure>
       <Measure number="30">
-        <Slur id="159">
+        <Slur id="155">
           <track>4</track>
           <up>2</up>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="159"/>
+          <Slur type="start" id="155"/>
           <Note>
             <pitch>57</pitch>
             <tpc>17</tpc>
@@ -16478,7 +16400,7 @@ Opus 14 No. 2</text>
           </Chord>
         <Chord>
           <durationType>half</durationType>
-          <Slur type="stop" id="159"/>
+          <Slur type="stop" id="155"/>
           <Note>
             <pitch>53</pitch>
             <tpc>13</tpc>
@@ -16490,14 +16412,14 @@ Opus 14 No. 2</text>
           </Chord>
         </Measure>
       <Measure number="31">
-        <Slur id="160">
+        <Slur id="156">
           <track>4</track>
           <track2>5</track2>
           <up>2</up>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="160"/>
+          <Slur type="start" id="156"/>
           <Note>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -16579,12 +16501,12 @@ Opus 14 No. 2</text>
             <veloType>user</veloType>
             </Note>
           </Chord>
-        <Slur id="161">
+        <Slur id="157">
           <track>4</track>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="161"/>
+          <Slur type="start" id="157"/>
           <Note>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -16594,7 +16516,7 @@ Opus 14 No. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="stop" id="161"/>
+          <Slur type="stop" id="157"/>
           <Note>
             <pitch>59</pitch>
             <tpc>19</tpc>
@@ -16632,7 +16554,7 @@ Opus 14 No. 2</text>
         <Chord>
           <track>5</track>
           <durationType>half</durationType>
-          <Slur type="stop" id="160"/>
+          <Slur type="stop" id="156"/>
           <Note>
             <track>5</track>
             <pitch>55</pitch>
@@ -16643,12 +16565,12 @@ Opus 14 No. 2</text>
           </Chord>
         </Measure>
       <Measure number="33">
-        <Slur id="162">
+        <Slur id="158">
           <track>4</track>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="162"/>
+          <Slur type="start" id="158"/>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -16721,7 +16643,7 @@ Opus 14 No. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="stop" id="162"/>
+          <Slur type="stop" id="158"/>
           <Note>
             <pitch>59</pitch>
             <tpc>19</tpc>
@@ -16731,7 +16653,7 @@ Opus 14 No. 2</text>
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <Slur id="163">
+        <Slur id="159">
           <track>4</track>
           <track2>5</track2>
           <SlurSegment no="0">
@@ -16742,7 +16664,7 @@ Opus 14 No. 2</text>
         <Chord>
           <move>-1</move>
           <durationType>quarter</durationType>
-          <Slur type="start" id="163"/>
+          <Slur type="start" id="159"/>
           <Note>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -16829,7 +16751,7 @@ Opus 14 No. 2</text>
         <Chord>
           <track>5</track>
           <durationType>quarter</durationType>
-          <Slur type="stop" id="163"/>
+          <Slur type="stop" id="159"/>
           <Note>
             <track>5</track>
             <pitch>57</pitch>
@@ -16903,13 +16825,13 @@ Opus 14 No. 2</text>
           <velocity>0</velocity>
           <pos x="-2.87066" y="8.19999"/>
           </Dynamic>
-        <Slur id="164">
+        <Slur id="160">
           <track>4</track>
           <up>2</up>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="164"/>
+          <Slur type="start" id="160"/>
           <StemDirection>down</StemDirection>
           <Note>
             <pitch>43</pitch>
@@ -16920,7 +16842,7 @@ Opus 14 No. 2</text>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="164"/>
+          <Slur type="stop" id="160"/>
           <StemDirection>down</StemDirection>
           <Note>
             <pitch>36</pitch>
@@ -16936,13 +16858,13 @@ Opus 14 No. 2</text>
           <velocity>0</velocity>
           <pos x="-2.37069" y="8.69996"/>
           </Dynamic>
-        <Slur id="165">
+        <Slur id="161">
           <track>4</track>
           <up>2</up>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="165"/>
+          <Slur type="start" id="161"/>
           <StemDirection>down</StemDirection>
           <Note>
             <pitch>45</pitch>
@@ -16953,7 +16875,7 @@ Opus 14 No. 2</text>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="165"/>
+          <Slur type="stop" id="161"/>
           <StemDirection>down</StemDirection>
           <Note>
             <pitch>38</pitch>
@@ -16971,13 +16893,13 @@ Opus 14 No. 2</text>
           <velocity>0</velocity>
           <pos x="-2.33616" y="8.00902"/>
           </Dynamic>
-        <Slur id="166">
+        <Slur id="162">
           <track>4</track>
           <up>2</up>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="166"/>
+          <Slur type="start" id="162"/>
           <StemDirection>down</StemDirection>
           <Note>
             <pitch>47</pitch>
@@ -16988,7 +16910,7 @@ Opus 14 No. 2</text>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="166"/>
+          <Slur type="stop" id="162"/>
           <StemDirection>down</StemDirection>
           <Note>
             <pitch>40</pitch>
@@ -17030,13 +16952,13 @@ Opus 14 No. 2</text>
           </Chord>
         </Measure>
       <Measure number="39">
-        <Slur id="167">
+        <Slur id="163">
           <track>4</track>
           <up>2</up>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="167"/>
+          <Slur type="start" id="163"/>
           <StemDirection>down</StemDirection>
           <Note>
             <pitch>36</pitch>
@@ -17065,7 +16987,7 @@ Opus 14 No. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="stop" id="167"/>
+          <Slur type="stop" id="163"/>
           <StemDirection>down</StemDirection>
           <Note>
             <pitch>41</pitch>
@@ -17081,7 +17003,7 @@ Opus 14 No. 2</text>
           <velocity>49</velocity>
           <pos x="-1.36604" y="8.44584"/>
           </Dynamic>
-        <Slur id="168">
+        <Slur id="164">
           <track>4</track>
           <SlurSegment no="0">
             <pos x="0" y="1.69989"/>
@@ -17090,7 +17012,7 @@ Opus 14 No. 2</text>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="168"/>
+          <Slur type="start" id="164"/>
           <StemDirection>down</StemDirection>
           <Note>
             <pitch>43</pitch>
@@ -17107,7 +17029,7 @@ Opus 14 No. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="stop" id="168"/>
+          <Slur type="stop" id="164"/>
           <StemDirection>down</StemDirection>
           <Note>
             <pitch>36</pitch>
@@ -17123,12 +17045,12 @@ Opus 14 No. 2</text>
           </Clef>
         </Measure>
       <Measure number="41">
-        <Slur id="169">
+        <Slur id="165">
           <track>4</track>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="169"/>
+          <Slur type="start" id="165"/>
           <Note>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -17162,7 +17084,7 @@ Opus 14 No. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="stop" id="169"/>
+          <Slur type="stop" id="165"/>
           <Note>
             <Accidental>
               <subtype>flat</subtype>
@@ -17181,7 +17103,7 @@ Opus 14 No. 2</text>
           </Clef>
         </Measure>
       <Measure number="40">
-        <Slur id="170">
+        <Slur id="166">
           <track>4</track>
           <SlurSegment no="0">
             <pos x="0" y="1.69989"/>
@@ -17190,7 +17112,7 @@ Opus 14 No. 2</text>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="170"/>
+          <Slur type="start" id="166"/>
           <StemDirection>down</StemDirection>
           <Note>
             <pitch>43</pitch>
@@ -17207,7 +17129,7 @@ Opus 14 No. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="stop" id="170"/>
+          <Slur type="stop" id="166"/>
           <StemDirection>down</StemDirection>
           <Note>
             <pitch>36</pitch>
@@ -18407,7 +18329,7 @@ Opus 14 No. 2</text>
             <veloType>user</veloType>
             </Note>
           </Chord>
-        <Slur id="171">
+        <Slur id="167">
           <track>4</track>
           <SlurSegment no="0">
             <o2 x="0" y="-0.499969"/>
@@ -18432,7 +18354,7 @@ Opus 14 No. 2</text>
           <Tuplet>4</Tuplet>
           <durationType>16th</durationType>
           <Beam>105</Beam>
-          <Slur type="start" id="171"/>
+          <Slur type="start" id="167"/>
           <Note>
             <Accidental>
               <subtype>natural</subtype>
@@ -18454,7 +18376,7 @@ Opus 14 No. 2</text>
           <Tuplet>4</Tuplet>
           <durationType>16th</durationType>
           <Beam>105</Beam>
-          <Slur type="stop" id="171"/>
+          <Slur type="stop" id="167"/>
           <Note>
             <pitch>50</pitch>
             <tpc>16</tpc>
@@ -18823,7 +18745,6 @@ Opus 14 No. 2</text>
           </Chord>
         </Measure>
       <Measure number="56">
-        <vspacerDown>11.0995</vspacerDown>
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
@@ -19469,7 +19390,7 @@ Opus 14 No. 2</text>
           <pos x="-0.253821" y="6.12746"/>
           <text><font face="Times New Roman"></font><i>sempre legato</i></text>
           </Dynamic>
-        <Slur id="172">
+        <Slur id="168">
           <track>4</track>
           <SlurSegment no="0">
             <o2 x="0" y="-0.699956"/>
@@ -19477,7 +19398,7 @@ Opus 14 No. 2</text>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="172"/>
+          <Slur type="start" id="168"/>
           <Note>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -19530,7 +19451,7 @@ Opus 14 No. 2</text>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="172"/>
+          <Slur type="stop" id="168"/>
           <Note>
             <pitch>53</pitch>
             <tpc>13</tpc>
@@ -19538,12 +19459,12 @@ Opus 14 No. 2</text>
           </Chord>
         </Measure>
       <Measure number="67">
-        <Slur id="173">
+        <Slur id="169">
           <track>4</track>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="173"/>
+          <Slur type="start" id="169"/>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -19588,7 +19509,7 @@ Opus 14 No. 2</text>
           </Chord>
         <Chord>
           <durationType>half</durationType>
-          <Slur type="stop" id="173"/>
+          <Slur type="stop" id="169"/>
           <Note>
             <pitch>43</pitch>
             <tpc>15</tpc>
@@ -19601,15 +19522,12 @@ Opus 14 No. 2</text>
           <pos x="0.2123" y="-2.8789"/>
           <text><font face="Times New Roman"></font><i>cresc.</i></text>
           </Dynamic>
-        <Slur id="174">
+        <Slur id="170">
           <track>4</track>
-          <SlurSegment no="1">
-            <o1 x="0" y="-1.49991"/>
-            </SlurSegment>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="174"/>
+          <Slur type="start" id="170"/>
           <Note>
             <pitch>48</pitch>
             <tpc>14</tpc>
@@ -19664,7 +19582,7 @@ Opus 14 No. 2</text>
           </Chord>
         <Chord>
           <durationType>half</durationType>
-          <Slur type="stop" id="174"/>
+          <Slur type="stop" id="170"/>
           <Note>
             <pitch>47</pitch>
             <tpc>19</tpc>
@@ -19674,12 +19592,12 @@ Opus 14 No. 2</text>
           </Chord>
         </Measure>
       <Measure number="71">
-        <Slur id="175">
+        <Slur id="171">
           <track>4</track>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="175"/>
+          <Slur type="start" id="171"/>
           <Note>
             <pitch>48</pitch>
             <tpc>14</tpc>
@@ -19701,7 +19619,7 @@ Opus 14 No. 2</text>
           </Chord>
         <Chord>
           <durationType>half</durationType>
-          <Slur type="stop" id="175"/>
+          <Slur type="stop" id="171"/>
           <Note>
             <pitch>50</pitch>
             <tpc>16</tpc>
@@ -19711,12 +19629,12 @@ Opus 14 No. 2</text>
           </Chord>
         </Measure>
       <Measure number="72">
-        <Slur id="176">
+        <Slur id="172">
           <track>4</track>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="176"/>
+          <Slur type="start" id="172"/>
           <Note>
             <pitch>38</pitch>
             <tpc>16</tpc>
@@ -19724,7 +19642,7 @@ Opus 14 No. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="stop" id="176"/>
+          <Slur type="stop" id="172"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>50</pitch>
@@ -19740,12 +19658,12 @@ Opus 14 No. 2</text>
           </Chord>
         </Measure>
       <Measure number="73">
-        <Slur id="177">
+        <Slur id="173">
           <track>4</track>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="177"/>
+          <Slur type="start" id="173"/>
           <Note>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -19793,7 +19711,7 @@ Opus 14 No. 2</text>
           </Chord>
         <Chord>
           <durationType>half</durationType>
-          <Slur type="stop" id="177"/>
+          <Slur type="stop" id="173"/>
           <Note>
             <pitch>53</pitch>
             <tpc>13</tpc>
@@ -19801,12 +19719,12 @@ Opus 14 No. 2</text>
           </Chord>
         </Measure>
       <Measure number="75">
-        <Slur id="178">
+        <Slur id="174">
           <track>4</track>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="178"/>
+          <Slur type="start" id="174"/>
           <Note>
             <pitch>53</pitch>
             <tpc>13</tpc>
@@ -19870,7 +19788,7 @@ Opus 14 No. 2</text>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="178"/>
+          <Slur type="stop" id="174"/>
           <Note>
             <Accidental>
               <subtype>natural</subtype>
@@ -19883,7 +19801,7 @@ Opus 14 No. 2</text>
           </Chord>
         </Measure>
       <Measure number="77">
-        <Slur id="179">
+        <Slur id="175">
           <track>4</track>
           <SlurSegment no="0">
             <o2 x="0" y="-0.999937"/>
@@ -19892,7 +19810,7 @@ Opus 14 No. 2</text>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="179"/>
+          <Slur type="start" id="175"/>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -19945,7 +19863,7 @@ Opus 14 No. 2</text>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="179"/>
+          <Slur type="stop" id="175"/>
           <Note>
             <pitch>41</pitch>
             <tpc>13</tpc>
@@ -19953,7 +19871,7 @@ Opus 14 No. 2</text>
           </Chord>
         </Measure>
       <Measure number="79">
-        <Slur id="180">
+        <Slur id="176">
           <track>4</track>
           <SlurSegment no="0">
             <o2 x="0" y="-1.29992"/>
@@ -19961,7 +19879,7 @@ Opus 14 No. 2</text>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="180"/>
+          <Slur type="start" id="176"/>
           <Note>
             <pitch>40</pitch>
             <tpc>18</tpc>
@@ -19987,7 +19905,7 @@ Opus 14 No. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="stop" id="180"/>
+          <Slur type="stop" id="176"/>
           <Note>
             <pitch>53</pitch>
             <tpc>13</tpc>
@@ -20018,7 +19936,7 @@ Opus 14 No. 2</text>
           </Chord>
         </Measure>
       <Measure number="80">
-        <Slur id="181">
+        <Slur id="177">
           <track>4</track>
           <SlurSegment no="0">
             <o2 x="0" y="-1.39991"/>
@@ -20027,7 +19945,7 @@ Opus 14 No. 2</text>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="181"/>
+          <Slur type="start" id="177"/>
           <Note>
             <pitch>43</pitch>
             <tpc>15</tpc>
@@ -20046,7 +19964,7 @@ Opus 14 No. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="stop" id="181"/>
+          <Slur type="stop" id="177"/>
           <Note>
             <pitch>48</pitch>
             <tpc>14</tpc>
@@ -20087,13 +20005,13 @@ Opus 14 No. 2</text>
           <velocity>0</velocity>
           <pos x="-1.30916" y="9.73389"/>
           </Dynamic>
-        <Slur id="182">
+        <Slur id="178">
           <track>4</track>
           <up>2</up>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="182"/>
+          <Slur type="start" id="178"/>
           <StemDirection>down</StemDirection>
           <Note>
             <pitch>43</pitch>
@@ -20104,7 +20022,7 @@ Opus 14 No. 2</text>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="182"/>
+          <Slur type="stop" id="178"/>
           <StemDirection>down</StemDirection>
           <Note>
             <pitch>36</pitch>
@@ -20122,13 +20040,13 @@ Opus 14 No. 2</text>
           <velocity>0</velocity>
           <pos x="-1.22242" y="8.9392"/>
           </Dynamic>
-        <Slur id="183">
+        <Slur id="179">
           <track>4</track>
           <up>2</up>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="183"/>
+          <Slur type="start" id="179"/>
           <StemDirection>down</StemDirection>
           <Note>
             <pitch>45</pitch>
@@ -20139,7 +20057,7 @@ Opus 14 No. 2</text>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="183"/>
+          <Slur type="stop" id="179"/>
           <StemDirection>down</StemDirection>
           <Note>
             <pitch>38</pitch>
@@ -20159,13 +20077,13 @@ Opus 14 No. 2</text>
           <velocity>0</velocity>
           <pos x="-2.27378" y="8.3927"/>
           </Dynamic>
-        <Slur id="184">
+        <Slur id="180">
           <track>4</track>
           <up>2</up>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="184"/>
+          <Slur type="start" id="180"/>
           <StemDirection>down</StemDirection>
           <Note>
             <pitch>47</pitch>
@@ -20176,7 +20094,7 @@ Opus 14 No. 2</text>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="184"/>
+          <Slur type="stop" id="180"/>
           <StemDirection>down</StemDirection>
           <Note>
             <pitch>40</pitch>
@@ -20220,13 +20138,13 @@ Opus 14 No. 2</text>
           </Chord>
         </Measure>
       <Measure number="83">
-        <Slur id="185">
+        <Slur id="181">
           <track>4</track>
           <up>2</up>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="185"/>
+          <Slur type="start" id="181"/>
           <StemDirection>down</StemDirection>
           <Note>
             <pitch>36</pitch>
@@ -20257,7 +20175,7 @@ Opus 14 No. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="stop" id="185"/>
+          <Slur type="stop" id="181"/>
           <StemDirection>down</StemDirection>
           <Note>
             <pitch>41</pitch>
@@ -20268,7 +20186,7 @@ Opus 14 No. 2</text>
           </Chord>
         </Measure>
       <Measure number="84">
-        <Slur id="186">
+        <Slur id="182">
           <track>4</track>
           <SlurSegment no="0">
             <o2 x="0" y="1.39991"/>
@@ -20278,7 +20196,7 @@ Opus 14 No. 2</text>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="186"/>
+          <Slur type="start" id="182"/>
           <StemDirection>down</StemDirection>
           <Note>
             <pitch>43</pitch>
@@ -20295,7 +20213,7 @@ Opus 14 No. 2</text>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="186"/>
+          <Slur type="stop" id="182"/>
           <StemDirection>down</StemDirection>
           <Note>
             <pitch>36</pitch>
