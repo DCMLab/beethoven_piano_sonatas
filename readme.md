@@ -3,7 +3,7 @@ The empty scores in the folder unannotated are from kernScores
 
 | Number                              | Opus (Name)                       | Annotator                                      | Reviewed        |
 |-------------------------------------|-----------------------------------|------------------------------------------------|-----------------|
-| Piano Sonata No.1 in F minor        | Op.2 No.1                         | Daniel Grote (only III & IV)                   | Adrian Nagel    |
+| Piano Sonata No.1 in F minor        | Op.2 No.1                         | Lars & Ya-Chuan (I & II)<br>Daniel Grote (III & IV)                   | Adrian Nagel    |
 | Piano Sonata No.2 in A major        | Op.2 No.2                         |                                                |                 |
 | Piano Sonata No.3 in C major        | Op.2 No.3                         |                                                |                 |
 | Piano Sonata No.4 in E-flat major   | Op.7 ("Grand Sonata")             |                                                |                 |
