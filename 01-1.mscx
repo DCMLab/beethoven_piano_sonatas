@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
   <programVersion>2.3.2</programVersion>
-  <programRevision>4592407</programRevision>
+  <programRevision>3543170</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -135,6 +135,7 @@
       <Staff id="1">
         <StaffType group="pitched">
           </StaffType>
+        <barLineSpan>2</barLineSpan>
         </Staff>
       <trackName>piano</trackName>
       <Instrument>
@@ -149,6 +150,7 @@
       <Staff id="2">
         <StaffType group="pitched">
           </StaffType>
+        <barLineSpan>0</barLineSpan>
         </Staff>
       <trackName>piano</trackName>
       <Instrument>
@@ -765,7 +767,7 @@
         </Measure>
       <Measure number="11">
         <Harmony>
-          <name>VI.vi64</name>
+          <name>III.IVM2-ii7(2)</name>
           <pos x="0" y="-4.58507"/>
           </Harmony>
         <Rest>
@@ -1161,6 +1163,7 @@
         <tick>28320</tick>
         <Harmony>
           <name>V65/V</name>
+          <pos x="-0.0951655" y="-2.88066"/>
           </Harmony>
         <tick>28800</tick>
         <Chord>
@@ -1390,7 +1393,7 @@
         </Measure>
       <Measure number="20">
         <Harmony>
-          <name>V\\</name>
+          <name>V[V\\</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -1411,7 +1414,7 @@
           <durationType>quarter</durationType>
           </Rest>
         <Harmony>
-          <name>V[V7(+b9)</name>
+          <name>V7(+b9)</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -1878,7 +1881,7 @@
           <durationType>quarter</durationType>
           </Rest>
         <Harmony>
-          <name>V2(+b9)</name>
+          <name>viio43</name>
           <pos x="0.130317" y="-4.71538"/>
           </Harmony>
         <Rest>
@@ -1942,7 +1945,7 @@
           <durationType>quarter</durationType>
           </Rest>
         <Harmony>
-          <name>V2(+b9)</name>
+          <name>viio43</name>
           <pos x="0" y="-6.4095"/>
           </Harmony>
         <Rest>
@@ -3167,6 +3170,9 @@
         </Measure>
       <Measure number="48" len="3/4">
         <endRepeat>2</endRepeat>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Harmony>
           <name>I\\</name>
           </Harmony>
@@ -3636,7 +3642,7 @@
         </Measure>
       <Measure number="56">
         <Harmony>
-          <name>V\\</name>
+          <name>V[V\\</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -3659,7 +3665,7 @@
           <durationType>quarter</durationType>
           </Rest>
         <Harmony>
-          <name>V[V7(+9)</name>
+          <name>V7(+9)</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -4090,7 +4096,7 @@
         </Measure>
       <Measure number="64">
         <Harmony>
-          <name>V\\</name>
+          <name>V[V\\</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -4113,7 +4119,7 @@
           <durationType>quarter</durationType>
           </Rest>
         <Harmony>
-          <name>V[V7(+9)</name>
+          <name>V7(+9)</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -4281,7 +4287,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V7(+9)</name>
+          <name>iio64</name>
           </Harmony>
         <Beam id="45">
           <StemDirection>up</StemDirection>
@@ -4308,6 +4314,9 @@
           </Chord>
         </Measure>
       <Measure number="69">
+        <Harmony>
+          <name>V7</name>
+          </Harmony>
         <Beam id="46">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -4389,6 +4398,9 @@
           </Chord>
         </Measure>
       <Measure number="70">
+        <Harmony>
+          <name>V7(2)</name>
+          </Harmony>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -4403,6 +4415,11 @@
             <tpc>19</tpc>
             </Note>
           </Chord>
+        <tick>131760</tick>
+        <Harmony>
+          <name>V7</name>
+          </Harmony>
+        <tick>132000</tick>
         <Harmony>
           <name>i</name>
           </Harmony>
@@ -4415,7 +4432,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>iv.V7(+9)</name>
+          <name>iv.iio64</name>
           </Harmony>
         <Rest>
           <durationType>quarter</durationType>
@@ -4521,6 +4538,9 @@
           </Chord>
         </Measure>
       <Measure number="71">
+        <Harmony>
+          <name>V7</name>
+          </Harmony>
         <Rest>
           <durationType>whole</durationType>
           </Rest>
@@ -4621,6 +4641,9 @@
           </Chord>
         </Measure>
       <Measure number="72">
+        <Harmony>
+          <name>V7(2)</name>
+          </Harmony>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -4635,6 +4658,11 @@
             <tpc>17</tpc>
             </Note>
           </Chord>
+        <tick>135600</tick>
+        <Harmony>
+          <name>V7</name>
+          </Harmony>
+        <tick>135840</tick>
         <Harmony>
           <name>i</name>
           </Harmony>
@@ -4647,7 +4675,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>III.V7(+b9)</name>
+          <name>III.iio64</name>
           </Harmony>
         <Rest>
           <durationType>quarter</durationType>
@@ -4749,6 +4777,9 @@
           </Chord>
         </Measure>
       <Measure number="73">
+        <Harmony>
+          <name>V7</name>
+          </Harmony>
         <Rest>
           <durationType>whole</durationType>
           </Rest>
@@ -4849,9 +4880,17 @@
           </Chord>
         </Measure>
       <Measure number="74">
+        <Harmony>
+          <name>V7(2)</name>
+          </Harmony>
         <Rest>
           <durationType>half</durationType>
           </Rest>
+        <tick>139200</tick>
+        <Harmony>
+          <name>V7</name>
+          </Harmony>
+        <tick>139680</tick>
         <Chord>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
@@ -5630,7 +5669,7 @@
         </Measure>
       <Measure number="81">
         <Harmony>
-          <name>#viio65/v</name>
+          <name>viio65/V</name>
           </Harmony>
         <Beam id="70">
           <StemDirection>up</StemDirection>
@@ -7495,7 +7534,7 @@
         </Measure>
       <Measure number="112">
         <Harmony>
-          <name>vii6(4)</name>
+          <name>.bIIM2-vii(2)</name>
           </Harmony>
         <Chord>
           <dots>1</dots>
@@ -7575,7 +7614,7 @@
         </Measure>
       <Measure number="113">
         <Harmony>
-          <name>vii6</name>
+          <name>vo6</name>
           </Harmony>
         <Chord>
           <durationType>whole</durationType>
@@ -7683,7 +7722,7 @@
         </Measure>
       <Measure number="114">
         <Harmony>
-          <name>V2(9)/iv</name>
+          <name>V2(2)/iv</name>
           <pos x="-0.260633" y="-4.58507"/>
           </Harmony>
         <Chord>
@@ -7785,7 +7824,7 @@
         </Measure>
       <Measure number="115">
         <Harmony>
-          <name>iv6(9)</name>
+          <name>iv6(2)</name>
           </Harmony>
         <Chord>
           <durationType>whole</durationType>
@@ -10255,6 +10294,7 @@
           </Rest>
         </Measure>
       <Measure number="153" len="3/4">
+        <endRepeat>2</endRepeat>
         <Harmony>
           <name>i\\</name>
           </Harmony>
@@ -10589,9 +10629,6 @@
       <Measure number="7">
         <Rest>
           <durationType>quarter</durationType>
-          <Lyrics>
-            <text>ffyy</text>
-            </Lyrics>
           </Rest>
         <Chord>
           <durationType>quarter</durationType>
