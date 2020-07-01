@@ -11,3 +11,11 @@ MC 56 is completing MC 55 but has not been excluded from bar count!
 MC 64 (1/2) and MC 11 (3/4) don't add up to 3/4.
 Done parsing 18-3.mscx
 
+The following chords could not be parsed:
+     mc  mn onset   label
+21    8   8   1/4  .bVII6
+129  52  52   1/4  .bVII6
+164  66  66     0   .bII6
+166  68  68     0   .bII6
+Failed to expand labels due to syntactic errors:
+repl_spec() missing 1 required positional argument: 'special'

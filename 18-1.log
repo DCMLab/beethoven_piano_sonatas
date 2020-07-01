@@ -1,12 +1,14 @@
 Attempting to parse 18-1.mscx
 Done parsing 18-1.mscx
 
+The following chords could not be parsed:
+      mc   mn onset     label
+31    35   35   1/2    .bVI64
+35    37   37   1/2    .bVI64
+39    39   39   1/2   .bIII64
+43    41   41   1/2   .bIII64
+46    43   43     0     .Ger6
+101   92   92     0  .Ger6/vi
+252  226  226     0    .bvii6
 Failed to expand labels due to syntactic errors:
-3 organ points started, 1 ended! Beginnings:
-12      I
-108    vi
-163     I
-Name: pedal, dtype: object
-Endings:
-120    ]
-Name: pedalend, dtype: object
+repl_spec() missing 1 required positional argument: 'special'

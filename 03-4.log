@@ -2,5 +2,16 @@ Attempting to parse 03-4.mscx
 MC 1 seems to be a pickup measure but has not been excluded from bar count!
 Done parsing 03-4.mscx
 
+The following chords could not be parsed:
+      mc   mn onset  label
+ix                        
+388  154  154     0     V.
+566  236  236   3/8  .bIII
+570  237  237   3/8   .bVI
+578  239  239   3/8  .bVII
+584  241  241     0  .bIII
+588  242  242     0   .bVI
+598  244  244   3/8  .bIII
+602  245  245   3/8   .bVI
 Failed to expand labels due to syntactic errors:
-'float' object is not iterable
+repl_spec() missing 1 required positional argument: 'special'

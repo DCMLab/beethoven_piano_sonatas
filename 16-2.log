@@ -7,15 +7,25 @@ MC 95 (1/2) and MC 96 (7/16) don't add up to 9/8.
 MC 97 (3/4) and MC 98 (9/8) don't add up to 9/8.
 Done parsing 16-2.mscx
 
+The following chords could not be parsed:
+     mc  mn  onset     label
+ix                          
+36   17  17    1/4    .bVI/V
+37   17  17      1   .Ger6/V
+43   20  20    1/4      .bII
+44   20  20      1  .Ger6/IV
+93   36  36      0     .bVI6
+104  41  41      0    .bVI\\
+106  45  45      0      .bVI
+111  49  49   1/16     .bII6
+114  50  50    3/4     .bVI6
+118  52  52      0     .bII6
+123  53  53    7/8      .bVI
+128  54  54    7/8      .bVI
+132  55  55    3/8     .bII6
+193  81  81    1/4    .bVI/V
+194  81  81      1   .Ger6/V
+200  84  84    1/4      .bII
+201  84  84  17/16  .Ger6/IV
 Failed to expand labels due to syntactic errors:
-3 organ points started, 2 ended! Beginnings:
-ix
-51     V
-130    V
-208    V
-Name: pedal, dtype: object
-Endings:
-ix
-71     ]
-228    ]
-Name: pedalend, dtype: object
+repl_spec() missing 1 required positional argument: 'special'

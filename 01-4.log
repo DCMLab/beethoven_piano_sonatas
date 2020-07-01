@@ -4,3 +4,14 @@ MC 1 seems to be a pickup measure but has not been excluded from bar count!
 MC 2 (1/2) and MC 3 (1) don't add up to 1.
 Done parsing 01-4.mscx
 
+The following chords could not be parsed:
+      mc   mn onset    label
+18     9    8   3/4     .It6
+51    27   26   1/2  .bIIM65
+65    31   30   1/2  .bIIM65
+87    40   39   1/2     .Fr6
+100   48   47   1/2     .Fr6
+238  148  145   3/4     .It6
+251  154  151   1/2     .It6
+Failed to expand labels due to syntactic errors:
+repl_spec() missing 1 required positional argument: 'special'

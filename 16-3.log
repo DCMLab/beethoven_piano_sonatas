@@ -2,31 +2,46 @@ Attempting to parse 16-3.mscx
 MC 1 seems to be a pickup measure but has not been excluded from bar count!
 Done parsing 16-3.mscx
 
+The following chords could not be parsed:
+      mc   mn onset    label
+ix                          
+72    26   26   1/2    .Ger6
+81    30   30   1/2    .Ger6
+274   96   96     0    .bVI6
+277   97   97   1/4    .bVI6
+283   99   99     0   .bVI\\
+285   99   99   1/2    .bVI6
+286   99   99   3/4     .bVI
+288  100  100   1/4    .bVI6
+291  101  101     0    .bVI6
+296  102  102   1/4    .bVI6
+299  103  103     0   .bVI\\
+300  103  103   1/4    .bVI6
+302  103  103   3/4     .bVI
+307  105  105     0   .bVI\\
+320  108  108   1/2    .bvii
+323  109  109   1/4    .bvii
+339  113  113   1/4   .bvii6
+341  113  113   3/4    .bvii
+346  115  115     0  .bvii\\
+348  115  115   1/2   .bvii6
+349  115  115   3/4    .bvii
+352  116  116   1/2    .biii
+355  117  117   1/4    .biii
+358  118  118     0    .biii
+359  118  118   1/4   .biii6
+360  118  118   1/2  .biii64
+361  118  118   3/4    .biii
+366  120  120     0     .bII
+367  120  120   1/4    .bII6
+368  120  120   1/2   .bII64
+369  120  120   3/4     .bII
+397  127  127   3/4     .It6
+405  129  129   3/4     .It6
+473  158  158   1/2    .Ger6
+632  214  214     0     .bII
+681  249  249   1/2     .It6
+684  251  251   1/2     .It6
+687  253  253   1/2     .It6
 Failed to expand labels due to syntactic errors:
-11 organ points started, 10 ended! Beginnings:
-ix
-0      V
-23     I
-34     I
-46     V
-68     I
-77     I
-237    V
-424    I
-435    I
-447    V
-611    V
-Name: pedal, dtype: object
-Endings:
-ix
-18     ]
-30     ]
-41     ]
-67     ]
-73     ]
-82     ]
-431    ]
-442    ]
-468    ]
-633    ]
-Name: pedalend, dtype: object
+repl_spec() missing 1 required positional argument: 'special'

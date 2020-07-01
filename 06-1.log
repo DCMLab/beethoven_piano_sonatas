@@ -6,3 +6,16 @@ MC 120 is completing MC 119 but has not been excluded from bar count!
 MC 140 is completing MC 139 but has not been excluded from bar count!
 Done parsing 06-1.mscx
 
+The following chords could not be parsed:
+      mc   mn onset     label
+30    18   18   1/8  .Ger6/vi
+32    18   18   3/8  .Ger6/vi
+88    46   46     0      .bVI
+220  111  111     0      .bVI
+221  111  111   1/4    .bVI64
+222  112  112     0      .bVI
+292  164  164     0     .bIII
+295  165  165   1/4      .It6
+336  181  181     0      .bVI
+Failed to expand labels due to syntactic errors:
+repl_spec() missing 1 required positional argument: 'special'

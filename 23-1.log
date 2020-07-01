@@ -11,3 +11,20 @@ MC 165 is longer 13/8 than its nominal duration 3/2.
 MC 205 is completing MC 204 but has not been excluded from bar count!
 Done parsing 23-1.mscx
 
+The following chords could not be parsed:
+      mc   mn onset    label
+4      5    4   9/8     .bII
+28    27   26     0  .bVIM65
+36    31   30     0  .bVIM65
+52    43   42   3/8    .bII6
+57    54   52     0     .bII
+63    59   57     0     .bII
+162  105  101   3/4  .bVIM65
+164  106  102   3/4  .bVIM65
+194  121  117     0     .bII
+301  185  181   3/8    .bII6
+306  196  192     0     .bII
+312  200  196     0     .bII
+353  223  218     0    .bII6
+Failed to expand labels due to syntactic errors:
+repl_spec() missing 1 required positional argument: 'special'

@@ -1,10 +1,10 @@
 Attempting to parse 03-2.mscx
-MC 74 contains an empty <Harmony> tag. It is stored as 'empty_harmony'.
-Doublings: mc  onset
-74  0        empty_harmony
-    0                   V7
-Name: chords, dtype: object
 Done parsing 03-2.mscx
 
+The following chords could not be parsed:
+     mc  mn onset    label
+44   14  14     0  .bIII.I
+158  55  55     0     .bVI
+159  55  55   1/4    .bVI6
 Failed to expand labels due to syntactic errors:
-'float' object is not iterable
+repl_spec() missing 1 required positional argument: 'special'

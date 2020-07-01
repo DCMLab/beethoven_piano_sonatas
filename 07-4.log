@@ -3,3 +3,15 @@ MC 1 seems to be a pickup measure but has not been excluded from bar count!
 MC 57 is completing MC 56 but has not been excluded from bar count!
 Done parsing 07-4.mscx
 
+The following chords could not be parsed:
+     mc  mn onset     label
+ix                         
+84   34  34     0  .bVI.I\\
+107  50  50   7/8      .bVI
+110  51  51   1/2    .bVI64
+113  52  52   1/4    .bVI64
+122  54  54   1/2    .bvii6
+191  80  80     0    .bVI64
+192  80  80   1/2     .bii6
+Failed to expand labels due to syntactic errors:
+repl_spec() missing 1 required positional argument: 'special'

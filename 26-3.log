@@ -2,11 +2,13 @@ Attempting to parse 26-3.mscx
 MC 82 in volta [82] has not been excluded from barcount.
 Done parsing 26-3.mscx
 
+The following chords could not be parsed:
+      mc   mn onset  label
+66    38   38     0  .bVI6
+68    45   45     0  .bVI6
+127   85   85   3/8  .bVI6
+130   87   87     0  .bIII
+209  132  132     0  .bVI6
+211  139  139     0  .bVI6
 Failed to expand labels due to syntactic errors:
-2 organ points started, 1 ended! Beginnings:
-56     I
-198    I
-Name: pedal, dtype: object
-Endings:
-63    ]
-Name: pedalend, dtype: object
+repl_spec() missing 1 required positional argument: 'special'
