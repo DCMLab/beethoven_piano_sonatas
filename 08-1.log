@@ -1,30 +1,20 @@
-Attempting to parse 08-1.mscx
-MC 297 (31/32) and MC 298 (1) don't add up to 1.
-Done parsing 08-1.mscx
+INFO     08-1.ms3 -- Attempting to parse 08-1.mscx
+WARNING  08-1.ms3 -- MC 297 (31/32) and MC 298 (1) don't add up to 1.
+INFO     08-1.ms3 -- Done parsing 08-1.mscx
 
-The following chords could not be parsed:
+WARNING  08-1.expand_labels -- The following chords could not be parsed:
       mc   mn onset          label
 24     5    5   1/2    IV64/III(7)
-63    17   17   1/2          .Ger6
-84    25   25   1/2          .Ger6
-115   43   43     0     .bVII[bVII
-117   43   43   1/2          .bVII
-119   44   44     0         .bVII6
-121   44   44   1/2          .bVII
-123   45   45     0          .bVII
-125   46   46     0         .bVII6
-127   47   47     0          .bVII
-129   48   48     0         .bVII6
-131   49   49     0         .bVII]
-132   51   51     0    .bVII[i/iii
-136   67   67     0           .bII
-147   84   84     0          .bVII
 231  138  138   1/2       V97/#iii
 274  169  169   1/2  #viio/ii(+b6)
 278  171  171   1/2  #viio/ii(+b6)
 293  177  177   1/2  #viio/ii(+b6)
 297  179  179   1/2  #viio/ii(+b6)
-340  203  203   1/2          .Ger6
-393  252  252     0          .Ger6
-Failed to expand labels due to syntactic errors:
-repl_spec() missing 1 required positional argument: 'special'
+WARNING  08-1.expand_labels -- #viio7 in major context is most probably an annotation error.
+WARNING  08-1.expand_labels -- #viio7 in major context is most probably an annotation error.
+WARNING  08-1.expand_labels -- #viio in major context is most probably an annotation error.
+WARNING  08-1.expand_labels -- The change 5 has no effect in i6
+WARNING  08-1.expand_labels -- #viio2 in major context is most probably an annotation error.
+WARNING  08-1.expand_labels -- #viio6 in major context is most probably an annotation error.
+WARNING  08-1.expand_labels -- #viio64 in major context is most probably an annotation error.
+WARNING  08-1.expand_labels -- The change 5 has no effect in v6

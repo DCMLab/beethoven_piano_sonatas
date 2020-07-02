@@ -1,5 +1,7 @@
-Attempting to parse 10-2.mscx
-Done parsing 10-2.mscx
+INFO     10-2.ms3 -- Attempting to parse 10-2.mscx
+ERROR    10-2.ms3 -- Score contains ambiguous barnumbers at measure count 45, possibly caused by MuseScore's 'Add to bar number' or 'Section break' function.
+WARNING  10-2.ms3 -- Voltas with measure COUNTS [[43, 44], [45]] have different lengths.
+    Check measure NUMBERS with authoritative score. To silence the warning, either make all voltas
+    the same length or exclude all measures in voltas > 1 from the bar count.
+INFO     10-2.ms3 -- Done parsing 10-2.mscx
 
-Failed to expand labels due to syntactic errors:
-repl_spec() missing 1 required positional argument: 'special'

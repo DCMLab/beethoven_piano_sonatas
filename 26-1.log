@@ -1,20 +1,7 @@
-Attempting to parse 26-1.mscx
-Single volta: [[70]]. Delete it or add another one.
-Done parsing 26-1.mscx
+INFO     26-1.ms3 -- Attempting to parse 26-1.mscx
+WARNING  26-1.ms3 -- Single volta: [[70]]. Delete it or add another one.
+INFO     26-1.ms3 -- Done parsing 26-1.mscx
 
-More than two alternatives are not taken into account:                0         1       2
+WARNING  26-1.expand_labels -- More than two alternatives are not taken into account:                0         1       2
 205  #viio64/iii  iio6/iii  iv/iii
 206         III6       iv6    Ger6
-The following chords could not be parsed:
-     mc  mn onset    label
-7     3   3   3/8  .Fr6/vi
-21    8   8     0     .bVI
-24    9   9   1/4     .bVI
-207  85  85     0    .Ger6
-219  92  92   1/2    .bVI6
-223  94  94     0   .bIII6
-226  94  94   3/4    .bIII
-228  95  95   1/4    .bIII
-230  95  95   3/4    .bIII
-Failed to expand labels due to syntactic errors:
-repl_spec() missing 1 required positional argument: 'special'

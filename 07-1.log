@@ -1,27 +1,14 @@
-Attempting to parse 07-1.mscx
-MC 1 seems to be a pickup measure but has not been excluded from bar count!
-MC 1 is completing MC 125 but has not been excluded from bar count!
-MC 126 is completing MC 125 but has not been excluded from bar count!
-MC 186 is completing MC 185 but has not been excluded from bar count!
-Done parsing 07-1.mscx
+INFO     07-1.ms3 -- Attempting to parse 07-1.mscx
+WARNING  07-1.ms3 -- MC 1 seems to be a pickup measure but has not been excluded from bar count!
+WARNING  07-1.ms3 -- MC 1 is completing MC 125 but has not been excluded from bar count!
+WARNING  07-1.ms3 -- MC 126 is completing MC 125 but has not been excluded from bar count!
+WARNING  07-1.ms3 -- MC 186 is completing MC 185 but has not been excluded from bar count!
+INFO     07-1.ms3 -- Done parsing 07-1.mscx
 
-The following chords could not be parsed:
-      mc   mn onset     label
-126   76   76     0  I6/.bIII
-130   78   78     0     .bIII
-194  135  135     0  .bVI[bVI
-195  136  136     0     .bvii
-196  136  136   1/2      .bVI
-197  137  137     0     .bvii
-198  137  137   1/2      .bVI
-199  138  138     0    .bvii6
-201  139  139     0    .bVI\\
-202  140  140     0     .bvii
-203  140  140   1/2      .bVI
-204  141  141     0     .bvii
-205  141  141   1/2      .bVI
-206  142  142     0    .bvii6
-208  143  143     0     .bVI]
-429  323  323   3/4     .Ger6
-Failed to expand labels due to syntactic errors:
-repl_spec() missing 1 required positional argument: 'special'
+WARNING  07-1.expand_labels -- The following chords could not be parsed:
+     mc  mn onset     label
+126  76  76     0  I6/.bIII
+WARNING  07-1.expand_labels -- #viio7 in major context is most probably an annotation error.
+WARNING  07-1.expand_labels -- #viio in major context is most probably an annotation error.
+WARNING  07-1.expand_labels -- #viio6 in major context is most probably an annotation error.
+WARNING  07-1.expand_labels -- #viio6 in major context is most probably an annotation error.

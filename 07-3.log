@@ -1,21 +1,34 @@
-Attempting to parse 07-3.mscx
-These values in mc_info[2] are not included in mc_info[1]: mc
+INFO     07-3.ms3 -- Attempting to parse 07-3.mscx
+WARNING  07-3.ms3 -- These values in mc_info[2] are not included in mc_info[1]: mc
 57    1
 Name: keysig, dtype: object
-These values in mc_info[2] are not included in mc_info[1]: mc
+WARNING  07-3.ms3 -- These values in mc_info[2] are not included in mc_info[1]: mc
 57    3/4
 Name: timesig, dtype: object
-info and mc_info[1] were not identical before aggregation.
+WARNING  07-3.ms3 -- info and mc_info[1] were not identical before aggregation.
 This means that lower staves contain information that's missing in
 the first staff (as shown in previous warning).
-MC 1 seems to be a pickup measure but has not been excluded from bar count!
-MC 18 is completing MC 17 but has not been excluded from bar count!
-MC 1 is completing MC 56 but has not been excluded from bar count!
-MC 57 is completing MC 56 but has not been excluded from bar count!
-Done parsing 07-3.mscx
+ERROR    07-3.ms3 -- Measure without <voice> tag.
+ERROR    07-3.ms3 -- Measure without <voice> tag.
+ERROR    07-3.ms3 -- Measure without <voice> tag.
+ERROR    07-3.ms3 -- Measure without <voice> tag.
+ERROR    07-3.ms3 -- Measure without <voice> tag.
+ERROR    07-3.ms3 -- Measure without <voice> tag.
+ERROR    07-3.ms3 -- Measure without <voice> tag.
+ERROR    07-3.ms3 -- Measure without <voice> tag.
+ERROR    07-3.ms3 -- Measure without <voice> tag.
+ERROR    07-3.ms3 -- Measure without <voice> tag.
+ERROR    07-3.ms3 -- Measure without <voice> tag.
+ERROR    07-3.ms3 -- Measure without <voice> tag.
+ERROR    07-3.ms3 -- Measure without <voice> tag.
+ERROR    07-3.ms3 -- Measure without <voice> tag.
+ERROR    07-3.ms3 -- Measure without <voice> tag.
+ERROR    07-3.ms3 -- Measure without <voice> tag.
+ERROR    07-3.ms3 -- Measure without <voice> tag.
+WARNING  07-3.ms3 -- MC 1 seems to be a pickup measure but has not been excluded from bar count!
+WARNING  07-3.ms3 -- MC 18 is completing MC 17 but has not been excluded from bar count!
+WARNING  07-3.ms3 -- MC 1 is completing MC 56 but has not been excluded from bar count!
+WARNING  07-3.ms3 -- MC 57 is completing MC 56 but has not been excluded from bar count!
+INFO     07-3.ms3 -- Done parsing 07-3.mscx
 
-The following chords could not be parsed:
-    mc  mn onset label
-39  40  40     0  .Fr6
-Failed to expand labels due to syntactic errors:
-repl_spec() missing 1 required positional argument: 'special'
+WARNING  07-3.expand_labels -- #viio7 in major context is most probably an annotation error.

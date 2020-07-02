@@ -1,10 +1,8 @@
-Attempting to parse 03-2.mscx
-Done parsing 03-2.mscx
+INFO     03-2.ms3 -- Attempting to parse 03-2.mscx
+INFO     03-2.ms3 -- Done parsing 03-2.mscx
 
-The following chords could not be parsed:
-     mc  mn onset    label
-44   14  14     0  .bIII.I
-158  55  55     0     .bVI
-159  55  55   1/4    .bVI6
-Failed to expand labels due to syntactic errors:
-repl_spec() missing 1 required positional argument: 'special'
+WARNING  03-2.expand_labels -- #viio6 in major context is most probably an annotation error.
+WARNING  03-2.expand_labels -- #viio in major context is most probably an annotation error.
+WARNING  03-2.expand_labels -- #viio7 in major context is most probably an annotation error.
+WARNING  03-2.expand_labels -- #viio65 in major context is most probably an annotation error.
+WARNING  03-2.expand_labels -- #viio65 in major context is most probably an annotation error.

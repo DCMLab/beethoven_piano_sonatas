@@ -1,14 +1,19 @@
-Attempting to parse 18-1.mscx
-Done parsing 18-1.mscx
+INFO     18-1.ms3 -- Attempting to parse 18-1.mscx
+INFO     18-1.ms3 -- Done parsing 18-1.mscx
 
-The following chords could not be parsed:
-      mc   mn onset     label
-31    35   35   1/2    .bVI64
-35    37   37   1/2    .bVI64
-39    39   39   1/2   .bIII64
-43    41   41   1/2   .bIII64
-46    43   43     0     .Ger6
-101   92   92     0  .Ger6/vi
-252  226  226     0    .bvii6
-Failed to expand labels due to syntactic errors:
-repl_spec() missing 1 required positional argument: 'special'
+ERROR    18-1 -- Could not expand labels due to errors:
+Traceback (most recent call last):
+  File "parallel_parse.py", line 79, in parse
+    expanded = expand_labels(chord_list, column='label', regex=REGEX, chord_tones=True, groupby=None, logger_name=S.fname).df
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 452, in __init__
+    df = self.propagate_pedal(df, cols=cols)
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 776, in propagate_pedal
+    assert n_b == n_e, f"{n_b} organ points started, {n_e} ended! Beginnings:\n{beginnings}\nEndings:\n{endings}"
+AssertionError: 3 organ points started, 1 ended! Beginnings:
+12      I
+108    vi
+163     I
+Name: pedal, dtype: object
+Endings:
+120    ]
+Name: pedalend, dtype: object

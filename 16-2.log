@@ -1,31 +1,32 @@
-Attempting to parse 16-2.mscx
-MC 26 is longer 51/16 than its nominal duration 9/8.
-MC 90 is longer 49/32 than its nominal duration 9/8.
-MC 91 (1/2) and MC 92 (1/2) don't add up to 9/8.
-MC 93 (11/16) and MC 94 (1/2) don't add up to 9/8.
-MC 95 (1/2) and MC 96 (7/16) don't add up to 9/8.
-MC 97 (3/4) and MC 98 (9/8) don't add up to 9/8.
-Done parsing 16-2.mscx
+INFO     16-2.ms3 -- Attempting to parse 16-2.mscx
+WARNING  16-2.ms3 -- Event 265 in MC 10 has has duration 1/56 and starts on 1063/960, surpassing the measure length of 9/8
+WARNING  16-2.ms3 -- Event 2916 in MC 84 has has duration 1/16 and starts on 9/8, surpassing the measure length of 9/8
+WARNING  16-2.ms3 -- Event 2917 in MC 84 has has duration 1/16 and starts on 9/8, surpassing the measure length of 9/8
+WARNING  16-2.ms3 -- Event 3445 in MC 102 has has duration 3/88 and starts on 419/384, surpassing the measure length of 9/8
+INFO     16-2.ms3 -- MC 26 is longer 51/16 than its nominal duration 9/8.
+INFO     16-2.ms3 -- MC 90 is longer 49/32 than its nominal duration 9/8.
+WARNING  16-2.ms3 -- MC 91 (1/2) and MC 92 (1/2) don't add up to 9/8.
+WARNING  16-2.ms3 -- MC 93 (11/16) and MC 94 (1/2) don't add up to 9/8.
+WARNING  16-2.ms3 -- MC 95 (1/2) and MC 96 (7/16) don't add up to 9/8.
+WARNING  16-2.ms3 -- MC 97 (3/4) and MC 98 (9/8) don't add up to 9/8.
+INFO     16-2.ms3 -- Done parsing 16-2.mscx
 
-The following chords could not be parsed:
-     mc  mn  onset     label
-ix                          
-36   17  17    1/4    .bVI/V
-37   17  17      1   .Ger6/V
-43   20  20    1/4      .bII
-44   20  20      1  .Ger6/IV
-93   36  36      0     .bVI6
-104  41  41      0    .bVI\\
-106  45  45      0      .bVI
-111  49  49   1/16     .bII6
-114  50  50    3/4     .bVI6
-118  52  52      0     .bII6
-123  53  53    7/8      .bVI
-128  54  54    7/8      .bVI
-132  55  55    3/8     .bII6
-193  81  81    1/4    .bVI/V
-194  81  81      1   .Ger6/V
-200  84  84    1/4      .bII
-201  84  84  17/16  .Ger6/IV
-Failed to expand labels due to syntactic errors:
-repl_spec() missing 1 required positional argument: 'special'
+ERROR    16-2 -- Could not expand labels due to errors:
+Traceback (most recent call last):
+  File "parallel_parse.py", line 79, in parse
+    expanded = expand_labels(chord_list, column='label', regex=REGEX, chord_tones=True, groupby=None, logger_name=S.fname).df
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 452, in __init__
+    df = self.propagate_pedal(df, cols=cols)
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 776, in propagate_pedal
+    assert n_b == n_e, f"{n_b} organ points started, {n_e} ended! Beginnings:\n{beginnings}\nEndings:\n{endings}"
+AssertionError: 3 organ points started, 2 ended! Beginnings:
+ix
+51     V
+130    V
+208    V
+Name: pedal, dtype: object
+Endings:
+ix
+71     ]
+228    ]
+Name: pedalend, dtype: object

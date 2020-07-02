@@ -1,37 +1,7 @@
-Attempting to parse 23-3.mscx
-Final volta with MC [300, 301, 302, 303, 304, 305, 306, 307] contains a repeat sign.
-Single volta: [[300, 301, 302, 303, 304, 305, 306, 307]]. Delete it or add another one.
-MC 324 in volta [324] has not been excluded from barcount.
-MC 335 in volta [335] has not been excluded from barcount.
-Done parsing 23-3.mscx
+INFO     23-3.ms3 -- Attempting to parse 23-3.mscx
+WARNING  23-3.ms3 -- Final volta with MC [300, 301, 302, 303, 304, 305, 306, 307] contains a repeat sign.
+WARNING  23-3.ms3 -- Single volta: [[300, 301, 302, 303, 304, 305, 306, 307]]. Delete it or add another one.
+WARNING  23-3.ms3 -- MC 324 in volta [324] has not been excluded from barcount.
+WARNING  23-3.ms3 -- MC 335 in volta [335] has not been excluded from barcount.
+INFO     23-3.ms3 -- Done parsing 23-3.mscx
 
-The following chords could not be parsed:
-      mc   mn onset   label
-6     24   24     0   .bII6
-12    32   32     0   .bII6
-60    76   76     0   .bII6
-64    78   78     0   .bII6
-68    80   80     0   .bII6
-80    86   86     0   .bII6
-84    88   88     0   .bII6
-88    90   90     0   .bII6
-139  130  130     0   .bII6
-150  138  138     0   .bII6
-153  143  143   1/8   .Ger6
-157  147  147   1/8   .Ger6
-171  160  160     0   .bII6
-192  176  176     0   .bII6
-201  216  216     0   .bII6
-214  224  224     0  .bII64
-216  225  225     0   .bII6
-217  225  225   1/4    .bII
-265  268  268     0   .bII6
-269  270  270     0   .bII6
-273  272  272     0   .bII6
-285  278  278     0   .bII6
-289  280  280     0   .bII6
-293  282  282     0   .bII6
-367  339  329     0   .bII6
-370  347  337     0   .bII6
-Failed to expand labels due to syntactic errors:
-repl_spec() missing 1 required positional argument: 'special'

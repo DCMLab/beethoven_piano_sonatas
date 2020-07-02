@@ -1,30 +1,32 @@
-Attempting to parse 23-1.mscx
-MC 21 is longer 13/8 than its nominal duration 3/2.
-MC 23 is longer 13/8 than its nominal duration 3/2.
-MC 55 is completing MC 54 but has not been excluded from bar count!
-MC 61 is completing MC 60 but has not been excluded from bar count!
-MC 96 is completing MC 95 but has not been excluded from bar count!
-MC 159 is longer 13/8 than its nominal duration 3/2.
-MC 161 is longer 13/8 than its nominal duration 3/2.
-MC 163 is longer 13/8 than its nominal duration 3/2.
-MC 165 is longer 13/8 than its nominal duration 3/2.
-MC 205 is completing MC 204 but has not been excluded from bar count!
-Done parsing 23-1.mscx
+INFO     23-1.ms3 -- Attempting to parse 23-1.mscx
+WARNING  23-1.ms3 -- Event 920 in MC 45 has has duration 1.0 and starts on 3/2, surpassing the measure length of 3/2
+WARNING  23-1.ms3 -- Event 929 in MC 46 has has duration 1.0 and starts on 5/4, surpassing the measure length of 3/2
+WARNING  23-1.ms3 -- Event 930 in MC 46 has has duration 1/12 and starts on 9/4, surpassing the measure length of 3/2
+WARNING  23-1.ms3 -- Event 931 in MC 46 has has duration 1/12 and starts on 5254199565265579/2251799813685248, surpassing the measure length of 3/2
+WARNING  23-1.ms3 -- Event 932 in MC 46 has has duration 1/12 and starts on 2720924774869675/1125899906842624, surpassing the measure length of 3/2
+WARNING  23-1.ms3 -- Event 941 in MC 47 has has duration 1.0 and starts on 5/4, surpassing the measure length of 3/2
+WARNING  23-1.ms3 -- Event 942 in MC 47 has has duration 1/12 and starts on 9/4, surpassing the measure length of 3/2
+WARNING  23-1.ms3 -- Event 943 in MC 47 has has duration 1/12 and starts on 5254199565265579/2251799813685248, surpassing the measure length of 3/2
+WARNING  23-1.ms3 -- Event 944 in MC 47 has has duration 1/12 and starts on 2720924774869675/1125899906842624, surpassing the measure length of 3/2
+WARNING  23-1.ms3 -- Event 2522 in MC 187 has has duration 1.0 and starts on 7/8, surpassing the measure length of 3/2
+WARNING  23-1.ms3 -- Event 2523 in MC 187 has has duration 1.0 and starts on 15/8, surpassing the measure length of 3/2
+WARNING  23-1.ms3 -- Event 2532 in MC 188 has has duration 1.0 and starts on 5/4, surpassing the measure length of 3/2
+WARNING  23-1.ms3 -- Event 2533 in MC 188 has has duration 1/12 and starts on 9/4, surpassing the measure length of 3/2
+WARNING  23-1.ms3 -- Event 2534 in MC 188 has has duration 1/12 and starts on 5254199565265579/2251799813685248, surpassing the measure length of 3/2
+WARNING  23-1.ms3 -- Event 2535 in MC 188 has has duration 1/12 and starts on 2720924774869675/1125899906842624, surpassing the measure length of 3/2
+WARNING  23-1.ms3 -- Event 2544 in MC 189 has has duration 1.0 and starts on 5/4, surpassing the measure length of 3/2
+WARNING  23-1.ms3 -- Event 2545 in MC 189 has has duration 1/12 and starts on 9/4, surpassing the measure length of 3/2
+WARNING  23-1.ms3 -- Event 2546 in MC 189 has has duration 1/12 and starts on 5254199565265579/2251799813685248, surpassing the measure length of 3/2
+WARNING  23-1.ms3 -- Event 2547 in MC 189 has has duration 1/12 and starts on 2720924774869675/1125899906842624, surpassing the measure length of 3/2
+INFO     23-1.ms3 -- MC 21 is longer 13/8 than its nominal duration 3/2.
+INFO     23-1.ms3 -- MC 23 is longer 13/8 than its nominal duration 3/2.
+WARNING  23-1.ms3 -- MC 55 is completing MC 54 but has not been excluded from bar count!
+WARNING  23-1.ms3 -- MC 61 is completing MC 60 but has not been excluded from bar count!
+WARNING  23-1.ms3 -- MC 96 is completing MC 95 but has not been excluded from bar count!
+INFO     23-1.ms3 -- MC 159 is longer 13/8 than its nominal duration 3/2.
+INFO     23-1.ms3 -- MC 161 is longer 13/8 than its nominal duration 3/2.
+INFO     23-1.ms3 -- MC 163 is longer 13/8 than its nominal duration 3/2.
+INFO     23-1.ms3 -- MC 165 is longer 13/8 than its nominal duration 3/2.
+WARNING  23-1.ms3 -- MC 205 is completing MC 204 but has not been excluded from bar count!
+INFO     23-1.ms3 -- Done parsing 23-1.mscx
 
-The following chords could not be parsed:
-      mc   mn onset    label
-4      5    4   9/8     .bII
-28    27   26     0  .bVIM65
-36    31   30     0  .bVIM65
-52    43   42   3/8    .bII6
-57    54   52     0     .bII
-63    59   57     0     .bII
-162  105  101   3/4  .bVIM65
-164  106  102   3/4  .bVIM65
-194  121  117     0     .bII
-301  185  181   3/8    .bII6
-306  196  192     0     .bII
-312  200  196     0     .bII
-353  223  218     0    .bII6
-Failed to expand labels due to syntactic errors:
-repl_spec() missing 1 required positional argument: 'special'
