@@ -1,16 +1,22 @@
 INFO     03-1.ms3 -- Attempting to parse 03-1.mscx
-WARNING  03-1.ms3 -- MC 233 (1/2) and MC 234 (1) don't add up to 1.
+WARNING  03-1.ms3 -- MC 54 contains an empty <Harmony> tag. It is stored as 'empty_harmony'.
+WARNING  03-1.ms3 -- Doublings: mc  onset
+54  0        empty_harmony
+    0                    V
+Name: chords, dtype: object
+WARNING  03-1.ms3 -- MC 233 (3/4) and MC 234 (3/4) don't add up to 1.
 INFO     03-1.ms3 -- Done parsing 03-1.mscx
 
 WARNING  03-1.expand_labels -- The following chords could not be parsed:
-      mc   mn  onset label
-216  109  108   9/16     ]
-366  178  177      0  V[\\
-368  178  177  15/16    /V
-WARNING  03-1.expand_labels -- MC 131: #viio7 in major context is most probably an annotation error.
-WARNING  03-1.expand_labels -- MC 133: #viio7 in major context is most probably an annotation error.
-WARNING  03-1.expand_labels -- MC 130: #viio in major context is most probably an annotation error.
+      mc   mn  onset          label
+119   54   54      0  empty_harmony
+217  109  108   9/16              ]
+367  178  177      0           V[\\
+369  178  177  15/16             /V
 WARNING  03-1.expand_labels -- MC 135: #viio7 in major context is most probably an annotation error.
 WARNING  03-1.expand_labels -- MC 132: #viio in major context is most probably an annotation error.
 WARNING  03-1.expand_labels -- MC 129: #viio7 in major context is most probably an annotation error.
+WARNING  03-1.expand_labels -- MC 130: #viio in major context is most probably an annotation error.
+WARNING  03-1.expand_labels -- MC 131: #viio7 in major context is most probably an annotation error.
+WARNING  03-1.expand_labels -- MC 133: #viio7 in major context is most probably an annotation error.
 WARNING  03-1.expand_labels -- MC 134: #viio in major context is most probably an annotation error.

@@ -7,7 +7,7 @@ July 2020: Please don't change anything because the scores are being corrected b
 |-------------------------------------|-----------------------------------|---------|
 | Piano Sonata No.1 in F minor        | Op.2 No.1                         | I&II done by Lars & Ya-Chuan; III&IV done by Daniel Grote |
 | Piano Sonata No.2 in A major        | Op.2 No.2                         | assigned to Lydia |
-| Piano Sonata No.3 in C major        | Op.2 No.3                         | I,II,II&IV Done by Lydia |
+| Piano Sonata No.3 in C major        | Op.2 No.3                         | Done by Lydia |
 | Piano Sonata No.4 in E-flat major   | Op.7 ("Grand Sonata")             | skip    |
 | Piano Sonata No.5 in C minor        | Op.10 No.1 ("Little Pathétique")  | done by Adrian |
 | Piano Sonata No.6 in F major        | Op.10 No.2                        | II done by Gabriela, I&III done by Adrian |

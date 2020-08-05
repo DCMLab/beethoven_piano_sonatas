@@ -3,7 +3,7 @@ INFO     18-1.ms3 -- Done parsing 18-1.mscx
 
 ERROR    18-1 -- Could not expand labels due to errors:
 Traceback (most recent call last):
-  File "parallel_parse.py", line 80, in parse
+  File "scripts/parallel_parse.py", line 80, in parse
     expanded = expand_labels(chord_list, column='label', regex=REGEX, chord_tones=True, groupby=None, logger_name=S.fname).df
   File "/home/hentsche/corpora/scripts/expand_labels.py", line 421, in __init__
     df = self.propagate_pedal(df, cols=cols)

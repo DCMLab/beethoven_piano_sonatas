@@ -1,5 +1,10 @@
 INFO     30-3.ms3 -- Attempting to parse 30-3.mscx
+WARNING  30-3.ms3 -- Voltas with measure COUNTS [[33, 34], [35]] have different lengths.
+    Check measure NUMBERS with authoritative score. To silence the warning, either make all voltas
+    the same length or exclude all measures in voltas > 1 from the bar count.
 WARNING  30-3.ms3 -- MC 25 in volta [25] has not been excluded from barcount.
+WARNING  30-3.ms3 -- MC 35 in volta [35] has not been excluded from barcount.
+WARNING  30-3.ms3 -- MCs [109 110] in volta [109, 110] have not been excluded from barcount.
 WARNING  30-3.ms3 -- MC 167 (3/4) and MC 168 (1/4) don't add up to 9/8.
 INFO     30-3.ms3 -- Done parsing 30-3.mscx
 

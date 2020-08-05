@@ -1,8 +1,16 @@
 INFO     03-2.ms3 -- Attempting to parse 03-2.mscx
+WARNING  03-2.ms3 -- MC 74 contains an empty <Harmony> tag. It is stored as 'empty_harmony'.
+WARNING  03-2.ms3 -- Doublings: mc  onset
+74  0        empty_harmony
+    0                   V7
+Name: chords, dtype: object
 INFO     03-2.ms3 -- Done parsing 03-2.mscx
 
-WARNING  03-2.expand_labels -- MC 72: #viio6 in major context is most probably an annotation error.
+WARNING  03-2.expand_labels -- The following chords could not be parsed:
+     mc  mn onset          label
+209  74  74     0  empty_harmony
 WARNING  03-2.expand_labels -- MC 36: #viio7 in major context is most probably an annotation error.
+WARNING  03-2.expand_labels -- MC 74: #viio in major context is most probably an annotation error.
+WARNING  03-2.expand_labels -- MC 72: #viio6 in major context is most probably an annotation error.
 WARNING  03-2.expand_labels -- MC 63: #viio65 in major context is most probably an annotation error.
 WARNING  03-2.expand_labels -- MC 31: #viio65 in major context is most probably an annotation error.
-WARNING  03-2.expand_labels -- MC 74: #viio in major context is most probably an annotation error.

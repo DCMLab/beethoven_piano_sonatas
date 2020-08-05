@@ -1,11 +1,16 @@
 INFO     08-3.ms3 -- Attempting to parse 08-3.mscx
-WARNING  08-3.ms3 -- MC 1 seems to be a pickup measure but has not been excluded from bar count!
+WARNING  08-3.ms3 -- MC 95 contains an empty <Harmony> tag. It is stored as 'empty_harmony'.
+WARNING  08-3.ms3 -- Doublings: mc  onset
+95  3/4      empty_harmony
+    3/4                  V
+Name: chords, dtype: object
 INFO     08-3.ms3 -- Done parsing 08-3.mscx
 
 WARNING  08-3.expand_labels -- The following chords could not be parsed:
-    mc  mn onset label
-ix                    
-96  58  58     0  iv/6
-WARNING  08-3.expand_labels -- MC 191: #viio7 in major context is most probably an annotation error.
-WARNING  08-3.expand_labels -- MC 96: #viio in major context is most probably an annotation error.
+     mc  mn onset          label
+ix                              
+96   58  57     0           iv/6
+173  95  94   3/4  empty_harmony
 WARNING  08-3.expand_labels -- MC 164: #viio43 in major context is most probably an annotation error.
+WARNING  08-3.expand_labels -- MC 96: #viio in major context is most probably an annotation error.
+WARNING  08-3.expand_labels -- MC 191: #viio7 in major context is most probably an annotation error.
