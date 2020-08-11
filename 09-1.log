@@ -11,31 +11,31 @@ WARNING  09-1.expand_labels -- The following chords could not be parsed:
 88    37   37   3/4          V97
 115   47   47   3/4      #viio%7
 123   49   49   3/4      #viio%7
-153   63   62   1/2        .bII2
-228  104  103     0   .bVI[bVI\\
-233  107  106   1/2         .It6
-234  107  106   7/8        .Ger6
 259  124  123     0  #viio/ii(4)
 264  125  124   1/2       V97/ii
 272  129  128   1/2          V97
-333  152  151   1/2     .It6(+7)
-337  154  153   1/2     .It6(+7)
-ERROR    09-1 -- Could not expand labels due to errors:
-Traceback (most recent call last):
-  File "scripts/parallel_parse.py", line 93, in parse
-    expanded = expand_labels(chord_list, column='label', regex=regex, chord_tones=True, groupby=None, logger_name=S.fname).df
-  File "/home/hentsche/corpora/scripts/expand_labels.py", line 421, in __init__
-    df = self.propagate_pedal(df, cols=cols)
-  File "/home/hentsche/corpora/scripts/expand_labels.py", line 747, in propagate_pedal
-    assert n_b == n_e, f"{n_b} organ points started, {n_e} ended:\n{make_comparison()}"
-AssertionError: 8 organ points started, 9 ended:
-     mc pedal   mc pedalend
-0     1     I    4        ]
-1     7     V    8        ]
-2    13     I   16        ]
-3    17     V   21        ]
-4    82     V   91        ]
-5    98     V   99        ]
-6   108     V  107        ]
-7   156     I  113        ]
-8  <NA>   NaN  162        ]
+WARNING  09-1.expand_labels -- MC 112: #viio43 in major context is most probably an annotation error.
+WARNING  09-1.expand_labels -- MC 80: #viio7 in major context is most probably an annotation error.
+WARNING  09-1.expand_labels -- MC 27: #viio in major context is most probably an annotation error.
+WARNING  09-1.expand_labels -- MC 20: #viio43 in major context is most probably an annotation error.
+WARNING  09-1.expand_labels -- MC 110: #viio43 in major context is most probably an annotation error.
+WARNING  09-1.expand_labels -- MC 97: #viio in major context is most probably an annotation error.
+WARNING  09-1.expand_labels -- MC 111: #viio2 in major context is most probably an annotation error.
+WARNING  09-1.expand_labels -- MC 48: #viio7 in major context is most probably an annotation error.
+WARNING  09-1.expand_labels -- MC 19: #viio43 in major context is most probably an annotation error.
+WARNING  09-1.expand_labels -- MC 18: #viio2 in major context is most probably an annotation error.
+WARNING  09-1.expand_labels -- MC 121: #viio in major context is most probably an annotation error.
+WARNING  09-1.expand_labels -- MC 108: #viio43 in major context is most probably an annotation error.
+WARNING  09-1.expand_labels -- MC 107: #viio in major context is most probably an annotation error.
+WARNING  09-1.expand_labels -- MC 85: #viio6 in major context is most probably an annotation error.
+WARNING  09-1.expand_labels -- MC 29: #viio in major context is most probably an annotation error.
+WARNING  09-1.expand_labels -- MC 109: #viio2 in major context is most probably an annotation error.
+WARNING  09-1.expand_labels -- MC 17: #viio43 in major context is most probably an annotation error.
+WARNING  09-1.expand_labels -- MC 35: #viio in major context is most probably an annotation error.
+WARNING  09-1.expand_labels -- MC 124: #viio in major context is most probably an annotation error.
+WARNING  09-1.expand_labels -- MC 59: #viio64(+5) in major context is most probably an annotation error.
+WARNING  09-1.expand_labels -- MC 36: #viio in major context is most probably an annotation error.
+WARNING  09-1.expand_labels -- MC 46: #viio7 in major context is most probably an annotation error.
+WARNING  09-1.expand_labels -- MC 89: #viio6 in major context is most probably an annotation error.
+WARNING  09-1.expand_labels -- MC 36: #viio in major context is most probably an annotation error.
+WARNING  09-1.expand_labels -- MC 119: #viio in major context is most probably an annotation error.

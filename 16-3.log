@@ -1,46 +1,6 @@
 INFO     16-3.ms3 -- Attempting to parse 16-3.mscx
 INFO     16-3.ms3 -- Done parsing 16-3.mscx
 
-WARNING  16-3.expand_labels -- The following chords could not be parsed:
-      mc   mn onset    label
-ix                          
-51    26   25   1/2    .Ger6
-60    30   29   1/2    .Ger6
-159   96   95     0    .bVI6
-162   97   96   1/4    .bVI6
-168   99   98     0   .bVI\\
-170   99   98   1/2    .bVI6
-171   99   98   3/4     .bVI
-173  100   99   1/4    .bVI6
-176  101  100     0    .bVI6
-181  102  101   1/4    .bVI6
-184  103  102     0   .bVI\\
-185  103  102   1/4    .bVI6
-187  103  102   3/4     .bVI
-192  105  104     0   .bVI\\
-205  108  107   1/2    .bvii
-208  109  108   1/4    .bvii
-224  113  112   1/4   .bvii6
-226  113  112   3/4    .bvii
-231  115  114     0  .bvii\\
-233  115  114   1/2   .bvii6
-234  115  114   3/4    .bvii
-237  116  115   1/2    .biii
-240  117  116   1/4    .biii
-243  118  117     0    .biii
-244  118  117   1/4   .biii6
-245  118  117   1/2  .biii64
-246  118  117   3/4    .biii
-251  120  119     0     .bII
-252  120  119   1/4    .bII6
-253  120  119   1/2   .bII64
-254  120  119   3/4     .bII
-282  127  126   3/4     .It6
-290  129  128   3/4     .It6
-372  214  213     0     .bII
-421  249  248   1/2     .It6
-424  251  250   1/2     .It6
-427  253  252   1/2     .It6
 ERROR    16-3 -- Could not expand labels due to errors:
 Traceback (most recent call last):
   File "scripts/parallel_parse.py", line 93, in parse
