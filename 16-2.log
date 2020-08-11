@@ -9,10 +9,30 @@ INFO     16-2.ms3 -- MC 92 is longer 19/16 than its nominal duration 9/8.
 WARNING  16-2.ms3 -- MC 93 (15/16) and MC 94 (3/4) don't add up to 9/8.
 INFO     16-2.ms3 -- Done parsing 16-2.mscx
 
+WARNING  16-2.expand_labels -- The following chords could not be parsed:
+     mc  mn  onset     label
+ix                          
+36   17  17    1/4    .bVI/V
+37   17  17      1   .Ger6/V
+43   20  20    1/4      .bII
+44   20  20      1  .Ger6/IV
+93   36  36      0     .bVI6
+104  41  41      0    .bVI\\
+106  45  45      0      .bVI
+111  49  49   1/16     .bII6
+114  50  50    3/4     .bVI6
+118  52  52      0     .bII6
+123  53  53    7/8      .bVI
+128  54  54    7/8      .bVI
+132  55  55    3/8     .bII6
+193  81  81    1/4    .bVI/V
+194  81  81      1   .Ger6/V
+200  84  84    1/4      .bII
+201  84  84  17/16  .Ger6/IV
 ERROR    16-2 -- Could not expand labels due to errors:
 Traceback (most recent call last):
-  File "scripts/parallel_parse.py", line 80, in parse
-    expanded = expand_labels(chord_list, column='label', regex=REGEX, chord_tones=True, groupby=None, logger_name=S.fname).df
+  File "scripts/parallel_parse.py", line 93, in parse
+    expanded = expand_labels(chord_list, column='label', regex=regex, chord_tones=True, groupby=None, logger_name=S.fname).df
   File "/home/hentsche/corpora/scripts/expand_labels.py", line 421, in __init__
     df = self.propagate_pedal(df, cols=cols)
   File "/home/hentsche/corpora/scripts/expand_labels.py", line 747, in propagate_pedal
