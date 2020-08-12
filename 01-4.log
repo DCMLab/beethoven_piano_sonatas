@@ -3,8 +3,9 @@ ERROR    01-4.ms3 -- Score contains ambiguous barnumbers at measure count 59, po
 WARNING  01-4.ms3 -- Voltas with measure COUNTS [[57, 58], [59, 60, 61]] have different lengths.
     Check measure NUMBERS with authoritative score. To silence the warning, either make all voltas
     the same length or exclude all measures in voltas > 1 from the bar count.
+WARNING  01-4.ms3 -- Repeat missing in the last measure.
 WARNING  01-4.ms3 -- MCs [60 61] in volta [59, 60, 61] have not been excluded from barcount.
-WARNING  01-4.ms3 -- MC 1 seems to be a pickup measure but has not been excluded from bar count!
 WARNING  01-4.ms3 -- MC 2 (1/2) and MC 3 (1) don't add up to 1.
+WARNING  01-4.ms3 -- MC 2 is completing MC 58 but has not been excluded from bar count!
 INFO     01-4.ms3 -- Done parsing 01-4.mscx
 

@@ -1,14 +1,16 @@
 INFO     07-1.ms3 -- Attempting to parse 07-1.mscx
-WARNING  07-1.ms3 -- MC 1 seems to be a pickup measure but has not been excluded from bar count!
-WARNING  07-1.ms3 -- MC 1 is completing MC 125 but has not been excluded from bar count!
-WARNING  07-1.ms3 -- MC 126 is completing MC 125 but has not been excluded from bar count!
-WARNING  07-1.ms3 -- MC 186 is completing MC 185 but has not been excluded from bar count!
+WARNING  07-1.ms3 -- MC 38 contains an empty <Harmony> tag. It is stored as 'empty_harmony'.
+WARNING  07-1.ms3 -- Doublings: mc  onset
+38  0        empty_harmony
+    0                    I
+Name: chords, dtype: object
 INFO     07-1.ms3 -- Done parsing 07-1.mscx
 
 WARNING  07-1.expand_labels -- The following chords could not be parsed:
-     mc  mn onset     label
-126  76  76     0  I6/.bIII
-WARNING  07-1.expand_labels -- MC 228: #viio6 in major context is most probably an annotation error.
-WARNING  07-1.expand_labels -- MC 203: #viio6 in major context is most probably an annotation error.
+     mc  mn onset          label
+67   38  37     0  empty_harmony
+127  76  75     0       I6/.bIII
+WARNING  07-1.expand_labels -- MC 227: #viio6 in major context is most probably an annotation error.
+WARNING  07-1.expand_labels -- MC 198: #viio7 in major context is most probably an annotation error.
+WARNING  07-1.expand_labels -- MC 202: #viio6 in major context is most probably an annotation error.
 WARNING  07-1.expand_labels -- MC 66: #viio in major context is most probably an annotation error.
-WARNING  07-1.expand_labels -- MC 199: #viio7 in major context is most probably an annotation error.

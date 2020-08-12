@@ -16,6 +16,7 @@
       <pageEvenBottomMargin>0.787403</pageEvenBottomMargin>
       <pageOddTopMargin>0.393701</pageOddTopMargin>
       <pageOddBottomMargin>0.787403</pageOddBottomMargin>
+      <staffDistance>7.5</staffDistance>
       <minSystemDistance>14.5</minSystemDistance>
       <lyricsDashForce>0</lyricsDashForce>
       <doubleBarDistance>0.46</doubleBarDistance>
@@ -69,7 +70,7 @@
       <repeatRightFramePadding>0.5</repeatRightFramePadding>
       <repeatRightFrameWidth>0.2</repeatRightFrameWidth>
       <repeatRightFrameRound>25</repeatRightFrameRound>
-      <Spatium>1.564</Spatium>
+      <Spatium>1.6</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -100,6 +101,7 @@
         <StaffType group="pitched">
           </StaffType>
         <defaultClef>F</defaultClef>
+        <distOffset>1.51898</distOffset>
         </Staff>
       <trackName>Piano</trackName>
       <Instrument>
@@ -122,19 +124,19 @@
           </Text>
         <Text>
           <style>Title</style>
-          <offset x="1.1447" y="-4.22606"/>
+          <offset x="1.1447" y="-4.20806"/>
           <text><font size="24"></font>Sonate No. 1</text>
           </Text>
         <Text>
           <style>Subtitle</style>
-          <offset x="0.286175" y="2.02485"/>
+          <offset x="0.286175" y="1.89899"/>
           <text><font size="14"></font>3rd Movement
 Opus 2 No 1</text>
           </Text>
         </VBox>
       <Measure len="1/4">
         <startRepeat/>
-        <noOffset>-1</noOffset>
+        <irregular>1</irregular>
         <voice>
           <KeySig>
             <accidental>-4</accidental>
@@ -150,7 +152,7 @@ Opus 2 No 1</text>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
-            <offset x="0.659062" y="3.32332"/>
+            <offset x="0.659062" y="3.88028"/>
             </Dynamic>
           <StaffText>
             <offset x="-14.738" y="-13.5725"/>
@@ -159,7 +161,7 @@ Opus 2 No 1</text>
           <Tempo>
             <tempo>3.15</tempo>
             <followText>1</followText>
-            <offset x="-14.9803" y="-14.8164"/>
+            <offset x="-14.9688" y="-14.8164"/>
             <text>Allegretto</text>
             </Tempo>
           <Harmony>
@@ -220,9 +222,6 @@ Opus 2 No 1</text>
                   </location>
                 </prev>
               </Spanner>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>58</pitch>
@@ -275,9 +274,6 @@ Opus 2 No 1</text>
                   </location>
                 </prev>
               </Spanner>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>56</pitch>
@@ -336,22 +332,6 @@ Opus 2 No 1</text>
           <Harmony>
             <name>i</name>
             </Harmony>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>0</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -395,29 +375,6 @@ Opus 2 No 1</text>
           <Harmony>
             <name>i(4)</name>
             </Harmony>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              </HairPin>
-            <next>
-              <location>
-                <fractions>1/2</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -449,9 +406,6 @@ Opus 2 No 1</text>
                   </location>
                 </prev>
               </Spanner>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>68</pitch>
@@ -461,13 +415,6 @@ Opus 2 No 1</text>
           <Harmony>
             <name>III.I[I</name>
             </Harmony>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <fractions>-1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -538,9 +485,6 @@ Opus 2 No 1</text>
                   </location>
                 </prev>
               </Spanner>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>61</pitch>
@@ -593,9 +537,6 @@ Opus 2 No 1</text>
                   </location>
                 </prev>
               </Spanner>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>60</pitch>
@@ -654,22 +595,6 @@ Opus 2 No 1</text>
           <Harmony>
             <name>I</name>
             </Harmony>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>0</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -713,29 +638,6 @@ Opus 2 No 1</text>
           <Harmony>
             <name>I(4)</name>
             </Harmony>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              </HairPin>
-            <next>
-              <location>
-                <fractions>1/2</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -767,30 +669,15 @@ Opus 2 No 1</text>
                   </location>
                 </prev>
               </Spanner>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>72</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Dynamic>
-            <subtype>f</subtype>
-            <velocity>96</velocity>
-            <offset x="0.659062" y="3.32332"/>
-            </Dynamic>
           <Harmony>
             <name>I6</name>
             </Harmony>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <fractions>-1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -811,6 +698,11 @@ Opus 2 No 1</text>
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            <offset x="0.658281" y="4.59734"/>
+            </Dynamic>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -836,21 +728,6 @@ Opus 2 No 1</text>
           <Harmony>
             <name>V43</name>
             </Harmony>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>0</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -927,28 +804,6 @@ Opus 2 No 1</text>
           <Harmony>
             <name>I(4)</name>
             </Harmony>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              </HairPin>
-            <next>
-              <location>
-                <fractions>1/2</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -994,13 +849,6 @@ Opus 2 No 1</text>
           <Harmony>
             <name>ii6</name>
             </Harmony>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <fractions>-1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -1033,10 +881,13 @@ Opus 2 No 1</text>
             <durationType>half</durationType>
             <Spanner type="Slur">
               <Slur>
+                <SlurSegment no="0">
+                  <o4 x="-0.126582" y="0.126582"/>
+                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
-                  <measures>1</measures>
+                  <fractions>1/2</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -1051,14 +902,6 @@ Opus 2 No 1</text>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  </location>
-                </next>
-              </Spanner>
             <acciaccatura/>
             <Note>
               <pitch>72</pitch>
@@ -1071,7 +914,7 @@ Opus 2 No 1</text>
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <grace>0</grace>
+                  <fractions>-1/2</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -1095,16 +938,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  </location>
-                </prev>
-              </Spanner>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>68</pitch>
@@ -1115,9 +948,9 @@ Opus 2 No 1</text>
             <durationType>quarter</durationType>
             </Rest>
           <Dynamic>
-            <subtype>f</subtype>
-            <velocity>96</velocity>
-            <offset x="0.329531" y="3.32332"/>
+            <subtype>sf</subtype>
+            <velocity>112</velocity>
+            <offset x="0.329141" y="3.24051"/>
             </Dynamic>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -1169,7 +1002,7 @@ Opus 2 No 1</text>
                 </Slur>
               <next>
                 <location>
-                  <measures>1</measures>
+                  <fractions>1/2</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -1184,14 +1017,6 @@ Opus 2 No 1</text>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  </location>
-                </next>
-              </Spanner>
             <acciaccatura/>
             <Note>
               <pitch>72</pitch>
@@ -1204,7 +1029,7 @@ Opus 2 No 1</text>
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <grace>0</grace>
+                  <fractions>-1/2</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -1232,16 +1057,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  </location>
-                </prev>
-              </Spanner>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>68</pitch>
@@ -1255,7 +1070,7 @@ Opus 2 No 1</text>
         </Measure>
       <Measure len="1/4">
         <startRepeat/>
-        <noOffset>-1</noOffset>
+        <irregular>1</irregular>
         <voice>
           <BarLine>
             <subtype>start-repeat</subtype>
@@ -1268,9 +1083,16 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>72</pitch>
@@ -1291,15 +1113,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/4</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>73</pitch>
@@ -1319,13 +1132,11 @@ Opus 2 No 1</text>
             <Spanner type="Slur">
               <prev>
                 <location>
+                  <measures>-1</measures>
                   <fractions>-1/4</fractions>
                   </location>
                 </prev>
               </Spanner>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>70</pitch>
@@ -1378,9 +1189,6 @@ Opus 2 No 1</text>
                   </location>
                 </prev>
               </Spanner>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>68</pitch>
@@ -1436,9 +1244,6 @@ Opus 2 No 1</text>
                   </location>
                 </prev>
               </Spanner>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>72</pitch>
@@ -1491,9 +1296,6 @@ Opus 2 No 1</text>
                   </location>
                 </prev>
               </Spanner>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>70</pitch>
@@ -1524,10 +1326,13 @@ Opus 2 No 1</text>
             <durationType>half</durationType>
             <Spanner type="Slur">
               <Slur>
+                <SlurSegment no="0">
+                  <offset x="0" y="-1.52164"/>
+                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
-                  <measures>1</measures>
+                  <fractions>1/2</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -1546,14 +1351,6 @@ Opus 2 No 1</text>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  </location>
-                </next>
-              </Spanner>
             <acciaccatura/>
             <Note>
               <pitch>73</pitch>
@@ -1566,7 +1363,7 @@ Opus 2 No 1</text>
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <grace>0</grace>
+                  <fractions>-1/2</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -1596,16 +1393,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  </location>
-                </prev>
-              </Spanner>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>70</pitch>
@@ -1618,12 +1405,7 @@ Opus 2 No 1</text>
           <Dynamic>
             <subtype>sf</subtype>
             <velocity>112</velocity>
-            <offset x="0.329531" y="3.32332"/>
-            </Dynamic>
-          <Dynamic>
-            <subtype>f</subtype>
-            <velocity>96</velocity>
-            <offset x="0.329531" y="3.32332"/>
+            <offset x="0.04612" y="3.25067"/>
             </Dynamic>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -1631,6 +1413,15 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
@@ -1642,6 +1433,13 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>end</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>77</pitch>
               <tpc>13</tpc>
@@ -1659,18 +1457,17 @@ Opus 2 No 1</text>
             <durationType>half</durationType>
             <Spanner type="Slur">
               <Slur>
+                <SlurSegment no="0">
+                  <offset x="0" y="-1.6848"/>
+                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
-                  <measures>1</measures>
+                  <fractions>1/2</fractions>
                   </location>
                 </next>
               </Spanner>
             <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              </Note>
             <Note>
               <pitch>70</pitch>
               <tpc>12</tpc>
@@ -1701,6 +1498,13 @@ Opus 2 No 1</text>
             <Spanner type="Slur">
               <prev>
                 <location>
+                  <fractions>-1/2</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
+              <prev>
+                <location>
                   <grace>0</grace>
                   </location>
                 </prev>
@@ -1728,16 +1532,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  </location>
-                </prev>
-              </Spanner>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>70</pitch>
@@ -1750,22 +1544,6 @@ Opus 2 No 1</text>
           <Harmony>
             <name>V7(6)</name>
             </Harmony>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/2</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -1777,8 +1555,7 @@ Opus 2 No 1</text>
                 </Slur>
               <next>
                 <location>
-                  <measures>1</measures>
-                  <fractions>-1/2</fractions>
+                  <fractions>1/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -1800,6 +1577,13 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>end</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>72</pitch>
               <tpc>14</tpc>
@@ -1812,28 +1596,9 @@ Opus 2 No 1</text>
           <Harmony>
             <name>i</name>
             </Harmony>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  <fractions>1/2</fractions>
-                  </location>
-                </prev>
-              </Spanner>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>70</pitch>
@@ -1846,22 +1611,6 @@ Opus 2 No 1</text>
           <Harmony>
             <name>V7(6)</name>
             </Harmony>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/2</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -1873,8 +1622,7 @@ Opus 2 No 1</text>
                 </Slur>
               <next>
                 <location>
-                  <measures>1</measures>
-                  <fractions>-1/2</fractions>
+                  <fractions>1/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -1896,6 +1644,13 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>end</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>72</pitch>
               <tpc>14</tpc>
@@ -1908,28 +1663,9 @@ Opus 2 No 1</text>
           <Harmony>
             <name>i</name>
             </Harmony>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  <fractions>1/2</fractions>
-                  </location>
-                </prev>
-              </Spanner>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>70</pitch>
@@ -1952,6 +1688,9 @@ Opus 2 No 1</text>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
+                <SlurSegment no="0">
+                  <offset x="0" y="-1.43843"/>
+                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -2226,12 +1965,13 @@ Opus 2 No 1</text>
             <name>#viio64</name>
             <offset x="-1" y="-4"/>
             </Harmony>
+          <Dynamic>
+            <subtype>sf</subtype>
+            <velocity>112</velocity>
+            </Dynamic>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <Accidental>
@@ -2279,9 +2019,6 @@ Opus 2 No 1</text>
                   </location>
                 </prev>
               </Spanner>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>80</pitch>
@@ -2312,16 +2049,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  <measures>1</measures>
-                  <fractions>-1/4</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Articulation>
               <subtype>ornamentTrill</subtype>
               </Articulation>
@@ -2379,6 +2106,15 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>85</pitch>
@@ -2395,14 +2131,10 @@ Opus 2 No 1</text>
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <measures>-1</measures>
-                  <fractions>1/4</fractions>
+                  <fractions>-1/4</fractions>
                   </location>
                 </prev>
               </Spanner>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>82</pitch>
@@ -2424,16 +2156,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  <measures>1</measures>
-                  <fractions>-1/4</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Articulation>
               <subtype>ornamentTrill</subtype>
               </Articulation>
@@ -2491,6 +2213,15 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>84</pitch>
@@ -2507,14 +2238,10 @@ Opus 2 No 1</text>
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <measures>-1</measures>
-                  <fractions>1/4</fractions>
+                  <fractions>-1/4</fractions>
                   </location>
                 </prev>
               </Spanner>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>80</pitch>
@@ -2536,16 +2263,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  <measures>1</measures>
-                  <fractions>-1/4</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Articulation>
               <subtype>ornamentTrill</subtype>
               </Articulation>
@@ -2603,6 +2320,15 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>82</pitch>
@@ -2619,14 +2345,10 @@ Opus 2 No 1</text>
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <measures>-1</measures>
-                  <fractions>1/4</fractions>
+                  <fractions>-1/4</fractions>
                   </location>
                 </prev>
               </Spanner>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>79</pitch>
@@ -2648,16 +2370,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  <measures>1</measures>
-                  <fractions>-1/4</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Articulation>
               <subtype>ornamentTrill</subtype>
               </Articulation>
@@ -2709,6 +2421,15 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>80</pitch>
@@ -2721,14 +2442,10 @@ Opus 2 No 1</text>
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <measures>-1</measures>
-                  <fractions>1/4</fractions>
+                  <fractions>-1/4</fractions>
                   </location>
                 </prev>
               </Spanner>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>77</pitch>
@@ -2763,19 +2480,11 @@ Opus 2 No 1</text>
             </Dynamic>
           <Harmony>
             <name>V(64)</name>
+            <offset x="0" y="-4.66572"/>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  <measures>1</measures>
-                  </location>
-                </next>
-              </Spanner>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>77</pitch>
@@ -2784,18 +2493,11 @@ Opus 2 No 1</text>
             </Chord>
           <Harmony>
             <name>V7</name>
+            <offset x="0" y="-4.80837"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  </location>
-                </next>
-              </Spanner>
-            <acciaccatura/>
+            <appoggiatura/>
             <Note>
               <pitch>80</pitch>
               <tpc>10</tpc>
@@ -2804,13 +2506,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <grace>0</grace>
-                  </location>
-                </prev>
-              </Spanner>
             <StemDirection>down</StemDirection>
             <Note>
               <Accidental>
@@ -2834,16 +2529,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  </location>
-                </prev>
-              </Spanner>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>77</pitch>
@@ -2912,7 +2597,7 @@ Opus 2 No 1</text>
                 </Slur>
               <next>
                 <location>
-                  <measures>1</measures>
+                  <fractions>1/2</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -2927,14 +2612,6 @@ Opus 2 No 1</text>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  </location>
-                </next>
-              </Spanner>
             <acciaccatura/>
             <Note>
               <pitch>68</pitch>
@@ -2947,7 +2624,7 @@ Opus 2 No 1</text>
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <grace>0</grace>
+                  <fractions>-1/2</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -2974,16 +2651,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  </location>
-                </prev>
-              </Spanner>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>65</pitch>
@@ -2993,11 +2660,6 @@ Opus 2 No 1</text>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <Dynamic>
-            <subtype>pp</subtype>
-            <velocity>33</velocity>
-            <offset x="0.533906" y="3.32332"/>
-            </Dynamic>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -3008,20 +2670,16 @@ Opus 2 No 1</text>
           <Harmony>
             <name>V</name>
             </Harmony>
+          <Dynamic>
+            <subtype>pp</subtype>
+            <velocity>33</velocity>
+            <offset x="0.533906" y="3.32332"/>
+            </Dynamic>
           <Chord>
             <BeamMode>no</BeamMode>
             <dots>1</dots>
             <staffMove>1</staffMove>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  <measures>1</measures>
-                  </location>
-                </next>
-              </Spanner>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>60</pitch>
@@ -3046,13 +2704,6 @@ Opus 2 No 1</text>
             <BeamMode>no</BeamMode>
             <staffMove>1</staffMove>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  </location>
-                </prev>
-              </Spanner>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>53</pitch>
@@ -3067,7 +2718,7 @@ Opus 2 No 1</text>
         </Measure>
       <Measure len="1/4">
         <startRepeat/>
-        <noOffset>-1</noOffset>
+        <irregular>1</irregular>
         <voice>
           <KeySig>
             <accidental>-1</accidental>
@@ -3107,7 +2758,7 @@ Opus 2 No 1</text>
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <offset x="-0.429262" y="2.2894"/>
+                  <offset x="-0.429262" y="0.354059"/>
                   </SlurSegment>
                 </Slur>
               <next>
@@ -3661,8 +3312,7 @@ Opus 2 No 1</text>
                 </Slur>
               <next>
                 <location>
-                  <measures>1</measures>
-                  <fractions>-1/8</fractions>
+                  <fractions>1/2</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -3708,6 +3358,13 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>end</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/2</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>62</pitch>
               <tpc>16</tpc>
@@ -3741,14 +3398,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  <fractions>1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>60</pitch>
@@ -3762,7 +3411,7 @@ Opus 2 No 1</text>
         </Measure>
       <Measure len="1/4">
         <startRepeat/>
-        <noOffset>-1</noOffset>
+        <irregular>1</irregular>
         <voice>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -3777,22 +3426,6 @@ Opus 2 No 1</text>
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>0</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              </HairPin>
-            <next>
-              <location>
-                <measures>2</measures>
-                <fractions>1/8</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -3801,13 +3434,12 @@ Opus 2 No 1</text>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <offset x="0" y="1.71705"/>
-                  </SlurSegment>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
-                  <measures>4</measures>
+                  <measures>2</measures>
+                  <fractions>5/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -3944,30 +3576,6 @@ Opus 2 No 1</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-2</measures>
-                <fractions>-1/8</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>3/8</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <BeamMode>end</BeamMode>
             <durationType>eighth</durationType>
@@ -4015,6 +3623,14 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>end</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-2</measures>
+                  <fractions>-5/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>67</pitch>
               <tpc>15</tpc>
@@ -4065,14 +3681,6 @@ Opus 2 No 1</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>-3/8</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -4098,18 +3706,12 @@ Opus 2 No 1</text>
         <voice>
           <Harmony>
             <name>V6</name>
+            <offset x="0" y="-4.97468"/>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <dots>1</dots>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-4</measures>
-                  </location>
-                </prev>
-              </Spanner>
             <Spanner type="Slur">
               <Slur>
                 </Slur>
@@ -4137,21 +3739,6 @@ Opus 2 No 1</text>
             <name>viio64/V</name>
             <offset x="0" y="-6"/>
             </Harmony>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>0</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              </HairPin>
-            <next>
-              <location>
-                <measures>2</measures>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <BeamMode>no</BeamMode>
             <dots>1</dots>
@@ -4223,8 +3810,8 @@ Opus 2 No 1</text>
                 </Slur>
               <next>
                 <location>
-                  <measures>6</measures>
-                  <fractions>-3/8</fractions>
+                  <measures>1</measures>
+                  <fractions>1/4</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -4265,13 +3852,6 @@ Opus 2 No 1</text>
           <Harmony>
             <name>I6</name>
             </Harmony>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-2</measures>
-                </location>
-              </prev>
-            </Spanner>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -4324,6 +3904,14 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>end</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>72</pitch>
               <tpc>14</tpc>
@@ -4335,6 +3923,7 @@ Opus 2 No 1</text>
         <voice>
           <Harmony>
             <name>IV</name>
+            <offset x="0" y="-5.38331"/>
             </Harmony>
           <Spanner type="HairPin">
             <HairPin>
@@ -4383,6 +3972,7 @@ Opus 2 No 1</text>
             </Chord>
           <Harmony>
             <name>viio6</name>
+            <offset x="0" y="-6.33434"/>
             </Harmony>
           <Chord>
             <BeamMode>end</BeamMode>
@@ -4394,6 +3984,7 @@ Opus 2 No 1</text>
             </Chord>
           <Harmony>
             <name>I6</name>
+            <offset x="0" y="-6.16143"/>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -4408,6 +3999,7 @@ Opus 2 No 1</text>
             </Chord>
           <Harmony>
             <name>ii6</name>
+            <offset x="0" y="-5.98851"/>
             </Harmony>
           <Chord>
             <BeamMode>end</BeamMode>
@@ -4420,16 +4012,28 @@ Opus 2 No 1</text>
           </voice>
         <voice>
           <Rest>
-            <offset x="0" y="-3"/>
-            <durationType>eighth</durationType>
+            <offset x="0" y="-5"/>
+            <durationType>quarter</durationType>
             </Rest>
           <Rest>
-            <offset x="0" y="-3"/>
-            <durationType>quarter</durationType>
+            <offset x="0" y="-5"/>
+            <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <SlurSegment no="0">
+                  <o1 x="-0.345828" y="-2.37757"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>76</pitch>
@@ -4450,6 +4054,13 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>end</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>79</pitch>
               <tpc>15</tpc>
@@ -4459,13 +4070,9 @@ Opus 2 No 1</text>
         </Measure>
       <Measure>
         <voice>
-          <Dynamic>
-            <subtype>f</subtype>
-            <velocity>96</velocity>
-            <offset x="0.329531" y="3.32332"/>
-            </Dynamic>
           <Harmony>
             <name>iii6</name>
+            <offset x="0" y="-4.62"/>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -4473,6 +4080,16 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <up>up</up>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>5/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>76</pitch>
               <tpc>18</tpc>
@@ -4484,6 +4101,7 @@ Opus 2 No 1</text>
             </Chord>
           <Harmony>
             <name>ii6</name>
+            <offset x="0" y="-4.62"/>
             </Harmony>
           <Chord>
             <BeamMode>end</BeamMode>
@@ -4499,6 +4117,7 @@ Opus 2 No 1</text>
             </Chord>
           <Harmony>
             <name>iii6</name>
+            <offset x="0" y="-4.61817"/>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -4517,6 +4136,7 @@ Opus 2 No 1</text>
             </Chord>
           <Harmony>
             <name>I6</name>
+            <offset x="0" y="-4.62"/>
             </Harmony>
           <Chord>
             <BeamMode>end</BeamMode>
@@ -4532,6 +4152,7 @@ Opus 2 No 1</text>
             </Chord>
           <Harmony>
             <name>ii6</name>
+            <offset x="0" y="-4.62"/>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -4550,10 +4171,18 @@ Opus 2 No 1</text>
             </Chord>
           <Harmony>
             <name>iii6</name>
+            <offset x="0" y="-4.62"/>
             </Harmony>
           <Chord>
             <BeamMode>end</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-5/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>76</pitch>
               <tpc>18</tpc>
@@ -4574,6 +4203,7 @@ Opus 2 No 1</text>
             </Dynamic>
           <Harmony>
             <name>IV6</name>
+            <offset x="0" y="-6.01"/>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -4582,12 +4212,42 @@ Opus 2 No 1</text>
                 </location>
               </prev>
             </Spanner>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              <Segment>
+                <subtype>1</subtype>
+                <offset x="0" y="3.5"/>
+                <off2 x="-1.95626" y="0"/>
+                </Segment>
+              <Segment>
+                <subtype>3</subtype>
+                <offset x="0" y="3.5"/>
+                <off2 x="0" y="0"/>
+                </Segment>
+              </HairPin>
+            <next>
+              <location>
+                <measures>2</measures>
+                </location>
+              </next>
+            </Spanner>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>5/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>77</pitch>
               <tpc>13</tpc>
@@ -4599,6 +4259,7 @@ Opus 2 No 1</text>
             </Chord>
           <Harmony>
             <name>iii6</name>
+            <offset x="0" y="-6.01"/>
             </Harmony>
           <Chord>
             <BeamMode>end</BeamMode>
@@ -4614,6 +4275,7 @@ Opus 2 No 1</text>
             </Chord>
           <Harmony>
             <name>ii6</name>
+            <offset x="0" y="-6.01"/>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -4632,6 +4294,7 @@ Opus 2 No 1</text>
             </Chord>
           <Harmony>
             <name>iii6</name>
+            <offset x="0" y="-6.01"/>
             </Harmony>
           <Chord>
             <BeamMode>end</BeamMode>
@@ -4647,6 +4310,7 @@ Opus 2 No 1</text>
             </Chord>
           <Harmony>
             <name>ii6</name>
+            <offset x="0" y="-6.01"/>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -4665,6 +4329,7 @@ Opus 2 No 1</text>
             </Chord>
           <Harmony>
             <name>I6</name>
+            <offset x="0" y="-6.01"/>
             </Harmony>
           <Chord>
             <BeamMode>end</BeamMode>
@@ -4684,22 +4349,8 @@ Opus 2 No 1</text>
         <voice>
           <Harmony>
             <name>viio6</name>
+            <offset x="0" y="-6.0138"/>
             </Harmony>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
-            </Spanner>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -4717,6 +4368,7 @@ Opus 2 No 1</text>
             </Chord>
           <Harmony>
             <name>I</name>
+            <offset x="0" y="-6.01"/>
             </Harmony>
           <Chord>
             <BeamMode>end</BeamMode>
@@ -4732,6 +4384,7 @@ Opus 2 No 1</text>
             </Chord>
           <Harmony>
             <name>viio6</name>
+            <offset x="0" y="-6.01"/>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -4748,13 +4401,9 @@ Opus 2 No 1</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Dynamic>
-            <subtype>mf</subtype>
-            <velocity>80</velocity>
-            <offset x="0.329531" y="3.32332"/>
-            </Dynamic>
           <Harmony>
             <name>vi6</name>
+            <offset x="0" y="-6.01"/>
             </Harmony>
           <Chord>
             <BeamMode>end</BeamMode>
@@ -4770,6 +4419,7 @@ Opus 2 No 1</text>
             </Chord>
           <Harmony>
             <name>V6</name>
+            <offset x="0" y="-6.01"/>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -4788,10 +4438,19 @@ Opus 2 No 1</text>
             </Chord>
           <Harmony>
             <name>vi6</name>
+            <offset x="0" y="-6.01"/>
             </Harmony>
           <Chord>
             <BeamMode>end</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>-5/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>69</pitch>
               <tpc>17</tpc>
@@ -4816,7 +4475,7 @@ Opus 2 No 1</text>
           <Spanner type="HairPin">
             <prev>
               <location>
-                <measures>-1</measures>
+                <measures>-2</measures>
                 </location>
               </prev>
             </Spanner>
@@ -4824,14 +4483,6 @@ Opus 2 No 1</text>
             <BeamMode>no</BeamMode>
             <dots>1</dots>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-6</measures>
-                  <fractions>3/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Spanner type="Slur">
               <Slur>
                 </Slur>
@@ -4953,22 +4604,6 @@ Opus 2 No 1</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>0</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>3/8</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -5066,14 +4701,6 @@ Opus 2 No 1</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>-3/8</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <BeamMode>end</BeamMode>
             <durationType>eighth</durationType>
@@ -5125,22 +4752,6 @@ Opus 2 No 1</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <BeamMode>end</BeamMode>
             <durationType>eighth</durationType>
@@ -5192,14 +4803,6 @@ Opus 2 No 1</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <BeamMode>end</BeamMode>
             <durationType>eighth</durationType>
@@ -5261,22 +4864,6 @@ Opus 2 No 1</text>
           <Harmony>
             <name>I6</name>
             </Harmony>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>0</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>1/2</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -5341,14 +4928,6 @@ Opus 2 No 1</text>
           <Harmony>
             <name>viio/V</name>
             </Harmony>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>-1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -5374,22 +4953,6 @@ Opus 2 No 1</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -5423,14 +4986,6 @@ Opus 2 No 1</text>
           <Harmony>
             <name>I\\</name>
             </Harmony>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -5441,9 +4996,6 @@ Opus 2 No 1</text>
                   </location>
                 </prev>
               </Spanner>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>65</pitch>
@@ -5486,9 +5038,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>53</pitch>
@@ -5613,9 +5162,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>44</pitch>
@@ -5813,9 +5359,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>49</pitch>
@@ -5833,15 +5376,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  <measures>1</measures>
-                  </location>
-                </next>
-              </Spanner>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>51</pitch>
@@ -5872,16 +5406,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  </location>
-                </prev>
-              </Spanner>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>56</pitch>
@@ -5905,15 +5429,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  <measures>1</measures>
-                  </location>
-                </next>
-              </Spanner>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>51</pitch>
@@ -5944,16 +5459,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  </location>
-                </prev>
-              </Spanner>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>56</pitch>
@@ -6016,9 +5521,6 @@ Opus 2 No 1</text>
                   </location>
                 </prev>
               </Spanner>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>58</pitch>
@@ -6068,9 +5570,6 @@ Opus 2 No 1</text>
                   </location>
                 </prev>
               </Spanner>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>60</pitch>
@@ -6123,9 +5622,6 @@ Opus 2 No 1</text>
                   </location>
                 </prev>
               </Spanner>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>60</pitch>
@@ -6175,9 +5671,6 @@ Opus 2 No 1</text>
                   </location>
                 </prev>
               </Spanner>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>61</pitch>
@@ -6195,15 +5688,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  <measures>1</measures>
-                  </location>
-                </next>
-              </Spanner>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>53</pitch>
@@ -6234,16 +5718,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  </location>
-                </prev>
-              </Spanner>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>58</pitch>
@@ -6267,15 +5741,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  <measures>1</measures>
-                  </location>
-                </next>
-              </Spanner>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>53</pitch>
@@ -6306,16 +5771,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  </location>
-                </prev>
-              </Spanner>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>58</pitch>
@@ -6332,16 +5787,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  <measures>1</measures>
-                  <fractions>-1/2</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>53</pitch>
@@ -6359,17 +5804,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  <fractions>1/2</fractions>
-                  </location>
-                </prev>
-              </Spanner>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>58</pitch>
@@ -6386,16 +5820,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  <measures>1</measures>
-                  <fractions>-1/2</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>53</pitch>
@@ -6413,17 +5837,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  <fractions>1/2</fractions>
-                  </location>
-                </prev>
-              </Spanner>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>58</pitch>
@@ -6682,9 +6095,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>60</pitch>
@@ -6699,14 +6109,11 @@ Opus 2 No 1</text>
             <subtype>f</subtype>
             <velocity>96</velocity>
             <placement>above</placement>
-            <offset x="0.659062" y="-1.64274"/>
+            <offset x="0.659062" y="-3.53814"/>
             </Dynamic>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>60</pitch>
@@ -6753,9 +6160,6 @@ Opus 2 No 1</text>
                   </location>
                 </prev>
               </Spanner>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>58</pitch>
@@ -6769,9 +6173,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>58</pitch>
@@ -6818,9 +6219,6 @@ Opus 2 No 1</text>
                   </location>
                 </prev>
               </Spanner>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>56</pitch>
@@ -6838,9 +6236,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>53</pitch>
@@ -6890,9 +6285,6 @@ Opus 2 No 1</text>
                   </location>
                 </prev>
               </Spanner>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>55</pitch>
@@ -6906,9 +6298,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>55</pitch>
@@ -6955,9 +6344,6 @@ Opus 2 No 1</text>
                   </location>
                 </prev>
               </Spanner>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>56</pitch>
@@ -6971,9 +6357,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>56</pitch>
@@ -7031,9 +6414,6 @@ Opus 2 No 1</text>
                   </location>
                 </prev>
               </Spanner>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>58</pitch>
@@ -7051,9 +6431,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>58</pitch>
@@ -7104,9 +6481,6 @@ Opus 2 No 1</text>
                   </location>
                 </prev>
               </Spanner>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>68</pitch>
@@ -7116,9 +6490,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>68</pitch>
@@ -7166,15 +6537,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  <measures>1</measures>
-                  </location>
-                </next>
-              </Spanner>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>60</pitch>
@@ -7209,16 +6571,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  </location>
-                </prev>
-              </Spanner>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>65</pitch>
@@ -7246,15 +6598,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  <measures>1</measures>
-                  </location>
-                </next>
-              </Spanner>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>48</pitch>
@@ -7285,16 +6628,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  </location>
-                </prev>
-              </Spanner>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>53</pitch>
@@ -7319,15 +6652,6 @@ Opus 2 No 1</text>
             <BeamMode>no</BeamMode>
             <dots>1</dots>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  <measures>1</measures>
-                  </location>
-                </next>
-              </Spanner>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>36</pitch>
@@ -7356,13 +6680,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  </location>
-                </prev>
-              </Spanner>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>41</pitch>
@@ -7393,6 +6710,9 @@ Opus 2 No 1</text>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
+                <SlurSegment no="0">
+                  <offset x="0" y="-0.679985"/>
+                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -7852,9 +7172,6 @@ Opus 2 No 1</text>
                   </location>
                 </prev>
               </Spanner>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>36</pitch>
@@ -7864,9 +7181,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>48</pitch>
@@ -7894,15 +7208,6 @@ Opus 2 No 1</text>
             <BeamMode>no</BeamMode>
             <dots>1</dots>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  <measures>3</measures>
-                  </location>
-                </next>
-              </Spanner>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>60</pitch>
@@ -8024,13 +7329,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-3</measures>
-                  </location>
-                </prev>
-              </Spanner>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>57</pitch>
@@ -8038,9 +7336,11 @@ Opus 2 No 1</text>
               </Note>
             </Chord>
           <Rest>
+            <offset x="0" y="2"/>
             <durationType>quarter</durationType>
             </Rest>
           <Rest>
+            <offset x="0" y="2"/>
             <durationType>quarter</durationType>
             </Rest>
           <Clef>
@@ -8077,10 +7377,12 @@ Opus 2 No 1</text>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
-                  <measures>8</measures>
+                  <measures>3</measures>
+                  <fractions>5/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -8313,6 +7615,14 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>end</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-3</measures>
+                  <fractions>-5/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>69</pitch>
               <tpc>17</tpc>
@@ -8328,6 +7638,15 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>5/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>70</pitch>
               <tpc>12</tpc>
@@ -8374,6 +7693,13 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>end</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-5/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>70</pitch>
               <tpc>12</tpc>
@@ -8389,6 +7715,18 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <SlurSegment no="0">
+                  <offset x="0" y="-0.949363"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>5/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>72</pitch>
               <tpc>14</tpc>
@@ -8435,6 +7773,13 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>end</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-5/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>72</pitch>
               <tpc>14</tpc>
@@ -8450,6 +7795,16 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>5/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>74</pitch>
               <tpc>16</tpc>
@@ -8557,6 +7912,14 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>end</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>-5/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>65</pitch>
               <tpc>13</tpc>
@@ -8574,13 +7937,6 @@ Opus 2 No 1</text>
             <BeamMode>no</BeamMode>
             <dots>1</dots>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-8</measures>
-                  </location>
-                </prev>
-              </Spanner>
             <Spanner type="Slur">
               <Slur>
                 </Slur>
@@ -8788,7 +8144,8 @@ Opus 2 No 1</text>
                 </Slur>
               <next>
                 <location>
-                  <measures>3</measures>
+                  <measures>2</measures>
+                  <fractions>5/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -8975,6 +8332,14 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>end</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-2</measures>
+                  <fractions>-5/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>43</pitch>
               <tpc>15</tpc>
@@ -8987,16 +8352,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-3</measures>
-                  </location>
-                </prev>
-              </Spanner>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>41</pitch>
@@ -9006,9 +8361,6 @@ Opus 2 No 1</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>53</pitch>

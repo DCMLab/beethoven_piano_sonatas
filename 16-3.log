@@ -1,25 +1,24 @@
 INFO     16-3.ms3 -- Attempting to parse 16-3.mscx
-WARNING  16-3.ms3 -- MC 1 seems to be a pickup measure but has not been excluded from bar count!
 INFO     16-3.ms3 -- Done parsing 16-3.mscx
 
 ERROR    16-3 -- Could not expand labels due to errors:
 Traceback (most recent call last):
-  File "parallel_parse.py", line 80, in parse
-    expanded = expand_labels(chord_list, column='label', regex=REGEX, chord_tones=True, groupby=None, logger_name=S.fname).df
+  File "scripts/parallel_parse.py", line 93, in parse
+    expanded = expand_labels(chord_list, column='label', regex=regex, chord_tones=True, groupby=None, logger_name=S.fname).df
   File "/home/hentsche/corpora/scripts/expand_labels.py", line 421, in __init__
     df = self.propagate_pedal(df, cols=cols)
   File "/home/hentsche/corpora/scripts/expand_labels.py", line 747, in propagate_pedal
     assert n_b == n_e, f"{n_b} organ points started, {n_e} ended:\n{make_comparison()}"
-AssertionError: 11 organ points started, 10 ended:
+AssertionError: 11 organ points started, 8 ended:
      mc pedal    mc pedalend
 0     1     V     7        ]
 1     9     I    11        ]
 2    13     I    15        ]
-3    17     V    24        ]
-4    25     I    27        ]
-5    29     I    31        ]
-6    83     V   143        ]
-7   141     I   147        ]
-8   145     I   156        ]
-9   149     V   214        ]
+3    17     V    27        ]
+4    25     I    31        ]
+5    29     I   143        ]
+6    83     V   147        ]
+7   141     I   214        ]
+8   145     I  <NA>      NaN
+9   149     V  <NA>      NaN
 10  207     V  <NA>      NaN
