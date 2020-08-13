@@ -2651,6 +2651,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -2695,6 +2696,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3903,6 +3905,15 @@
               </Lyrics>
             <Spanner type="Slur">
               <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>3/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
                 <SlurSegment no="0">
                   <offset x="0" y="-0.741559"/>
                   </SlurSegment>
@@ -3910,15 +3921,6 @@
               <next>
                 <location>
                   <fractions>15/16</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>3/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -7575,7 +7577,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>#viio</name>
+            <name>viio</name>
             <offset x="0" y="-4.05394"/>
             </Harmony>
           <Chord>
@@ -10572,6 +10574,7 @@
             <actualNotes>5</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>5</text>
               </Number>
             </Tuplet>
@@ -10630,6 +10633,7 @@
             <actualNotes>5</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>5</text>
               </Number>
             </Tuplet>
@@ -10686,7 +10690,7 @@
             </Chord>
           <endTuplet/>
           <Harmony>
-            <name>#viio/V/vi</name>
+            <name>viio/V/vi</name>
             <offset x="0" y="-5.02959"/>
             </Harmony>
           <Beam>
@@ -10859,7 +10863,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>#viio7/V/vi</name>
+            <name>viio7/V/vi</name>
             <offset x="0" y="-4.85446"/>
             </Harmony>
           <Beam>
@@ -11019,7 +11023,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>#viio7/V/vi</name>
+            <name>viio7/V/vi</name>
             <offset x="0" y="-4.20934"/>
             </Harmony>
           <Beam>
@@ -11877,7 +11881,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>#viio7/V</name>
+            <name>viio7/V</name>
             <offset x="0" y="-6.26282"/>
             </Harmony>
           <Dynamic>
@@ -12022,7 +12026,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>#viio7/V</name>
+            <name>viio7/V</name>
             <offset x="-0.278727" y="-5.52248"/>
             </Harmony>
           <Beam>
@@ -12183,7 +12187,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>#viio7/V</name>
+            <name>viio7/V</name>
             <offset x="-0.557454" y="-3.47555"/>
             </Harmony>
           <Beam>
@@ -13698,6 +13702,7 @@
             <baseNote>16th</baseNote>
             <Number>
               <visible>0</visible>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -13742,6 +13747,7 @@
             <baseNote>16th</baseNote>
             <Number>
               <visible>0</visible>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -16256,6 +16262,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -16298,6 +16305,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>

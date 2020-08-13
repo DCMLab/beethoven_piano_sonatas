@@ -135,7 +135,6 @@ Opus 2 No 1</text>
           </Text>
         </VBox>
       <Measure len="1/4">
-        <startRepeat/>
         <irregular>1</irregular>
         <voice>
           <KeySig>
@@ -146,9 +145,6 @@ Opus 2 No 1</text>
             <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <BarLine>
-            <subtype>start-repeat</subtype>
-            </BarLine>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
@@ -2039,6 +2035,7 @@ Opus 2 No 1</text>
             <actualNotes>5</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>5</text>
               </Number>
             <bracketType>2</bracketType>
@@ -2146,6 +2143,7 @@ Opus 2 No 1</text>
             <actualNotes>5</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>5</text>
               </Number>
             <bracketType>2</bracketType>
@@ -2253,6 +2251,7 @@ Opus 2 No 1</text>
             <actualNotes>5</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>5</text>
               </Number>
             <bracketType>2</bracketType>
@@ -2360,6 +2359,7 @@ Opus 2 No 1</text>
             <actualNotes>5</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>5</text>
               </Number>
             <bracketType>2</bracketType>
@@ -5019,9 +5019,6 @@ Opus 2 No 1</text>
             <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <BarLine>
-            <subtype>start-repeat</subtype>
-            </BarLine>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>

@@ -3722,6 +3722,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>quarter</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -4688,7 +4689,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>#viio\\</name>
+            <name>viio\\</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -5394,7 +5395,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>I6/.bIII</name>
+            <name>I6/bIII</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -13599,14 +13600,13 @@
               <endText></endText>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="3.12656"/>
+                <offset x="0" y="3.88484"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               </HairPin>
             <next>
               <location>
-                <measures>1</measures>
-                <fractions>-3/4</fractions>
+                <fractions>1/8</fractions>
                 </location>
               </next>
             </Spanner>
@@ -13616,13 +13616,14 @@
               <endText></endText>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="3.88484"/>
+                <offset x="0" y="3.12656"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               </HairPin>
             <next>
               <location>
-                <fractions>1/8</fractions>
+                <measures>1</measures>
+                <fractions>-3/4</fractions>
                 </location>
               </next>
             </Spanner>
@@ -13880,7 +13881,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>#viio7/V</name>
+            <name>viio7/V</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -14144,7 +14145,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>#viio6/V</name>
+            <name>viio6/V</name>
             <offset x="0" y="-4.08807"/>
             </Harmony>
           <Dynamic>
@@ -15804,7 +15805,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>#viio6/V</name>
+            <name>viio6/V</name>
             <offset x="-0.631579" y="-5.27895"/>
             </Harmony>
           <Dynamic>
@@ -35606,6 +35607,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
