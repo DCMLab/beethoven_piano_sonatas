@@ -121,6 +121,7 @@
         <height>10</height>
         </VBox>
       <Measure len="1/4">
+        <irregular>1</irregular>
         <voice>
           <KeySig>
             <accidental>-4</accidental>
@@ -942,6 +943,7 @@
         </Measure>
       <Measure len="1/4">
         <startRepeat/>
+        <irregular>1</irregular>
         <voice>
           <Beam>
             </Beam>
@@ -3518,6 +3520,7 @@
           </voice>
         </Measure>
       <Measure len="1/4">
+        <irregular>1</irregular>
         <voice>
           <KeySig>
             <accidental>-6</accidental>
@@ -3742,6 +3745,7 @@
           </voice>
         </Measure>
       <Measure len="1/4">
+        <irregular>1</irregular>
         <voice>
           <Chord>
             <durationType>quarter</durationType>
@@ -4238,6 +4242,18 @@
       <Measure len="2/4">
         <endRepeat>2</endRepeat>
         <voice>
+          <Spanner type="Volta">
+            <Volta>
+              <endHookType>1</endHookType>
+              <beginText>1.</beginText>
+              <endings>1</endings>
+              </Volta>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -4263,7 +4279,27 @@
           </voice>
         </Measure>
       <Measure>
+        <irregular>1</irregular>
         <voice>
+          <Spanner type="Volta">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="Volta">
+            <Volta>
+              <endHookType>1</endHookType>
+              <beginText>2.</beginText>
+              <endings>2</endings>
+              </Volta>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -4296,6 +4332,13 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="Volta">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>

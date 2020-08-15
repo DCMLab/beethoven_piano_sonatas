@@ -647,6 +647,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -709,6 +710,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -789,6 +791,7 @@
             <baseNote>16th</baseNote>
             <Number>
               <visible>0</visible>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -6929,7 +6932,7 @@
               </Volta>
             <next>
               <location>
-                <measures>1</measures>
+                <measures>2</measures>
                 </location>
               </next>
             </Spanner>
@@ -6953,13 +6956,6 @@
           <Harmony>
             <name>V2/IV</name>
             </Harmony>
-          <Spanner type="Volta">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -6978,6 +6974,13 @@
           <Harmony>
             <name>V6</name>
             </Harmony>
+          <Spanner type="Volta">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Spanner type="Volta">
             <Volta>
               <endHookType>1</endHookType>
@@ -7359,6 +7362,7 @@
         <voice>
           <Harmony>
             <name>iv/vi-iio6/vi</name>
+            <offset x="-1.51186" y="-3.50791"/>
             </Harmony>
           <Chord>
             <durationType>whole</durationType>
@@ -7544,6 +7548,7 @@
         <voice>
           <Harmony>
             <name>#viio6/v-vi</name>
+            <offset x="0.599468" y="-3.21799"/>
             </Harmony>
           <Chord>
             <durationType>whole</durationType>
@@ -7698,8 +7703,8 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>#viio64/iii-iio6/iii-iv/iii</name>
-            <offset x="0" y="-10.3"/>
+            <name>#viio64/iii-iio6/iii</name>
+            <offset x="-0.449601" y="-3.70586"/>
             </Harmony>
           <Chord>
             <durationType>whole</durationType>
@@ -7713,8 +7718,8 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>III6-iv6-Ger6</name>
-            <offset x="0" y="-7.8"/>
+            <name>III6-Ger6</name>
+            <offset x="0" y="-6.4512"/>
             </Harmony>
           <Chord>
             <durationType>whole</durationType>
@@ -12474,10 +12479,6 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o4 x="-1.28555" y="0.133912"/>
-                  <offset x="0.964163" y="-0.0535646"/>
-                  </SlurSegment>
                 <up>up</up>
                 </Slur>
               <next>
@@ -12587,9 +12588,6 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="1.50966" y="-1.25086"/>
-                  </SlurSegment>
                 <up>up</up>
                 </Slur>
               <next>
@@ -14665,9 +14663,6 @@
                 <SlurSegment no="0">
                   <o4 x="0" y="-0.516692"/>
                   </SlurSegment>
-                <SlurSegment no="1">
-                  <o1 x="0" y="-3.73167"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -15175,9 +15170,6 @@
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-3.8038"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -15397,11 +15389,6 @@
           <Spanner type="Ottava">
             <Ottava>
               <subtype>8va</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-7.70764"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </Ottava>
             <next>
               <location>
@@ -15714,9 +15701,6 @@
             <durationType>whole</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-0.569358"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -18732,7 +18716,7 @@
                 </Segment>
               <Segment>
                 <subtype>3</subtype>
-                <offset x="0" y="-4.47936"/>
+                <offset x="0" y="-3"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               </Ottava>
@@ -18748,6 +18732,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>quarter</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -18906,6 +18891,7 @@
             <actualNotes>5</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>5</text>
               </Number>
             </Tuplet>
@@ -19048,6 +19034,7 @@
             <actualNotes>5</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>5</text>
               </Number>
             </Tuplet>
@@ -27546,9 +27533,6 @@
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="0" y="2.37233"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -28335,11 +28319,6 @@
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="0" y="-1.7745"/>
-                  <o3 x="0" y="-1.7745"/>
-                  <offset x="0" y="-0.574103"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>

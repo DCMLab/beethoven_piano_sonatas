@@ -5482,16 +5482,11 @@
             <Volta>
               <endHookType>1</endHookType>
               <beginText>1.</beginText>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1.51829"/>
-                <off2 x="16.4274" y="0"/>
-                </Segment>
               <endings>1</endings>
               </Volta>
             <next>
               <location>
-                <measures>1</measures>
+                <measures>2</measures>
                 </location>
               </next>
             </Spanner>
@@ -5554,13 +5549,6 @@
         <endRepeat>2</endRepeat>
         <irregular>1</irregular>
         <voice>
-          <Spanner type="Volta">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -5694,6 +5682,13 @@
             <subtype>sf</subtype>
             <velocity>112</velocity>
             </Dynamic>
+          <Spanner type="Volta">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Spanner type="Volta">
             <Volta>
               <endHookType>1</endHookType>

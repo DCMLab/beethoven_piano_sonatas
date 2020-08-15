@@ -1019,7 +1019,7 @@
               </Volta>
             <next>
               <location>
-                <measures>1</measures>
+                <measures>2</measures>
                 </location>
               </next>
             </Spanner>
@@ -1170,13 +1170,6 @@
           <Harmony>
             <name>I</name>
             </Harmony>
-          <Spanner type="Volta">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <durationType>half</durationType>
             <Articulation>
@@ -1241,6 +1234,13 @@
           <Harmony>
             <name>V(64)</name>
             </Harmony>
+          <Spanner type="Volta">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Spanner type="Volta">
             <Volta>
               <endHookType>1</endHookType>
@@ -1452,6 +1452,18 @@
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
+                  <offset x="0" y="0.172533"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>5/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <SlurSegment no="0">
                   <offset x="0" y="0.646998"/>
                   </SlurSegment>
                 <up>down</up>
@@ -1460,18 +1472,6 @@
                 <location>
                   <voices>1</voices>
                   <fractions>1/2</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                <SlurSegment no="0">
-                  <offset x="0" y="0.172533"/>
-                  </SlurSegment>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>5/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -1646,6 +1646,15 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>5/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
                 <SlurSegment no="0">
                   <offset x="0" y="0.819531"/>
                   </SlurSegment>
@@ -1655,15 +1664,6 @@
                 <location>
                   <voices>1</voices>
                   <fractions>1/2</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>5/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -4856,7 +4856,7 @@
               </Volta>
             <next>
               <location>
-                <measures>1</measures>
+                <measures>2</measures>
                 </location>
               </next>
             </Spanner>
@@ -5007,13 +5007,6 @@
           <Harmony>
             <name>I</name>
             </Harmony>
-          <Spanner type="Volta">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <durationType>half</durationType>
             <Articulation>
@@ -5079,6 +5072,13 @@
           <Harmony>
             <name>V(64)</name>
             </Harmony>
+          <Spanner type="Volta">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Spanner type="Volta">
             <Volta>
               <endHookType>1</endHookType>
@@ -5293,17 +5293,6 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
-                <up>down</up>
-                </Slur>
-              <next>
-                <location>
-                  <voices>1</voices>
-                  <fractions>1/2</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <Slur>
                 <SlurSegment no="0">
                   <offset x="0" y="0.229641"/>
                   </SlurSegment>
@@ -5311,6 +5300,17 @@
               <next>
                 <location>
                   <fractions>5/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <up>down</up>
+                </Slur>
+              <next>
+                <location>
+                  <voices>1</voices>
+                  <fractions>1/2</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -5485,21 +5485,21 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>5/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
                 <up>down</up>
                 </Slur>
               <next>
                 <location>
                   <voices>1</voices>
                   <fractions>1/2</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>5/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -5982,6 +5982,7 @@
           </voice>
         </Measure>
       <Measure>
+        <irregular>1</irregular>
         <voice>
           <Harmony>
             <name>I[I\\</name>

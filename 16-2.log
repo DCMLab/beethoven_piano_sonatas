@@ -8,17 +8,3 @@ WARNING  16-2.ms3 -- MC 91 (17/16) and MC 92 (19/16) don't add up to 9/8.
 INFO     16-2.ms3 -- MC 92 is longer 19/16 than its nominal duration 9/8.
 WARNING  16-2.ms3 -- MC 93 (15/16) and MC 94 (3/4) don't add up to 9/8.
 INFO     16-2.ms3 -- Done parsing 16-2.mscx
-
-ERROR    16-2 -- Could not expand labels due to errors:
-Traceback (most recent call last):
-  File "scripts/parallel_parse.py", line 93, in parse
-    expanded = expand_labels(chord_list, column='label', regex=regex, chord_tones=True, groupby=None, logger_name=S.fname).df
-  File "/home/hentsche/corpora/scripts/expand_labels.py", line 421, in __init__
-    df = self.propagate_pedal(df, cols=cols)
-  File "/home/hentsche/corpora/scripts/expand_labels.py", line 747, in propagate_pedal
-    assert n_b == n_e, f"{n_b} organ points started, {n_e} ended:\n{make_comparison()}"
-AssertionError: 3 organ points started, 2 ended:
-   mc pedal    mc pedalend
-0  23     V    26        ]
-1  55     V    90        ]
-2  87     V  <NA>      NaN
