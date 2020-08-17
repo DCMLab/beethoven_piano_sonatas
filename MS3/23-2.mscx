@@ -1694,7 +1694,6 @@
           </voice>
         </Measure>
       <Measure>
-        <irregular>1</irregular>
         <voice>
           <Harmony>
             <name>I\\</name>
@@ -1826,6 +1825,7 @@
           </voice>
         </Measure>
       <Measure>
+        <irregular>1</irregular>
         <voice>
           <Harmony>
             <name>I\\</name>
@@ -2389,7 +2389,6 @@
         </Measure>
       <Measure>
         <endRepeat>2</endRepeat>
-        <irregular>1</irregular>
         <voice>
           <Spanner type="Volta">
             <Volta>
@@ -2459,6 +2458,7 @@
           </voice>
         </Measure>
       <Measure>
+        <irregular>1</irregular>
         <voice>
           <Spanner type="Volta">
             <prev>
@@ -3453,7 +3453,6 @@
         </Measure>
       <Measure>
         <endRepeat>2</endRepeat>
-        <irregular>1</irregular>
         <voice>
           <Harmony>
             <name>I64</name>
@@ -3586,6 +3585,7 @@
           </voice>
         </Measure>
       <Measure>
+        <irregular>1</irregular>
         <voice>
           <Harmony>
             <name>I64</name>
@@ -4524,7 +4524,6 @@
         </Measure>
       <Measure>
         <endRepeat>2</endRepeat>
-        <irregular>1</irregular>
         <voice>
           <Harmony>
             <name>I64</name>
@@ -4602,6 +4601,7 @@
           </voice>
         </Measure>
       <Measure>
+        <irregular>1</irregular>
         <voice>
           <Harmony>
             <name>I64</name>
@@ -4612,22 +4612,6 @@
                 <measures>-1</measures>
                 </location>
               </prev>
-            </Spanner>
-          <Spanner type="Volta">
-            <Volta>
-              <beginText>2</beginText>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-2.17537"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              <endings>2</endings>
-              </Volta>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
             </Spanner>
           <Spanner type="Pedal">
             <Pedal>
@@ -4642,6 +4626,22 @@
             <next>
               <location>
                 <fractions>1/4</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="Volta">
+            <Volta>
+              <beginText>2</beginText>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="-2.17537"/>
+                <off2 x="0" y="0"/>
+                </Segment>
+              <endings>2</endings>
+              </Volta>
+            <next>
+              <location>
+                <measures>1</measures>
                 </location>
               </next>
             </Spanner>
@@ -5098,8 +5098,7 @@
             </Chord>
           </voice>
         </Measure>
-      <Measure len="1/4">
-        <irregular>1</irregular>
+      <Measure>
         <voice>
           <Harmony>
             <name>ii%7</name>
@@ -5143,10 +5142,6 @@
               <tpc>9</tpc>
               </Note>
             </Chord>
-          </voice>
-        </Measure>
-      <Measure len="1/4">
-        <voice>
           <Harmony>
             <name>V43</name>
             </Harmony>
@@ -15197,7 +15192,7 @@
             </Chord>
           </voice>
         </Measure>
-      <Measure len="1/4">
+      <Measure>
         <voice>
           <Spanner type="Pedal">
             <prev>
@@ -15219,7 +15214,7 @@
               </Pedal>
             <next>
               <location>
-                <measures>1</measures>
+                <fractions>1/4</fractions>
                 </location>
               </next>
             </Spanner>
@@ -15304,14 +15299,10 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          </voice>
-        </Measure>
-      <Measure len="1/4">
-        <voice>
           <Spanner type="Pedal">
             <prev>
               <location>
-                <measures>-1</measures>
+                <fractions>-1/4</fractions>
                 </location>
               </prev>
             </Spanner>
@@ -15328,6 +15319,7 @@
             <next>
               <location>
                 <measures>1</measures>
+                <fractions>-1/4</fractions>
                 </location>
               </next>
             </Spanner>
@@ -15413,6 +15405,7 @@
             <prev>
               <location>
                 <measures>-1</measures>
+                <fractions>1/4</fractions>
                 </location>
               </prev>
             </Spanner>

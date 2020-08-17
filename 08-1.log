@@ -1,14 +1,14 @@
 INFO     08-1.ms3 -- Attempting to parse 08-1.mscx
-WARNING  08-1.ms3 -- MC 38 contains an empty <Harmony> tag. It is stored as 'empty_harmony'.
 WARNING  08-1.ms3 -- MC 97 contains an empty <Harmony> tag. It is stored as 'empty_harmony'.
 WARNING  08-1.ms3 -- Doublings: mc  onset
 97  1/2      empty_harmony
-    1/2               ii64
+    1/2              V64/v
 Name: chords, dtype: object
 WARNING  08-1.ms3 -- MC 298 (31/32) and MC 299 (1) don't add up to 1.
 INFO     08-1.ms3 -- Done parsing 08-1.mscx
 
 WARNING  08-1.expand_labels -- The following chords could not be parsed:
-      mc   mn onset          label
-105   38   37     0  empty_harmony
-164   97   96   1/2  empty_harmony
+      mc   mn  onset          label
+167   97   96    1/2  empty_harmony
+251  146  143      0     V/v[V(4)/v
+386  222  219      0     V/iv[V/iv}
