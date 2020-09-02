@@ -178,7 +178,7 @@
             <offset x="0.659062" y="3.41807"/>
             </Dynamic>
           <Harmony>
-            <name>.f.i</name>
+            <name>.f.i{</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -1179,6 +1179,16 @@
                 </location>
               </prev>
             </Spanner>
+          <Spanner type="Trill">
+            <Trill>
+              <subtype>trill</subtype>
+              </Trill>
+            <next>
+              <location>
+                <fractions>9/16</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
@@ -1192,16 +1202,6 @@
               <location>
                 <measures>1</measures>
                 <fractions>-3/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="Trill">
-            <Trill>
-              <subtype>trill</subtype>
-              </Trill>
-            <next>
-              <location>
-                <fractions>9/16</fractions>
                 </location>
               </next>
             </Spanner>
@@ -2001,7 +2001,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>V6\\</name>
+            <name>V6}</name>
             </Harmony>
           <Dynamic>
             <subtype>p</subtype>
@@ -2033,7 +2033,7 @@
             <durationType>eighth</durationType>
             </Rest>
           <Harmony>
-            <name>i</name>
+            <name>i{</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -2480,7 +2480,7 @@
             </Dynamic>
           <Harmony>
             <name>V6</name>
-            <offset x="0" y="-6.66766"/>
+            <offset x="0" y="-6.52765"/>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -2829,6 +2829,10 @@
             <velocity>112</velocity>
             <offset x="0.380168" y="3.41807"/>
             </Dynamic>
+          <Harmony>
+            <name>V6</name>
+            <offset x="-0.420042" y="-3.62011"/>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <staffMove>1</staffMove>
@@ -2850,9 +2854,6 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V6</name>
-            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -3129,7 +3130,8 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>V</name>
+            <name>V}{</name>
+            <offset x="0.140014" y="-3.96707"/>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -3340,7 +3342,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>V(64)</name>
+            <name>V(b64)</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -3883,7 +3885,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>I</name>
+            <name>I}{</name>
             </Harmony>
           <Rest>
             <dots>1</dots>
@@ -5137,7 +5139,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>V7\\</name>
+            <name>V7}</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -5669,7 +5671,7 @@
             <transposingClefType>F</transposingClefType>
             </Clef>
           <Harmony>
-            <name>i</name>
+            <name>i{</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -8589,7 +8591,7 @@
             <offset x="0.329531" y="3.41807"/>
             </Dynamic>
           <Harmony>
-            <name>i\\</name>
+            <name>i}</name>
             <offset x="0" y="-6.245"/>
             </Harmony>
           <Spanner type="HairPin">
@@ -8736,7 +8738,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>I</name>
+            <name>I{</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -9192,11 +9194,6 @@
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -9269,11 +9266,6 @@
           <Spanner type="Trill">
             <Trill>
               <subtype>trill</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-4.64594"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </Trill>
             <next>
               <location>
@@ -9284,11 +9276,6 @@
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -9579,6 +9566,16 @@
                 </location>
               </prev>
             </Spanner>
+          <Spanner type="Trill">
+            <Trill>
+              <subtype>trill</subtype>
+              </Trill>
+            <next>
+              <location>
+                <fractions>9/16</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
@@ -9592,16 +9589,6 @@
               <location>
                 <measures>1</measures>
                 <fractions>-3/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="Trill">
-            <Trill>
-              <subtype>trill</subtype>
-              </Trill>
-            <next>
-              <location>
-                <fractions>9/16</fractions>
                 </location>
               </next>
             </Spanner>
@@ -10013,6 +10000,16 @@
                 </location>
               </prev>
             </Spanner>
+          <Spanner type="Trill">
+            <Trill>
+              <subtype>trill</subtype>
+              </Trill>
+            <next>
+              <location>
+                <fractions>9/16</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
@@ -10021,21 +10018,6 @@
               <location>
                 <measures>1</measures>
                 <fractions>-3/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="Trill">
-            <Trill>
-              <subtype>trill</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-3.66683"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              </Trill>
-            <next>
-              <location>
-                <fractions>9/16</fractions>
                 </location>
               </next>
             </Spanner>
@@ -10344,7 +10326,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>V7\\</name>
+            <name>V7}</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -10373,7 +10355,7 @@
             <durationType>eighth</durationType>
             </Rest>
           <Harmony>
-            <name>i</name>
+            <name>i{</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
@@ -10987,6 +10969,7 @@
             <actualNotes>5</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>5</text>
               </Number>
             <bracketType>2</bracketType>
@@ -11047,6 +11030,7 @@
             <actualNotes>5</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>5</text>
               </Number>
             <bracketType>2</bracketType>
@@ -11100,6 +11084,7 @@
             <actualNotes>5</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>5</text>
               </Number>
             <bracketType>2</bracketType>
@@ -11156,6 +11141,7 @@
             <actualNotes>5</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>5</text>
               </Number>
             <bracketType>2</bracketType>
@@ -11213,6 +11199,7 @@
             <actualNotes>5</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>5</text>
               </Number>
             <bracketType>2</bracketType>
@@ -11269,6 +11256,7 @@
             <actualNotes>5</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>5</text>
               </Number>
             <bracketType>2</bracketType>
@@ -11325,6 +11313,7 @@
             <actualNotes>5</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>5</text>
               </Number>
             <bracketType>2</bracketType>
@@ -11378,6 +11367,7 @@
             <actualNotes>5</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>5</text>
               </Number>
             <bracketType>2</bracketType>
@@ -11634,6 +11624,7 @@
             <actualNotes>5</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>5</text>
               </Number>
             <bracketType>2</bracketType>
@@ -11693,6 +11684,7 @@
             <actualNotes>5</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>5</text>
               </Number>
             <bracketType>2</bracketType>
@@ -11746,6 +11738,7 @@
             <actualNotes>5</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>5</text>
               </Number>
             <bracketType>2</bracketType>
@@ -11809,6 +11802,7 @@
             <actualNotes>5</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>5</text>
               </Number>
             <bracketType>2</bracketType>
@@ -11866,6 +11860,7 @@
             <actualNotes>5</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>5</text>
               </Number>
             <bracketType>2</bracketType>
@@ -11925,6 +11920,7 @@
             <actualNotes>5</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>5</text>
               </Number>
             <bracketType>2</bracketType>
@@ -11981,6 +11977,7 @@
             <actualNotes>5</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>5</text>
               </Number>
             <bracketType>2</bracketType>
@@ -12037,6 +12034,7 @@
             <actualNotes>5</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>5</text>
               </Number>
             <bracketType>2</bracketType>
@@ -12753,7 +12751,7 @@
             <offset x="0.659062" y="3.41807"/>
             </Dynamic>
           <Harmony>
-            <name>V7\\</name>
+            <name>V7}{</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -14071,7 +14069,7 @@
             <offset x="0.329531" y="3.41807"/>
             </Dynamic>
           <Harmony>
-            <name>I\\</name>
+            <name>I}{</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -18863,7 +18861,7 @@
             <offset x="0.659062" y="3.41807"/>
             </Dynamic>
           <Harmony>
-            <name>V[V7\\</name>
+            <name>V[V7}</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -18947,7 +18945,7 @@
             <offset x="0.329531" y="3.41807"/>
             </Dynamic>
           <Harmony>
-            <name>i</name>
+            <name>i{</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -21385,7 +21383,7 @@
             <offset x="0.659062" y="3.41807"/>
             </Dynamic>
           <Harmony>
-            <name>V\\</name>
+            <name>V}</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -21484,6 +21482,9 @@
             <velocity>33</velocity>
             <offset x="0.659062" y="3.41807"/>
             </Dynamic>
+          <Harmony>
+            <name>{</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -23159,7 +23160,7 @@
             <offset x="0.329921" y="3.41807"/>
             </Dynamic>
           <Harmony>
-            <name>V\\</name>
+            <name>V}{</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -23954,7 +23955,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>I\\</name>
+            <name>I}{</name>
             </Harmony>
           <Rest>
             <dots>1</dots>
@@ -25231,7 +25232,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>V7\\</name>
+            <name>V7}</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -25762,7 +25763,7 @@
             <transposingClefType>F</transposingClefType>
             </Clef>
           <Harmony>
-            <name>i</name>
+            <name>i{</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -28665,7 +28666,7 @@
             <offset x="0.329531" y="3.41807"/>
             </Dynamic>
           <Harmony>
-            <name>i\\</name>
+            <name>i}</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -28827,6 +28828,10 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <name>{</name>
+            <offset x="0.167064" y="-5.84128"/>
+            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -29959,7 +29964,7 @@
             <offset x="0.329531" y="3.41807"/>
             </Dynamic>
           <Harmony>
-            <name>I\\</name>
+            <name>I}{</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -34470,7 +34475,7 @@
             <offset x="0.329531" y="4.34003"/>
             </Dynamic>
           <Harmony>
-            <name>V7\\</name>
+            <name>V7}</name>
             <offset x="0" y="-7.68731"/>
             </Harmony>
           <Fermata>
@@ -34507,6 +34512,9 @@
             <velocity>112</velocity>
             <offset x="0.329531" y="3.41807"/>
             </Dynamic>
+          <Harmony>
+            <name>{</name>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -36064,7 +36072,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>i\\</name>
+            <name>i}{</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -37410,7 +37418,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>i\\</name>
+            <name>i}</name>
             </Harmony>
           <Dynamic>
             <subtype>f</subtype>
@@ -48869,12 +48877,12 @@
               <endHookType>1</endHookType>
               <beginHookType>1</beginHookType>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>3</subtype>
                 <offset x="0" y="6.07"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               <Segment>
-                <subtype>3</subtype>
+                <subtype>1</subtype>
                 <offset x="0" y="3"/>
                 <off2 x="0" y="0"/>
                 </Segment>
@@ -49388,11 +49396,6 @@
             <Pedal>
               <endHookType>1</endHookType>
               <beginHookType>1</beginHookType>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </Pedal>
             <next>
               <location>
@@ -49428,11 +49431,6 @@
             <Pedal>
               <endHookType>1</endHookType>
               <beginHookType>1</beginHookType>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </Pedal>
             <next>
               <location>
@@ -49845,11 +49843,6 @@
             <Pedal>
               <endHookType>1</endHookType>
               <beginHookType>1</beginHookType>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4.97"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </Pedal>
             <next>
               <location>
@@ -49885,11 +49878,6 @@
             <Pedal>
               <endHookType>1</endHookType>
               <beginHookType>1</beginHookType>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4.97"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </Pedal>
             <next>
               <location>
@@ -50209,11 +50197,6 @@
             <Pedal>
               <endHookType>1</endHookType>
               <beginHookType>1</beginHookType>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3.96514"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </Pedal>
             <next>
               <location>
@@ -50268,11 +50251,6 @@
             <Pedal>
               <endHookType>1</endHookType>
               <beginHookType>1</beginHookType>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3.97"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </Pedal>
             <next>
               <location>
@@ -50521,11 +50499,6 @@
             <Pedal>
               <endHookType>1</endHookType>
               <beginHookType>1</beginHookType>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4.91"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </Pedal>
             <next>
               <location>
@@ -50538,6 +50511,7 @@
             <actualNotes>5</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>5</text>
               </Number>
             <bracketType>2</bracketType>
@@ -50597,11 +50571,6 @@
             <Pedal>
               <endHookType>1</endHookType>
               <beginHookType>1</beginHookType>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4.91"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </Pedal>
             <next>
               <location>
@@ -50614,6 +50583,7 @@
             <actualNotes>5</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>5</text>
               </Number>
             <bracketType>2</bracketType>
@@ -50677,11 +50647,6 @@
             <Pedal>
               <endHookType>1</endHookType>
               <beginHookType>1</beginHookType>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4.91"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </Pedal>
             <next>
               <location>
@@ -50694,6 +50659,7 @@
             <actualNotes>5</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>5</text>
               </Number>
             <bracketType>2</bracketType>
@@ -50753,11 +50719,6 @@
             <Pedal>
               <endHookType>1</endHookType>
               <beginHookType>1</beginHookType>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4.91"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </Pedal>
             <next>
               <location>
@@ -50771,6 +50732,7 @@
             <actualNotes>5</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>5</text>
               </Number>
             <bracketType>2</bracketType>
@@ -50852,6 +50814,7 @@
             <actualNotes>5</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>5</text>
               </Number>
             <bracketType>2</bracketType>
@@ -50928,6 +50891,7 @@
             <actualNotes>5</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>5</text>
               </Number>
             <bracketType>2</bracketType>
@@ -51173,11 +51137,6 @@
             <Pedal>
               <endHookType>1</endHookType>
               <beginHookType>1</beginHookType>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4.63331"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </Pedal>
             <next>
               <location>
@@ -51232,11 +51191,6 @@
             <Pedal>
               <endHookType>1</endHookType>
               <beginHookType>1</beginHookType>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4.63"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </Pedal>
             <next>
               <location>
@@ -51483,11 +51437,6 @@
             <Pedal>
               <endHookType>1</endHookType>
               <beginHookType>1</beginHookType>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4.75"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </Pedal>
             <next>
               <location>
@@ -51500,6 +51449,7 @@
             <actualNotes>5</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>5</text>
               </Number>
             <bracketType>2</bracketType>
@@ -51565,11 +51515,6 @@
             <Pedal>
               <endHookType>1</endHookType>
               <beginHookType>1</beginHookType>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4.75"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </Pedal>
             <next>
               <location>
@@ -51582,6 +51527,7 @@
             <actualNotes>5</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>5</text>
               </Number>
             <bracketType>2</bracketType>
@@ -51644,11 +51590,6 @@
             <Pedal>
               <endHookType>1</endHookType>
               <beginHookType>1</beginHookType>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4.75"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </Pedal>
             <next>
               <location>
@@ -51661,6 +51602,7 @@
             <actualNotes>5</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>5</text>
               </Number>
             <bracketType>2</bracketType>
@@ -51720,11 +51662,6 @@
             <Pedal>
               <endHookType>1</endHookType>
               <beginHookType>1</beginHookType>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4.75"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </Pedal>
             <next>
               <location>
@@ -51738,6 +51675,7 @@
             <actualNotes>5</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>5</text>
               </Number>
             <bracketType>2</bracketType>
@@ -51822,6 +51760,7 @@
             <actualNotes>5</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>5</text>
               </Number>
             <bracketType>2</bracketType>
@@ -51904,6 +51843,7 @@
             <actualNotes>5</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>5</text>
               </Number>
             <bracketType>2</bracketType>
@@ -52129,11 +52069,6 @@
             <Pedal>
               <endHookType>1</endHookType>
               <beginHookType>1</beginHookType>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="5.52421"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </Pedal>
             <next>
               <location>
@@ -52191,11 +52126,6 @@
             <Pedal>
               <endHookType>1</endHookType>
               <beginHookType>1</beginHookType>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="5.52"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </Pedal>
             <next>
               <location>
@@ -52448,11 +52378,6 @@
             <Pedal>
               <endHookType>1</endHookType>
               <beginHookType>1</beginHookType>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="6.04"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </Pedal>
             <next>
               <location>
@@ -52465,6 +52390,7 @@
             <actualNotes>5</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>5</text>
               </Number>
             <bracketType>2</bracketType>
@@ -52531,11 +52457,6 @@
             <Pedal>
               <endHookType>1</endHookType>
               <beginHookType>1</beginHookType>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="6.04"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </Pedal>
             <next>
               <location>
@@ -52548,6 +52469,7 @@
             <actualNotes>5</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>5</text>
               </Number>
             <bracketType>2</bracketType>
@@ -52610,11 +52532,6 @@
             <Pedal>
               <endHookType>1</endHookType>
               <beginHookType>1</beginHookType>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="6.04"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </Pedal>
             <next>
               <location>
@@ -52627,6 +52544,7 @@
             <actualNotes>5</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>5</text>
               </Number>
             <bracketType>2</bracketType>
@@ -52689,11 +52607,6 @@
             <Pedal>
               <endHookType>1</endHookType>
               <beginHookType>1</beginHookType>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="6.04"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </Pedal>
             <next>
               <location>
@@ -52707,6 +52620,7 @@
             <actualNotes>5</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>5</text>
               </Number>
             <bracketType>2</bracketType>
@@ -52794,6 +52708,7 @@
             <actualNotes>5</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>5</text>
               </Number>
             <bracketType>2</bracketType>
@@ -52873,6 +52788,7 @@
             <actualNotes>5</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>5</text>
               </Number>
             <bracketType>2</bracketType>
@@ -63214,13 +63130,13 @@
               <beginHookType>1</beginHookType>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="3"/>
+                <offset x="0" y="4.59"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               </Pedal>
             <next>
               <location>
-                <fractions>9/8</fractions>
+                <fractions>3/4</fractions>
                 </location>
               </next>
             </Spanner>
@@ -63230,13 +63146,13 @@
               <beginHookType>1</beginHookType>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="4.59"/>
+                <offset x="0" y="3"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               </Pedal>
             <next>
               <location>
-                <fractions>3/4</fractions>
+                <fractions>9/8</fractions>
                 </location>
               </next>
             </Spanner>
@@ -77237,6 +77153,20 @@
             </Spanner>
           <Spanner type="Pedal">
             <Pedal>
+              <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
+              <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
+              <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
+              <lineVisible>0</lineVisible>
+              </Pedal>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>11/8</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="Pedal">
+            <Pedal>
               <endHookType>1</endHookType>
               <beginHookType>1</beginHookType>
               <Segment>
@@ -77253,20 +77183,6 @@
             <next>
               <location>
                 <measures>2</measures>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
-              <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
-              <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
-              <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
-              <lineVisible>0</lineVisible>
-              </Pedal>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>11/8</fractions>
                 </location>
               </next>
             </Spanner>
@@ -79277,20 +79193,6 @@
             </Spanner>
           <Spanner type="Pedal">
             <Pedal>
-              <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
-              <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
-              <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
-              <lineVisible>0</lineVisible>
-              </Pedal>
-            <next>
-              <location>
-                <measures>4</measures>
-                <fractions>9/8</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="Pedal">
-            <Pedal>
               <endHookType>1</endHookType>
               <beginHookType>1</beginHookType>
               <Segment>
@@ -79308,6 +79210,20 @@
               <location>
                 <measures>4</measures>
                 <fractions>3/4</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="Pedal">
+            <Pedal>
+              <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
+              <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
+              <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
+              <lineVisible>0</lineVisible>
+              </Pedal>
+            <next>
+              <location>
+                <measures>4</measures>
+                <fractions>9/8</fractions>
                 </location>
               </next>
             </Spanner>

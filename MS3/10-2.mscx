@@ -1570,7 +1570,7 @@ Opus 14 No. 2</text>
 <font size="9.99937"></font>La prima parte senza replica</text>
             </Tempo>
           <Harmony>
-            <name>.C.V</name>
+            <name>.C.V{</name>
             <offset x="-1" y="-6"/>
             </Harmony>
           <Chord>
@@ -2213,7 +2213,7 @@ Opus 14 No. 2</text>
             <durationType>eighth</durationType>
             </Rest>
           <Harmony>
-            <name>I\\</name>
+            <name>I}</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -2243,6 +2243,9 @@ Opus 14 No. 2</text>
             <velocity>49</velocity>
             <offset x="0.93511" y="3.57723"/>
             </Dynamic>
+          <Harmony>
+            <name>{</name>
+            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -2269,8 +2272,8 @@ Opus 14 No. 2</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>74</pitch>
-              <tpc>16</tpc>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
               </Note>
             <Note>
               <pitch>79</pitch>
@@ -2664,7 +2667,7 @@ Opus 14 No. 2</text>
               </Note>
             </Chord>
           <Harmony>
-            <name>V\\</name>
+            <name>V}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -2693,7 +2696,7 @@ Opus 14 No. 2</text>
             <offset x="0.0572872" y="3.73519"/>
             </Dynamic>
           <Harmony>
-            <name>I6</name>
+            <name>I6{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -2881,11 +2884,20 @@ Opus 14 No. 2</text>
             <offset x="0" y="2"/>
             <durationType>eighth</durationType>
             </Rest>
+          <Harmony>
+            <name>V2</name>
+            <offset x="0" y="-5.3665"/>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
               <Spanner type="Tie">
                 <Tie>
+                  <TieSegment no="0">
+                    <o2 x="0.143087" y="-0.715437"/>
+                    <o3 x="0.143087" y="-0.715437"/>
+                    <offset x="0" y="-0.143087"/>
+                    </TieSegment>
                   </Tie>
                 <next>
                   <location>
@@ -2898,12 +2910,6 @@ Opus 14 No. 2</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <name>V2</name>
-            </Harmony>
           </voice>
         <voice>
           <location>
@@ -3140,7 +3146,7 @@ Opus 14 No. 2</text>
             <durationType>eighth</durationType>
             </Rest>
           <Harmony>
-            <name>I\\</name>
+            <name>I}</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -3171,7 +3177,7 @@ Opus 14 No. 2</text>
       <Measure>
         <voice>
           <Harmony>
-            <name>V7</name>
+            <name>V7{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -3639,7 +3645,7 @@ Opus 14 No. 2</text>
             <durationType>eighth</durationType>
             </Rest>
           <Harmony>
-            <name>I\\</name>
+            <name>I}</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -3722,7 +3728,7 @@ Opus 14 No. 2</text>
             <offset x="-0.000376" y="3.1079"/>
             </Dynamic>
           <Harmony>
-            <name>V</name>
+            <name>V{</name>
             </Harmony>
           <Rest>
             <durationType>16th</durationType>
@@ -4544,7 +4550,7 @@ Opus 14 No. 2</text>
               </Note>
             </Chord>
           <Harmony>
-            <name>I(7)</name>
+            <name>I(7)}</name>
             </Harmony>
           <Beam>
             <Fragment>
@@ -4567,7 +4573,7 @@ Opus 14 No. 2</text>
               </Note>
             </Chord>
           <Harmony>
-            <name>I\\</name>
+            <name>I</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -4602,7 +4608,7 @@ Opus 14 No. 2</text>
       <Measure>
         <voice>
           <Harmony>
-            <name>I.I6</name>
+            <name>I.I6{</name>
             </Harmony>
           <Dynamic>
             <subtype>p</subtype>
@@ -4985,7 +4991,7 @@ Opus 14 No. 2</text>
               </Note>
             </Chord>
           <Harmony>
-            <name>V(4)</name>
+            <name>V(4)}</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -5036,7 +5042,7 @@ Opus 14 No. 2</text>
             <fractions>1/8</fractions>
             </location>
           <Harmony>
-            <name>V7\\</name>
+            <name>V7</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -5079,7 +5085,7 @@ Opus 14 No. 2</text>
             <offset x="0.0434266" y="2.92682"/>
             </Dynamic>
           <Harmony>
-            <name>I6</name>
+            <name>I6{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -5250,9 +5256,6 @@ Opus 14 No. 2</text>
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Harmony>
             <name>I(7)</name>
@@ -5463,7 +5466,7 @@ Opus 14 No. 2</text>
               </Note>
             </Chord>
           <Harmony>
-            <name>I\\</name>
+            <name>I}</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -5516,7 +5519,7 @@ Opus 14 No. 2</text>
       <Measure>
         <voice>
           <Harmony>
-            <name>V7</name>
+            <name>V7{</name>
             </Harmony>
           <Rest>
             <offset x="0" y="2"/>
@@ -6100,13 +6103,13 @@ Opus 14 No. 2</text>
               <endHookType>1</endHookType>
               <beginText>&lt;font face=&quot;Times New Roman&quot;&gt;&lt;/font&gt;&lt;b&gt;1.&lt;/b&gt;</beginText>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>3</subtype>
                 <offset x="0" y="-1.35158"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               <Segment>
-                <subtype>3</subtype>
-                <offset x="0" y="-1.35158"/>
+                <subtype>1</subtype>
+                <offset x="0" y="-3"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               <endings>1</endings>
@@ -6173,7 +6176,7 @@ Opus 14 No. 2</text>
               </Note>
             </Chord>
           <Harmony>
-            <name>I\\</name>
+            <name>I}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -6187,7 +6190,7 @@ Opus 14 No. 2</text>
             <durationType>eighth</durationType>
             </Rest>
           <Harmony>
-            <name>V</name>
+            <name>V{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6341,11 +6344,6 @@ Opus 14 No. 2</text>
             <Volta>
               <endHookType>1</endHookType>
               <beginText>&lt;font face=&quot;Times New Roman&quot;&gt;&lt;/font&gt;&lt;b&gt;2.&lt;/b&gt;</beginText>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1.35067"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               <endings>2</endings>
               </Volta>
             <next>
@@ -6358,10 +6356,6 @@ Opus 14 No. 2</text>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="4.26056" y="0.535613"/>
-                  <offset x="-7.98604" y="3.87456"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -6371,10 +6365,6 @@ Opus 14 No. 2</text>
               </Spanner>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="4.11448" y="0.413883"/>
-                  <offset x="-7.88865" y="2.09274"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -6436,7 +6426,7 @@ Opus 14 No. 2</text>
               </Note>
             </Chord>
           <Harmony>
-            <name>I\\</name>
+            <name>I}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -6450,7 +6440,7 @@ Opus 14 No. 2</text>
             <durationType>eighth</durationType>
             </Rest>
           <Harmony>
-            <name>V</name>
+            <name>V{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6470,10 +6460,6 @@ Opus 14 No. 2</text>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="4.15368" y="0.353505"/>
-                  <offset x="-7.28" y="0.88"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -6983,9 +6969,6 @@ Opus 14 No. 2</text>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="-0.631474" y="2.46849"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -7436,7 +7419,8 @@ Opus 14 No. 2</text>
             <offset x="0.666249" y="2.47294"/>
             </Dynamic>
           <Harmony>
-            <name>I\\</name>
+            <name>I}</name>
+            <offset x="0.286175" y="-3.50161"/>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -7456,6 +7440,7 @@ Opus 14 No. 2</text>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <direction>up</direction>
@@ -7466,10 +7451,6 @@ Opus 14 No. 2</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="0" y="-0.599962"/>
-                  <o3 x="0" y="-1"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -7517,7 +7498,7 @@ Opus 14 No. 2</text>
             <offset x="0.198243" y="2.95136"/>
             </Dynamic>
           <Harmony>
-            <name>I.#viio43/ii</name>
+            <name>I.#viio43/ii{</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -7952,7 +7933,7 @@ Opus 14 No. 2</text>
               </Note>
             </Chord>
           <Harmony>
-            <name>V\\</name>
+            <name>V}</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -8003,7 +7984,7 @@ Opus 14 No. 2</text>
             <offset x="0.0564845" y="2.91629"/>
             </Dynamic>
           <Harmony>
-            <name>I[I</name>
+            <name>I[I{</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -8413,7 +8394,7 @@ Opus 14 No. 2</text>
               </Note>
             </Chord>
           <Harmony>
-            <name>I\\</name>
+            <name>I}</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -8438,6 +8419,7 @@ Opus 14 No. 2</text>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <direction>down</direction>
@@ -8448,9 +8430,6 @@ Opus 14 No. 2</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="0" y="0.699956"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -8490,7 +8469,7 @@ Opus 14 No. 2</text>
       <Measure>
         <voice>
           <Harmony>
-            <name>V7</name>
+            <name>V7{</name>
             </Harmony>
           <Dynamic>
             <subtype>p</subtype>
@@ -8966,11 +8945,6 @@ Opus 14 No. 2</text>
             <Volta>
               <endHookType>1</endHookType>
               <beginText>&lt;font face=&quot;Times New Roman&quot;&gt;&lt;/font&gt;&lt;b&gt;1.&lt;/b&gt;</beginText>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-2.57803"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               <endings>1</endings>
               </Volta>
             <next>
@@ -9013,7 +8987,7 @@ Opus 14 No. 2</text>
               </Note>
             </Chord>
           <Harmony>
-            <name>I\\</name>
+            <name>I}</name>
             </Harmony>
           <Rest>
             <offset x="0" y="2"/>
@@ -9116,11 +9090,6 @@ Opus 14 No. 2</text>
           <Spanner type="Volta">
             <Volta>
               <beginText>&lt;font face=&quot;Times New Roman&quot;&gt;&lt;/font&gt;&lt;b&gt;2.&lt;/b&gt;</beginText>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-2.62425"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               <endings>2</endings>
               </Volta>
             <next>
@@ -9163,7 +9132,7 @@ Opus 14 No. 2</text>
               </Note>
             </Chord>
           <Harmony>
-            <name>I\\</name>
+            <name>I}</name>
             </Harmony>
           <Rest>
             <offset x="0" y="2"/>
@@ -9179,10 +9148,6 @@ Opus 14 No. 2</text>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="0.399975" y="0"/>
-                  <o3 x="0.299981" y="0"/>
-                  </SlurSegment>
                 <up>down</up>
                 </Slur>
               <next>
@@ -9258,7 +9223,7 @@ Opus 14 No. 2</text>
             <offset x="0.0041215" y="3.07418"/>
             </Dynamic>
           <Harmony>
-            <name>V7(4)</name>
+            <name>V7(4){</name>
             </Harmony>
           <Spanner type="Volta">
             <prev>
@@ -9674,7 +9639,7 @@ Opus 14 No. 2</text>
               </Note>
             </Chord>
           <Harmony>
-            <name>V7\\</name>
+            <name>V7}</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -9704,7 +9669,7 @@ Opus 14 No. 2</text>
             <offset x="0.053345" y="2.91623"/>
             </Dynamic>
           <Harmony>
-            <name>I</name>
+            <name>I{</name>
             </Harmony>
           <Rest>
             <durationType>16th</durationType>
@@ -9861,9 +9826,6 @@ Opus 14 No. 2</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <offset x="0" y="-1.04376"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -9917,10 +9879,6 @@ Opus 14 No. 2</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o4 x="0" y="0.299981"/>
-                  <offset x="0" y="-1.09993"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -9970,10 +9928,6 @@ Opus 14 No. 2</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o4 x="0" y="0.199987"/>
-                  <offset x="0" y="-0.699956"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -10023,9 +9977,6 @@ Opus 14 No. 2</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-0.999937"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -10117,11 +10068,6 @@ Opus 14 No. 2</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="-0.599962" y="0"/>
-                  <o4 x="0.0999937" y="0.299981"/>
-                  <offset x="0" y="-1.69989"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -10171,9 +10117,6 @@ Opus 14 No. 2</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-1.69989"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -10223,11 +10166,6 @@ Opus 14 No. 2</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="0" y="-0.79995"/>
-                  <o4 x="0.79995" y="0.299981"/>
-                  <offset x="-0.599962" y="-0.899943"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -10277,9 +10215,6 @@ Opus 14 No. 2</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <offset x="0" y="-2.20759"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -10339,9 +10274,6 @@ Opus 14 No. 2</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <offset x="0" y="-1.89988"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -10391,10 +10323,6 @@ Opus 14 No. 2</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o4 x="0.499969" y="0.999937"/>
-                  <offset x="-0.399975" y="-1.49991"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -10758,10 +10686,6 @@ Opus 14 No. 2</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o4 x="0" y="0.79995"/>
-                  <offset x="0" y="-2.49984"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -10817,10 +10741,6 @@ Opus 14 No. 2</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-1.09993"/>
-                  <offset x="0.299981" y="-1.82606"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -10893,11 +10813,6 @@ Opus 14 No. 2</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="-0.299981" y="0"/>
-                  <o4 x="0.599962" y="0"/>
-                  <offset x="0" y="-0.899943"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -11060,9 +10975,6 @@ Opus 14 No. 2</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.884063"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -11132,9 +11044,6 @@ Opus 14 No. 2</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o4 x="0" y="-1.19992"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -11297,7 +11206,7 @@ Opus 14 No. 2</text>
               </Note>
             </Chord>
           <Harmony>
-            <name>I\\</name>
+            <name>I}</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -11387,7 +11296,7 @@ Opus 14 No. 2</text>
       <Measure>
         <voice>
           <Harmony>
-            <name>I.I6</name>
+            <name>I.I6{</name>
             </Harmony>
           <Dynamic>
             <subtype>p</subtype>
@@ -11406,9 +11315,6 @@ Opus 14 No. 2</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <offset x="0" y="-1.87879"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -11458,9 +11364,6 @@ Opus 14 No. 2</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <offset x="0" y="-2.62601"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -11508,11 +11411,6 @@ Opus 14 No. 2</text>
             <HairPin>
               <subtype>2</subtype>
               <endText></endText>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3.62148"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -11530,10 +11428,6 @@ Opus 14 No. 2</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-0.599962"/>
-                  <offset x="0" y="-0.505179"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -11590,10 +11484,6 @@ Opus 14 No. 2</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-1.29992"/>
-                  <offset x="0" y="-0.442032"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -11647,10 +11537,6 @@ Opus 14 No. 2</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-1.09993"/>
-                  <offset x="0.0999937" y="-1.38936"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -11700,9 +11586,6 @@ Opus 14 No. 2</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <offset x="0" y="-2.9523"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -11755,9 +11638,6 @@ Opus 14 No. 2</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-1.49991"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -11847,9 +11727,6 @@ Opus 14 No. 2</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <offset x="0" y="-2.11563"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -11899,9 +11776,6 @@ Opus 14 No. 2</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <offset x="-0.199987" y="-1.60511"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -11959,9 +11833,6 @@ Opus 14 No. 2</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.599962"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -12015,10 +11886,6 @@ Opus 14 No. 2</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-0.599962"/>
-                  <offset x="0" y="-0.715712"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -12195,9 +12062,6 @@ Opus 14 No. 2</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <offset x="0" y="0.189442"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -12510,9 +12374,6 @@ Opus 14 No. 2</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.79995"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -12562,10 +12423,6 @@ Opus 14 No. 2</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-0.79995"/>
-                  <offset x="0" y="-0.626255"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -12615,9 +12472,6 @@ Opus 14 No. 2</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-0.999937"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -12713,10 +12567,6 @@ Opus 14 No. 2</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-0.899943"/>
-                  <offset x="0" y="-1.29992"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -12770,9 +12620,6 @@ Opus 14 No. 2</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <offset x="0" y="-1.32183"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -12834,9 +12681,6 @@ Opus 14 No. 2</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <offset x="0" y="-1.39991"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -12892,9 +12736,6 @@ Opus 14 No. 2</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <offset x="-0.0999937" y="-0.79995"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -12954,10 +12795,6 @@ Opus 14 No. 2</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-1.09993"/>
-                  <offset x="0" y="-0.208752"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -13062,7 +12899,7 @@ Opus 14 No. 2</text>
               </Note>
             </Chord>
           <Harmony>
-            <name>I\\</name>
+            <name>I}</name>
             </Harmony>
           <Rest>
             <durationType>16th</durationType>
@@ -13159,7 +12996,7 @@ Opus 14 No. 2</text>
       <Measure>
         <voice>
           <Harmony>
-            <name>V7</name>
+            <name>V7{</name>
             </Harmony>
           <Rest>
             <offset x="0" y="10"/>
@@ -13955,7 +13792,7 @@ Opus 14 No. 2</text>
               </Note>
             </Chord>
           <Harmony>
-            <name>I\\</name>
+            <name>I}</name>
             </Harmony>
           <Rest>
             <durationType>16th</durationType>
@@ -14023,7 +13860,7 @@ Opus 14 No. 2</text>
             <offset x="0.0917255" y="4.25264"/>
             </Dynamic>
           <Harmony>
-            <name>I</name>
+            <name>{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -14373,7 +14210,7 @@ Opus 14 No. 2</text>
             <offset x="0.980946" y="4.58594"/>
             </Dynamic>
           <Harmony>
-            <name>I\\</name>
+            <name>I}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -14500,8 +14337,8 @@ Opus 14 No. 2</text>
               <tpc>19</tpc>
               </Note>
             <Note>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Rest>
@@ -17165,9 +17002,6 @@ Opus 14 No. 2</text>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <offset x="0" y="1.69989"/>
-                  </SlurSegment>
                 <up>down</up>
                 </Slur>
               <next>
@@ -17295,9 +17129,6 @@ Opus 14 No. 2</text>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <offset x="0" y="1.69989"/>
-                  </SlurSegment>
                 <up>down</up>
                 </Slur>
               <next>
@@ -18245,6 +18076,7 @@ Opus 14 No. 2</text>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <direction>up</direction>
@@ -18255,10 +18087,6 @@ Opus 14 No. 2</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="0" y="-0.499969"/>
-                  <o3 x="0" y="-0.499969"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -19684,9 +19512,6 @@ Opus 14 No. 2</text>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="0" y="-1.29992"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -19759,10 +19584,6 @@ Opus 14 No. 2</text>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="0" y="-1.39991"/>
-                  <o3 x="0" y="-0.399975"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -20070,10 +19891,6 @@ Opus 14 No. 2</text>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="0" y="1.39991"/>
-                  <o3 x="0" y="0.79995"/>
-                  </SlurSegment>
                 <up>down</up>
                 </Slur>
               <next>
