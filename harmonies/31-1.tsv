@@ -1,5 +1,5 @@
 mc	mn	onset	label	alt_label	globalkey	localkey	pedal	chord	numeral	special	form	figbass	changes	relativeroot	phraseend	chord_type	globalkey_is_minor	localkey_is_minor	chord_tones	added_tones	root	bass_note
-1	1	0	.Ab.I		Ab	I		I	I							M	0	0	0, 4, 1		0.0	0.0
+1	1	0	.Ab.I{		Ab	I		I	I						{	M	0	0	0, 4, 1		0.0	0.0
 1	1	3/8	I6		Ab	I		I6	I			6				M	0	0	4, 1, 0		0.0	4.0
 2	2	0	V43		Ab	I		V43	V			43				Mm7	0	0	2, -1, 1, 5		1.0	2.0
 2	2	1/4	V2		Ab	I		V2	V			2				Mm7	0	0	-1, 1, 5, 2		1.0	-1.0
@@ -8,8 +8,8 @@ mc	mn	onset	label	alt_label	globalkey	localkey	pedal	chord	numeral	special	form	
 3	3	1/2	I64		Ab	I		I64	I			64				M	0	0	1, 0, 4		0.0	1.0
 3	3	5/8	IV		Ab	I		IV	IV							M	0	0	-1, 3, 0		-1.0	-1.0
 4	4	0	V		Ab	I		V	V							M	0	0	1, 5, 2		1.0	1.0
-4	4	1/4	V7\\		Ab	I		V7	V			7			\\	Mm7	0	0	1, 5, 2, -1		1.0	1.0
-5	5	0	I		Ab	I		I	I							M	0	0	0, 4, 1		0.0	0.0
+4	4	1/4	V7}		Ab	I		V7	V			7			}	Mm7	0	0	1, 5, 2, -1		1.0	1.0
+5	5	0	I{		Ab	I		I	I						{	M	0	0	0, 4, 1		0.0	0.0
 6	6	0	V43(4)		Ab	I		V43(4)	V			43	4			Mm7	0	0	2, -1, 1, 0		1.0	2.0
 6	6	1/4	V43		Ab	I		V43	V			43				Mm7	0	0	2, -1, 1, 5		1.0	2.0
 7	7	0	V2		Ab	I		V2	V			2				Mm7	0	0	-1, 1, 5, 2		1.0	-1.0
@@ -22,7 +22,7 @@ mc	mn	onset	label	alt_label	globalkey	localkey	pedal	chord	numeral	special	form	
 11	11	0	V(964)		Ab	I		V(964)	V				964			M	0	0	1, 0, 4	3	1.0	1.0
 11	11	1/8	V(64)		Ab	I		V(64)	V				64			M	0	0	1, 0, 4		1.0	1.0
 11	11	1/2	V7		Ab	I		V7	V			7				Mm7	0	0	1, 5, 2, -1		1.0	1.0
-12	12	0	I\\		Ab	I		I	I						\\	M	0	0	0, 4, 1		0.0	0.0
+12	12	0	I}{		Ab	I		I	I						}{	M	0	0	0, 4, 1		0.0	0.0
 13	13	0	V43		Ab	I		V43	V			43				Mm7	0	0	2, -1, 1, 5		1.0	2.0
 14	14	0	I6		Ab	I		I6	I			6				M	0	0	4, 1, 0		0.0	4.0
 15	15	0	V65		Ab	I		V65	V			65				Mm7	0	0	5, 2, -1, 1		1.0	5.0
@@ -67,7 +67,7 @@ mc	mn	onset	label	alt_label	globalkey	localkey	pedal	chord	numeral	special	form	
 27	27	1/2	V2		Ab	V		V2	V			2				Mm7	0	0	-1, 1, 5, 2		1.0	-1.0
 27	27	9/16	I6		Ab	V		I6	I			6				M	0	0	4, 1, 0		0.0	4.0
 27	27	5/8	V		Ab	V		V	V							M	0	0	1, 5, 2		1.0	1.0
-28	28	0	I\\		Ab	V		I	I						\\	M	0	0	0, 4, 1		0.0	0.0
+28	28	0	I}{		Ab	V		I	I						}{	M	0	0	0, 4, 1		0.0	0.0
 28	28	3/16	IM2		Ab	V		IM2	I		M	2				MM7	0	0	5, 0, 4, 1		0.0	5.0
 28	28	5/16	vi		Ab	V		vi	vi							m	0	0	3, 0, 4		3.0	3.0
 28	28	7/16	I64		Ab	V		I64	I			64				M	0	0	1, 0, 4		0.0	1.0
@@ -90,7 +90,8 @@ mc	mn	onset	label	alt_label	globalkey	localkey	pedal	chord	numeral	special	form	
 31	31	1/2	V		Ab	V		V	V							M	0	0	1, 5, 2		1.0	1.0
 32	32	0	V43/V		Ab	V		V43/V	V			43		V		Mm7	0	0	3, 0, 2, 6		2.0	3.0
 32	32	1/4	viio7		Ab	V		viio7	vii		o	7				o7	0	0	5, 2, -1, -4		5.0	5.0
-32	32	1/2	I\\		Ab	V		I	I						\\	M	0	0	0, 4, 1		0.0	0.0
+32	32	1/2	I}		Ab	V		I	I						}	M	0	0	0, 4, 1		0.0	0.0
+32	32	9/16	{		Ab	V									{		0	0				
 32	32	5/8	viio6		Ab	V		viio6	vii		o	6				o	0	0	2, -1, 5		5.0	2.0
 32	32	11/16	viio/IV		Ab	V		viio/IV	vii		o			IV		o	0	0	4, 1, -2		4.0	4.0
 33	33	0	IV		Ab	V		IV	IV							M	0	0	-1, 3, 0		-1.0	-1.0
@@ -113,40 +114,40 @@ mc	mn	onset	label	alt_label	globalkey	localkey	pedal	chord	numeral	special	form	
 37	37	1/4	I(11)		Ab	V		I(11)	I				11			M	0	0	0, 4, 1	-1	0.0	0.0
 37	37	7/16	I		Ab	V		I	I							M	0	0	0, 4, 1		0.0	0.0
 37	37	1/2	I(13)		Ab	V		I(13)	I				13			M	0	0	0, 4, 1	3	0.0	0.0
-37	37	11/16	I\\		Ab	V		I	I						\\	M	0	0	0, 4, 1		0.0	0.0
+37	37	11/16	I}		Ab	V		I	I						}	M	0	0	0, 4, 1		0.0	0.0
 39	39	0	I.IV	iv6/vi	Ab	I		IV	IV							M	0	0	-1, 3, 0		-1.0	-1.0
-40	40	0	V(64)/vi		Ab	I		V(64)/vi	V				64	vi		M	0	0	4, 3, 0		4.0	4.0
+40	40	0	V(64)/vi{		Ab	I		V(64)/vi	V				64	vi	{	M	0	0	4, 3, 0		4.0	4.0
 41	41	0	V7(9)/vi		Ab	I		V7(9)/vi	V			7	9	vi		Mm7	0	0	4, 8, 5, 2	-1	4.0	4.0
 41	41	1/4	V7/vi		Ab	I		V7/vi	V			7		vi		Mm7	0	0	4, 8, 5, 2		4.0	4.0
 42	42	3/8	V/vi		Ab	I		V/vi	V					vi		M	0	0	4, 8, 5		4.0	4.0
 43	43	0	V(64)/vi		Ab	I		V(64)/vi	V				64	vi		M	0	0	4, 3, 0		4.0	4.0
-44	44	0	vi		Ab	I		vi	vi							m	0	0	3, 0, 4		3.0	3.0
+44	44	0	i/vi		Ab	I		i/vi	i					vi		m	0	0	3, 0, 4		3.0	3.0
 45	45	0	V7/vi		Ab	I		V7/vi	V			7		vi		Mm7	0	0	4, 8, 5, 2		4.0	4.0
 45	45	1/4	V/vi		Ab	I		V/vi	V					vi		M	0	0	4, 8, 5		4.0	4.0
 45	45	1/2	V43/vi		Ab	I		V43/vi	V			43		vi		Mm7	0	0	5, 2, 4, 8		4.0	5.0
-46	46	0	vi		Ab	I		vi	vi							m	0	0	3, 0, 4		3.0	3.0
+46	46	0	i/vi		Ab	I		i/vi	i					vi		m	0	0	3, 0, 4		3.0	3.0
 47	47	0	viio6(2)/IV		Ab	I		viio6(2)/IV	vii		o	6	2	IV		o	0	0	1, -2, -1		4.0	1.0
 47	47	1/4	V7/IV		Ab	I		V7/IV	V			7		IV		Mm7	0	0	0, 4, 1, -2		0.0	0.0
 47	47	1/2	V2/IV		Ab	I		V2/IV	V			2		IV		Mm7	0	0	-2, 0, 4, 1		0.0	-2.0
 47	47	5/8	V43/IV		Ab	I		V43/IV	V			43		IV		Mm7	0	0	1, -2, 0, 4		0.0	1.0
-48	48	0	IV		Ab	I		IV	IV							M	0	0	-1, 3, 0		-1.0	-1.0
+48	48	0	I/IV		Ab	I		I/IV	I					IV		M	0	0	-1, 3, 0		-1.0	-1.0
 49	49	0	V7/IV		Ab	I		V7/IV	V			7		IV		Mm7	0	0	0, 4, 1, -2		0.0	0.0
 50	50	0	ii6(9)		Ab	I		ii6(9)	ii			6	9			m	0	0	-1, 3, 2	4	2.0	-1.0
 50	50	1/4	ii		Ab	I		ii	ii							m	0	0	2, -1, 3		2.0	2.0
 51	51	0	V43(4)/ii		Ab	I		V43(4)/ii	V			43	4	ii		Mm7	0	0	4, 1, 3, 2		3.0	4.0
 51	51	1/4	V(4)/ii		Ab	I		V(4)/ii	V				4	ii		M	0	0	3, 2, 4		3.0	3.0
 51	51	1/2	V/ii		Ab	I		V/ii	V					ii		M	0	0	3, 7, 4		3.0	3.0
-52	52	0	ii		Ab	I		ii	ii							m	0	0	2, -1, 3		2.0	2.0
+52	52	0	i/ii		Ab	I		i/ii	i					ii		m	0	0	2, -1, 3		2.0	2.0
 53	53	0	V7(4)/ii		Ab	I		V7(4)/ii	V			7	4	ii		Mm7	0	0	3, 2, 4, 1		3.0	3.0
 53	53	1/4	V43(4)/ii		Ab	I		V43(4)/ii	V			43	4	ii		Mm7	0	0	4, 1, 3, 2		3.0	4.0
 53	53	1/2	V43/ii		Ab	I		V43/ii	V			43		ii		Mm7	0	0	4, 1, 3, 7		3.0	4.0
-54	54	0	ii		Ab	I		ii	ii							m	0	0	2, -1, 3		2.0	2.0
-54	54	1/4	ii6		Ab	I		ii6	ii			6				m	0	0	-1, 3, 2		2.0	-1.0
+54	54	0	i/ii		Ab	I		i/ii	i					ii		m	0	0	2, -1, 3		2.0	2.0
+54	54	1/4	i6/ii		Ab	I		i6/ii	i			6		ii		m	0	0	-1, 3, 2		2.0	-1.0
 54	54	5/8	ii2		Ab	I		ii2	ii			2				mm7	0	0	0, 2, -1, 3		2.0	0.0
 55	55	0	V65		Ab	I		V65	V			65				Mm7	0	0	5, 2, -1, 1		1.0	5.0
 55	55	1/4	V6		Ab	I		V6	V			6				M	0	0	5, 2, 1		1.0	5.0
 55	55	5/8	V+		Ab	I		V+	V		+					+	0	0	1, 5, 9		1.0	1.0
-56	56	0	I		Ab	I		I	I							M	0	0	0, 4, 1		0.0	0.0
+56	56	0	I}{		Ab	I		I	I						}{	M	0	0	0, 4, 1		0.0	0.0
 56	56	1/2	I64		Ab	I		I64	I			64				M	0	0	1, 0, 4		0.0	1.0
 57	57	0	V43		Ab	I		V43	V			43				Mm7	0	0	2, -1, 1, 5		1.0	2.0
 57	57	1/4	V2		Ab	I		V2	V			2				Mm7	0	0	-1, 1, 5, 2		1.0	-1.0
@@ -160,7 +161,7 @@ mc	mn	onset	label	alt_label	globalkey	localkey	pedal	chord	numeral	special	form	
 59	59	3/8	V7		Ab	I		V7	V			7				Mm7	0	0	1, 5, 2, -1		1.0	1.0
 59	59	1/2	IV6		Ab	I		IV6	IV			6				M	0	0	3, 0, -1		-1.0	3.0
 59	59	5/8	viio		Ab	I		viio	vii		o					o	0	0	5, 2, -1		5.0	5.0
-60	60	0	I6		Ab	I		I6	I			6				M	0	0	4, 1, 0		0.0	4.0
+60	60	0	I6}{		Ab	I		I6	I			6			}{	M	0	0	4, 1, 0		0.0	4.0
 60	60	3/8	I		Ab	I		I	I							M	0	0	0, 4, 1		0.0	0.0
 61	61	0	IV		Ab	I		IV	IV							M	0	0	-1, 3, 0		-1.0	-1.0
 61	61	1/4	ii7		Ab	I		ii7	ii			7				mm7	0	0	2, -1, 3, 0		2.0	2.0
@@ -168,29 +169,29 @@ mc	mn	onset	label	alt_label	globalkey	localkey	pedal	chord	numeral	special	form	
 62	62	1/4	viio(11)/IV		Ab	I		viio(11)/IV	vii		o		11	IV		o	0	0	4, 1, -2	3	4.0	4.0
 62	62	3/8	viio/IV		Ab	I		viio/IV	vii		o			IV		o	0	0	4, 1, -2		4.0	4.0
 62	62	1/2	V65/IV		Ab	I		V65/IV	V			65		IV		Mm7	0	0	4, 1, -2, 0		0.0	4.0
-63	63	0	IV		Ab	I		IV	IV							M	0	0	-1, 3, 0		-1.0	-1.0
+63	63	0	I/IV}{		Ab	I		I/IV	I					IV	}{	M	0	0	-1, 3, 0		-1.0	-1.0
 64	64	0	V43(4)/IV		Ab	I		V43(4)/IV	V			43	4	IV		Mm7	0	0	1, -2, 0, -1		0.0	1.0
 64	64	1/4	V43/IV		Ab	I		V43/IV	V			43		IV		Mm7	0	0	1, -2, 0, 4		0.0	1.0
 65	65	0	V2/IV		Ab	I		V2/IV	V			2		IV		Mm7	0	0	-2, 0, 4, 1		0.0	-2.0
-66	66	0	IV6		Ab	I		IV6	IV			6				M	0	0	3, 0, -1		-1.0	3.0
+66	66	0	I6/IV		Ab	I		I6/IV	I			6		IV		M	0	0	3, 0, -1		-1.0	3.0
 67	67	0	vi6/#V		Ab	I		vi6/#V	vi			6		#V		m	0	0	8, 12, 11		11.0	8.0
 68	68	0	V6(9)/#V		Ab	I		V6(9)/#V	V			6	9	#V		M	0	0	13, 10, 9	11	9.0	13.0
 68	68	1/4	V6/#V		Ab	I		V6/#V	V			6		#V		M	0	0	13, 10, 9		9.0	13.0
 69	69	0	V65/#V		Ab	I		V65/#V	V			65		#V		Mm7	0	0	13, 10, 7, 9		9.0	13.0
-70	70	0	#V\\		Ab	I		#V	#V						\\	M	0	0	8, 12, 9		8.0	8.0
+70	70	0	I/#V}{		Ab	I		I/#V	I					#V	}{	M	0	0	8, 12, 9		8.0	8.0
 71	71	0	V43/#V		Ab	I		V43/#V	V			43		#V		Mm7	0	0	10, 7, 9, 13		9.0	10.0
-72	72	0	#V6		Ab	I		#V6	#V			6				M	0	0	12, 9, 8		8.0	12.0
+72	72	0	I6/#V		Ab	I		I6/#V	I			6		#V		M	0	0	12, 9, 8		8.0	12.0
 73	73	0	V65/#V		Ab	I		V65/#V	V			65		#V		Mm7	0	0	13, 10, 7, 9		9.0	13.0
-74	74	0	#V		Ab	I		#V	#V							M	0	0	8, 12, 9		8.0	8.0
+74	74	0	I/#V		Ab	I		I/#V	I					#V		M	0	0	8, 12, 9		8.0	8.0
 74	74	3/8	IV6/#V		Ab	I		IV6/#V	IV			6		#V		M	0	0	11, 8, 7		7.0	11.0
-74	74	5/8	.It6/#V		Ab	I											0	0				
-75	75	1/8	#V64		Ab	I		#V64	#V			64				M	0	0	9, 8, 12		8.0	9.0
+74	74	5/8	.It6/#V		Ab	I		It6/#V	vii	It	o	6	b3	V/#V		M	0	0	4, 8, 14		14.0	4.0
+75	75	1/8	I64/#V		Ab	I		I64/#V	I			64		#V		M	0	0	9, 8, 12		8.0	9.0
 75	75	1/4	IV(9)/#V		Ab	I		IV(9)/#V	IV				9	#V		M	0	0	7, 11, 8	9	7.0	7.0
-75	75	3/8	V+6/#I		Ab	I		V+6/#I	V		+	6		#I		+	0	0	12, 16, 8		8.0	12.0
+75	75	3/8	V+6/IV/#V		Ab	I		V+6/IV/#V	V		+	6		IV/#V		+	0	0	12, 16, 8		8.0	12.0
 75	75	5/8	IV/#V		Ab	I		IV/#V	IV					#V		M	0	0	7, 11, 8		7.0	7.0
-76	76	1/4	#V6		Ab	I		#V6	#V			6				M	0	0	12, 9, 8		8.0	12.0
+76	76	1/4	I6/#V		Ab	I		I6/#V	I			6		#V		M	0	0	12, 9, 8		8.0	12.0
 76	76	1/2	viio6/#V		Ab	I		viio6/#V	vii		o	6		#V		o	0	0	10, 7, 13		13.0	10.0
-77	77	0	#V6		Ab	I		#V6	#V			6				M	0	0	12, 9, 8		8.0	12.0
+77	77	0	I6/#V		Ab	I		I6/#V	I			6		#V		M	0	0	12, 9, 8		8.0	12.0
 77	77	1/4	viio6/#V		Ab	I		viio6/#V	vii		o	6		#V		o	0	0	10, 7, 13		13.0	10.0
 77	77	1/2	#viio/#vi		Ab	I		#viio/#vi	#vii		o			#vi		o	0	0	15, 12, 9		15.0	15.0
 77	77	5/8	#viio/vi		Ab	I		#viio/vi	#vii		o			vi		o	0	0	8, 5, 2		8.0	8.0
@@ -236,7 +237,7 @@ mc	mn	onset	label	alt_label	globalkey	localkey	pedal	chord	numeral	special	form	
 86	86	1/2	V2		Ab	I		V2	V			2				Mm7	0	0	-1, 1, 5, 2		1.0	-1.0
 86	86	9/16	I6		Ab	I		I6	I			6				M	0	0	4, 1, 0		0.0	4.0
 86	86	5/8	V		Ab	I		V	V							M	0	0	1, 5, 2		1.0	1.0
-87	87	0	I\\		Ab	I		I	I						\\	M	0	0	0, 4, 1		0.0	0.0
+87	87	0	I}{		Ab	I		I	I						}{	M	0	0	0, 4, 1		0.0	0.0
 87	87	3/16	IM2		Ab	I		IM2	I		M	2				MM7	0	0	5, 0, 4, 1		0.0	5.0
 87	87	5/16	vi		Ab	I		vi	vi							m	0	0	3, 0, 4		3.0	3.0
 87	87	7/16	I64		Ab	I		I64	I			64				M	0	0	1, 0, 4		0.0	1.0
@@ -259,7 +260,8 @@ mc	mn	onset	label	alt_label	globalkey	localkey	pedal	chord	numeral	special	form	
 90	90	1/2	V		Ab	I		V	V							M	0	0	1, 5, 2		1.0	1.0
 91	91	0	viio65/V		Ab	I		viio65/V	vii		o	65		V		o7	0	0	3, 0, -3, 6		6.0	3.0
 91	91	1/4	viio7		Ab	I		viio7	vii		o	7				o7	0	0	5, 2, -1, -4		5.0	5.0
-91	91	1/2	I\\		Ab	I		I	I						\\	M	0	0	0, 4, 1		0.0	0.0
+91	91	1/2	I}		Ab	I		I	I						}	M	0	0	0, 4, 1		0.0	0.0
+91	91	9/16	{		Ab	I									{		0	0				
 91	91	5/8	viio6		Ab	I		viio6	vii		o	6				o	0	0	2, -1, 5		5.0	2.0
 91	91	11/16	viio/IV		Ab	I		viio/IV	vii		o			IV		o	0	0	4, 1, -2		4.0	4.0
 92	92	0	IV		Ab	I		IV	IV							M	0	0	-1, 3, 0		-1.0	-1.0
@@ -308,7 +310,7 @@ mc	mn	onset	label	alt_label	globalkey	localkey	pedal	chord	numeral	special	form	
 102	102	1/8	#viio7/vi		Ab	I		#viio7/vi	#vii		o	7		vi		o7	0	0	8, 5, 2, -1		8.0	8.0
 103	103	1/8	vi		Ab	I		vi	vi							m	0	0	3, 0, 4		3.0	3.0
 104	104	1/8	V		Ab	I		V	V							M	0	0	1, 5, 2		1.0	1.0
-105	105	0	I\\		Ab	I		I	I						\\	M	0	0	0, 4, 1		0.0	0.0
+105	105	0	I}{		Ab	I		I	I						}{	M	0	0	0, 4, 1		0.0	0.0
 106	106	0	V43		Ab	I		V43	V			43				Mm7	0	0	2, -1, 1, 5		1.0	2.0
 107	107	0	I6		Ab	I		I6	I			6				M	0	0	4, 1, 0		0.0	4.0
 108	108	0	V65		Ab	I		V65	V			65				Mm7	0	0	5, 2, -1, 1		1.0	5.0
@@ -335,4 +337,4 @@ mc	mn	onset	label	alt_label	globalkey	localkey	pedal	chord	numeral	special	form	
 114	114	1/2	viio		Ab	I	I	viio	vii		o					o	0	0	5, 2, -1		5.0	5.0
 114	114	5/8	viio65		Ab	I	I	viio65	vii		o	65				o7	0	0	2, -1, -4, 5		5.0	2.0
 115	115	1/4	V43		Ab	I	I	V43	V			43				Mm7	0	0	2, -1, 1, 5		1.0	2.0
-115	115	1/2	I]\\		Ab	I	I	I	I						\\	M	0	0	0, 4, 1		0.0	0.0
+115	115	1/2	I]}		Ab	I	I	I	I						}	M	0	0	0, 4, 1		0.0	0.0

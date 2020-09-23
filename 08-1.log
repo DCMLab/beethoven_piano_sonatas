@@ -8,7 +8,33 @@ WARNING  08-1.ms3 -- MC 298 (31/32) and MC 299 (1) don't add up to 1.
 INFO     08-1.ms3 -- Done parsing 08-1.mscx
 
 WARNING  08-1.expand_labels -- The following chords could not be parsed:
-      mc   mn  onset          label
-167   97   96    1/2  empty_harmony
-251  146  143      0     V/v[V(4)/v
-386  222  219      0     V/iv[V/iv}
+      mc   mn onset          label
+167   97   96   1/2  empty_harmony
+251  146  143     0     V/v[V(4)/v
+386  222  219     0     V/iv[V/iv}
+ERROR    08-1 -- Could not expand labels due to errors:
+Traceback (most recent call last):
+  File "scripts/parallel_parse.py", line 93, in parse
+    expanded = expand_labels(chord_list, column='label', regex=regex, chord_tones=True, groupby=None, logger_name=S.fname).df
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 421, in __init__
+    df = self.propagate_pedal(df, cols=cols)
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 747, in propagate_pedal
+    assert n_b == n_e, f"{n_b} organ points started, {n_e} ended:\n{make_comparison()}"
+AssertionError: 14 organ points started, 16 ended:
+      mc pedal   mc pedalend
+0     12     i   16        ]
+1     20     i   24        ]
+2     36     V   39        ]
+3     40    VI   42        ]
+4     44   VII   60        ]
+5     64    VI   72        ]
+6    122     I  126        ]
+7    140  #iii  144        ]
+8    170     V  150        ]
+9    178     V  176        ]
+10   198     i  184        ]
+11   206     i  202        ]
+12   236     V  210        ]
+13   288     i  232        ]
+14  <NA>   NaN  244        ]
+15  <NA>   NaN  292        ]

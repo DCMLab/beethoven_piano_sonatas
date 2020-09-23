@@ -1,0 +1,23 @@
+INFO     09-1.ms3 -- Attempting to parse 09-1.mscx
+INFO     09-1.ms3 -- Done parsing 09-1.mscx
+
+ERROR    09-1 -- Could not expand labels due to errors:
+Traceback (most recent call last):
+  File "scripts/parallel_parse.py", line 93, in parse
+    expanded = expand_labels(chord_list, column='label', regex=regex, chord_tones=True, groupby=None, logger_name=S.fname).df
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 421, in __init__
+    df = self.propagate_pedal(df, cols=cols)
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 747, in propagate_pedal
+    assert n_b == n_e, f"{n_b} organ points started, {n_e} ended:\n{make_comparison()}"
+AssertionError: 10 organ points started, 9 ended:
+    mc pedal    mc pedalend
+0    1     I     4        ]
+1   13     I    16        ]
+2   17     V    21        ]
+3   61     I    63        ]
+4   62     I    91        ]
+5   82     V    95        ]
+6   92     I   107        ]
+7  104   bVI   113        ]
+8  108     V   162        ]
+9  156     I  <NA>      NaN
