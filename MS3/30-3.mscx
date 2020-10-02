@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.01">
-  <programVersion>3.4.2</programVersion>
-  <programRevision>148e43f</programRevision>
+  <programVersion>3.0.5</programVersion>
+  <programRevision>58dd23d</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
+    <Synthesizer>
+      </Synthesizer>
     <Division>480</Division>
     <Style>
       <pageWidth>8.26771</pageWidth>
@@ -24,7 +26,6 @@
       <clefLeftMargin>0.64</clefLeftMargin>
       <clefKeyRightMargin>1.75</clefKeyRightMargin>
       <barNoteDistance>1.2</barNoteDistance>
-      <harmonyFretDist>0.5</harmonyFretDist>
       <chordSymbolPosBelow x="0" y="-6"/>
       <defaultFramePadding>0.5</defaultFramePadding>
       <defaultFrameWidth>0.2</defaultFrameWidth>
@@ -817,6 +818,7 @@
           </voice>
         </Measure>
       <Measure>
+        <startRepeat/>
         <voice>
           <Harmony>
             <name>{</name>
@@ -1598,6 +1600,7 @@
           </voice>
         </Measure>
       <Measure>
+        <startRepeat/>
         <voice>
           <TimeSig>
             <sigN>3</sigN>
@@ -2464,7 +2467,6 @@
           </voice>
         </Measure>
       <Measure>
-        <irregular>1</irregular>
         <voice>
           <Harmony>
             <name>V6{</name>
@@ -3420,7 +3422,6 @@
           </voice>
         </Measure>
       <Measure>
-        <irregular>1</irregular>
         <voice>
           <Harmony>
             <name>I(4)}</name>
@@ -3431,13 +3432,8 @@
               <endHookType>1</endHookType>
               <beginText>1.</beginText>
               <Segment>
-                <subtype>3</subtype>
+                <subtype>0</subtype>
                 <offset x="0" y="-3.13147"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              <Segment>
-                <subtype>1</subtype>
-                <offset x="0" y="-3"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               <endings>1</endings>
@@ -11760,7 +11756,6 @@
           </voice>
         </Measure>
       <Measure>
-        <irregular>1</irregular>
         <voice>
           <Harmony>
             <name>V7/bII</name>
@@ -11779,12 +11774,12 @@
               <endHookType>1</endHookType>
               <beginText>1.</beginText>
               <Segment>
-                <subtype>3</subtype>
+                <subtype>1</subtype>
                 <offset x="0" y="-2.79773"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>3</subtype>
                 <offset x="0" y="-0.816006"/>
                 <off2 x="0" y="0"/>
                 </Segment>
@@ -12217,12 +12212,12 @@
               <endHookType>1</endHookType>
               <beginText>2.</beginText>
               <Segment>
-                <subtype>3</subtype>
+                <subtype>1</subtype>
                 <offset x="0" y="-3.41572"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>3</subtype>
                 <offset x="0" y="-3.42006"/>
                 <off2 x="0" y="0"/>
                 </Segment>
@@ -12451,7 +12446,6 @@
           </voice>
         </Measure>
       <Measure>
-        <irregular>1</irregular>
         <voice>
           <Harmony>
             <name>V7(b9)/ii</name>
@@ -21505,6 +21499,7 @@
             <Trill>
               <subtype>trill</subtype>
               <placement>below</placement>
+              <offset x="0" y="-1"/>
               <Segment>
                 <subtype>1</subtype>
                 <offset x="0" y="4.20921"/>
@@ -21967,6 +21962,7 @@
             <Trill>
               <subtype>trill</subtype>
               <placement>below</placement>
+              <offset x="0" y="-1"/>
               <Segment>
                 <subtype>1</subtype>
                 <offset x="0" y="3.94907"/>
@@ -25078,6 +25074,7 @@
             <Trill>
               <subtype>trill</subtype>
               <placement>below</placement>
+              <offset x="0" y="-1"/>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="6.0025"/>
@@ -25243,7 +25240,7 @@
           <Chord>
             <durationType>eighth</durationType>
             <Lyrics>
-              <offset x="-0.53838" y="8.1535"/>
+              <offset x="-0.53838" y="4.2"/>
               <text><sym>dynamicPiano</sym><sym>dynamicPiano</sym></text>
               </Lyrics>
             <StemDirection>down</StemDirection>
@@ -36092,7 +36089,6 @@
           <Spanner type="Pedal">
             <Pedal>
               <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
-              <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
               <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
               <lineVisible>0</lineVisible>
               </Pedal>
@@ -36351,7 +36347,6 @@
           <Spanner type="Pedal">
             <Pedal>
               <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
-              <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
               <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
               <lineVisible>0</lineVisible>
               </Pedal>
@@ -36519,7 +36514,6 @@
           <Spanner type="Pedal">
             <Pedal>
               <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
-              <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
               <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
               <lineVisible>0</lineVisible>
               </Pedal>
@@ -36611,7 +36605,6 @@
           <Spanner type="Pedal">
             <Pedal>
               <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
-              <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
               <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
               <lineVisible>0</lineVisible>
               </Pedal>
@@ -46139,7 +46132,6 @@
           <Spanner type="Pedal">
             <Pedal>
               <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
-              <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
               <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
               <lineVisible>0</lineVisible>
               </Pedal>
@@ -47960,7 +47952,6 @@
           <Spanner type="Pedal">
             <Pedal>
               <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
-              <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
               <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
               <lineVisible>0</lineVisible>
               </Pedal>
