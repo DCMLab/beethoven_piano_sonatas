@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.01">
-  <programVersion>3.4.2</programVersion>
-  <programRevision>148e43f</programRevision>
+  <programVersion>3.0.5</programVersion>
+  <programRevision>58dd23d</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
+    <Synthesizer>
+      </Synthesizer>
     <Division>480</Division>
     <Style>
       <pageWidth>8.26771</pageWidth>
@@ -34,7 +36,6 @@
       <beamWidth>0.48</beamWidth>
       <beamMinLen>1.25</beamMinLen>
       <propertyDistanceStem>0.5</propertyDistanceStem>
-      <harmonyFretDist>0.5</harmonyFretDist>
       <chordSymbolPosBelow x="0" y="-2"/>
       <chordSymbolAFramePadding>0</chordSymbolAFramePadding>
       <chordSymbolAFrameWidth>0</chordSymbolAFrameWidth>
@@ -4683,12 +4684,10 @@ Opus 14 No. 2</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <BarLine>
-            <subtype>double</subtype>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
+        <startRepeat/>
         <voice>
           <Harmony>
             <name>IV6(2)</name>
@@ -6103,12 +6102,12 @@ Opus 14 No. 2</text>
               <endHookType>1</endHookType>
               <beginText>&lt;font face=&quot;Times New Roman&quot;&gt;&lt;/font&gt;&lt;b&gt;1.&lt;/b&gt;</beginText>
               <Segment>
-                <subtype>3</subtype>
+                <subtype>1</subtype>
                 <offset x="0" y="-1.35158"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>3</subtype>
                 <offset x="0" y="-3"/>
                 <off2 x="0" y="0"/>
                 </Segment>
@@ -7436,6 +7435,7 @@ Opus 14 No. 2</text>
             </Chord>
           <Tuplet>
             <offset x="0" y="1.09993"/>
+            <direction>up</direction>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
@@ -7443,7 +7443,6 @@ Opus 14 No. 2</text>
               <style>Tuplet</style>
               <text>3</text>
               </Number>
-            <direction>up</direction>
             </Tuplet>
           <Beam>
             </Beam>
@@ -7491,6 +7490,7 @@ Opus 14 No. 2</text>
           </voice>
         </Measure>
       <Measure>
+        <startRepeat/>
         <voice>
           <Dynamic>
             <subtype>p</subtype>
@@ -8415,6 +8415,7 @@ Opus 14 No. 2</text>
             </Chord>
           <Tuplet>
             <offset x="-0.0999937" y="-1.29992"/>
+            <direction>down</direction>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
@@ -8422,7 +8423,6 @@ Opus 14 No. 2</text>
               <style>Tuplet</style>
               <text>3</text>
               </Number>
-            <direction>down</direction>
             </Tuplet>
           <Beam>
             </Beam>
@@ -16292,9 +16292,6 @@ Opus 14 No. 2</text>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
-          <BarLine>
-            <subtype>double</subtype>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -18072,6 +18069,7 @@ Opus 14 No. 2</text>
             </Chord>
           <Tuplet>
             <offset x="0" y="1.09993"/>
+            <direction>up</direction>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
@@ -18079,7 +18077,6 @@ Opus 14 No. 2</text>
               <style>Tuplet</style>
               <text>3</text>
               </Number>
-            <direction>up</direction>
             </Tuplet>
           <Beam>
             </Beam>
