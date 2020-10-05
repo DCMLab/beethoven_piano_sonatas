@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.01">
-  <programVersion>3.4.2</programVersion>
-  <programRevision>148e43f</programRevision>
+  <programVersion>3.0.5</programVersion>
+  <programRevision>58dd23d</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
+    <Synthesizer>
+      </Synthesizer>
     <Division>480</Division>
     <Style>
       <pageWidth>8.26771</pageWidth>
@@ -24,7 +26,6 @@
       <clefLeftMargin>0.64</clefLeftMargin>
       <clefKeyRightMargin>1.75</clefKeyRightMargin>
       <barNoteDistance>1.2</barNoteDistance>
-      <harmonyFretDist>0.5</harmonyFretDist>
       <chordSymbolPosBelow x="0" y="-6"/>
       <defaultFramePadding>0.5</defaultFramePadding>
       <defaultFrameWidth>0.2</defaultFrameWidth>
@@ -1388,7 +1389,7 @@
             <durationType>whole</durationType>
             <Lyrics>
               <visible>0</visible>
-              <offset x="-0.332031" y="4.67849"/>
+              <offset x="-0.332031" y="0"/>
               <text>p</text>
               </Lyrics>
             <Note>
@@ -3938,7 +3939,7 @@
             <durationType>eighth</durationType>
             <Lyrics>
               <visible>0</visible>
-              <offset x="-0.610235" y="5.22047"/>
+              <offset x="-0.610235" y="0"/>
               <text>p</text>
               </Lyrics>
             <Articulation>
@@ -4761,7 +4762,7 @@
             <durationType>eighth</durationType>
             <Lyrics>
               <visible>0</visible>
-              <offset x="-2.5e-7" y="5.23064"/>
+              <offset x="-2.5e-07" y="0"/>
               <text>p</text>
               </Lyrics>
             <Note>
@@ -11585,18 +11586,12 @@
             </Spanner>
           <Spanner type="Volta">
             <Volta>
-              <endHookType>1</endHookType>
               <beginText>2.</beginText>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-0.350252"/>
-                <off2 x="23.8247" y="0"/>
-                </Segment>
               <endings>2</endings>
               </Volta>
             <next>
               <location>
-                <measures>1</measures>
+                <measures>2</measures>
                 </location>
               </next>
             </Spanner>
@@ -11696,6 +11691,9 @@
         </Measure>
       <Measure>
         <irregular>1</irregular>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Harmony>
             <name>V(64)/IV</name>
@@ -11704,13 +11702,6 @@
             <subtype>p</subtype>
             <velocity>49</velocity>
             </Dynamic>
-          <Spanner type="Volta">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
@@ -11784,6 +11775,13 @@
           <Harmony>
             <name>vi/IV</name>
             </Harmony>
+          <Spanner type="Volta">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -38365,7 +38363,7 @@
             <durationType>half</durationType>
             <Lyrics>
               <visible>0</visible>
-              <offset x="0.0360937" y="7.1919"/>
+              <offset x="0.0360937" y="0"/>
               <text>p</text>
               </Lyrics>
             <Note>
@@ -66526,14 +66524,9 @@
             <Trill>
               <subtype>trill</subtype>
               <Segment>
-                <subtype>3</subtype>
+                <subtype>0</subtype>
                 <offset x="0" y="-3.3494"/>
                 <off2 x="-3.46817" y="0"/>
-                </Segment>
-              <Segment>
-                <subtype>1</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
                 </Segment>
               </Trill>
             <next>
