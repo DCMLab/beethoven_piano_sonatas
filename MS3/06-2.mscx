@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.01">
-  <programVersion>3.4.2</programVersion>
-  <programRevision>148e43f</programRevision>
+  <programVersion>3.5.0</programVersion>
+  <programRevision>43c5553</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -100,6 +100,10 @@
         <longName>piano</longName>
         <trackName></trackName>
         <Channel>
+          <synti>Fluid</synti>
+          </Channel>
+        <Channel name="harmony">
+          <program value="0"/>
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -535,6 +539,7 @@
           </voice>
         </Measure>
       <Measure len="1/4">
+        <startRepeat/>
         <irregular>1</irregular>
         <voice>
           <Harmony>
