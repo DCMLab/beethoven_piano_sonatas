@@ -1,0 +1,12 @@
+2020-11-06 16:10:11 WARNING  31-3:MeasureList -- bs4_measures.py (line 674) make_offset_col():
+	The incomplete MC 6 (timesig 1, act_dur 1/2) is completed by 1 incorrect duration (expected: 1/2):
+	{7: Fraction(3, 4)}
+2020-11-06 16:10:11 WARNING  31-3:MeasureList -- bs4_measures.py (line 674) make_offset_col():
+	The incomplete MC 8 (timesig 1, act_dur 1/4) is completed by 1 incorrect duration (expected: 3/4):
+	{9: Fraction(3, 8)}
+2020-11-06 16:10:11 WARNING  31-3:MeasureList -- bs4_measures.py (line 197) check_measure_numbers():
+	MC 9 seems to be offset from the MN's beginning but has not been excluded from barcount. Context:
+	   mc  mn act_dur mc_offset  dont_count  numbering_offset
+	7   8   6     1/4         0           1              <NA>
+	8   9   7     3/8       3/8        <NA>              <NA>
+	9  10   8     3/4         0        <NA>              <NA>
