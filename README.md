@@ -42,93 +42,92 @@ Scores of the annotated sonatas corrected by <tunescribers.com>.
 # Overview
 |file_name|measures|labels|standard|     annotators     |    reviewers     |
 |---------|-------:|-----:|--------|--------------------|------------------|
+|01-1     |     152|   211|2.2.0   |Lars & Ya-Chuan     |Adrian Nagel      |
+|01-2     |      61|   204|2.2.0   |Lars & Ya-Chuan     |Adrian Nagel      |
+|01-3     |      73|   131|2.2.0   |Daniel Grote        |Adrian Nagel      |
+|01-4     |     196|   355|2.2.0   |Daniel Grote        |Adrian Nagel      |
+|02-1     |     336|     0|        |                    |                  |
+|02-2     |      80|     0|        |                    |                  |
+|02-3     |      68|     0|        |                    |                  |
+|02-4     |     187|     0|        |                    |                  |
+|03-1     |     257|   481|2.2.0   |Lydia Carlisi       |                  |
+|03-2     |      82|   233|2.2.0   |Lydia Carlisi       |                  |
+|03-3     |     127|   198|2.2.0   |Lydia Carlisi       |                  |
+|03-4     |     312|   794|2.2.0   |Lydia Carlisi       |                  |
+|04-1     |     362|     0|        |                    |                  |
+|04-2     |      90|     0|        |                    |                  |
+|04-3     |     150|     0|        |                    |                  |
+|04-4     |     186|     0|        |                    |                  |
+|05-1     |     284|   671|2.2.0   |Adrian Nagel        |                  |
+|05-2     |     112|   252|2.2.0   |Adrian Nagel        |                  |
+|05-3     |     122|   314|2.2.0   |Adrian Nagel        |                  |
+|06-1     |     202|   380|2.2.0   |Adrian Nagel        |                  |
+|06-2     |     170|   236|2.2.0   |Gabriele Ortiz Würth|Johannes Hentschel|
+|06-3     |     150|   309|2.2.0   |Adrian Nagel        |                  |
+|07-1     |     344|   526|2.2.0   |Lydia Carlisi       |                  |
+|07-2     |      87|   217|2.2.0   |Lydia Carlisi       |                  |
+|07-3     |      86|    90|2.2.0   |Lydia Carlisi       |                  |
+|07-4     |     113|   266|2.2.0   |Lydia Carlisi       |                  |
+|08-1     |     310|   501|2.2.0   |Lydia Carlisi       |                  |
+|08-2     |      73|   143|2.2.0   |Lydia Carlisi       |                  |
+|08-3     |     210|   364|2.2.0   |Lydia Carlisi       |                  |
+|09-1     |     161|   352|2.2.0   |Lydia Carlisi       |                  |
+|09-2     |     178|   231|2.2.0   |Lydia Carlisi       |                  |
+|09-3     |     131|   262|2.2.0   |Lydia Carlisi       |                  |
+|10-1     |     200|   355|2.2.0   |Daniel Grote        |                  |
+|10-2     |      90|   353|2.2.0   |Daniel Grote        |                  |
+|10-3     |     254|   339|2.2.0   |Adrian Nagel        |                  |
+|11-1     |     199|     0|        |                    |                  |
+|11-2     |      77|     0|        |                    |                  |
+|11-3     |      46|     0|        |                    |                  |
+|11-4     |     199|     0|        |                    |                  |
+|12-1     |     219|     0|        |                    |                  |
+|12-2     |      95|     0|        |                    |                  |
+|12-3     |      75|     0|        |                    |                  |
+|12-4     |     170|     0|        |                    |                  |
+|13-1     |      88|     0|        |                    |                  |
+|13-2     |     147|     0|        |                    |                  |
+|13-3     |      26|     0|        |                    |                  |
+|13-4     |     285|     0|        |                    |                  |
+|14-1     |      69|     0|        |                    |                  |
+|14-2     |      60|     0|        |                    |                  |
+|14-3     |     201|     0|        |                    |                  |
+|15-1     |     462|     0|        |                    |                  |
+|15-2     |     103|     0|        |                    |                  |
+|15-3     |      94|     0|        |                    |                  |
+|15-4     |     210|     0|        |                    |                  |
+|16-1     |     325|   318|2.2.0   |Adrian Nagel        |                  |
+|16-2     |     119|   285|2.2.0   |Adrian Nagel        |                  |
+|16-3     |     275|   703|2.2.0   |Adrian Nagel        |                  |
+|17-1     |     228|   410|2.2.0   |Adrian Nagel        |                  |
+|17-2     |     103|   225|2.2.0   |Adrian Nagel        |                  |
+|17-3     |     399|   460|2.2.0   |Adrian Nagel        |                  |
+|18-1     |     253|   269|2.2.0   |Adrian Nagel        |                  |
+|18-2     |     169|   273|2.2.0   |Adrian Nagel        |                  |
+|18-3     |      61|   178|2.2.0   |Adrian Nagel        |                  |
+|18-4     |     333|   455|2.2.0   |Adrian Nagel        |                  |
+|19-1_DG  |     110|   191|2.2.0   |Daniel Grote        |Adrian Nagel      |
+|19-1_GOW |     110|   204|2.2.0   |Gabriele Ortiz Würth|Johannes Hentschel|
+|19-2_DG  |     164|   385|2.2.0   |Daniel Grote        |Adrian Nagel      |
+|19-2_GOW |     164|   420|2.2.0   |Gabriele Ortiz Würth|Johannes Hentschel|
+|20-1     |     122|   271|2.2.0   |Lydia Carlisi       |                  |
+|20-2     |     120|   168|2.2.0   |Lydia Carlisi       |                  |
+|21-1     |     302|   631|2.2.0   |Adrian Nagel        |                  |
+|21-2     |      28|    82|2.2.0   |Adrian Nagel        |                  |
+|21-3     |     543|   739|2.2.0   |Adrian Nagel        |                  |
+|23-1     |     262|   429|2.2.0   |Daniel Grote        |                  |
+|23-2     |      97|   220|2.2.0   |Daniel Grote        |                  |
+|23-3     |     361|   396|2.2.0   |Daniel Grote        |                  |
+|24-1     |     105|   286|2.2.0   |Adrian Nagel        |                  |
+|24-2     |     183|   317|2.2.0   |Adrian Nagel        |                  |
+|26-1     |     255|   537|2.2.0   |Adrian Nagel        |                  |
+|26-2     |      42|   127|2.2.0   |Adrian Nagel        |                  |
+|26-3     |     196|   316|2.2.0   |Adrian Nagel        |                  |
+|30-1     |      99|   252|2.2.0   |Adrian Nagel        |                  |
+|30-2     |     177|   320|2.2.0   |Adrian Nagel        |                  |
+|30-3     |     203|   657|2.2.0   |Adrian Nagel        |                  |
+|31-1     |     116|   339|2.2.0   |Adrian Nagel        |                  |
+|31-2     |     158|   200|2.2.0   |Adrian Nagel        |                  |
+|31-3     |     212|   662|2.2.0   |Adrian Nagel        |                  |
+|32-1     |     157|   582|2.2.0   |Adrian Nagel        |                  |
 |32-2     |     177|   895|2.2.0   |Adrian Nagel        |                  |
-|         |     152|   211|2.2.0   |Lars & Ya-Chuan     |Adrian Nagel      |
-|         |      61|   204|2.2.0   |Lars & Ya-Chuan     |Adrian Nagel      |
-|         |      73|   131|2.2.0   |Daniel Grote        |Adrian Nagel      |
-|         |     196|   355|2.2.0   |Daniel Grote        |Adrian Nagel      |
-|         |     336|     0|        |                    |                  |
-|         |      80|     0|        |                    |                  |
-|         |      68|     0|        |                    |                  |
-|         |     187|     0|        |                    |                  |
-|         |     257|   481|2.2.0   |Lydia Carlisi       |                  |
-|         |      82|   233|2.2.0   |Lydia Carlisi       |                  |
-|         |     127|   198|2.2.0   |Lydia Carlisi       |                  |
-|         |     312|   794|2.2.0   |Lydia Carlisi       |                  |
-|         |     362|     0|        |                    |                  |
-|         |      90|     0|        |                    |                  |
-|         |     150|     0|        |                    |                  |
-|         |     186|     0|        |                    |                  |
-|         |     284|   671|2.2.0   |Adrian Nagel        |                  |
-|         |     112|   252|2.2.0   |Adrian Nagel        |                  |
-|         |     122|   314|2.2.0   |Adrian Nagel        |                  |
-|         |     202|   380|2.2.0   |Adrian Nagel        |                  |
-|         |     170|   236|2.2.0   |Gabriele Ortiz Würth|Johannes Hentschel|
-|         |     150|   309|2.2.0   |Adrian Nagel        |                  |
-|         |     344|   526|2.2.0   |Lydia Carlisi       |                  |
-|         |      87|   217|2.2.0   |Lydia Carlisi       |                  |
-|         |      86|    90|2.2.0   |Lydia Carlisi       |                  |
-|         |     113|   266|2.2.0   |Lydia Carlisi       |                  |
-|         |     310|   501|2.2.0   |Lydia Carlisi       |                  |
-|         |      73|   143|2.2.0   |Lydia Carlisi       |                  |
-|         |     210|   364|2.2.0   |Lydia Carlisi       |                  |
-|         |     161|   352|2.2.0   |Lydia Carlisi       |                  |
-|         |     178|   231|2.2.0   |Lydia Carlisi       |                  |
-|         |     131|   262|2.2.0   |Lydia Carlisi       |                  |
-|         |     200|   355|2.2.0   |Daniel Grote        |                  |
-|         |      90|   353|2.2.0   |Daniel Grote        |                  |
-|         |     254|   339|2.2.0   |Adrian Nagel        |                  |
-|         |     199|     0|        |                    |                  |
-|         |      77|     0|        |                    |                  |
-|         |      46|     0|        |                    |                  |
-|         |     199|     0|        |                    |                  |
-|         |     219|     0|        |                    |                  |
-|         |      95|     0|        |                    |                  |
-|         |      75|     0|        |                    |                  |
-|         |     170|     0|        |                    |                  |
-|         |      88|     0|        |                    |                  |
-|         |     147|     0|        |                    |                  |
-|         |      26|     0|        |                    |                  |
-|         |     285|     0|        |                    |                  |
-|         |      69|     0|        |                    |                  |
-|         |      60|     0|        |                    |                  |
-|         |     201|     0|        |                    |                  |
-|         |     462|     0|        |                    |                  |
-|         |     103|     0|        |                    |                  |
-|         |      94|     0|        |                    |                  |
-|         |     210|     0|        |                    |                  |
-|         |     325|   318|2.2.0   |Adrian Nagel        |                  |
-|         |     119|   285|2.2.0   |Adrian Nagel        |                  |
-|         |     275|   703|2.2.0   |Adrian Nagel        |                  |
-|         |     228|   410|2.2.0   |Adrian Nagel        |                  |
-|         |     103|   225|2.2.0   |Adrian Nagel        |                  |
-|         |     399|   460|2.2.0   |Adrian Nagel        |                  |
-|         |     253|   269|2.2.0   |Adrian Nagel        |                  |
-|         |     169|   273|2.2.0   |Adrian Nagel        |                  |
-|         |      61|   178|2.2.0   |Adrian Nagel        |                  |
-|         |     333|   455|2.2.0   |Adrian Nagel        |                  |
-|         |     110|   191|2.2.0   |Daniel Grote        |Adrian Nagel      |
-|         |     110|   204|2.2.0   |Gabriele Ortiz Würth|Johannes Hentschel|
-|         |     164|   385|2.2.0   |Daniel Grote        |Adrian Nagel      |
-|         |     164|   420|2.2.0   |Gabriele Ortiz Würth|Johannes Hentschel|
-|         |     122|   271|2.2.0   |Lydia Carlisi       |                  |
-|         |     120|   168|2.2.0   |Lydia Carlisi       |                  |
-|         |     302|   631|2.2.0   |Adrian Nagel        |                  |
-|         |      28|    82|2.2.0   |Adrian Nagel        |                  |
-|         |     543|   739|2.2.0   |Adrian Nagel        |                  |
-|         |     262|   429|2.2.0   |Daniel Grote        |                  |
-|         |      97|   220|2.2.0   |Daniel Grote        |                  |
-|         |     361|   396|2.2.0   |Daniel Grote        |                  |
-|         |     105|   286|2.2.0   |Adrian Nagel        |                  |
-|         |     183|   317|2.2.0   |Adrian Nagel        |                  |
-|         |     255|   537|2.2.0   |Adrian Nagel        |                  |
-|         |      42|   127|2.2.0   |Adrian Nagel        |                  |
-|         |     196|   316|2.2.0   |Adrian Nagel        |                  |
-|         |      99|   252|2.2.0   |Adrian Nagel        |                  |
-|         |     177|   320|2.2.0   |Adrian Nagel        |                  |
-|         |     203|   657|2.2.0   |Adrian Nagel        |                  |
-|         |     116|   339|2.2.0   |Adrian Nagel        |                  |
-|         |     158|   200|2.2.0   |Adrian Nagel        |                  |
-|         |     212|   662|2.2.0   |Adrian Nagel        |                  |
-|         |     157|   582|2.2.0   |Adrian Nagel        |                  |
-|         |     177|   895|2.2.0   |Adrian Nagel        |                  |
