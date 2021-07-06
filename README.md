@@ -50,7 +50,7 @@ Scores of the annotated sonatas corrected by <tunescribers.com>.
 |02-2     |      80|     0|        |                    |                  |
 |02-3     |      68|     0|        |                    |                  |
 |02-4     |     187|     0|        |                    |                  |
-|03-1     |     257|   481|2.2.0   |Lydia Carlisi       |                  |
+|03-1     |     257|   480|2.2.0   |Lydia Carlisi       |                  |
 |03-2     |      82|   233|2.2.0   |Lydia Carlisi       |                  |
 |03-3     |     127|   198|2.2.0   |Lydia Carlisi       |                  |
 |03-4     |     312|   794|2.2.0   |Lydia Carlisi       |                  |
@@ -64,11 +64,11 @@ Scores of the annotated sonatas corrected by <tunescribers.com>.
 |06-1     |     202|   380|2.2.0   |Adrian Nagel        |                  |
 |06-2     |     170|   236|2.2.0   |Gabriele Ortiz Würth|Johannes Hentschel|
 |06-3     |     150|   309|2.2.0   |Adrian Nagel        |                  |
-|07-1     |     344|   526|2.2.0   |Lydia Carlisi       |                  |
+|07-1     |     344|   525|2.2.0   |Lydia Carlisi       |                  |
 |07-2     |      87|   217|2.2.0   |Lydia Carlisi       |                  |
 |07-3     |      86|    90|2.2.0   |Lydia Carlisi       |                  |
 |07-4     |     113|   266|2.2.0   |Lydia Carlisi       |                  |
-|08-1     |     310|   501|2.2.0   |Lydia Carlisi       |                  |
+|08-1     |     310|   500|2.2.0   |Lydia Carlisi       |                  |
 |08-2     |      73|   143|2.2.0   |Lydia Carlisi       |                  |
 |08-3     |     210|   364|2.2.0   |Lydia Carlisi       |                  |
 |09-1     |     161|   352|2.2.0   |Lydia Carlisi       |                  |
@@ -125,7 +125,7 @@ Scores of the annotated sonatas corrected by <tunescribers.com>.
 |26-3     |     196|   316|2.2.0   |Adrian Nagel        |                  |
 |30-1     |      99|   252|2.2.0   |Adrian Nagel        |                  |
 |30-2     |     177|   320|2.2.0   |Adrian Nagel        |                  |
-|30-3     |     203|   657|2.2.0   |Adrian Nagel        |                  |
+|30-3     |     203|   656|2.2.0   |Adrian Nagel        |                  |
 |31-1     |     116|   339|2.2.0   |Adrian Nagel        |                  |
 |31-2     |     158|   200|2.2.0   |Adrian Nagel        |                  |
 |31-3     |     212|   662|2.2.0   |Adrian Nagel        |                  |
