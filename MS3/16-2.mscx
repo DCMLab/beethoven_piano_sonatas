@@ -144,7 +144,6 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.564</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -182,10 +181,8 @@
         <Channel>
           <program value="0"/>
           <synti>Fluid</synti>
-          </Channel>
-        <Channel name="harmony">
-          <program value="0"/>
-          <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>0</midiChannel>
           </Channel>
         </Instrument>
       </Part>
@@ -203,10 +200,14 @@
         <Channel>
           <program value="0"/>
           <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>2</midiChannel>
           </Channel>
         <Channel name="harmony">
           <program value="0"/>
           <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>3</midiChannel>
           </Channel>
         </Instrument>
       </Part>
@@ -20608,46 +20609,38 @@
       <Measure>
         <voice>
           <Tuplet>
-            <normalNotes>6</normalNotes>
+            <normalNotes>12</normalNotes>
             <actualNotes>11</actualNotes>
-            <baseNote>16th</baseNote>
+            <baseNote>32nd</baseNote>
             <Number>
               <style>Tuplet</style>
               <text>11</text>
               </Number>
+            <bracketType>2</bracketType>
             </Tuplet>
-          <Beam>
-            </Beam>
           <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
+            <durationType>32nd</durationType>
             <Note>
               <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
+            <durationType>32nd</durationType>
             <Note>
               <pitch>77</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>1/21120</fractions>
-            </location>
           <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
+            <durationType>32nd</durationType>
             <Note>
               <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
+            <durationType>32nd</durationType>
             <Note>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
@@ -20656,193 +20649,50 @@
               <tpc>23</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>1/21120</fractions>
-            </location>
           <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
+            <durationType>32nd</durationType>
             <Note>
               <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
+            <durationType>32nd</durationType>
             <Note>
-              <Accidental>
-                <role>1</role>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
               <pitch>72</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>1/21120</fractions>
-            </location>
           <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
+            <durationType>32nd</durationType>
             <Note>
               <pitch>71</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
+            <durationType>32nd</durationType>
             <Note>
               <pitch>72</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>1/21120</fractions>
-            </location>
           <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
+            <durationType>32nd</durationType>
             <Note>
               <pitch>84</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
+            <durationType>32nd</durationType>
             <Note>
               <pitch>83</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>1/21120</fractions>
-            </location>
           <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>84</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <location>
-            <fractions>-1/4224</fractions>
-            </location>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>9/8</duration>
-            </Rest>
-          <Tuplet>
-            <normalNotes>6</normalNotes>
-            <actualNotes>11</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>11</text>
-              </Number>
-            </Tuplet>
-          <Beam>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>79</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <location>
-            <fractions>-1/5280</fractions>
-            </location>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <location>
-            <fractions>1/21120</fractions>
-            </location>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>72</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <location>
-            <fractions>1/21120</fractions>
-            </location>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>72</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <location>
-            <fractions>1/21120</fractions>
-            </location>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>84</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>83</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <location>
-            <fractions>1/21120</fractions>
-            </location>
-          <Chord>
-            <durationType>16th</durationType>
+            <durationType>32nd</durationType>
             <Note>
               <pitch>84</pitch>
               <tpc>14</tpc>
@@ -20850,46 +20700,126 @@
             </Chord>
           <endTuplet/>
           <Tuplet>
-            <normalNotes>6</normalNotes>
+            <normalNotes>12</normalNotes>
             <actualNotes>11</actualNotes>
-            <baseNote>16th</baseNote>
+            <baseNote>32nd</baseNote>
             <Number>
               <style>Tuplet</style>
               <text>11</text>
               </Number>
+            <bracketType>2</bracketType>
             </Tuplet>
-          <Beam>
-            </Beam>
           <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
+            <durationType>32nd</durationType>
+            <Note>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>32nd</durationType>
             <Note>
               <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
+            <durationType>32nd</durationType>
+            <Note>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>32nd</durationType>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>32nd</durationType>
+            <Note>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>32nd</durationType>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>32nd</durationType>
+            <Note>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>32nd</durationType>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>32nd</durationType>
+            <Note>
+              <pitch>84</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>32nd</durationType>
+            <Note>
+              <pitch>83</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>32nd</durationType>
+            <Note>
+              <pitch>84</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Tuplet>
+            <normalNotes>12</normalNotes>
+            <actualNotes>11</actualNotes>
+            <baseNote>32nd</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>11</text>
+              </Number>
+            <bracketType>2</bracketType>
+            </Tuplet>
+          <Chord>
+            <durationType>32nd</durationType>
+            <Note>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>32nd</durationType>
             <Note>
               <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/5280</fractions>
-            </location>
           <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
+            <durationType>32nd</durationType>
             <Note>
               <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
+            <durationType>32nd</durationType>
             <Note>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
@@ -20898,68 +20828,50 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>1/21120</fractions>
-            </location>
           <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
+            <durationType>32nd</durationType>
             <Note>
               <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
+            <durationType>32nd</durationType>
             <Note>
               <pitch>72</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>1/21120</fractions>
-            </location>
           <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
+            <durationType>32nd</durationType>
             <Note>
               <pitch>71</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
+            <durationType>32nd</durationType>
             <Note>
               <pitch>72</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>1/21120</fractions>
-            </location>
           <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
+            <durationType>32nd</durationType>
             <Note>
               <pitch>84</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
+            <durationType>32nd</durationType>
             <Note>
               <pitch>83</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>1/21120</fractions>
-            </location>
           <Chord>
-            <durationType>16th</durationType>
+            <durationType>32nd</durationType>
             <Note>
               <pitch>84</pitch>
               <tpc>14</tpc>
@@ -43794,6 +43706,10 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV6</name>
+            </Harmony>
           <Beam>
             </Beam>
           <Chord>
@@ -43807,16 +43723,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-263/4224</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>IV6</name>
-            </Harmony>
-          <location>
-            <fractions>263/4224</fractions>
-            </location>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -43871,6 +43777,10 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I6</name>
+            </Harmony>
           <Beam>
             </Beam>
           <Chord>
@@ -43884,16 +43794,6 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-263/4224</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I6</name>
-            </Harmony>
-          <location>
-            <fractions>263/4224</fractions>
-            </location>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
