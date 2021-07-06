@@ -4467,9 +4467,6 @@
             </Rest>
           <Chord>
             <durationType>quarter</durationType>
-            <Lyrics>
-              <text>p</text>
-              </Lyrics>
             <Spanner type="Slur">
               <Slur>
                 </Slur>
@@ -14931,7 +14928,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V[V}{</name>
+            <name>V[V|HC}{</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -15010,6 +15007,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -15082,6 +15083,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7(b9)</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <Spanner type="Slur">
@@ -15099,6 +15104,16 @@
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I64</name>
@@ -15183,6 +15198,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -15255,6 +15274,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7(b9)</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <Spanner type="Slur">
@@ -15272,6 +15295,16 @@
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I64</name>
