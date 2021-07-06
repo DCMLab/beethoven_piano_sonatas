@@ -3735,9 +3735,10 @@
       <Measure>
         <voice>
           <Dynamic>
-            <subtype>sf</subtype>
+            <subtype>other-dynamics</subtype>
             <velocity>112</velocity>
-            <offset x="0.432304" y="3.63447"/>
+            <offset x="0.483157" y="4.29112"/>
+            <text><i>(</i><font face="ScoreText"/><i><font face="Edwin"/>)</i></text>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
@@ -3752,16 +3753,6 @@
               </Spanner>
             <StemDirection>down</StemDirection>
             <Note>
-              <Symbol>
-                <name>timeSigParensLeftSmall</name>
-                <font>Bravura</font>
-                <offset x="-1.04382" y="6.57609"/>
-                </Symbol>
-              <Symbol>
-                <name>timeSigParensRightSmall</name>
-                <font>Bravura</font>
-                <offset x="1.7745" y="6.52389"/>
-                </Symbol>
               <pitch>75</pitch>
               <tpc>11</tpc>
               </Note>
@@ -14556,7 +14547,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I(974)</name>
+            <name>I(974)}</name>
             <offset x="0" y="-4.8457"/>
             </Harmony>
           <Chord>
@@ -14589,7 +14580,8 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I}</name>
+            <name>I|PAC</name>
+            <offset x="0.0508529" y="5.99877"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
