@@ -13196,9 +13196,6 @@ I. Allegro molto e con brio</text>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.252163"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -13651,9 +13648,6 @@ I. Allegro molto e con brio</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <offset x="0" y="-1.0352"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -13723,9 +13717,6 @@ I. Allegro molto e con brio</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <offset x="0" y="-1.12146"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -13795,9 +13786,6 @@ I. Allegro molto e con brio</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.862664"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -13867,9 +13855,6 @@ I. Allegro molto e con brio</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.678485"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -14918,6 +14903,10 @@ I. Allegro molto e con brio</text>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i6</name>
+            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -14927,7 +14916,7 @@ I. Allegro molto e con brio</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i6</name>
+            <name>i64</name>
             </Harmony>
           <Rest>
             <dots>1</dots>
@@ -14938,7 +14927,7 @@ I. Allegro molto e con brio</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i64</name>
+            <name>i</name>
             </Harmony>
           <location>
             <fractions>1/4</fractions>
@@ -15087,7 +15076,7 @@ I. Allegro molto e con brio</text>
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio6</name>
+            <name>#viio</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
@@ -15096,30 +15085,17 @@ I. Allegro molto e con brio</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio64</name>
-            <offset x="0" y="-7.55008"/>
-            </Harmony>
           <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
           <location>
-            <fractions>-1/2</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio</name>
-            <offset x="0" y="-7.43526"/>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
+            <fractions>-1/4</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio64</name>
-            <offset x="0" y="-7.72231"/>
+            <offset x="0.562089" y="3.14951"/>
             </Harmony>
           </voice>
         </Measure>
@@ -27699,11 +27675,6 @@ I. Allegro molto e con brio</text>
               <subtype>2</subtype>
               <endText></endText>
               <placement>above</placement>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1.75031"/>
-                <off2 x="-9.33004" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -29433,10 +29404,6 @@ I. Allegro molto e con brio</text>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o4 x="0" y="-1.9019"/>
-                  <offset x="0" y="3.46817"/>
-                  </SlurSegment>
                 <up>down</up>
                 </Slur>
               <next>
