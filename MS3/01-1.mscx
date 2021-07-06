@@ -8412,6 +8412,12 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <Fragment>
+              <y1>-2.04659</y1>
+              <y2>-2.79659</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -18617,7 +18623,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(4)</name>
+            <name>V(4)}</name>
             <offset x="0" y="-4.12033"/>
             </Harmony>
           <Chord>
@@ -18634,7 +18640,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V}</name>
+            <name>V|HC</name>
             <offset x="0" y="-4.32655"/>
             </Harmony>
           <Rest>
@@ -18649,14 +18655,10 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i{</name>
-            <offset x="0" y="-4.23817"/>
+            <offset x="0.0508529" y="2.80895"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
-            <Lyrics>
-              <offset x="0.260634" y="1.78462"/>
-              <text>p</text>
-              </Lyrics>
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
               </Articulation>
