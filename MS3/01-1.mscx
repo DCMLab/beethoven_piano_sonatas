@@ -3,6 +3,7 @@
   <programVersion>3.6.2</programVersion>
   <programRevision>3224f34</programRevision>
   <Score>
+    <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Division>480</Division>
@@ -232,6 +233,12 @@
             <subtype>p</subtype>
             <velocity>49</velocity>
             </Dynamic>
+          <Tempo>
+            <tempo>3</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 180</b></text>
+            </Tempo>
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
@@ -3159,9 +3166,6 @@
               <Slur>
                 <SlurSegment no="0">
                   <offset x="0" y="-1.2004"/>
-                  </SlurSegment>
-                <SlurSegment no="1">
-                  <offset x="0" y="-0.260956"/>
                   </SlurSegment>
                 </Slur>
               <next>
@@ -10348,9 +10352,6 @@
                 <SlurSegment no="0">
                   <offset x="0" y="-1.07357"/>
                   </SlurSegment>
-                <SlurSegment no="1">
-                  <o1 x="0" y="-2.71551"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -10671,9 +10672,6 @@
               <Slur>
                 <SlurSegment no="0">
                   <offset x="0" y="-0.884118"/>
-                  </SlurSegment>
-                <SlurSegment no="1">
-                  <o1 x="0" y="-3.43859"/>
                   </SlurSegment>
                 </Slur>
               <next>
