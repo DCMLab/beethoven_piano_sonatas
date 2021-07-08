@@ -70828,6 +70828,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>ii%43</name>
+            <offset x="0.145376" y="6.97284"/>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -70859,12 +70860,19 @@
           <Dynamic>
             <subtype>sf</subtype>
             <velocity>112</velocity>
-            <offset x="0.329531" y="3.93776"/>
+            <placement>above</placement>
+            <minDistance>-999</minDistance>
+            <offset x="0.474907" y="-4.11198"/>
             </Dynamic>
           <Spanner type="Pedal">
             <Pedal>
               <endHookType>1</endHookType>
               <beginHookType>1</beginHookType>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0.145376" y="3.73568"/>
+                <off2 x="0" y="0"/>
+                </Segment>
               </Pedal>
             <next>
               <location>
@@ -70938,7 +70946,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i|PAC}{</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
