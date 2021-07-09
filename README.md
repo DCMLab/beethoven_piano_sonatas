@@ -64,20 +64,20 @@ Scores of the annotated sonatas corrected by <tunescribers.com>.
 |06-1     |     202|   380|2.2.0   |Adrian Nagel                                |                  |
 |06-2     |     170|   236|2.2.0   |Gabriele Ortiz Würth                        |Johannes Hentschel|
 |06-3     |     150|   309|2.2.0   |Adrian Nagel                                |                  |
-|07-1     |     344|   525|2.2.0   |Lydia Carlisi (2.2.0), John Heilig (2.3.0)  |                  |
+|07-1     |     344|   525|2.2.0   |Lydia Carlisi                               |                  |
 |07-2     |      87|   217|2.2.0   |Lydia Carlisi                               |                  |
 |07-3     |      86|    90|2.2.0   |Lydia Carlisi                               |                  |
 |07-4     |     113|   266|2.2.0   |Lydia Carlisi                               |                  |
 |08-1     |     310|   500|2.2.0   |Lydia Carlisi                               |                  |
 |08-2     |      73|   143|2.2.0   |Lydia Carlisi                               |                  |
 |08-3     |     210|   364|2.2.0   |Lydia Carlisi                               |                  |
-|09-1     |     161|   352|2.2.0   |Lydia Carlisi                               |                  |
+|09-1     |     161|   352|2.3.0   |Lydia Carlisi (2.2.0), Amelia Brey (2.3.0)  |AB                |
 |09-2     |     178|   231|2.2.0   |Lydia Carlisi                               |                  |
 |09-3     |     131|   262|2.2.0   |Lydia Carlisi                               |                  |
 |10-1     |     200|   355|2.2.0   |Daniel Grote                                |                  |
 |10-2     |      90|   353|2.2.0   |Daniel Grote                                |                  |
 |10-3     |     254|   339|2.2.0   |Adrian Nagel                                |                  |
-|11-1     |     199|     0|        |                                            |                  |
+|11-1     |     199|     0|2.3.0   |Amelia Brey                                 |                  |
 |11-2     |      77|     0|        |                                            |                  |
 |11-3     |      46|     0|        |                                            |                  |
 |11-4     |     199|     0|        |                                            |                  |
