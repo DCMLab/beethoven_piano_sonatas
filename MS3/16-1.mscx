@@ -157,7 +157,7 @@
     <metaTag name="composer"></metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2019-03-05</metaTag>
-    <metaTag name="harmony_version">2.2.0</metaTag>
+    <metaTag name="harmony_version">2.3.0</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle"></metaTag>
@@ -215,6 +215,13 @@
       <VBox>
         <height>10</height>
         <boxAutoSize>0</boxAutoSize>
+        <Text>
+          <style>Title</style>
+          <offset x="1.18976" y="0.793171"/>
+          <text>SONATE
+G-dur
+<font size="15"/>Allegro vivace</text>
+          </Text>
         </VBox>
       <Measure len="1/16">
         <irregular>1</irregular>
@@ -231,12 +238,14 @@
             <subtype>p</subtype>
             <velocity>49</velocity>
             </Dynamic>
+          <Tempo>
+            <tempo>1.8</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 108</b></text>
+            </Tempo>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <visible>0</visible>
-              <text>f</text>
-              </Lyrics>
             <Note>
               <Spanner type="Tie">
                 <Tie>
@@ -387,10 +396,6 @@
             </Dynamic>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <visible>0</visible>
-              <text>p</text>
-              </Lyrics>
             <Note>
               <Spanner type="Tie">
                 <Tie>
