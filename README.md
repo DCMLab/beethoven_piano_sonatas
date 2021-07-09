@@ -77,7 +77,7 @@ Scores of the annotated sonatas corrected by <tunescribers.com>.
 |10-1     |     200|   355|2.2.0   |Daniel Grote                                |                  |
 |10-2     |      90|   353|2.2.0   |Daniel Grote                                |                  |
 |10-3     |     254|   339|2.2.0   |Adrian Nagel                                |                  |
-|11-1     |     199|     0|2.3.0   |Amelia Brey                                 |                  |
+|11-1     |     199|     0|        |                                            |                  |
 |11-2     |      77|     0|        |                                            |                  |
 |11-3     |      46|     0|        |                                            |                  |
 |11-4     |     199|     0|        |                                            |                  |
