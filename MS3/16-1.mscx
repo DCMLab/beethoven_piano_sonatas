@@ -40185,7 +40185,7 @@ G-dur
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I6}{</name>
+            <name>I6|IAC}{</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -40215,8 +40215,14 @@ G-dur
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I</name>
+            <minDistance>-0.399343</minDistance>
+            <offset x="0" y="4.4678"/>
             </Harmony>
           <Beam>
+            <Fragment>
+              <y1>5.98824</y1>
+              <y2>4.98824</y2>
+              </Fragment>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
