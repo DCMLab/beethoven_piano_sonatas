@@ -221,7 +221,7 @@
           <offset x="1.18976" y="0.793171"/>
           <text>SONATE
 G-dur
-<font size="15"/>Allegro vivace</text>
+<font size="15"></font>Allegro vivace</text>
           </Text>
         </VBox>
       <Measure len="1/16">
@@ -243,7 +243,7 @@ G-dur
             <tempo>1.8</tempo>
             <followText>1</followText>
             <visible>0</visible>
-            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 108</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 108</b></text>
             </Tempo>
           <Chord>
             <durationType>16th</durationType>
@@ -32339,7 +32339,7 @@ G-dur
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio64/iv</name>
+            <name>V7/iv</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -32357,10 +32357,6 @@ G-dur
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V/iv</name>
-            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
@@ -32375,10 +32371,16 @@ G-dur
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv6</name>
+            <name>iv64</name>
             </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -32392,7 +32394,7 @@ G-dur
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio64/III</name>
+            <name>V7/III</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -32410,10 +32412,6 @@ G-dur
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V/III</name>
-            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
@@ -32428,10 +32426,16 @@ G-dur
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III6</name>
+            <name>III64</name>
             </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -32445,7 +32449,7 @@ G-dur
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i64</name>
+            <name>VIM7</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -32463,10 +32467,6 @@ G-dur
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>VI</name>
-            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
@@ -32481,10 +32481,16 @@ G-dur
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iio6</name>
+            <name>iio64</name>
             </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -32498,7 +32504,7 @@ G-dur
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio64</name>
+            <name>V7</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -32509,27 +32515,15 @@ G-dur
               </Note>
             </Chord>
           <location>
-            <fractions>-1/4</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iv6</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
+            <fractions>-1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>VI</name>
-            <offset x="0.337254" y="5.18627"/>
             </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
