@@ -66273,10 +66273,6 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V(64)</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Articulation>
@@ -66295,10 +66291,6 @@
             <subtype>fp</subtype>
             <velocity>96</velocity>
             </Dynamic>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I6</name>
-            </Harmony>
           <Beam>
             </Beam>
           <Chord>
@@ -66691,9 +66683,14 @@
             <Trill>
               <subtype>trill</subtype>
               <Segment>
-                <subtype>0</subtype>
+                <subtype>3</subtype>
                 <offset x="0" y="-3.3494"/>
                 <off2 x="-3.46817" y="0"/>
+                </Segment>
+              <Segment>
+                <subtype>1</subtype>
+                <offset x="0" y="-1"/>
+                <off2 x="0" y="0"/>
                 </Segment>
               </Trill>
             <next>
