@@ -64,11 +64,11 @@ Scores of the annotated sonatas corrected by <tunescribers.com>.
 |06-1     |     202|   380|2.2.0   |Adrian Nagel                                |                  |
 |06-2     |     170|   236|2.2.0   |Gabriele Ortiz Würth                        |Johannes Hentschel|
 |06-3     |     150|   309|2.2.0   |Adrian Nagel                                |                  |
-|07-1     |     344|   525|2.2.0   |Lydia Carlisi (2.2.0), John Heilig (2.3.0)  |                  |
+|07-1     |     344|   525|2.2.0   |Lydia Carlisi                               |                  |
 |07-2     |      87|   217|2.2.0   |Lydia Carlisi                               |                  |
 |07-3     |      86|    90|2.2.0   |Lydia Carlisi                               |                  |
 |07-4     |     113|   266|2.2.0   |Lydia Carlisi                               |                  |
-|08-1     |     310|   500|2.2.0   |Lydia Carlisi (2.2.0), John Heilig (2.3.0)  |                  |
+|08-1     |     310|   500|2.2.0   |Lydia Carlisi                               |                  |
 |08-2     |      73|   143|2.2.0   |Lydia Carlisi                               |                  |
 |08-3     |     210|   364|2.2.0   |Lydia Carlisi                               |                  |
 |09-1     |     161|   352|2.3.0   |Lydia Carlisi (2.2.0), Amelia Brey (2.3.0)  |AB                |
@@ -99,7 +99,7 @@ Scores of the annotated sonatas corrected by <tunescribers.com>.
 |16-1     |     325|   303|2.3.0   |Adrian Nagel (2.2.0), Hanné Becker (2.3.0)  |AN                |
 |16-2     |     119|   285|2.2.0   |Adrian Nagel                                |                  |
 |16-3     |     275|   703|2.2.0   |Adrian Nagel                                |                  |
-|17-1     |     228|   410|2.2.0   |Adrian Nagel                                |                  |
+|17-1     |     228|   410|2.2.0   |Adrian Nagel (2.2.0), Hanné Becker (2.3.0)  |                  |
 |17-2     |     103|   225|2.2.0   |Adrian Nagel                                |                  |
 |17-3     |     399|   460|2.2.0   |Adrian Nagel                                |                  |
 |18-1     |     253|   269|2.2.0   |Adrian Nagel                                |                  |
