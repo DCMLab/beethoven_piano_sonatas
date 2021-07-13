@@ -217,6 +217,11 @@
       <VBox>
         <height>10</height>
         <boxAutoSize>0</boxAutoSize>
+        <Text>
+          <style>Title</style>
+          <text>SONATE
+d-moll</text>
+          </Text>
         </VBox>
       <Measure>
         <voice>
@@ -228,6 +233,10 @@
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Tempo>
+            <tempo>0.83333299999999999</tempo>
+            <text>Largo</text>
+            </Tempo>
           <Rest>
             <visible>0</visible>
             <durationType>half</durationType>
@@ -298,6 +307,10 @@
             <subtype>p</subtype>
             <velocity>49</velocity>
             </Dynamic>
+          <Tempo>
+            <tempo>2.3999999999999999</tempo>
+            <text>Allegro</text>
+            </Tempo>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -793,6 +806,10 @@
             <subtype>sf</subtype>
             <velocity>112</velocity>
             </Dynamic>
+          <Tempo>
+            <tempo>1.18333</tempo>
+            <text>Adagio</text>
+            </Tempo>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
@@ -997,6 +1014,10 @@
             <subtype>p</subtype>
             <velocity>49</velocity>
             </Dynamic>
+          <Tempo>
+            <tempo>2.3999999999999999</tempo>
+            <text>Allegro</text>
+            </Tempo>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
