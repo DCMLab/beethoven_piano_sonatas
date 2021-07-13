@@ -112,7 +112,7 @@ Scores of the annotated sonatas corrected by <tunescribers.com>.
 |19-2_GOW |     164|   420|2.2.0   |Gabriele Ortiz Würth                        |Johannes Hentschel|
 |20-1     |     122|   271|2.2.0   |Lydia Carlisi                               |                  |
 |20-2     |     120|   168|2.2.0   |Lydia Carlisi                               |                  |
-|21-1     |     302|   631|2.3.0   |Adrian Nagel (2.2.0), Amelia Brey (2.3.0)   |AB                |
+|21-1     |     302|   616|2.3.0   |Adrian Nagel (2.2.0), Amelia Brey (2.3.0)   |AB, AN            |
 |21-2     |      28|    82|2.2.0   |Adrian Nagel                                |                  |
 |21-3     |     543|   739|2.2.0   |Adrian Nagel                                |                  |
 |23-1     |     262|   429|2.2.0   |Daniel Grote (2.2.0), Hanné Becker (2.3.0)  |                  |
