@@ -3424,6 +3424,7 @@
           <Tempo>
             <tempo>3.3333333333333335</tempo>
             <followText>1</followText>
+            <visible>0</visible>
             <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 100</b></text>
             </Tempo>
           <Chord>
@@ -12338,7 +12339,7 @@
         <irregular>1</irregular>
         <voice>
           <Harmony>
-            <name>V65/V}</name>
+            <name>v.V65|HC}</name>
             <offset x="0.0453637" y="-4.51252"/>
             </Harmony>
           <Dynamic>
@@ -12428,6 +12429,12 @@
           <Harmony>
             <name>i/v{</name>
             </Harmony>
+          <Tempo>
+            <tempo>0.5</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 30</b></text>
+            </Tempo>
           <Spanner type="Volta">
             <prev>
               <location>
@@ -13320,6 +13327,12 @@
             <subtype>p</subtype>
             <velocity>49</velocity>
             </Dynamic>
+          <Tempo>
+            <tempo>3.3333333333333335</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 100</b></text>
+            </Tempo>
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
