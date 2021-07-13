@@ -8935,6 +8935,10 @@ d-moll</text>
             <subtype>pp</subtype>
             <velocity>33</velocity>
             </Dynamic>
+          <Tempo>
+            <tempo>0.83333299999999999</tempo>
+            <text>Largo</text>
+            </Tempo>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
@@ -9285,6 +9289,10 @@ d-moll</text>
             <subtype>ff</subtype>
             <velocity>112</velocity>
             </Dynamic>
+          <Tempo>
+            <tempo>2.3999999999999999</tempo>
+            <text>Allegro</text>
+            </Tempo>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -14766,6 +14774,10 @@ d-moll</text>
         </Measure>
       <Measure>
         <voice>
+          <Tempo>
+            <tempo>0.83333299999999999</tempo>
+            <text>Largo</text>
+            </Tempo>
           <Chord>
             <durationType>half</durationType>
             <Lyrics>
@@ -15075,6 +15087,10 @@ d-moll</text>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Tempo>
+            <tempo>2.3999999999999999</tempo>
+            <text>Allegro</text>
+            </Tempo>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -15562,6 +15578,10 @@ d-moll</text>
         </Measure>
       <Measure>
         <voice>
+          <Tempo>
+            <tempo>1.18333</tempo>
+            <text>Adagio</text>
+            </Tempo>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
@@ -15674,6 +15694,10 @@ d-moll</text>
         </Measure>
       <Measure>
         <voice>
+          <Tempo>
+            <tempo>0.83333299999999999</tempo>
+            <text>Largo</text>
+            </Tempo>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -15929,6 +15953,10 @@ d-moll</text>
         </Measure>
       <Measure>
         <voice>
+          <Tempo>
+            <tempo>2.3999999999999999</tempo>
+            <text>Allegro</text>
+            </Tempo>
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
@@ -21815,6 +21843,15 @@ d-moll</text>
               <tpc>13</tpc>
               </Note>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
@@ -21864,6 +21901,13 @@ d-moll</text>
               <tpc>13</tpc>
               </Note>
             <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
