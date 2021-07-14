@@ -64,11 +64,11 @@ Scores of the annotated sonatas corrected by <tunescribers.com>.
 |06-1     |     202|   380|2.2.0   |Adrian Nagel                                |                  |
 |06-2     |     170|   236|2.2.0   |Gabriele Ortiz Würth                        |Johannes Hentschel|
 |06-3     |     150|   309|2.2.0   |Adrian Nagel                                |                  |
-|07-1     |     344|   525|2.2.0   |Lydia Carlisi                               |                  |
+|07-1     |     344|   525|2.2.0   |Lydia Carlisi (2.2.0), John Heilig (2.3.0)  |                  |
 |07-2     |      87|   217|2.2.0   |Lydia Carlisi                               |                  |
 |07-3     |      86|    90|2.2.0   |Lydia Carlisi                               |                  |
 |07-4     |     113|   266|2.2.0   |Lydia Carlisi                               |                  |
-|08-1     |     310|   500|2.2.0   |Lydia Carlisi                               |                  |
+|08-1     |     310|   500|2.2.0   |Lydia Carlisi (2.2.0), John Heilig (2.3.0)  |                  |
 |08-2     |      73|   143|2.2.0   |Lydia Carlisi                               |                  |
 |08-3     |     210|   364|2.2.0   |Lydia Carlisi                               |                  |
 |09-1     |     161|   352|2.3.0   |Lydia Carlisi (2.2.0), Amelia Brey (2.3.0)  |AB                |
@@ -110,7 +110,7 @@ Scores of the annotated sonatas corrected by <tunescribers.com>.
 |19-1_GOW |     110|   204|2.2.0   |Gabriele Ortiz Würth                        |Johannes Hentschel|
 |19-2_DG  |     164|   385|2.2.0   |Daniel Grote                                |Adrian Nagel      |
 |19-2_GOW |     164|   420|2.2.0   |Gabriele Ortiz Würth                        |Johannes Hentschel|
-|20-1     |     122|   271|2.2.0   |Lydia Carlisi                               |                  |
+|20-1     |     122|   271|2.2.0   |Lydia Carlisi (2.2.0), John Heilig (2.3.0)  |                  |
 |20-2     |     120|   168|2.2.0   |Lydia Carlisi                               |                  |
 |21-1     |     302|   616|2.3.0   |Adrian Nagel (2.2.0), Amelia Brey (2.3.0)   |AB, AN            |
 |21-2     |      28|    82|2.2.0   |Adrian Nagel                                |                  |
