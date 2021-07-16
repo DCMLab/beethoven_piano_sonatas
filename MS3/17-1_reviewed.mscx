@@ -9124,8 +9124,11 @@ d-moll</text>
               <subtype>articStaccatoAbove</subtype>
               </Articulation>
             <Note>
-              <pitch>74</pitch>
-              <tpc>16</tpc>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>75</pitch>
+              <tpc>23</tpc>
               </Note>
             </Chord>
           </voice>
@@ -34582,14 +34585,14 @@ d-moll</text>
         </Measure>
       <Measure>
         <voice>
-          <Fermata>
-            <subtype>fermataAbove</subtype>
-            </Fermata>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i6/III}{</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            </Fermata>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
