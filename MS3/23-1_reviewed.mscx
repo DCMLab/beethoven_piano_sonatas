@@ -187,7 +187,7 @@
     <metaTag name="originalFormat">mxl</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="reviewers"></metaTag>
+    <metaTag name="reviewers">AN</metaTag>
     <metaTag name="source">http://musescore.com/user/3797871/scores/3542271</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
@@ -4480,9 +4480,14 @@
             <HairPin>
               <subtype>0</subtype>
               <Segment>
-                <subtype>0</subtype>
+                <subtype>1</subtype>
                 <offset x="0" y="3.24242"/>
                 <off2 x="-0.057323" y="0"/>
+                </Segment>
+              <Segment>
+                <subtype>3</subtype>
+                <offset x="0" y="3.5"/>
+                <off2 x="0" y="0"/>
                 </Segment>
               </HairPin>
             <next>
@@ -49368,6 +49373,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7}</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7|HC}</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -56644,12 +56655,6 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>ii65</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>ii2</name>
-            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -56942,6 +56947,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i.V6/iv</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i.V6/iv}</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -57003,11 +57014,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>}</name>
-            <color r="0" g="85" b="0" a="255"/>
-            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -57782,13 +57788,19 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>bII</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bII</name>
+            <name>bII}</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -57850,11 +57862,6 @@
               <tpc>8</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>}</name>
-            <color r="0" g="85" b="0" a="255"/>
-            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -62288,6 +62295,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>VI[bII</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V/bII[bII</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -62661,6 +62674,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>VI</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V/bII</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -62738,6 +62757,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>viio64/VI</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio64/V/bII</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -62819,6 +62844,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>VI6]</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V6/bII]</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -62868,7 +62899,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>viio/V</name>
-            <offset x="0.290752" y="8.38529"/>
+            <offset x="0.00207997" y="8.38529"/>
             </Harmony>
           <Chord>
             <BeamMode>end</BeamMode>
@@ -69191,12 +69222,6 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V(#64)</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V(64)</name>
-            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -71177,11 +71202,6 @@
             <Pedal>
               <endHookType>1</endHookType>
               <beginHookType>1</beginHookType>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0.145376" y="3.73568"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </Pedal>
             <next>
               <location>
@@ -78057,19 +78077,13 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>viio65/V</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio65/V</name>
-            <color r="0" g="85" b="0" a="255"/>
+            <name>viio65/V</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -80703,6 +80717,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio64</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio43</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -82604,14 +82624,14 @@
             <placement>above</placement>
             <offset x="0.659062" y="-3.33592"/>
             </Dynamic>
-          <Fermata>
-            <subtype>fermataAbove</subtype>
-            </Fermata>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>}</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            </Fermata>
           <Chord>
             <BeamMode>no</BeamMode>
             <dots>1</dots>
