@@ -3,7 +3,6 @@
   <programVersion>3.6.2</programVersion>
   <programRevision>3224f34</programRevision>
   <Score>
-    <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Division>480</Division>
@@ -166,6 +165,7 @@
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Apple Macintosh</metaTag>
     <metaTag name="poet"></metaTag>
+    <metaTag name="reviewers">AN</metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
@@ -3724,7 +3724,7 @@
             <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Harmony>
-            <name>v/v.V6(b2)</name>
+            <name>v/v.V6(2)</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
@@ -4824,7 +4824,7 @@
             <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Harmony>
-            <name>V.V[V}</name>
+            <name>V.V[V|HC}</name>
             <color r="0" g="85" b="0" a="255"/>
             <offset x="-0.378947" y="-6.03684"/>
             </Harmony>
@@ -4854,6 +4854,10 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <name>{</name>
+            <color r="0" g="85" b="0" a="255"/>
+            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -4970,7 +4974,13 @@
       <Measure>
         <voice>
           <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <name>V|HC</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -5104,7 +5114,7 @@
             <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Harmony>
-            <name>V]|HC</name>
+            <name>V]|HC}</name>
             <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-2.97447"/>
             </Harmony>
@@ -9860,7 +9870,13 @@
         <irregular>1</irregular>
         <voice>
           <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I}</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <name>I|PAC}</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-4.09773"/>
             </Harmony>
           <Spanner type="Volta">
@@ -10218,7 +10234,6 @@
             <durationType>half</durationType>
             <Spanner type="Slur">
               <Slur>
-                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -10229,6 +10244,7 @@
               </Spanner>
             <Spanner type="Slur">
               <Slur>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -11583,8 +11599,7 @@
             <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Harmony>
-            <root>15</root>
-            <name>er+6-V/V.V7/iii</name>
+            <name>V/V.V7/iii</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Beam>
@@ -14984,7 +14999,7 @@
             </Harmony>
           <Harmony>
             <root>15</root>
-            <name>er+6-viio7/V</name>
+            <name>er7-viio7/V</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Dynamic>
@@ -19673,7 +19688,7 @@
             <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Harmony>
-            <name>v/v.V6(b2)</name>
+            <name>v/v.V6(2)</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
@@ -24062,6 +24077,7 @@
               </Spanner>
             <Spanner type="Slur">
               <Slur>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -24072,7 +24088,6 @@
               </Spanner>
             <Spanner type="Slur">
               <Slur>
-                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -27621,7 +27636,9 @@
               </Note>
             </Chord>
           <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -28008,13 +28025,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <harmonyType>1</harmonyType>
             <name>IV(2)</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <name>vi(2)</name>
-            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-5.38"/>
             </Harmony>
           <Chord>
@@ -28136,13 +28147,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <harmonyType>1</harmonyType>
             <name>ii(2)</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <name>IV(2)</name>
-            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-5.8"/>
             </Harmony>
           <Chord>
@@ -45047,7 +45052,6 @@
             <durationType>half</durationType>
             <Spanner type="Slur">
               <Slur>
-                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -45058,6 +45062,7 @@
               </Spanner>
             <Spanner type="Slur">
               <Slur>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
