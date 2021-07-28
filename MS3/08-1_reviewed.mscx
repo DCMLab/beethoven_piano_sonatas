@@ -167,6 +167,7 @@
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Apple Macintosh</metaTag>
     <metaTag name="poet"></metaTag>
+    <metaTag name="reviewers">AN</metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
@@ -233,7 +234,7 @@
             </Harmony>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>c.i</name>
+            <name>c.i{</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Tempo>
@@ -12670,8 +12671,8 @@
         <voice>
           <Harmony>
             <name>V7|HC}</name>
-            <minDistance>-1.63084</minDistance>
             <color r="0" g="85" b="0" a="255"/>
+            <minDistance>-1.63084</minDistance>
             <offset x="0.383404" y="-6.50263"/>
             </Harmony>
           <Fermata>
@@ -13524,9 +13525,8 @@
             <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Harmony>
-            <name>#viio43</name>
+            <name>#iii.#viio2</name>
             <color r="0" g="85" b="0" a="255"/>
-            <offset x="0" y="-3.95248"/>
             </Harmony>
           <Chord>
             <durationType>32nd</durationType>
@@ -13551,10 +13551,6 @@
             <subtype>p</subtype>
             <velocity>49</velocity>
             </Dynamic>
-          <Harmony>
-            <name>#iii.#viio2</name>
-            <color r="0" g="85" b="0" a="255"/>
-            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
@@ -13729,7 +13725,7 @@
             <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Harmony>
-            <name>V7(b9)</name>
+            <name>V7(9)</name>
             <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-4.16063"/>
             </Harmony>
@@ -14270,9 +14266,9 @@
             <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Harmony>
-            <name>#viio7-v.#viio2</name>
-            <minDistance>0.393197</minDistance>
+            <name>v.#viio2</name>
             <color r="0" g="85" b="0" a="255"/>
+            <minDistance>0.393197</minDistance>
             <offset x="-0.603663" y="-3.59312"/>
             </Harmony>
           <Rest>
@@ -14349,8 +14345,8 @@
             </Harmony>
           <Harmony>
             <name>V[V</name>
-            <minDistance>-0.0441161</minDistance>
             <color r="0" g="85" b="0" a="255"/>
+            <minDistance>-0.0441161</minDistance>
             <offset x="-0.631579" y="-5.46888"/>
             </Harmony>
           <Chord>
@@ -14796,7 +14792,7 @@
             <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Harmony>
-            <name>viio7/V-I.iio64/IV</name>
+            <name>I.iio64/IV</name>
             <color r="0" g="85" b="0" a="255"/>
             <offset x="-0.101699" y="-6.22961"/>
             </Harmony>
@@ -16796,15 +16792,15 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Clef>
-            <concertClefType>G</concertClefType>
-            <transposingClefType>G</transposingClefType>
-            </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V(#6)</name>
             <color r="170" g="0" b="0" a="255"/>
             </Harmony>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            </Clef>
           <Harmony>
             <name>V(6)</name>
             <color r="0" g="85" b="0" a="255"/>
@@ -17164,8 +17160,8 @@
             </Harmony>
           <Harmony>
             <name>V[V|HC}</name>
-            <minDistance>-5.90807</minDistance>
             <color r="0" g="85" b="0" a="255"/>
+            <minDistance>-5.90807</minDistance>
             <offset x="-0.70858" y="-4.75614"/>
             </Harmony>
           <Chord>
@@ -17183,15 +17179,15 @@
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio(b6)/ii{</name>
             <color r="170" g="0" b="0" a="255"/>
             </Harmony>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
           <Harmony>
             <name>V7(b9^6#4)-#viio(b6)/ii{</name>
             <color r="0" g="85" b="0" a="255"/>
@@ -17596,15 +17592,15 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Clef>
-            <concertClefType>G</concertClefType>
-            <transposingClefType>G</transposingClefType>
-            </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V(#6)</name>
             <color r="170" g="0" b="0" a="255"/>
             </Harmony>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            </Clef>
           <Harmony>
             <name>V(6)</name>
             <color r="0" g="85" b="0" a="255"/>
@@ -22666,7 +22662,7 @@
             <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Harmony>
-            <name>ii6/VI</name>
+            <name>vii</name>
             <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-5.68894"/>
             </Harmony>
