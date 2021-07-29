@@ -3,6 +3,7 @@
   <programVersion>3.6.2</programVersion>
   <programRevision>3224f34</programRevision>
   <Score>
+    <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Division>480</Division>
@@ -47,6 +48,8 @@
       <chordSymbolBFontFace>Edwin</chordSymbolBFontFace>
       <chordSymbolBFontSize>11</chordSymbolBFontSize>
       <nashvilleNumberFontFace>Edwin</nashvilleNumberFontFace>
+      <measureNumberInterval>1</measureNumberInterval>
+      <measureNumberSystem>0</measureNumberSystem>
       <slurMidWidth>0.21</slurMidWidth>
       <musicalSymbolFont>Leland</musicalSymbolFont>
       <musicalTextFont>Leland Text</musicalTextFont>
@@ -225,6 +228,12 @@
             <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Tempo>
+            <tempo>0.91666666666666663</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 55</b></text>
+            </Tempo>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -2670,13 +2679,8 @@
             <Ottava>
               <subtype>8va</subtype>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>0</subtype>
                 <offset x="0" y="-5.92391"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              <Segment>
-                <subtype>3</subtype>
-                <offset x="0" y="-4.2004"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               </Ottava>
@@ -12112,18 +12116,8 @@
             <Ottava>
               <subtype>8va</subtype>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>0</subtype>
                 <offset x="0" y="-3.76413"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              <Segment>
-                <subtype>2</subtype>
-                <offset x="0" y="-4.35586"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              <Segment>
-                <subtype>3</subtype>
-                <offset x="0" y="-3"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               </Ottava>
@@ -12144,9 +12138,6 @@
               <Slur>
                 <SlurSegment no="0">
                   <offset x="0" y="-0.229239"/>
-                  </SlurSegment>
-                <SlurSegment no="1">
-                  <o1 x="0" y="-1.01042"/>
                   </SlurSegment>
                 </Slur>
               <next>
@@ -24686,9 +24677,6 @@
                   <o1 x="0" y="-1.2504"/>
                   <offset x="0" y="5.14052"/>
                   </SlurSegment>
-                <SlurSegment no="1">
-                  <o1 x="0" y="0.783135"/>
-                  </SlurSegment>
                 <up>down</up>
                 </Slur>
               <next>
@@ -25102,9 +25090,6 @@
               <Slur>
                 <SlurSegment no="0">
                   <offset x="0" y="4.76505"/>
-                  </SlurSegment>
-                <SlurSegment no="1">
-                  <o1 x="0" y="1.03338"/>
                   </SlurSegment>
                 <up>down</up>
                 </Slur>
