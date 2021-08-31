@@ -42,7 +42,7 @@ Scores of the annotated sonatas corrected by <tunescribers.com>.
 # Overview
 |file_name|measures|labels|standard|                 annotators                 |    reviewers     |
 |---------|-------:|-----:|--------|--------------------------------------------|------------------|
-|01-1     |     152|   211|2.2.0   |Lars & Ya-Chuan (2.2.0), John Heilig (2.3.0)|Adrian Nagel      |
+|01-1     |     152|   241|2.2.0   |Lars & Ya-Chuan (2.2.0), John Heilig (2.3.0)|AN                |
 |01-2     |      61|   204|2.2.0   |Lars & Ya-Chuan                             |Adrian Nagel      |
 |01-3     |      73|   131|2.2.0   |Daniel Grote                                |Adrian Nagel      |
 |01-4     |     196|   355|2.2.0   |Daniel Grote                                |Adrian Nagel      |
