@@ -127,5 +127,5 @@ Scores of the annotated sonatas corrected by <tunescribers.com>.
 |31-1     |     116|   339|2.3.0   |Adrian Nagel (2.2.0), John Heilig (2.3.0)   |                  |
 |31-2     |     158|   200|2.2.0   |Adrian Nagel                                |                  |
 |31-3     |     212|   662|2.2.0   |Adrian Nagel                                |                  |
-|32-1     |     157|   582|2.3.0   |Adrian Nagel (2.2.0), Amelia Brey (2.3.0)   |AB                |
+|32-1     |     157|   576|2.3.0   |Adrian Nagel (2.2.0), Amelia Brey (2.3.0)   |AB, AN            |
 |32-2     |     177|   895|2.2.0   |Adrian Nagel                                |                  |
