@@ -2,7 +2,6 @@
 # coding: utf-8
 import argparse
 import os
-import sys
 import io
 import base64
 from shutil import copy
@@ -87,7 +86,6 @@ def write_stats_file(args):
     try:
         p = corpusstats.Provider(args.github, args.token)
     except:
-        print(f"corpusstats failed with the following message: {sys.exc_info()[1]}")
         return False
     pie_string = ""
     pie_array = []
