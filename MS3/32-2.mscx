@@ -2689,6 +2689,16 @@
       <Measure>
         <endRepeat>2</endRepeat>
         <voice>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <fractions>3/16</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Spanner type="Volta">
             <Volta>
               <endHookType>1</endHookType>
@@ -2698,16 +2708,6 @@
             <next>
               <location>
                 <measures>1</measures>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>0</subtype>
-              </HairPin>
-            <next>
-              <location>
-                <fractions>3/16</fractions>
                 </location>
               </next>
             </Spanner>
@@ -2844,6 +2844,16 @@
                 </location>
               </prev>
             </Spanner>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <fractions>3/16</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Spanner type="Volta">
             <Volta>
               <endHookType>1</endHookType>
@@ -2853,16 +2863,6 @@
             <next>
               <location>
                 <measures>1</measures>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>0</subtype>
-              </HairPin>
-            <next>
-              <location>
-                <fractions>3/16</fractions>
                 </location>
               </next>
             </Spanner>
@@ -4265,6 +4265,16 @@
             <subtype>sf</subtype>
             <velocity>112</velocity>
             </Dynamic>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <fractions>5/16</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Spanner type="Volta">
             <Volta>
               <endHookType>1</endHookType>
@@ -4274,16 +4284,6 @@
             <next>
               <location>
                 <measures>1</measures>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              </HairPin>
-            <next>
-              <location>
-                <fractions>5/16</fractions>
                 </location>
               </next>
             </Spanner>
@@ -6224,6 +6224,16 @@
       <Measure len="4/16">
         <endRepeat>2</endRepeat>
         <voice>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <fractions>1/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Spanner type="Volta">
             <Volta>
               <endHookType>1</endHookType>
@@ -6233,16 +6243,6 @@
             <next>
               <location>
                 <measures>1</measures>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>0</subtype>
-              </HairPin>
-            <next>
-              <location>
-                <fractions>1/8</fractions>
                 </location>
               </next>
             </Spanner>
@@ -6458,6 +6458,16 @@
                 </location>
               </prev>
             </Spanner>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <fractions>1/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Spanner type="Volta">
             <Volta>
               <endHookType>1</endHookType>
@@ -6467,16 +6477,6 @@
             <next>
               <location>
                 <measures>1</measures>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>0</subtype>
-              </HairPin>
-            <next>
-              <location>
-                <fractions>1/8</fractions>
                 </location>
               </next>
             </Spanner>
@@ -9680,6 +9680,16 @@
                 </location>
               </prev>
             </Spanner>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <fractions>1/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Spanner type="Volta">
             <Volta>
               <endHookType>1</endHookType>
@@ -9689,16 +9699,6 @@
             <next>
               <location>
                 <measures>1</measures>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              </HairPin>
-            <next>
-              <location>
-                <fractions>1/8</fractions>
                 </location>
               </next>
             </Spanner>
@@ -25909,10 +25909,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="1.59717" y="0.111431"/>
-                  <offset x="-0.997732" y="1.79699"/>
-                  </SlurSegment>
                 <up>up</up>
                 </Slur>
               <next>
@@ -31085,7 +31081,7 @@
                 </Segment>
               <Segment>
                 <subtype>3</subtype>
-                <offset x="0" y="2.99628"/>
+                <offset x="0" y="1"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               </Trill>
@@ -31648,11 +31644,6 @@
             <Trill>
               <subtype>trill</subtype>
               <placement>below</placement>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.96204"/>
-                <off2 x="-7.04081" y="0"/>
-                </Segment>
               </Trill>
             <next>
               <location>
@@ -32228,13 +32219,6 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="0" y="1.23595"/>
-                  <o2 x="-4.85722e-18" y="-2.27415"/>
-                  <o3 x="-4.85722e-18" y="-2.27415"/>
-                  <o4 x="0" y="0.098876"/>
-                  <offset x="0" y="-1.53258"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -39742,11 +39726,6 @@
           <Spanner type="Trill">
             <Trill>
               <subtype>trill</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-6.22065"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </Trill>
             <next>
               <location>
@@ -39849,7 +39828,7 @@
             <Trill>
               <subtype>trill</subtype>
               <Segment>
-                <subtype>3</subtype>
+                <subtype>1</subtype>
                 <offset x="0" y="-1"/>
                 <off2 x="0" y="0"/>
                 </Segment>
@@ -39864,7 +39843,7 @@
                 <off2 x="0" y="0"/>
                 </Segment>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>3</subtype>
                 <offset x="0" y="-1"/>
                 <off2 x="0" y="0"/>
                 </Segment>
@@ -40252,7 +40231,7 @@
               <subtype>trill</subtype>
               <placement>below</placement>
               <Segment>
-                <subtype>3</subtype>
+                <subtype>1</subtype>
                 <offset x="0" y="2.48432"/>
                 <off2 x="0" y="0"/>
                 </Segment>
@@ -40267,8 +40246,8 @@
                 <off2 x="0" y="0"/>
                 </Segment>
               <Segment>
-                <subtype>1</subtype>
-                <offset x="0" y="2.56394"/>
+                <subtype>3</subtype>
+                <offset x="0" y="1"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               </Trill>
@@ -40529,7 +40508,7 @@
             <Trill>
               <subtype>trill</subtype>
               <Segment>
-                <subtype>3</subtype>
+                <subtype>1</subtype>
                 <offset x="0" y="-1"/>
                 <off2 x="0" y="0"/>
                 </Segment>
@@ -40539,8 +40518,8 @@
                 <off2 x="0" y="0"/>
                 </Segment>
               <Segment>
-                <subtype>1</subtype>
-                <offset x="0" y="-6.49381"/>
+                <subtype>3</subtype>
+                <offset x="0" y="-1"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               </Trill>
@@ -59001,7 +58980,7 @@
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I-V[I|PAC}{</name>
+            <name>I[I|PAC}{</name>
             </Harmony>
           <Tuplet>
             <visible>0</visible>
@@ -59808,7 +59787,7 @@
           <endTuplet/>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I(#11#2)</name>
+            <name>I(#4#2)</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -59846,7 +59825,7 @@
           <endTuplet/>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I6</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -60024,7 +60003,7 @@
           <endTuplet/>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio2(+2)/V</name>
+            <name>IV2</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -60136,7 +60115,7 @@
           <endTuplet/>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7(b94)</name>
+            <name>iio7</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -60244,7 +60223,7 @@
           <endTuplet/>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7(b9)</name>
+            <name>V43(b2)</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -60352,7 +60331,7 @@
           <endTuplet/>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7</name>
+            <name>V43</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -60464,7 +60443,7 @@
           <endTuplet/>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I(#11#2)</name>
+            <name>I(#4#2)</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -60502,7 +60481,7 @@
           <endTuplet/>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I6</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -60576,7 +60555,7 @@
           <endTuplet/>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I(7)</name>
+            <name>iii6</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -60614,7 +60593,7 @@
           <endTuplet/>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I64</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -60688,7 +60667,7 @@
           <endTuplet/>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio65/IV</name>
+            <name>viio43/IV</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -61311,7 +61290,7 @@
           <endTuplet/>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65|HC]}</name>
+            <name>V65]|HC}</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -65210,7 +65189,7 @@
           <endTuplet/>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(b2)7</name>
+            <name>V7(b2)</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -67517,7 +67496,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I|IAC]}{</name>
+            <name>I]|IAC}{</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -68972,10 +68951,6 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V(64)</name>
-            </Harmony>
           <Spanner type="Pedal">
             <prev>
               <location>
@@ -68987,13 +68962,6 @@
             <dots>1</dots>
             <durationType>eighth</durationType>
             </Rest>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7HC</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -80363,7 +80331,7 @@
           <endTuplet/>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>vi(#6#4)7</name>
+            <name>vi7(#6#4)</name>
             <offset x="0" y="-10.7946"/>
             </Harmony>
           <Tuplet>
@@ -84031,7 +83999,7 @@
           <endTuplet/>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V2HC]}</name>
+            <name>V2]|HC}</name>
             <offset x="0" y="-6.7962"/>
             </Harmony>
           <Tuplet>
