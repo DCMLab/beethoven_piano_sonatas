@@ -59,8 +59,8 @@ Scores of the annotated sonatas corrected by <tunescribers.com>.
 |04-3     |     150|     0|        |                                            |                  |
 |04-4     |     186|     0|        |                                            |                  |
 |05-1     |     284|   310|2.3.0   |Adrian Nagel (2.2.0), Hanné Becker (2.3.0)  |AN                |
-|05-2     |     112|   252|2.2.0   |Adrian Nagel                                |                  |
-|05-3     |     122|   314|2.2.0   |Adrian Nagel                                |                  |
+|05-2     |     112|   252|2.2.0   |Adrian Nagel (2.3.0)                        |                  |
+|05-3     |     122|   314|2.2.0   |Adrian Nagel (2.3.0)                        |                  |
 |06-1     |     202|   338|2.3.0   |Adrian Nagel (2.2.0), Amelia Brey (2.3.0)   |AB                |
 |06-2     |     170|   236|2.2.0   |Gabriele Ortiz Würth                        |Johannes Hentschel|
 |06-3     |     150|   309|2.2.0   |Adrian Nagel                                |                  |
