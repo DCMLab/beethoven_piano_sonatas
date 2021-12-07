@@ -167,7 +167,6 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.364</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>0</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -605,11 +604,6 @@
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3.26195"/>
-                <off2 x="-0.659203" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -663,11 +657,6 @@
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3.22385"/>
-                <off2 x="-1.06487" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -1712,11 +1701,6 @@
             <Volta>
               <endHookType>1</endHookType>
               <beginText>2</beginText>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1.47"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               <endings>2</endings>
               </Volta>
             <next>
@@ -1821,9 +1805,14 @@
             <HairPin>
               <subtype>0</subtype>
               <Segment>
-                <subtype>0</subtype>
+                <subtype>3</subtype>
                 <offset x="0" y="3.21243"/>
                 <off2 x="-0.209537" y="0"/>
+                </Segment>
+              <Segment>
+                <subtype>1</subtype>
+                <offset x="0" y="3.5"/>
+                <off2 x="0" y="0"/>
                 </Segment>
               </HairPin>
             <next>
@@ -2853,11 +2842,6 @@
             <Pedal>
               <endHookType>1</endHookType>
               <beginHookType>1</beginHookType>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </Pedal>
             <next>
               <location>
@@ -2911,11 +2895,6 @@
             <Pedal>
               <endHookType>1</endHookType>
               <beginHookType>1</beginHookType>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </Pedal>
             <next>
               <location>
@@ -4313,11 +4292,6 @@
             <Pedal>
               <endHookType>1</endHookType>
               <beginHookType>1</beginHookType>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </Pedal>
             <next>
               <location>
@@ -4328,11 +4302,6 @@
           <Spanner type="Volta">
             <Volta>
               <beginText>2</beginText>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-2.17537"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               <endings>2</endings>
               </Volta>
             <next>
@@ -9975,7 +9944,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I64}</name>
+            <name>I64|PAC</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -10032,7 +10001,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I}</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -10553,7 +10522,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I64}</name>
+            <name>I64|PAC</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -10610,7 +10579,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I}</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -11099,7 +11068,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I}</name>
+            <name>I|PAC}</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -11231,7 +11200,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I}</name>
+            <name>I|PAC}</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -12493,7 +12462,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I64}</name>
+            <name>I64|PAC</name>
             <offset x="0" y="-7.4112"/>
             </Harmony>
           <Beam>
@@ -12517,7 +12486,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I}</name>
             <offset x="0" y="-7.34985"/>
             </Harmony>
           <Chord>
@@ -12603,7 +12572,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I64}</name>
+            <name>I64|PAC</name>
             <offset x="0" y="-7.4112"/>
             </Harmony>
           <Spanner type="Pedal">
@@ -12643,7 +12612,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I}</name>
             <offset x="0" y="-7.53392"/>
             </Harmony>
           <Chord>
@@ -13030,11 +12999,6 @@
             <Pedal>
               <endHookType>1</endHookType>
               <beginHookType>1</beginHookType>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3.84"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </Pedal>
             <next>
               <location>
@@ -13617,7 +13581,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I64}</name>
+            <name>I64|PAC</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -13660,7 +13624,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I}</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -13794,7 +13758,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I64}</name>
+            <name>I64|PAC</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -13821,7 +13785,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I}</name>
             </Harmony>
           <Chord>
             <BeamMode>end</BeamMode>
@@ -13851,11 +13815,6 @@
             <Pedal>
               <endHookType>1</endHookType>
               <beginHookType>1</beginHookType>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="5.16"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </Pedal>
             <next>
               <location>
@@ -14568,11 +14527,6 @@
             <Pedal>
               <endHookType>1</endHookType>
               <beginHookType>1</beginHookType>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="5.28"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </Pedal>
             <next>
               <location>
@@ -14626,11 +14580,6 @@
             <Pedal>
               <endHookType>1</endHookType>
               <beginHookType>1</beginHookType>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="5.28"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </Pedal>
             <next>
               <location>
@@ -14684,11 +14633,6 @@
             <Pedal>
               <endHookType>1</endHookType>
               <beginHookType>1</beginHookType>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="5.28"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </Pedal>
             <next>
               <location>
@@ -14742,11 +14686,6 @@
             <Pedal>
               <endHookType>1</endHookType>
               <beginHookType>1</beginHookType>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="5.28"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </Pedal>
             <next>
               <location>
@@ -15437,7 +15376,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I}</name>
+            <name>I|PAC}</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -16107,7 +16046,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I64}</name>
+            <name>I64|PAC}</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -16174,7 +16113,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I}</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -18092,7 +18031,7 @@
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I}</name>
+            <name>I|IAC}</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -19456,7 +19395,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I}</name>
+            <name>I|PAC}</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -19954,7 +19893,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I64}</name>
+            <name>I64|PAC</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -19993,7 +19932,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I}</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -20507,7 +20446,7 @@
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V}</name>
+            <name>V</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -20528,7 +20467,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iii.#viio43</name>
+            <name>iii.#viio43|HC}</name>
             </Harmony>
           <Fermata>
             <subtype>fermataAbove</subtype>
@@ -20593,7 +20532,7 @@
             </Clef>
           <StaffText>
             <placement>below</placement>
-            <offset x="0.171629" y="4.75319"/>
+            <offset x="-8.5803" y="13.7177"/>
             <text><i>attacca il Allegro.</i></text>
             </StaffText>
           <StaffText>
