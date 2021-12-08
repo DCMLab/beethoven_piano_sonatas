@@ -72,8 +72,8 @@ Scores of the annotated sonatas corrected by <tunescribers.com>.
 |08-2     |      73|   143|2.2.0   |Lydia Carlisi (2.2.0), Adrian Nagel (2.3.0) |                  |
 |08-3     |     210|   364|2.2.0   |Lydia Carlisi (2.2.0), Adrian Nagel (2.3.0) |                  |
 |09-1     |     161|   351|2.3.0   |Lydia Carlisi (2.2.0), Amelia Brey (2.3.0)  |AB, AN            |
-|09-2     |     178|   231|2.2.0   |Lydia Carlisi                               |                  |
-|09-3     |     131|   262|2.2.0   |Lydia Carlisi                               |                  |
+|09-2     |     178|   231|2.2.0   |Lydia Carlisi (2.2.0), Adrian Nagel (2.3.0) |                  |
+|09-3     |     131|   262|2.2.0   |Lydia Carlisi (2.2.0), Adrian Nagel (2.3.0) |                  |
 |10-1     |     200|   355|2.3.0   |Daniel Grote (2.2.0), John Heilig (2.3.0)   |AN                |
 |10-2     |      90|   353|2.2.0   |Daniel Grote                                |                  |
 |10-3     |     254|   339|2.2.0   |Adrian Nagel                                |                  |
