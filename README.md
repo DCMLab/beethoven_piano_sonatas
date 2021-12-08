@@ -97,15 +97,15 @@ Scores of the annotated sonatas corrected by <tunescribers.com>.
 |15-3     |      94|     0|        |                                            |                  |
 |15-4     |     210|     0|        |                                            |                  |
 |16-1     |     325|   303|2.3.0   |Adrian Nagel (2.2.0), Hanné Becker (2.3.0)  |AN                |
-|16-2     |     119|   285|2.2.0   |Adrian Nagel                                |                  |
-|16-3     |     275|   703|2.2.0   |Adrian Nagel                                |                  |
+|16-2     |     119|   285|2.2.0   |Adrian Nagel (2.3.0)                        |                  |
+|16-3     |     275|   703|2.2.0   |Adrian Nagel (2.3.0)                        |                  |
 |17-1     |     228|   352|2.3.0   |Adrian Nagel (2.2.0), Hanné Becker (2.3.0)  |AN                |
-|17-2     |     103|   225|2.2.0   |Adrian Nagel                                |                  |
-|17-3     |     399|   460|2.2.0   |Adrian Nagel                                |                  |
+|17-2     |     103|   225|2.2.0   |Adrian Nagel (2.3.0)                        |                  |
+|17-3     |     399|   460|2.2.0   |Adrian Nagel (2.3.0)                        |                  |
 |18-1     |     253|   269|2.3.0   |Adrian Nagel (2.2.0), Hanné Becker (2.3.0)  |AN                |
-|18-2     |     169|   273|2.2.0   |Adrian Nagel                                |                  |
-|18-3     |      61|   178|2.2.0   |Adrian Nagel                                |                  |
-|18-4     |     333|   455|2.2.0   |Adrian Nagel                                |                  |
+|18-2     |     169|   273|2.2.0   |Adrian Nagel (2.3.0)                        |                  |
+|18-3     |      61|   178|2.2.0   |Adrian Nagel (2.3.0)                        |                  |
+|18-4     |     333|   455|2.2.0   |Adrian Nagel (2.3.0)                        |                  |
 |19-1     |     110|   193|2.3.0   |Daniel Grote (2.2.0), Hanné Becker (2.3.0)  |AN (2.2.0 + 2.3.0)|
 |19-2     |     164|   385|2.2.0   |Daniel Grote (2.2.0), Adrian Nagel (2.3.0)  |Adrian Nagel      |
 |20-1     |     122|   286|2.3.0   |Lydia Carlisi (2.2.0), John Heilig (2.3.0)  |AN                |
