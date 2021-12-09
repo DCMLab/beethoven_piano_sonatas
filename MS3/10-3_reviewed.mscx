@@ -2712,18 +2712,18 @@
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <pitch>86</pitch>
-              <tpc>16</tpc>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>87</pitch>
+              <tpc>23</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
-              <pitch>89</pitch>
-              <tpc>25</tpc>
+              <pitch>88</pitch>
+              <tpc>18</tpc>
               </Note>
             </Chord>
           <endTuplet/>
@@ -2751,15 +2751,15 @@
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <pitch>89</pitch>
-              <tpc>25</tpc>
+              <pitch>87</pitch>
+              <tpc>23</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <pitch>89</pitch>
-              <tpc>25</tpc>
+              <pitch>88</pitch>
+              <tpc>18</tpc>
               </Note>
             </Chord>
           <endTuplet/>
@@ -2787,15 +2787,15 @@
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <pitch>86</pitch>
-              <tpc>16</tpc>
+              <pitch>87</pitch>
+              <tpc>23</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <pitch>89</pitch>
-              <tpc>25</tpc>
+              <pitch>88</pitch>
+              <tpc>18</tpc>
               </Note>
             </Chord>
           <endTuplet/>
@@ -24205,6 +24205,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7{</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -24830,6 +24836,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V+6/bVII}</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V+6/bVII</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -26366,6 +26378,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iii</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iii-I6</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -28571,8 +28589,11 @@
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>49</pitch>
+              <tpc>21</tpc>
               </Note>
             <Note>
               <pitch>55</pitch>
