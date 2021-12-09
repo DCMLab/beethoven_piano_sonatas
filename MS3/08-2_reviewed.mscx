@@ -2855,11 +2855,6 @@
             <HairPin>
               <subtype>2</subtype>
               <endText></endText>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4.90588"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -3336,9 +3331,14 @@
             <HairPin>
               <subtype>0</subtype>
               <Segment>
-                <subtype>0</subtype>
+                <subtype>3</subtype>
                 <offset x="0" y="4.40188"/>
                 <off2 x="-21.8743" y="0"/>
+                </Segment>
+              <Segment>
+                <subtype>1</subtype>
+                <offset x="0" y="3.5"/>
+                <off2 x="0" y="0"/>
                 </Segment>
               </HairPin>
             <next>
@@ -4447,9 +4447,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.486265"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -14536,6 +14533,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V/vi{</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vi.V{</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-3.16878"/>
             </Harmony>
           </voice>
@@ -14585,6 +14588,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V(64)/vi</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(64)</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-4.45013"/>
             </Harmony>
           <Beam>
@@ -14628,6 +14637,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V6/vi</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V6</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-4.79641"/>
             </Harmony>
           <Beam>
@@ -14706,7 +14721,7 @@
             </Harmony>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i/vi</name>
+            <name>i</name>
             <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-5.37051"/>
             </Harmony>
@@ -14783,6 +14798,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V43/vi</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V43</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -14860,7 +14881,7 @@
             </Harmony>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i6/vi</name>
+            <name>i6</name>
             <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-3.32097"/>
             </Harmony>
@@ -14941,6 +14962,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7(4)/V</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V.V7(4)</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-3.44893"/>
             </Harmony>
           <Beam>
@@ -14981,6 +15008,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7/V</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-3.5352"/>
             </Harmony>
           <Chord>
@@ -15021,7 +15054,7 @@
             </Harmony>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio7/vi/V</name>
+            <name>#viio7/vi</name>
             <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-3.4058"/>
             </Harmony>
@@ -15108,7 +15141,7 @@
             </Harmony>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>vi/V</name>
+            <name>vi</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Beam>
@@ -15180,6 +15213,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>ii65/V</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii65</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-5.00172"/>
             </Harmony>
           <Beam>
@@ -15239,6 +15278,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V(64)/V</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(64)</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-3.69904"/>
             </Harmony>
           <Rest>
@@ -15297,6 +15342,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7/V</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-4.80087"/>
             </Harmony>
           <Rest>
@@ -15370,7 +15421,7 @@
             </Harmony>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I/V|PAC}</name>
+            <name>I|PAC}</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
@@ -15408,6 +15459,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7/V</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-3.8285"/>
             </Harmony>
           <Chord>
@@ -15425,6 +15482,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I/V</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-3.49638"/>
             </Harmony>
           <Chord>
@@ -15503,6 +15566,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7/V</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-7.81401"/>
             </Harmony>
           <Chord>
@@ -15528,6 +15597,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I/V</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I.V</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-4.25552"/>
             </Harmony>
           <Chord>
@@ -15820,9 +15895,6 @@
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <offset x="0" y="0.416799"/>
-                  </SlurSegment>
                 <up>down</up>
                 </Slur>
               <next>
@@ -16479,7 +16551,7 @@
             </Harmony>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bVI.V2</name>
+            <name>#V.V2</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Tuplet>
