@@ -103,7 +103,7 @@ Scores of the annotated sonatas corrected by <tunescribers.com>.
 |17-2     |     103|   225|2.2.0   |Adrian Nagel                                |                  |
 |17-3     |     399|   460|2.2.0   |Adrian Nagel                                |                  |
 |18-1     |     253|   269|2.3.0   |Adrian Nagel (2.2.0), Hanné Becker (2.3.0)  |AN                |
-|18-2     |     169|   273|2.2.0   |Adrian Nagel                                |                  |
+|18-2     |     169|   273|2.3.0   |Adrian Nagel (2.3.0)                        |                  |
 |18-3     |      61|   178|2.2.0   |Adrian Nagel                                |                  |
 |18-4     |     333|   455|2.2.0   |Adrian Nagel                                |                  |
 |19-1     |     110|   193|2.3.0   |Daniel Grote (2.2.0), Hanné Becker (2.3.0)  |AN (2.2.0 + 2.3.0)|
