@@ -86,7 +86,7 @@ Please note that the `meta_ corpora` branch should be used with collections of c
 |24-2     |     183|   317|2.3.0   |Adrian Nagel (2.3.0)                              |                  |
 |26-1     |     255|   537|2.3.0   |Adrian Nagel (2.2.0), John Heilig (2.3.0)         |AN                |
 |26-2     |      42|   127|2.2.0   |Adrian Nagel                                      |                  |
-|26-3     |     196|   316|2.2.0   |Adrian Nagel                                      |                  |
+|26-3     |     196|   317|2.3.0   |Adrian Nagel (2.3.0)                              |                  |
 |30-1     |      99|   252|2.3.0   |Adrian Nagel (2.2.0), Amelia Brey (2.3.0)         |AB, AN            |
 |30-2     |     177|   320|2.3.0   |Adrian Nagel (2.3.0)                              |                  |
 |30-3     |     203|   656|2.3.0   |Adrian Nagel (2.3.0)                              |                  |
