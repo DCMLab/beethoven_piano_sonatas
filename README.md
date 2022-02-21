@@ -73,7 +73,7 @@ Please note that the `meta_ corpora` branch should be used with collections of c
 |18-3     |      61|   178|2.2.0   |Adrian Nagel                                      |                          |
 |18-4     |     333|   455|2.2.0   |Adrian Nagel                                      |                          |
 |19-1     |     110|   193|2.3.0   |Daniel Grote (2.2.0), Hanné Becker (2.3.0)        |AN (2.2.0 + 2.3.0)        |
-|19-2     |     164|   385|2.2.0   |Daniel Grote                                      |Adrian Nagel              |
+|19-2     |     164|   384|2.2.0   |Daniel Grote                                      |Adrian Nagel, Victor Zheng|
 |20-1     |     122|   286|2.3.0   |Lydia Carlisi (2.2.0), John Heilig (2.3.0)        |AN                        |
 |20-2     |     120|   168|2.2.0   |Lydia Carlisi                                     |                          |
 |21-1     |     302|   616|2.3.0   |Adrian Nagel (2.2.0), Amelia Brey (2.3.0)         |AB, AN                    |
