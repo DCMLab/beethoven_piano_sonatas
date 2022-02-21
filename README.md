@@ -33,7 +33,7 @@ Please note that the `meta_ corpora` branch should be used with collections of c
 |07-1     |     344|   527|2.3.0   |Lydia Carlisi (2.2.0), Amelia Brey (2.3.0)        |AB                |
 |07-2     |      87|   217|2.2.0   |Lydia Carlisi                                     |                  |
 |07-3     |      86|    90|2.2.0   |Lydia Carlisi                                     |                  |
-|07-4     |     113|   266|2.2.0   |Lydia Carlisi                                     |                  |
+|07-4     |     113|   266|2.3.0   |Lydia Carlisi (2.2.0), Adrian Nagel (2.3.0)       |                  |
 |08-1     |     310|   503|2.3.0   |Lydia Carlisi (2.2.0), John Heilig (2.3.0)        |AN                |
 |08-2     |      73|   143|2.3.0   |Lydia Carlisi (2.2.0), Adrian Nagel (2.3.0)       |                  |
 |08-3     |     210|   364|2.2.0   |Lydia Carlisi                                     |                  |
