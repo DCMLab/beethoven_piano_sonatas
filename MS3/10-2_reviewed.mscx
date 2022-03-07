@@ -1548,6 +1548,7 @@
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
+    <metaTag name="Reviewers">Victor Zheng (2.3.0)</metaTag>
     <metaTag name="annotators">Daniel Grote (2.2.0), Adrian Nagel (2.3.0)</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composed_end">1799</metaTag>
@@ -5488,12 +5489,12 @@ Opus 14 No. 2</text>
               <endHookType>1</endHookType>
               <beginText>&lt;font face=&quot;Times New Roman&quot;&gt;&lt;/font&gt;&lt;b&gt;1.&lt;/b&gt;</beginText>
               <Segment>
-                <subtype>3</subtype>
+                <subtype>1</subtype>
                 <offset x="0" y="-1.35158"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>3</subtype>
                 <offset x="0" y="-3"/>
                 <off2 x="0" y="0"/>
                 </Segment>
@@ -14038,7 +14039,7 @@ Opus 14 No. 2</text>
             </Harmony>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(4)|HC</name>
+            <name>V(4)}</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
@@ -14050,13 +14051,19 @@ Opus 14 No. 2</text>
               <veloType>user</veloType>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V}</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V}</name>
+            <name>V|HC</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Beam>
             </Beam>
@@ -15913,12 +15920,6 @@ Opus 14 No. 2</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V(4)}</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V(4)|HC</name>
-            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -15945,7 +15946,7 @@ Opus 14 No. 2</text>
             </Harmony>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V}</name>
+            <name>V|HC</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
@@ -16215,7 +16216,7 @@ Opus 14 No. 2</text>
             </Harmony>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio7/ii</name>
+            <name>#viio2/ii</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
@@ -16759,7 +16760,7 @@ Opus 14 No. 2</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(64)</name>
+            <name>V(974)</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
@@ -16774,12 +16775,22 @@ Opus 14 No. 2</text>
                   </location>
                 </next>
               </Spanner>
-            <StemDirection>down</StemDirection>
             <Note>
               <pitch>43</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(64)</name>
+            <color r="0" g="85" b="0" a="255"/>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7</name>
@@ -16937,7 +16948,7 @@ Opus 14 No. 2</text>
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(64)</name>
+            <name>V(974)</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
@@ -16964,7 +16975,6 @@ Opus 14 No. 2</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V(64)</name>
-            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
