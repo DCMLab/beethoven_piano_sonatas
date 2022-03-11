@@ -145,20 +145,20 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.6</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
-    <metaTag name="annotators">Daniel Grote</metaTag>
+    <metaTag name="Reviewers">Victor Zheng</metaTag>
+    <metaTag name="annotators">Daniel Grote (2.2.0), Adrian Nagel (2.3.0)</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composed_end">1795</metaTag>
     <metaTag name="composed_start">1794</metaTag>
     <metaTag name="composer"></metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2017-11-26</metaTag>
-    <metaTag name="harmony_version">2.2.0</metaTag>
+    <metaTag name="harmony_version">2.3.0</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle"></metaTag>
@@ -4826,7 +4826,7 @@ Opus 2 No 1</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i(11)}</name>
+            <name>i(11)|IAC</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -4846,7 +4846,7 @@ Opus 2 No 1</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i}</name>
             </Harmony>
           <location>
             <fractions>1/4</fractions>
@@ -4989,7 +4989,7 @@ Opus 2 No 1</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I(11)}</name>
+            <name>I(11)|IAC</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -5009,7 +5009,7 @@ Opus 2 No 1</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I}</name>
             </Harmony>
           <location>
             <fractions>1/4</fractions>
@@ -5190,7 +5190,7 @@ Opus 2 No 1</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I}</name>
+            <name>I|PAC}</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -5546,7 +5546,7 @@ Opus 2 No 1</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i}</name>
+            <name>i|PAC}</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -5962,7 +5962,7 @@ Opus 2 No 1</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V}</name>
+            <name>V|HC}</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -5993,14 +5993,14 @@ Opus 2 No 1</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i64{</name>
-            </Harmony>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i64{</name>
+            </Harmony>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
@@ -6138,15 +6138,15 @@ Opus 2 No 1</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i</name>
             <offset x="0" y="-8"/>
             </Harmony>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -6528,7 +6528,7 @@ Opus 2 No 1</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i}</name>
+            <name>i|PAC}</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -7212,7 +7212,7 @@ Opus 2 No 1</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I[I}</name>
+            <name>I[I|PAC}</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -8131,7 +8131,7 @@ Opus 2 No 1</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V6</name>
+            <name>V6|HC</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -8176,7 +8176,7 @@ Opus 2 No 1</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7</name>
+            <name>V7}</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -8201,7 +8201,7 @@ Opus 2 No 1</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I}{</name>
+            <name>I{</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -8544,6 +8544,10 @@ Opus 2 No 1</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V43</name>
+            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -8599,7 +8603,7 @@ Opus 2 No 1</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I}</name>
+            <name>I|PAC}</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
