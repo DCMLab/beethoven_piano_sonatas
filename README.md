@@ -97,7 +97,7 @@ Scores of the annotated sonatas corrected by <tunescribers.com>.
 |15-3     |      94|     0|        |                                                  |                                |
 |15-4     |     210|     0|        |                                                  |                                |
 |16-1     |     325|   303|2.3.0   |Adrian Nagel (2.2.0), Hanné Becker (2.3.0)        |AN                              |
-|16-2     |     119|   285|2.2.0   |Adrian Nagel                                      |                                |
+|16-2     |     119|   285|2.3.0   |Adrian Nagel (2.2.0), Amelia Brey (2.3.0)         |AB                              |
 |16-3     |     275|   703|2.2.0   |Adrian Nagel                                      |                                |
 |17-1     |     228|   352|2.3.0   |Adrian Nagel (2.2.0), Hanné Becker (2.3.0)        |AN                              |
 |17-2     |     103|   223|2.3.0   |Adrian Nagel (2.3.0)                              |Victor Zheng                    |
