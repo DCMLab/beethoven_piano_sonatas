@@ -75,7 +75,7 @@ Scores of the annotated sonatas corrected by <tunescribers.com>.
 |09-2     |     178|   235|2.3.0   |Lydia Carlisi (2.2.0), Adrian Nagel (2.3.0)       |Victor Zheng                    |
 |09-3     |     131|   262|2.3.0   |Lydia Carlisi (2.2.0), Adrian Nagel (2.3.0)       |Victor Zheng                    |
 |10-1     |     200|   355|2.3.0   |Daniel Grote (2.2.0), John Heilig (2.3.0)         |AN                              |
-|10-2     |      90|   353|2.2.0   |Daniel Grote (2.2.0), Adrian Nagel (2.3.0)        |                                |
+|10-2     |      90|   330|2.3.0   |Daniel Grote (2.2.0), Adrian Nagel (2.3.0)        |Victor Zheng (2.3.0)            |
 |10-3     |     254|   318|2.3.0   |Adrian Nagel (2.3.0)                              |Victor Zheng                    |
 |11-1     |     199|     0|        |                                                  |                                |
 |11-2     |      77|     0|        |                                                  |                                |
@@ -97,7 +97,7 @@ Scores of the annotated sonatas corrected by <tunescribers.com>.
 |15-3     |      94|     0|        |                                                  |                                |
 |15-4     |     210|     0|        |                                                  |                                |
 |16-1     |     325|   303|2.3.0   |Adrian Nagel (2.2.0), Hanné Becker (2.3.0)        |AN                              |
-|16-2     |     119|   285|2.2.0   |Adrian Nagel                                      |                                |
+|16-2     |     119|   285|2.3.0   |Adrian Nagel (2.2.0), Amelia Brey (2.3.0)         |AB                              |
 |16-3     |     275|   703|2.2.0   |Adrian Nagel                                      |                                |
 |17-1     |     228|   352|2.3.0   |Adrian Nagel (2.2.0), Hanné Becker (2.3.0)        |AN                              |
 |17-2     |     103|   223|2.3.0   |Adrian Nagel (2.3.0)                              |Victor Zheng                    |
