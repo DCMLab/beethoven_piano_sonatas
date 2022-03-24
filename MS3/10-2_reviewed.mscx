@@ -184,11 +184,11 @@
         <renderFunction>:a m:0.5:0 :n</renderFunction>
         <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
         <chord id="1">
-          <name></name>
-          <name></name>
+          <name/>
+          <name/>
           <xml>major</xml>
           <voicing>C E G</voicing>
-          <render></render>
+          <render/>
           </chord>
         <chord id="2">
           <name>Maj</name>
@@ -1583,7 +1583,7 @@
       <trackName>Piano</trackName>
       <Instrument id="piano">
         <longName>
-          <font face="Times New Roman"></font>
+          <font face="Times New Roman"/>
           </longName>
         <trackName>Piano</trackName>
         <minPitchP>21</minPitchP>
@@ -13734,7 +13734,13 @@ Opus 14 No. 2</text>
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>I}</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I|PAC}</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -14028,7 +14034,13 @@ Opus 14 No. 2</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V(4)</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V(4)}</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -14039,6 +14051,11 @@ Opus 14 No. 2</text>
               <veloType>user</veloType>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V}</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
@@ -14046,6 +14063,7 @@ Opus 14 No. 2</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V|HC</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Beam>
             </Beam>
@@ -14473,7 +14491,13 @@ Opus 14 No. 2</text>
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>I}</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I|PAC}</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -14813,7 +14837,13 @@ Opus 14 No. 2</text>
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>I}</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I|PAC}</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -15022,7 +15052,13 @@ Opus 14 No. 2</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V64</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V43</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -15035,9 +15071,26 @@ Opus 14 No. 2</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V43</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I(4)</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -15050,9 +15103,26 @@ Opus 14 No. 2</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V64/vi</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio6/vi</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -15068,13 +15138,27 @@ Opus 14 No. 2</text>
               <tpc>22</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio6/vi</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>vi(4)</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>vi</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -15087,6 +15171,22 @@ Opus 14 No. 2</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vi</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
@@ -15094,6 +15194,7 @@ Opus 14 No. 2</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>ii6</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -15102,9 +15203,26 @@ Opus 14 No. 2</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii6</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(4)</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -15121,6 +15239,14 @@ Opus 14 No. 2</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-3/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -15257,7 +15383,13 @@ Opus 14 No. 2</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>I6(11)</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I6</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -15281,6 +15413,14 @@ Opus 14 No. 2</text>
               <veloType>user</veloType>
               </Note>
             </Chord>
+          <location>
+            <fractions>-3/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I6</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -15341,7 +15481,13 @@ Opus 14 No. 2</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V(964)</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V(64)</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-7"/>
             </Harmony>
           <Chord>
@@ -15366,6 +15512,14 @@ Opus 14 No. 2</text>
               <veloType>user</veloType>
               </Note>
             </Chord>
+          <location>
+            <fractions>-3/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(64)</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -15410,7 +15564,13 @@ Opus 14 No. 2</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>I(7)}</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I|PAC}</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -15423,6 +15583,14 @@ Opus 14 No. 2</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-3/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -15520,7 +15688,13 @@ Opus 14 No. 2</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>IV6(2)</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>IV6</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -15543,9 +15717,26 @@ Opus 14 No. 2</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV6</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V43(4)/IV</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V43/IV</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -15558,9 +15749,26 @@ Opus 14 No. 2</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V43/IV</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV(7)</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>IV</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -15580,6 +15788,14 @@ Opus 14 No. 2</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-3/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -15725,7 +15941,13 @@ Opus 14 No. 2</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V|HC</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -15743,6 +15965,14 @@ Opus 14 No. 2</text>
               <veloType>user</veloType>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           </voice>
         <voice>
           <Chord>
@@ -15949,7 +16179,13 @@ Opus 14 No. 2</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>I(7)</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -15962,9 +16198,26 @@ Opus 14 No. 2</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V2/IV</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio2/ii</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -15980,9 +16233,26 @@ Opus 14 No. 2</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio7/ii</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7/ii</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>ii64(4)</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -15995,6 +16265,17 @@ Opus 14 No. 2</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii64(4)</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>ii64</name>
@@ -16023,7 +16304,13 @@ Opus 14 No. 2</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V(964)</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V(64)</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -16045,9 +16332,26 @@ Opus 14 No. 2</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(64)</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(4)</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -16060,9 +16364,26 @@ Opus 14 No. 2</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I}</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I|PAC}</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -16120,7 +16441,13 @@ Opus 14 No. 2</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>I(974)</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -16137,6 +16464,11 @@ Opus 14 No. 2</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           <Rest>
             <offset x="0" y="2"/>
             <durationType>eighth</durationType>
@@ -16172,7 +16504,13 @@ Opus 14 No. 2</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>ii(9#74)</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>ii</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -16189,6 +16527,11 @@ Opus 14 No. 2</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           <Rest>
             <offset x="0" y="2"/>
             <durationType>eighth</durationType>
@@ -16228,7 +16571,13 @@ Opus 14 No. 2</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>iii(#9#74)</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>iii</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -16245,6 +16594,11 @@ Opus 14 No. 2</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iii</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           <Rest>
             <offset x="0" y="2"/>
             <durationType>eighth</durationType>
@@ -16311,6 +16665,7 @@ Opus 14 No. 2</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -16322,9 +16677,26 @@ Opus 14 No. 2</text>
               <veloType>user</veloType>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vi7</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>ii43</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -16336,9 +16708,26 @@ Opus 14 No. 2</text>
               <veloType>user</veloType>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii43</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii65</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>IV</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -16357,6 +16746,14 @@ Opus 14 No. 2</text>
               <veloType>user</veloType>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -16364,6 +16761,7 @@ Opus 14 No. 2</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V(974)</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -16388,6 +16786,7 @@ Opus 14 No. 2</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V(64)</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
@@ -16395,6 +16794,7 @@ Opus 14 No. 2</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -16407,6 +16807,7 @@ Opus 14 No. 2</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I|PAC}</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -16432,6 +16833,7 @@ Opus 14 No. 2</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
@@ -16447,6 +16849,7 @@ Opus 14 No. 2</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I6</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -16471,6 +16874,7 @@ Opus 14 No. 2</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V43</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -16486,6 +16890,7 @@ Opus 14 No. 2</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -16501,6 +16906,7 @@ Opus 14 No. 2</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>viio64/IV</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -16531,6 +16937,11 @@ Opus 14 No. 2</text>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7(94)</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
@@ -16538,6 +16949,7 @@ Opus 14 No. 2</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V(974)</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -16570,6 +16982,7 @@ Opus 14 No. 2</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -16579,9 +16992,26 @@ Opus 14 No. 2</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I}</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I|PAC}</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -17242,7 +17672,13 @@ Opus 14 No. 2</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>I}</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I|PAC}</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0.286175" y="-3.50161"/>
             </Harmony>
           <Chord>
@@ -17656,7 +18092,13 @@ Opus 14 No. 2</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V}</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V|HC}</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -18107,7 +18549,13 @@ Opus 14 No. 2</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>I}</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I|PAC}</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -18343,6 +18791,7 @@ Opus 14 No. 2</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V(64)</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -18359,6 +18808,7 @@ Opus 14 No. 2</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -18375,6 +18825,7 @@ Opus 14 No. 2</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I|PAC}</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -18428,7 +18879,13 @@ Opus 14 No. 2</text>
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>I}</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I|PAC}</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -19148,7 +19605,13 @@ Opus 14 No. 2</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>I}</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I|PAC}</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -19648,7 +20111,13 @@ Opus 14 No. 2</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>I}</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I|PAC}</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -20010,7 +20479,13 @@ Opus 14 No. 2</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>I}</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I|PAC}</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -20397,7 +20872,13 @@ Opus 14 No. 2</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>I}</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I|PAC}</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
