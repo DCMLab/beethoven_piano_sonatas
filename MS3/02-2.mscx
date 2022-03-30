@@ -4913,9 +4913,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.854037"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -5256,9 +5253,6 @@
           </voice>
         </Measure>
       <Measure>
-        <MeasureNumber>
-          <text>58</text>
-          </MeasureNumber>
         <voice>
           <Chord>
             <durationType>quarter</durationType>
@@ -5747,9 +5741,6 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <offset x="0" y="0.313696"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -7260,9 +7251,6 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.453692"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -14083,6 +14071,10 @@
             <placement>above</placement>
             <offset x="0.377049" y="-4.10784"/>
             </Dynamic>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7(4)</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -14091,11 +14083,18 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            </Harmony>
           </voice>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I64</name>
+            <name>V(64)</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -14114,7 +14113,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii</name>
+            <name>ii6</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -14141,13 +14140,6 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V(64)</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7</name>
             </Harmony>
           </voice>
         </Measure>
@@ -17074,9 +17066,6 @@
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <offset x="0" y="1.11876"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
