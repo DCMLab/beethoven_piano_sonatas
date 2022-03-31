@@ -16279,8 +16279,11 @@
               </Spanner>
             <StemDirection>down</StemDirection>
             <Note>
-              <pitch>83</pitch>
-              <tpc>19</tpc>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>82</pitch>
+              <tpc>12</tpc>
               </Note>
             </Chord>
           </voice>
@@ -23036,7 +23039,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bV(4)</name>
+            <name>bV(b4)</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Beam>
@@ -37536,6 +37539,11 @@
               <tpc>10</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V65/bV</name>
+            <color r="0" g="85" b="0" a="255"/>
+            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -37791,7 +37799,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V43(4)/bV</name>
+            <name>V43(b4)/bV</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Beam>
@@ -37828,7 +37836,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iio43(4)</name>
+            <name>iio43(b4)</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
