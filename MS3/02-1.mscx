@@ -14710,8 +14710,11 @@
               </Spanner>
             <StemDirection>down</StemDirection>
             <Note>
-              <pitch>83</pitch>
-              <tpc>19</tpc>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>82</pitch>
+              <tpc>12</tpc>
               </Note>
             </Chord>
           </voice>
@@ -35303,6 +35306,10 @@
               <tpc>10</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V65/bV</name>
+            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
