@@ -49,7 +49,7 @@ Scores of the annotated sonatas corrected by <tunescribers.com>.
 |02-1     |     336|     0|0.0.0   |                                                  |                                |
 |02-2     |      80|     0|0.0.0   |                                                  |                                |
 |02-3     |      68|     0|0.0.0   |                                                  |                                |
-|02-4     |     187|     0|0.0.0   |                                                  |                                |
+|02-4     |     187|   339|0.0.0   |Lydia Carlisi (2.2.0), Victor Zheng (2.3.0)       |AN, VZ                          |
 |03-1     |     257|   487|2.3.0   |Lydia Carlisi (2.2.0), John Heilig (2.3.0)        |AN                              |
 |03-2     |      82|   233|2.3.0   |Lydia Carlisi (2.2.0), Adrian Nagel (2.3.0)       |Victor Zheng                    |
 |03-3     |     127|   198|2.3.0   |Lydia Carlisi (2.2.0), Adrian Nagel (2.3.0)       |Victor Zheng                    |
