@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.02">
   <programVersion>3.6.2</programVersion>
-  <programRevision>3224f34</programRevision>
+  <programRevision></programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -166,6 +166,7 @@
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Apple Macintosh</metaTag>
     <metaTag name="poet"></metaTag>
+    <metaTag name="reviewers">VZ</metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
@@ -3024,7 +3025,7 @@
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Lyrics>
-              <offset x="-2.5e-7" y="5.49267"/>
+              <offset x="-2.5e-07" y="5.49267"/>
               <text>ff</text>
               </Lyrics>
             <Note>
@@ -3471,7 +3472,7 @@
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Lyrics>
-              <offset x="-2.5e-7" y="5.49267"/>
+              <offset x="-2.5e-07" y="5.49267"/>
               <text><sym>dynamicForte</sym><sym>dynamicForte</sym></text>
               </Lyrics>
             <Note>
@@ -3970,7 +3971,7 @@
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
-              <offset x="-2.5e-7" y="4.86266"/>
+              <offset x="-2.5e-07" y="4.86266"/>
               <text><sym>dynamicForte</sym><sym>dynamicForte</sym></text>
               </Lyrics>
             <Articulation>
@@ -4135,7 +4136,7 @@
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
-              <offset x="-2.5e-7" y="6.1135"/>
+              <offset x="-2.5e-07" y="6.1135"/>
               <text><sym>dynamicForte</sym><sym>dynamicForte</sym></text>
               </Lyrics>
             <Articulation>
@@ -7004,6 +7005,7 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -7013,7 +7015,6 @@
               </Spanner>
             <Spanner type="Slur">
               <Slur>
-                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -11536,6 +11537,16 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <measures>6</measures>
+                </location>
+              </next>
+            </Spanner>
           <Spanner type="Ottava">
             <Ottava>
               <subtype>8va</subtype>
@@ -11550,16 +11561,6 @@
                 <off2 x="0" y="0"/>
                 </Segment>
               </Ottava>
-            <next>
-              <location>
-                <measures>6</measures>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>0</subtype>
-              </HairPin>
             <next>
               <location>
                 <measures>6</measures>
@@ -12175,14 +12176,14 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="Ottava">
+          <Spanner type="HairPin">
             <prev>
               <location>
                 <measures>-6</measures>
                 </location>
               </prev>
             </Spanner>
-          <Spanner type="HairPin">
+          <Spanner type="Ottava">
             <prev>
               <location>
                 <measures>-6</measures>
@@ -12196,7 +12197,7 @@
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Lyrics>
-              <offset x="-2.5e-7" y="5.51354"/>
+              <offset x="-2.5e-07" y="5.51354"/>
               <text><sym>dynamicForte</sym><sym>dynamicForte</sym></text>
               </Lyrics>
             <Note>
@@ -12638,7 +12639,7 @@
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Lyrics>
-              <offset x="-2.5e-7" y="5.22047"/>
+              <offset x="-2.5e-07" y="5.22047"/>
               <text><sym>dynamicForte</sym><sym>dynamicForte</sym></text>
               </Lyrics>
             <Note>
