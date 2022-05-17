@@ -61,7 +61,7 @@ Scores of the annotated sonatas corrected by <tunescribers.com>.
 |05-1     |     284|   310|2.3.0   |Adrian Nagel (2.2.0), Hanné Becker (2.3.0)        |AN                              |
 |05-2     |     112|   252|2.3.0   |Adrian Nagel (2.3.0)                              |Victor Zheng                    |
 |05-3     |     122|   313|2.3.0   |Adrian Nagel (2.3.0)                              |Victor Zheng                    |
-|06-1     |     202|   338|2.3.0   |Adrian Nagel (2.2.0), Amelia Brey (2.3.0)         |AB                              |
+|06-1     |     202|   338|2.3.0   |Adrian Nagel (2.2.0), Amelia Brey (2.3.0)         |AB, AN                          |
 |06-2     |     170|   236|2.3.0   |Gabriele Ortiz Würth (2.2.0), Adrian Nagel (2.3.0)|Johannes Hentschel, Victor Zheng|
 |06-3     |     150|   308|2.3.0   |Adrian Nagel (2.3.0)                              |Victor Zheng                    |
 |07-1     |     344|   527|2.3.0   |Lydia Carlisi (2.2.0), Amelia Brey (2.3.0)        |AB                              |
@@ -111,7 +111,7 @@ Scores of the annotated sonatas corrected by <tunescribers.com>.
 |20-1     |     122|   286|2.3.0   |Lydia Carlisi (2.2.0), John Heilig (2.3.0)        |AN                              |
 |20-2     |     120|   169|2.3.0   |Lydia Carlisi (2.2.0), Adrian Nagel (2.3.0)       |Victor Zheng                    |
 |21-1     |     302|   616|2.3.0   |Adrian Nagel (2.2.0), Amelia Brey (2.3.0)         |AB, AN                          |
-|21-2     |      28|    82|2.3.0   |Adrian Nagel (2.3.0)                              |                                |
+|21-2     |      28|    82|2.3.0   |Adrian Nagel (2.3.0)                              |VZ                              |
 |21-3     |     543|   739|2.3.0   |Adrian Nagel (2.3.0)                              |Victor Zheng                    |
 |23-1     |     262|   434|2.3.0   |Daniel Grote (2.2.0), Hanné Becker (2.3.0)        |AN                              |
 |23-2     |      97|   220|2.3.0   |Daniel Grote (2.2.0), Adrian Nagel (2.3.0)        |Victor Zheng                    |
@@ -120,7 +120,7 @@ Scores of the annotated sonatas corrected by <tunescribers.com>.
 |24-2     |     183|   317|2.3.0   |Adrian Nagel (2.3.0)                              |Victor Zheng                    |
 |26-1     |     255|   537|2.3.0   |Adrian Nagel (2.2.0), John Heilig (2.3.0)         |AN                              |
 |26-2     |      42|   127|2.3.0   |Adrian Nagel (2.2.0), Amelia Brey (2.3.0)         |AB, Victor Zheng                |
-|26-3     |     196|   317|2.3.0   |Adrian Nagel (2.3.0)                              |                                |
+|26-3     |     196|   317|2.3.0   |Adrian Nagel (2.3.0)                              |VZ                              |
 |30-1     |      99|   252|2.3.0   |Adrian Nagel (2.2.0), Amelia Brey (2.3.0)         |AB, AN                          |
 |30-2     |     177|   320|2.3.0   |Adrian Nagel (2.3.0)                              |Victor Zheng                    |
 |30-3     |     203|   656|2.3.0   |Adrian Nagel (2.3.0)                              |Victor Zheng                    |
