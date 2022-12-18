@@ -1,0 +1,899 @@
+Warnings encountered during the last execution of ms3 review (v1.0.4)
+=====================================================================
+
+WARNING  ms3.Parse.beethoven_piano_sonatas.01-2 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_parser.py (line 1137) _get_metadata():
+	Metadata contain the fields Reviewers and reviewers. Please merge.
+WARNING  ms3.Parse.beethoven_piano_sonatas.01-3 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_parser.py (line 1137) _get_metadata():
+	Metadata contain the fields Reviewers and reviewers. Please merge.
+VOLTAS_WITH_DIFFERING_LENGTHS_WARNING (4, 57) ms3.Parse.beethoven_piano_sonatas.01-4 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 842) treat_group():
+	Volta group of MC 57 contains voltas with different lengths: [2, 3] Check for correct computation of MNs and copy this message into an IGNORED_WARNINGS file to make the warning disappear.
+INCORRECT_VOLTA_MN_WARNING (2, 59) ms3.Parse.beethoven_piano_sonatas.01-4 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 191) check_measure_numbers():
+	MC 59, the 1st measure of a 2nd volta, should have MN 56, not MN 57.
+MCS_NOT_EXCLUDED_FROM_BARCOUNT_WARNING (1, 2) ms3.Parse.beethoven_piano_sonatas.01-4 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 204) check_measure_numbers():
+	MC 2 seems to be offset from the MN's beginning but has not been excluded from barcount. Context:
+	   mc  mn act_dur mc_offset  dont_count  numbering_offset
+	0   1   0     1/2         0           1              <NA>
+	1   2   1     1/2       1/2        <NA>              <NA>
+	2   3   2       1         0        <NA>              <NA>
+VOLTAS_WITH_DIFFERING_LENGTHS_WARNING (4, 115) ms3.Parse.beethoven_piano_sonatas.02-1 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 842) treat_group():
+	Volta group of MC 115 contains voltas with different lengths: [4, 8] Check for correct computation of MNs and copy this message into an IGNORED_WARNINGS file to make the warning disappear.
+WARNING  ms3.Parse.beethoven_piano_sonatas.02-1 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 436) start_section():
+	The startRepeat in MC 127 is missing its endRepeat.
+	For correction, MC 342 is interpreted as such because it is the last bar of the piece..
+INCORRECT_VOLTA_MN_WARNING (2, 119) ms3.Parse.beethoven_piano_sonatas.02-1 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 191) check_measure_numbers():
+	MC 119, the 1st measure of a 2nd volta, should have MN 113, not MN 114.
+INCORRECT_VOLTA_MN_WARNING (2, 120) ms3.Parse.beethoven_piano_sonatas.02-1 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 191) check_measure_numbers():
+	MC 120, the 2nd measure of a 2nd volta, should have MN 113, not MN 115.
+INCORRECT_VOLTA_MN_WARNING (2, 121) ms3.Parse.beethoven_piano_sonatas.02-1 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 191) check_measure_numbers():
+	MC 121, the 3rd measure of a 2nd volta, should have MN 113, not MN 116.
+INCORRECT_VOLTA_MN_WARNING (2, 122) ms3.Parse.beethoven_piano_sonatas.02-1 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 191) check_measure_numbers():
+	MC 122, the 4th measure of a 2nd volta, should have MN 113, not MN 117.
+INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 233) ms3.Parse.beethoven_piano_sonatas.03-1 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 759) make_offset_col():
+	The incomplete MC 233 (timesig 1, act_dur 3/4) is completed by 1 incorrect duration (expected: 1/4):
+	{234: Fraction(3, 4)}
+WARNING  ms3.Parse.beethoven_piano_sonatas.03-2 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_parser.py (line 1137) _get_metadata():
+	Metadata contain the fields Reviewers and reviewers. Please merge.
+WARNING  ms3.Parse.beethoven_piano_sonatas.03-3 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_parser.py (line 1137) _get_metadata():
+	Metadata contain the fields Reviewers and reviewers. Please merge.
+INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 109) ms3.Parse.beethoven_piano_sonatas.03-3 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 759) make_offset_col():
+	The incomplete MC 109 (timesig 3/4, act_dur 3/8) is completed by 1 incorrect duration (expected: 3/8):
+	{110: Fraction(3, 4)}
+WARNING  ms3.Parse.beethoven_piano_sonatas.03-4 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_parser.py (line 1137) _get_metadata():
+	Metadata contain the fields Reviewers and reviewers. Please merge.
+INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 96) ms3.Parse.beethoven_piano_sonatas.04-3 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 759) make_offset_col():
+	The incomplete MC 96 (timesig 3/4, act_dur 1/4) is completed by 1 incorrect duration (expected: 1/2):
+	{97: Fraction(3, 4)}
+INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 112) ms3.Parse.beethoven_piano_sonatas.04-3 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 759) make_offset_col():
+	The incomplete MC 112 (timesig 3/4, act_dur 1/2) is completed by 1 incorrect duration (expected: 1/4):
+	{25: Fraction(3, 4), 113: Fraction(1, 4)}
+WARNING  ms3.Parse.beethoven_piano_sonatas.05-2 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_parser.py (line 1137) _get_metadata():
+	Metadata contain the fields Reviewers and reviewers. Please merge.
+WARNING  ms3.Parse.beethoven_piano_sonatas.05-3 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_parser.py (line 1137) _get_metadata():
+	Metadata contain the fields Reviewers and reviewers. Please merge.
+WARNING  ms3.Parse.beethoven_piano_sonatas.06-2 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_parser.py (line 1137) _get_metadata():
+	Metadata contain the fields Reviewers and reviewers. Please merge.
+WARNING  ms3.Parse.beethoven_piano_sonatas.06-3 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_parser.py (line 1137) _get_metadata():
+	Metadata contain the fields Reviewers and reviewers. Please merge.
+WARNING  ms3.Parse.beethoven_piano_sonatas.07-2 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_parser.py (line 1137) _get_metadata():
+	Metadata contain the fields Reviewers and reviewers. Please merge.
+WARNING  ms3.Parse.beethoven_piano_sonatas.07-3 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_parser.py (line 1137) _get_metadata():
+	Metadata contain the fields Reviewers and reviewers. Please merge.
+WARNING  ms3.Parse.beethoven_piano_sonatas.07-4 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_parser.py (line 1137) _get_metadata():
+	Metadata contain the fields Reviewers and reviewers. Please merge.
+INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 298) ms3.Parse.beethoven_piano_sonatas.08-1 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 759) make_offset_col():
+	The incomplete MC 298 (timesig 1, act_dur 31/32) is completed by 1 incorrect duration (expected: 1/32):
+	{299: Fraction(1, 1)}
+INCORRECT_VOLTA_MN_WARNING (2, 134) ms3.Parse.beethoven_piano_sonatas.08-1 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 191) check_measure_numbers():
+	MC 134, the 1st measure of a 2nd volta, should have MN 131, not MN 132.
+WARNING  ms3.Parse.beethoven_piano_sonatas.08-2 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_parser.py (line 1137) _get_metadata():
+	Metadata contain the fields Reviewers and reviewers. Please merge.
+WARNING  ms3.Parse.beethoven_piano_sonatas.08-3 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_parser.py (line 1137) _get_metadata():
+	Metadata contain the fields Reviewers and reviewers. Please merge.
+WARNING  ms3.Parse.beethoven_piano_sonatas.09-2 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_parser.py (line 1137) _get_metadata():
+	Metadata contain the fields Reviewers and reviewers. Please merge.
+WARNING  ms3.Parse.beethoven_piano_sonatas.09-3 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_parser.py (line 1137) _get_metadata():
+	Metadata contain the fields Reviewers and reviewers. Please merge.
+VOLTAS_WITH_DIFFERING_LENGTHS_WARNING (4, 43) ms3.Parse.beethoven_piano_sonatas.10-2 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 842) treat_group():
+	Volta group of MC 43 contains voltas with different lengths: [2, 1] Check for correct computation of MNs and copy this message into an IGNORED_WARNINGS file to make the warning disappear.
+WARNING  ms3.Parse.beethoven_piano_sonatas.10-3 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_parser.py (line 1137) _get_metadata():
+	Metadata contain the fields Reviewers and reviewers. Please merge.
+INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 39) ms3.Parse.beethoven_piano_sonatas.13-1 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 759) make_offset_col():
+	The incomplete MC 39 (timesig 3/4, act_dur 1/8) is completed by 1 incorrect duration (expected: 5/8):
+	{40: Fraction(3, 4)}
+INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 47) ms3.Parse.beethoven_piano_sonatas.13-1 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 759) make_offset_col():
+	The incomplete MC 47 (timesig 3/4, act_dur 5/8) is completed by 1 incorrect duration (expected: 1/8):
+	{14: Fraction(1, 1), 48: Fraction(1, 8)}
+INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 267) ms3.Parse.beethoven_piano_sonatas.13-4 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 759) make_offset_col():
+	The incomplete MC 267 (timesig 3/4, act_dur 1/2) is completed by 1 incorrect duration (expected: 1/4):
+	{268: Fraction(1, 2)}
+INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 269) ms3.Parse.beethoven_piano_sonatas.13-4 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 759) make_offset_col():
+	The incomplete MC 269 (timesig 3/4, act_dur 1/2) is completed by 1 incorrect duration (expected: 1/4):
+	{270: Fraction(1, 2)}
+INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 271) ms3.Parse.beethoven_piano_sonatas.13-4 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 759) make_offset_col():
+	The incomplete MC 271 (timesig 3/4, act_dur 1/2) is completed by 1 incorrect duration (expected: 1/4):
+	{272: Fraction(1, 2)}
+INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 273) ms3.Parse.beethoven_piano_sonatas.13-4 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 759) make_offset_col():
+	The incomplete MC 273 (timesig 3/4, act_dur 1/2) is completed by 1 incorrect duration (expected: 1/4):
+	{274: Fraction(1, 2)}
+INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 275) ms3.Parse.beethoven_piano_sonatas.13-4 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 759) make_offset_col():
+	The incomplete MC 275 (timesig 3/4, act_dur 1/2) is completed by 1 incorrect duration (expected: 1/4):
+	{276: Fraction(1, 2)}
+INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 277) ms3.Parse.beethoven_piano_sonatas.13-4 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 759) make_offset_col():
+	The incomplete MC 277 (timesig 3/4, act_dur 1/2) is completed by 1 incorrect duration (expected: 1/4):
+	{278: Fraction(1, 2)}
+INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 279) ms3.Parse.beethoven_piano_sonatas.13-4 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 759) make_offset_col():
+	The incomplete MC 279 (timesig 3/4, act_dur 1/2) is completed by 1 incorrect duration (expected: 1/4):
+	{280: Fraction(1, 2)}
+INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 281) ms3.Parse.beethoven_piano_sonatas.13-4 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 759) make_offset_col():
+	The incomplete MC 281 (timesig 3/4, act_dur 1/2) is completed by 1 incorrect duration (expected: 1/4):
+	{282: Fraction(1, 2)}
+INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 283) ms3.Parse.beethoven_piano_sonatas.13-4 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 759) make_offset_col():
+	The incomplete MC 283 (timesig 3/4, act_dur 1/2) is completed by 1 incorrect duration (expected: 1/4):
+	{284: Fraction(1, 2)}
+INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 285) ms3.Parse.beethoven_piano_sonatas.13-4 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 759) make_offset_col():
+	The incomplete MC 285 (timesig 3/4, act_dur 1/2) is completed by 1 incorrect duration (expected: 1/4):
+	{286: Fraction(1, 2)}
+MCS_NOT_EXCLUDED_FROM_BARCOUNT_WARNING (1, 268, 270, 272, 274, 276, 278, 280, 282, 284, 286) ms3.Parse.beethoven_piano_sonatas.13-4 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 204) check_measure_numbers():
+	MCs 268, 270, 272, 274, 276, 278, 280, 282, 284, 286 seem to be offset from the MN's beginning but have not been excluded from barcount. Context:
+	      mc   mn act_dur mc_offset  dont_count  numbering_offset
+	266  267  266     1/2         0        <NA>              <NA>
+	267  268  267     1/2       1/4        <NA>              <NA>
+	268  269  268     1/2         0        <NA>              <NA>
+	269  270  269     1/2       1/4        <NA>              <NA>
+	270  271  270     1/2         0        <NA>              <NA>
+	271  272  271     1/2       1/4        <NA>              <NA>
+	272  273  272     1/2         0        <NA>              <NA>
+	273  274  273     1/2       1/4        <NA>              <NA>
+	274  275  274     1/2         0        <NA>              <NA>
+	275  276  275     1/2       1/4        <NA>              <NA>
+	276  277  276     1/2         0        <NA>              <NA>
+	277  278  277     1/2       1/4        <NA>              <NA>
+	278  279  278     1/2         0        <NA>              <NA>
+	279  280  279     1/2       1/4        <NA>              <NA>
+	280  281  280     1/2         0        <NA>              <NA>
+	281  282  281     1/2       1/4        <NA>              <NA>
+	282  283  282     1/2         0        <NA>              <NA>
+	283  284  283     1/2       1/4        <NA>              <NA>
+	284  285  284     1/2         0        <NA>              <NA>
+	285  286  285     1/2       1/4        <NA>              <NA>
+VOLTAS_WITH_DIFFERING_LENGTHS_WARNING (4, 89) ms3.Parse.beethoven_piano_sonatas.17-1 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 842) treat_group():
+	Volta group of MC 89 contains voltas with different lengths: [4, 1] Check for correct computation of MNs and copy this message into an IGNORED_WARNINGS file to make the warning disappear.
+INCORRECT_VOLTA_MN_WARNING (2, 93) ms3.Parse.beethoven_piano_sonatas.17-1 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 191) check_measure_numbers():
+	MC 93, the 1st measure of a 2nd volta, should have MN 89, not MN 92.
+WARNING  ms3.Parse.beethoven_piano_sonatas.17-2 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_parser.py (line 1137) _get_metadata():
+	Metadata contain the fields Reviewers and reviewers. Please merge.
+WARNING  ms3.Parse.beethoven_piano_sonatas.17-3 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_parser.py (line 1137) _get_metadata():
+	Metadata contain the fields Reviewers and reviewers. Please merge.
+WARNING  ms3.Parse.beethoven_piano_sonatas.18-2 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_parser.py (line 1137) _get_metadata():
+	Metadata contain the fields Reviewers and reviewers. Please merge.
+WARNING  ms3.Parse.beethoven_piano_sonatas.18-3 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_parser.py (line 1137) _get_metadata():
+	Metadata contain the fields Reviewers and reviewers. Please merge.
+VOLTAS_WITH_DIFFERING_LENGTHS_WARNING (4, 9) ms3.Parse.beethoven_piano_sonatas.18-3 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 842) treat_group():
+	Volta group of MC 9 contains voltas with different lengths: [2, 1] Check for correct computation of MNs and copy this message into an IGNORED_WARNINGS file to make the warning disappear.
+VOLTAS_WITH_DIFFERING_LENGTHS_WARNING (4, 53) ms3.Parse.beethoven_piano_sonatas.18-3 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 842) treat_group():
+	Volta group of MC 53 contains voltas with different lengths: [2, 1] Check for correct computation of MNs and copy this message into an IGNORED_WARNINGS file to make the warning disappear.
+WARNING  ms3.Parse.beethoven_piano_sonatas.18-4 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_parser.py (line 1137) _get_metadata():
+	Metadata contain the fields Reviewers and reviewers. Please merge.
+INCORRECT_VOLTA_MN_WARNING (2, 81) ms3.Parse.beethoven_piano_sonatas.18-4 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 191) check_measure_numbers():
+	MC 81, the 1st measure of a 2nd volta, should have MN 78, not MN 79.
+WARNING  ms3.Parse.beethoven_piano_sonatas.20-2 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_parser.py (line 1137) _get_metadata():
+	Metadata contain the fields Reviewers and reviewers. Please merge.
+INCORRECT_VOLTA_MN_WARNING (2, 88) ms3.Parse.beethoven_piano_sonatas.21-1 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 191) check_measure_numbers():
+	MC 88, the 1st measure of a 2nd volta, should have MN 86, not MN 87.
+WARNING  ms3.Parse.beethoven_piano_sonatas.21-3 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_parser.py (line 1137) _get_metadata():
+	Metadata contain the fields Reviewers and reviewers. Please merge.
+WARNING  ms3.Parse.beethoven_piano_sonatas.23-2 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_parser.py (line 1137) _get_metadata():
+	Metadata contain the fields Reviewers and reviewers. Please merge.
+VOLTAS_WITH_DIFFERING_LENGTHS_WARNING (4, 24) ms3.Parse.beethoven_piano_sonatas.23-2 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 842) treat_group():
+	Volta group of MC 24 contains voltas with different lengths: [2, 1] Check for correct computation of MNs and copy this message into an IGNORED_WARNINGS file to make the warning disappear.
+WARNING  ms3.Parse.beethoven_piano_sonatas.23-3 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_parser.py (line 1137) _get_metadata():
+	Metadata contain the fields Reviewers and reviewers. Please merge.
+VOLTAS_WITH_DIFFERING_LENGTHS_WARNING (4, 300) ms3.Parse.beethoven_piano_sonatas.23-3 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 842) treat_group():
+	Volta group of MC 300 contains voltas with different lengths: [8, 1] Check for correct computation of MNs and copy this message into an IGNORED_WARNINGS file to make the warning disappear.
+VOLTAS_WITH_DIFFERING_LENGTHS_WARNING (4, 39) ms3.Parse.beethoven_piano_sonatas.24-1 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 842) treat_group():
+	Volta group of MC 39 contains voltas with different lengths: [2, 1] Check for correct computation of MNs and copy this message into an IGNORED_WARNINGS file to make the warning disappear.
+WARNING  ms3.Parse.beethoven_piano_sonatas.24-2 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_parser.py (line 1137) _get_metadata():
+	Metadata contain the fields Reviewers and reviewers. Please merge.
+INCORRECT_VOLTA_MN_WARNING (2, 70) ms3.Parse.beethoven_piano_sonatas.26-1 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 191) check_measure_numbers():
+	MC 70, the 1st measure of a 2nd volta, should have MN 68, not MN 69.
+WARNING  ms3.Parse.beethoven_piano_sonatas.26-3 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_parser.py (line 1137) _get_metadata():
+	Metadata contain the fields Reviewers and reviewers. Please merge.
+INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 17) ms3.Parse.beethoven_piano_sonatas.30-1 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 759) make_offset_col():
+	The incomplete MC 17 (timesig 1/2, act_dur 1/4) is completed by 1 incorrect duration (expected: 1/4):
+	{18: Fraction(1, 2)}
+WARNING  ms3.Parse.beethoven_piano_sonatas.30-2 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_parser.py (line 1137) _get_metadata():
+	Metadata contain the fields Reviewers and reviewers. Please merge.
+WARNING  ms3.Parse.beethoven_piano_sonatas.30-3 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_parser.py (line 1137) _get_metadata():
+	Metadata contain the fields Reviewers and reviewers. Please merge.
+VOLTAS_WITH_DIFFERING_LENGTHS_WARNING (4, 33) ms3.Parse.beethoven_piano_sonatas.30-3 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 842) treat_group():
+	Volta group of MC 33 contains voltas with different lengths: [2, 1] Check for correct computation of MNs and copy this message into an IGNORED_WARNINGS file to make the warning disappear.
+WARNING  ms3.Parse.beethoven_piano_sonatas.30-3 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 852) treat_group():
+	The incorrect structure {1: [117], 2: [119]} of the volta groupa of MC 117 has been corrected to {1: [117, 118], 2: [119]}.
+INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 167) ms3.Parse.beethoven_piano_sonatas.30-3 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 759) make_offset_col():
+	The incomplete MC 167 (timesig 9/8, act_dur 3/4) is completed by 1 incorrect duration (expected: 3/8):
+	{168: Fraction(1, 4)}
+INCORRECT_VOLTA_MN_WARNING (2, 110) ms3.Parse.beethoven_piano_sonatas.30-3 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 191) check_measure_numbers():
+	MC 110, the 2nd measure of a 2nd volta, should have MN 104, not MN 105.
+VOLTAS_WITH_DIFFERING_LENGTHS_WARNING (4, 40) ms3.Parse.beethoven_piano_sonatas.31-2 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 842) treat_group():
+	Volta group of MC 40 contains voltas with different lengths: [2, 1] Check for correct computation of MNs and copy this message into an IGNORED_WARNINGS file to make the warning disappear.
+VOLTAS_WITH_DIFFERING_LENGTHS_WARNING (4, 145) ms3.Parse.beethoven_piano_sonatas.31-2 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 842) treat_group():
+	Volta group of MC 145 contains voltas with different lengths: [2, 1] Check for correct computation of MNs and copy this message into an IGNORED_WARNINGS file to make the warning disappear.
+WARNING  ms3.Parse.beethoven_piano_sonatas.31-3 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_parser.py (line 1137) _get_metadata():
+	Metadata contain the fields Reviewers and reviewers. Please merge.
+INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 6) ms3.Parse.beethoven_piano_sonatas.31-3 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 759) make_offset_col():
+	The incomplete MC 6 (timesig 1, act_dur 1/2) is completed by 1 incorrect duration (expected: 1/2):
+	{7: Fraction(3, 4)}
+INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 8) ms3.Parse.beethoven_piano_sonatas.31-3 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 759) make_offset_col():
+	The incomplete MC 8 (timesig 1, act_dur 1/4) is completed by 1 incorrect duration (expected: 3/4):
+	{9: Fraction(3, 8)}
+MCS_NOT_EXCLUDED_FROM_BARCOUNT_WARNING (1, 9) ms3.Parse.beethoven_piano_sonatas.31-3 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 204) check_measure_numbers():
+	MC 9 seems to be offset from the MN's beginning but has not been excluded from barcount. Context:
+	   mc  mn act_dur mc_offset  dont_count  numbering_offset
+	7   8   6     1/4         0           1              <NA>
+	8   9   7     3/8       3/8        <NA>              <NA>
+	9  10   8     3/4         0        <NA>              <NA>
+WARNING  ms3.Parse.beethoven_piano_sonatas.32-2 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_parser.py (line 1137) _get_metadata():
+	Metadata contain the fields Reviewers and reviewers. Please merge.
+WARNING  ms3.Parse.beethoven_piano_sonatas.32-2 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 852) treat_group():
+	The incorrect structure {1: [37], 2: [39]} of the volta groupa of MC 37 has been corrected to {1: [37, 38], 2: [39]}.
+ERROR    ms3.Parse.beethoven_piano_sonatas.32-2 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 469) end_section():
+	No starting point for the repeatEnd in MC 38 could be determined. It is being ignored.
+ERROR    ms3.Parse.beethoven_piano_sonatas.32-2 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 469) end_section():
+	No starting point for the repeatEnd in MC 67 could be determined. It is being ignored.
+INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 40) ms3.Parse.beethoven_piano_sonatas.32-2 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 759) make_offset_col():
+	The incomplete MC 40 (timesig 3/8, act_dur 3/16) is completed by 1 incorrect duration (expected: 3/16):
+	{41: Fraction(3, 8)}
+INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 48) ms3.Parse.beethoven_piano_sonatas.32-2 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 759) make_offset_col():
+	The incomplete MC 48 (timesig 3/8, act_dur 1/4) is completed by 1 incorrect duration (expected: 1/8):
+	{40: Fraction(3, 16)}
+INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 67) ms3.Parse.beethoven_piano_sonatas.32-2 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 759) make_offset_col():
+	The incomplete MC 67 (timesig 3/8, act_dur 1/4) is completed by 1 incorrect duration (expected: 1/8):
+	{68: Fraction(3, 8)}
+INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 77) ms3.Parse.beethoven_piano_sonatas.32-2 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 759) make_offset_col():
+	The incomplete MC 77 (timesig 3/8, act_dur 1/4) is completed by 1 incorrect duration (expected: 1/8):
+	{78: Fraction(3, 16)}
+MCS_NOT_EXCLUDED_FROM_BARCOUNT_WARNING (1, 30) ms3.Parse.beethoven_piano_sonatas.32-2 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 204) check_measure_numbers():
+	MC 30 seems to be offset from the MN's beginning but has not been excluded from barcount. Context:
+	    mc  mn act_dur mc_offset  dont_count  numbering_offset
+	28  29  25    3/16         0        <NA>              <NA>
+	29  30  26     3/8      3/16        <NA>              <NA>
+	30  31  27    9/16         0        <NA>              <NA>
+DCML_HARMONY_SYNTAX_WARNING (15,) ms3.Parse.beethoven_piano_sonatas.02-1 -- /usr/local/lib/python3.10/site-packages/ms3/annotations.py (line 382) expand_dcml():
+	Score contains 1 labels that don't (and 479 that do) match the DCML standard:
+	    mc  mn          label harmony_layer
+	72  39  38  empty_harmony             1
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.beethoven_piano_sonatas.02-1 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4937) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            0a         {             4a         }
+	            8a         {            19a         }
+	           20a         {            32a        }{
+	           32a        }{            46a        }{
+	           46a        }{            58a         }
+	           58a         {            75a         }
+	           83a         {            92a        }{
+	           92a        }{           112a         }
+	          113a         {             4b         }
+	            8b         {            19b         }
+	           20b         {            32b        }{
+	           32b        }{            46b        }{
+	           46b        }{            58b         }
+	           58b         {            75b         }
+	           83b         {            92b        }{
+	           92b        }{           112b         }
+	          121a         {           130a        }{
+	          130a        }{           156a         }
+	          160a         {           170a        }{
+	          170a        }{           180a         }
+	          180a         {           223a         }
+	          224a         {           228a         }
+	          232a         {           243a         }
+	          244a         {           251a        }{
+	          248a         {           265a        }{
+	          251a        }{           277a         }
+	          265a        }{           294a         }
+	          277a         {           311a        }{
+	          302a         {           323a        }{
+	          311a        }{           331a         }
+	          323a        }{           130b        }{
+	          336a         {           156b         }
+	          130b        }{           170b        }{
+	          160b         {           180b         }
+	          170b        }{           223b         }
+	          180b         {           228b         }
+	          224b         {           243b         }
+	          232b         {           251b        }{
+	          244b         {           265b        }{
+	          248b         {           277b         }
+	          251b        }{           294b         }
+	          265b        }{           311b        }{
+	          277b         {           323b        }{
+	          302b         {           331b         }
+	          311b        }{            NaN       NaN
+	          323b        }{            NaN       NaN
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.beethoven_piano_sonatas.02-2 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4937) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             4a         }
+	            5a         {             8a         }
+	            8a         {            13a        }{
+	           13a        }{            19a         }
+	           19a         {            23a         }
+	           23a         {            31a         }
+	           32a         {            35a         }
+	           36a         {            39a         }
+	           39a         {            44a        }{
+	           44a        }{            50a         }
+	           50a         {            54a         }
+	           54a         {            58a        }{
+	           58a        }{            68a        }{
+	           68a        }{            71a         }
+	           75a         {            75a         }
+	           NaN       NaN            79a         }
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.beethoven_piano_sonatas.02-4 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4937) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             4a         }
+	            5a         {             8a         }
+	            8a         {            12a         }
+	           13a         {            16a         }
+	           16a         {            26a        }{
+	           26a        }{            39a         }
+	           41a         {            44a         }
+	           45a         {            48a         }
+	           48a         {            52a         }
+	           53a         {            56a         }
+	           56a         {            61a        }{
+	           61a        }{            66a         }
+	           61b        }{            61b        }{
+	           67a         {            66b         }
+	           75a        }{            75a        }{
+	           80a         {            79a         }
+	           88a        }{            88a        }{
+	          100a         {            94a         }
+	          104a         {           103a         }
+	          107a         {           107a         }
+	          112a         {           111a         }
+	          115a         {           115a         }
+	          123a        }{           123a        }{
+	          135a        }{           135a        }{
+	          139a         {           138a         }
+	          148a        }{           148a        }{
+	          156a        }{           156a        }{
+	          173a         {           169a         }
+	          180a        }{           176a         }
+	           NaN       NaN           180a        }{
+	           NaN       NaN           187a         }
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.beethoven_piano_sonatas.03-2 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4937) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             4a         }
+	            5a         {             8a         }
+	           11a        }{            11a        }{
+	           19a        }{            19a        }{
+	           25a        }{            25a        }{
+	           29a        }{            29a        }{
+	           32a        }{            32a        }{
+	           37a        }{            37a        }{
+	           43a        }{            43a        }{
+	           47a         {            46a         }
+	           50a         {            50a         }
+	           53a        }{            53a        }{
+	           55a         {            54a         }
+	           59a        }{            59a        }{
+	           62a        }{            62a        }{
+	           66a         {            66a         }
+	           71a         {            70a         }
+	           77a         {            77a         }
+	           NaN       NaN            82a         }
+DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 206: ') ms3.Parse.beethoven_piano_sonatas.05-1 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 3987) features2tpcs():
+	MC 206: #vii in major context corrected to vii.
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.beethoven_piano_sonatas.06-1 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4937) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            0a         {            12a         }
+	           12a         {            18a         }
+	           18a         {            26a         }
+	           27a         {            36a         }
+	           38a         {            41a         }
+	           41a         {            55a        }{
+	           55a        }{            59a        }{
+	           59a        }{            63a        }{
+	           63a        }{            66a         }
+	           66a         {            12b         }
+	           12b         {            18b         }
+	           18b         {            26b         }
+	           27b         {            36b         }
+	           38b         {            41b         }
+	           41b         {            55b        }{
+	           55b        }{            59b        }{
+	           59b        }{            63b        }{
+	           63b        }{            66b         }
+	           67a         {            76a         }
+	           77a         {           116a         }
+	          117a         {           129a         }
+	          130a         {           133a         }
+	          136a         {           144a         }
+	          144a         {           152a         }
+	          153a         {           162a        }{
+	          162a        }{           168a         }
+	          170a         {           173a         }
+	          173a         {           187a         }
+	          187a         {           189a        }{
+	          189a        }{           193a        }{
+	          193a        }{           197a        }{
+	          197a        }{           199a         }
+	          197a         {           202a         }
+	          199a         {            76b         }
+	           67b         {           116b         }
+	           77b         {           129b         }
+	          117b         {           133b         }
+	          130b         {           144b         }
+	          136b         {           152b         }
+	          144b         {           162b        }{
+	          153b         {           168b         }
+	          162b        }{           173b         }
+	          170b         {           187b         }
+	          173b         {           189b        }{
+	          187b         {           193b        }{
+	          189b        }{           197b        }{
+	          193b        }{           199b         }
+	          197b        }{           202b         }
+	          197b         {            NaN       NaN
+	          199b         {            NaN       NaN
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.beethoven_piano_sonatas.07-1 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4937) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            0a         {             4a         }
+	            4a         {            10a         }
+	           10a         {            16a         }
+	           16a         {            22a         }
+	           22a         {            30a         }
+	           30a         {            53a         }
+	           53a         {            60a         }
+	           60a         {            65a         }
+	           66a         {            70a         }
+	           70a         {            93a         }
+	           93a         {            97a         }
+	           97a         {           101a         }
+	          101a         {           105a         }
+	          105a         {           109a         }
+	          109a         {           113a         }
+	          113a         {           119a         }
+	          124a         {             4b         }
+	            4b         {            10b         }
+	           10b         {            16b         }
+	           16b         {            22b         }
+	           22b         {            30b         }
+	           30b         {            53b         }
+	           53b         {            60b         }
+	           60b         {            65b         }
+	           66b         {            70b         }
+	           70b         {            93b         }
+	           93b         {            97b         }
+	           97b         {           101b         }
+	          101b         {           105b         }
+	          105b         {           109b         }
+	          109b         {           113b         }
+	          113b         {           119b         }
+	          124b         {           132a         }
+	          133a         {           137a         }
+	          137a         {           141a         }
+	          141a         {           149a         }
+	          149a         {           157a         }
+	          157a         {           167a         }
+	          183a         {           179a         }
+	          187a         {           187a         }
+	          193a         {           193a         }
+	          204a         {           203a         }
+	          212a         {           212a         }
+	          233a         {           233a         }
+	          240a         {           240a         }
+	          247a         {           246a         }
+	          251a         {           251a         }
+	          274a         {           274a         }
+	          278a         {           278a         }
+	          282a         {           282a         }
+	          286a         {           286a         }
+	          290a         {           290a         }
+	          294a        }{           294a        }{
+	          298a         {           298a         }
+	          327a         {           327a         }
+	          333a        }{           333a        }{
+	           NaN       NaN           341a         }
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.beethoven_piano_sonatas.07-3 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4937) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            0a         {             8a         }
+	            8a         {            16a         }
+	           16a         {             8b         }
+	            8b         {            16b         }
+	           16b         {            25a        }{
+	           25a        }{            31a         }
+	           32a         {            43a         }
+	           43a         {            54a         }
+	           54a         {            25b        }{
+	           25b        }{            31b         }
+	           32b         {            43b         }
+	           43b         {            54b         }
+	           54b         {            69a         }
+	           70a         {            84a         }
+	           78a         {            NaN       NaN
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.beethoven_piano_sonatas.07-4 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4937) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            0a         {             4a         }
+	            4a         {             7a         }
+	            7a         {             9a        }{
+	            9a        }{            24a         }
+	           24a         {            28a         }
+	           28a         {            31a         }
+	           31a         {            33a        }{
+	           33a        }{            45a         }
+	           45a         {            48a         }
+	           55a         {            55a         }
+	           62a         {            59a         }
+	           64a        }{            62a         }
+	           68a        }{            64a        }{
+	           75a         {            68a        }{
+	           83a         {            74a         }
+	           87a         {            83a         }
+	           90a         {            87a         }
+	           92a        }{            90a         }
+	           99a         {            92a        }{
+	          106a        }{            99a         }
+	           NaN       NaN           106a        }{
+	           NaN       NaN           112a         }
+DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.beethoven_piano_sonatas.08-1 -- /usr/local/lib/python3.10/site-packages/ms3/expand_dcml.py (line 145) expand_labels():
+	propagate_pedal() failed with
+	17 organ points started, 16 ended:
+	     mc  pedal    mc pedalend
+	0    12      i    16        ]
+	1    20      i    24        ]
+	2    36      V    39        ]
+	3    40     VI    42        ]
+	4    44      V    50        ]
+	5    52      V    60        ]
+	6    64  V/VII    72        ]
+	7   122      I   126        ]
+	8   140      i   144        ]
+	9   146      V   176        ]
+	10  170      V   184        ]
+	11  178      V   202        ]
+	12  198      i   210        ]
+	13  206      i   232        ]
+	14  222      V   244        ]
+	15  236      V   292        ]
+	16  288      i  <NA>      NaN
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.beethoven_piano_sonatas.08-1 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4937) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             1a         }
+	            1a         {             2a         }
+	            2a         {             5a        }{
+	            5a        }{            11a        }{
+	           11a        }{            19a        }{
+	           19a        }{            27a        }{
+	           27a        }{            31a        }{
+	           31a        }{            35a        }{
+	           35a        }{            37a         }
+	           38a         {            41a         }
+	           42a         {            49a         }
+	           51a         {            89a        }{
+	           89a        }{           101a        }{
+	          101a        }{           113a        }{
+	          113a        }{           117a        }{
+	          117a        }{           121a        }{
+	          121a        }{           132a         }
+	            1b         {             1b         }
+	            1b         {             2b         }
+	            2b         {             5b        }{
+	            5b        }{            11b        }{
+	           11b        }{            19b        }{
+	           19b        }{            27b        }{
+	           27b        }{            31b        }{
+	           31b        }{            35b        }{
+	           35b        }{            37b         }
+	           38b         {            41b         }
+	           42b         {            49b         }
+	           51b         {            89b        }{
+	           89b        }{           101b        }{
+	          101b        }{           113b        }{
+	          113b        }{           117b        }{
+	          117b        }{           121b        }{
+	          121b        }{           132b         }
+	          133a         {           133a         }
+	          133a         {           134a         }
+	          134a         {           136a         }
+	          137a         {           139a        }{
+	          139a        }{           145a        }{
+	          145a        }{           167a         }
+	          195a         {           175a         }
+	          203a        }{           183a         }
+	          221a         {           203a        }{
+	          253a        }{           219a         }
+	          265a        }{           253a        }{
+	          277a        }{           265a        }{
+	          281a        }{           277a        }{
+	          285a        }{           281a        }{
+	          295a         {           285a        }{
+	          296a         {           293a         }
+	          297a         {           295a         }
+	          299a        }{           296a         }
+	           NaN       NaN           299a        }{
+	           NaN       NaN           309a         }
+DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.beethoven_piano_sonatas.09-1 -- /usr/local/lib/python3.10/site-packages/ms3/expand_dcml.py (line 145) expand_labels():
+	propagate_pedal() failed with
+	10 organ points started, 9 ended:
+	    mc pedal    mc pedalend
+	0    1     I     4        ]
+	1   13     I    16        ]
+	2   17     V    21        ]
+	3   61     I    63        ]
+	4   62     I    91        ]
+	5   82     V    95        ]
+	6   92     I   107        ]
+	7  104   bVI   113        ]
+	8  108     V   162        ]
+	9  156     I  <NA>      NaN
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.beethoven_piano_sonatas.16-2 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4937) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             8a         }
+	            9a         {            16a         }
+	           27a         {            26a         }
+	           35a         {            34a         }
+	           41a        }{            41a        }{
+	           53a        }{            53a        }{
+	           58a        }{            58a        }{
+	           65a        }{            65a        }{
+	           73a         {            72a         }
+	           81a         {            80a         }
+	           91a         {            90a         }
+	           99a         {            98a         }
+	          104a         {           103a         }
+	          108a        }{           108a        }{
+	          116a         {           115a         }
+	           NaN       NaN           119a         }
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.beethoven_piano_sonatas.17-2 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4937) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             8a         }
+	            9a         {            17a        }{
+	           17a        }{            29a         }
+	           23a         {            38a        }{
+	           31a         {            43a        }{
+	           38a        }{            50a         }
+	           43a        }{            59a        }{
+	           51a         {            71a         }
+	           59a        }{            80a        }{
+	           73a         {            89a        }{
+	           80a        }{            98a        }{
+	           89a        }{           103a         }
+	           98a        }{            NaN       NaN
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.beethoven_piano_sonatas.18-1 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4937) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             8a         }
+	           10a         {            17a         }
+	           18a         {            21a         }
+	           22a         {            25a        }{
+	           25a        }{            27a        }{
+	           27a        }{            31a         }
+	           33a         {            44a         }
+	           45a         {            53a         }
+	           57a         {            64a        }{
+	           64a        }{            66a        }{
+	           66a        }{            72a        }{
+	           72a        }{            82a         }
+	           82a         {            86a         }
+	           86a         {             8b         }
+	            1b         {            17b         }
+	           10b         {            21b         }
+	           18b         {            25b        }{
+	           22b         {            27b        }{
+	           25b        }{            31b         }
+	           27b        }{            44b         }
+	           33b         {            53b         }
+	           45b         {            64b        }{
+	           57b         {            66b        }{
+	           64b        }{            72b        }{
+	           66b        }{            82b         }
+	           72b        }{            86b         }
+	           82b         {           100a        }{
+	           86b         {           104a         }
+	          100a        }{           108a         }
+	          105a         {           114a        }{
+	          108a         {           116a         }
+	          114a        }{           122a        }{
+	          116a         {           144a         }
+	          122a        }{           153a         }
+	          146a         {           157a         }
+	          154a         {           161a        }{
+	          158a         {           163a        }{
+	          161a        }{           167a         }
+	          163a        }{           177a         }
+	          169a         {           190a        }{
+	          183a         {           192a        }{
+	          190a        }{           202a        }{
+	          192a        }{           213a         }
+	          202a        }{           217a         }
+	          213a         {           235a         }
+	          217a         {           246a        }{
+	          237a         {           248a        }{
+	          246a        }{           250a        }{
+	          248a        }{           253a         }
+	          250a        }{            NaN       NaN
+DCML_HARMONY_SYNTAX_WARNING (15,) ms3.Parse.beethoven_piano_sonatas.18-4 -- /usr/local/lib/python3.10/site-packages/ms3/annotations.py (line 382) expand_dcml():
+	Score contains 2 labels that don't (and 410 that do) match the DCML standard:
+	      mc  mn          label harmony_layer
+	120  100  97  empty_harmony             1
+	121  100  97  empty_harmony             1
+DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.beethoven_piano_sonatas.20-1 -- /usr/local/lib/python3.10/site-packages/ms3/expand_dcml.py (line 145) expand_labels():
+	propagate_pedal() failed with
+	4 organ points started, 3 ended:
+	    mc pedal    mc pedalend
+	0   49     I    52        ]
+	1   59  V/ii    63        ]
+	2   82     V   121        ]
+	3  116     I  <NA>      NaN
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.beethoven_piano_sonatas.23-1 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4937) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            0a         {             4a         }
+	            4a         {             8a         }
+	            9a         {            10a         }
+	           11a         {            12a         }
+	           12a         {            16a         }
+	           16a         {            24a        }{
+	           24a        }{            27a        }{
+	           27a        }{            35a         }
+	           35a         {            39a         }
+	           39a         {            51a        }{
+	           51a        }{            55a        }{
+	           55a        }{            61a        }{
+	           61a        }{            64a         }
+	           65a         {            70a         }
+	           71a         {            75a         }
+	           76a         {            78a         }
+	           78a         {            83a        }{
+	           83a        }{            93a        }{
+	           93a        }{            97a         }
+	           97a         {           109a         }
+	          109a         {           113a         }
+	          113a         {           117a         }
+	          117a         {           134a         }
+	          135a         {           151a         }
+	          151a         {           163a        }{
+	          163a        }{           166a        }{
+	          166a        }{           174a         }
+	          174a         {           178a         }
+	          178a         {           190a        }{
+	          190a        }{           194a        }{
+	          194a        }{           200a        }{
+	          200a        }{           201a        }{
+	          201a        }{           202a        }{
+	          202a        }{           203a        }{
+	          203a        }{           210a         }
+	          204a         {           238a         }
+	          210a         {           239a         }
+	          238a         {           249a        }{
+	          239a         {           252a        }{
+	          249a        }{           257a         }
+	          252a        }{           262a         }
+	          257a         {            NaN       NaN
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.beethoven_piano_sonatas.24-2 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4937) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             4a         }
+	            5a         {             8a         }
+	            9a         {            12a        }{
+	           12a        }{            22a         }
+	           32a         {            35a         }
+	           36a         {            39a         }
+	           40a         {            43a        }{
+	           43a        }{            51a         }
+	           57a         {            61a        }{
+	           61a        }{            65a        }{
+	           65a        }{            74a         }
+	           89a         {            92a         }
+	           93a         {            96a         }
+	           97a         {           100a        }{
+	          100a        }{           110a         }
+	          116a         {           120a        }{
+	          120a        }{           133a         }
+	          150a         {           153a         }
+	          154a         {           157a         }
+	          161a        }{           161a        }{
+	          163a        }{           163a        }{
+	          178a         {           177a         }
+	           NaN       NaN           183a         }
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.beethoven_piano_sonatas.30-3 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4937) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             4a         }
+	            5a         {             8a         }
+	            1b         {             4b         }
+	            5b         {             8b         }
+	            9a         {            12a         }
+	           13a         {            16a         }
+	            9b         {            12b         }
+	           13b         {            16b         }
+	           17a         {            24a         }
+	           17b         {            24b         }
+	           25a         {            28a         }
+	           28a         {            32a         }
+	           32a         {            28b         }
+	           28b         {            32b         }
+	           33a         {            36a         }
+	           37a         {            40a         }
+	           41a         {            48a         }
+	           49a         {            52a         }
+	           52a         {            60a         }
+	           60a         {            64a         }
+	           65a         {            68a         }
+	           69a         {            72a         }
+	           73a         {            76a         }
+	           76a         {            80a         }
+	           81a         {            84a         }
+	           84a         {            88a         }
+	           88a         {            92a         }
+	           92a         {            96a         }
+	           96a         {           104a         }
+	          104a         {           104b         }
+	          104b         {           108a         }
+	          108a         {           112a         }
+	          112a         {           108b         }
+	          108b         {           112b         }
+	          113a         {           120a         }
+	          121a         {           128a         }
+	          129a         {           132a         }
+	          137a         {           136a         }
+	          141a         {           140a         }
+	          144a         {           144a         }
+	          149a         {           148a         }
+	          152a         {           152a         }
+	          156a         {           156a         }
+	          161a         {           160a         }
+	          164a         {           164a         }
+	          168a         {           168a         }
+	          176a        }{           176a        }{
+	          188a        }{           188a        }{
+	          192a         {           191a         }
+	          196a         {           195a         }
+	          200a         {           199a         }
+	           NaN       NaN           203a         }
+DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 155: ') ms3.Parse.beethoven_piano_sonatas.31-3 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 3987) features2tpcs():
+	MC 155: #vii in major context corrected to vii.
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.beethoven_piano_sonatas.31-3 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4937) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             4a         }
+	            4a         {             6a         }
+	            7a         {            13a        }{
+	           13a        }{            16a         }
+	           16a         {            20a         }
+	           21a         {            24a         }
+	           24a         {            25a         }
+	           25a         {            39a        }{
+	           39a        }{            45a        }{
+	           45a        }{            72a        }{
+	           72a        }{           109a         }
+	          113a         {           118a         }
+	          119a         {           126a         }
+	          135a         {           130a         }
+	          151a         {           151a         }
+	          173a        }{           173a        }{
+	          183a        }{           183a        }{
+	          200a         {           199a         }
+	           NaN       NaN           208a         }
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.beethoven_piano_sonatas.32-1 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4937) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            0a         {             2a         }
+	            2a         {             4a         }
+	            4a         {            11a         }
+	           11a         {            12a         }
+	           13a         {            14a         }
+	           19a         {            29a        }{
+	           29a        }{            31a         }
+	           31a         {            35a        }{
+	           35a        }{            43a        }{
+	           43a        }{            58a        }{
+	           58a        }{            68a         }
+	           68a         {            29b        }{
+	           19b         {            31b         }
+	           29b        }{            35b        }{
+	           31b         {            43b        }{
+	           35b        }{            58b        }{
+	           43b        }{            68b         }
+	           58b        }{            85a        }{
+	           71a         {            91a        }{
+	           85a        }{           134a        }{
+	           91a        }{           145a        }{
+	          134a        }{           156a         }
+	          145a        }{            NaN       NaN
+DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 71: ') ms3.Parse.beethoven_piano_sonatas.32-2 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 3987) features2tpcs():
+	MC 71: #vii in major context corrected to vii.
+DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 52: ') ms3.Parse.beethoven_piano_sonatas.32-2 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 3987) features2tpcs():
+	MC 52: #vii in major context corrected to vii.
