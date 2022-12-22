@@ -50,7 +50,7 @@ If you are only interested in the current version of the corpus, you can simply 
 
 ## Data Formats
 
-Every sonata movement is represented by four files with identical names, each in its own folder. For example, the
+Each piece in this corpus is represented by four files with identical names, each in its own folder. For example, the
 first movement of the first sonata Op. 2 no. 1 has the following files:
 
 * `MS3/01-1.mscx`: Uncompressed MuseScore file including the music and annotation labels.
@@ -106,7 +106,7 @@ This section explains the meaning of the columns contained in `metadata.tsv`.
 | **volta_mcs**          | measure counts of first and second endings                 |
 | **all_notes_qb**       | summed up duration of all notes, measured in quarter notes |
 | **n_onsets**           | number of note onsets                                      |
-| **n_onset_positions**  | number of unique not onsets ("slices")                     |
+| **n_onset_positions**  | number of unique note onsets ("slices")                    |
 
 
 ### Composition information
@@ -170,7 +170,7 @@ For questions, remarks etc., please create an issue and feel free to fork and su
 
 ## License
 
- Creative Commons Attribution-ShareAlike 4.0 International License ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)).
+Creative Commons Attribution-ShareAlike 4.0 International License ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)).
 
 
 ## Naming convention
