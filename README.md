@@ -15,7 +15,7 @@
   * [Generating all TSV files from the scores](#generating-all-tsv-files-from-the-scores)
   * [Questions, Suggestions, Corrections, Bug Reports](#questions-suggestions-corrections-bug-reports)
   * [License](#license)
-* [The 32 sonatas](#the-32-sonatas)
+  * [Naming convention](#naming-convention)
 * [Overview](#overview)
 <!-- TOC -->
 
@@ -84,8 +84,8 @@ to use this code to load any TSV files related to this repository (provided you'
 ```python
 import ms3
 
-labels = ms3.load_tsv('harmonies/K283-1.tsv')
-notes = ms3.load_tsv('notes/K283-1.tsv')
+labels = ms3.load_tsv('harmonies/01-1.tsv')
+notes = ms3.load_tsv('notes/01-1.tsv')
 ```
 
 ## How to read `metadata.tsv`
@@ -114,10 +114,10 @@ This section explains the meaning of the columns contained in `metadata.tsv`.
 | column             | content                   |
 |--------------------|---------------------------|
 | **composer**       | composer name             |
-| **workTitle**      | full sonata title         |
+| **workTitle**      | work title                |
 | **composed_start** | earliest composition date |
 | **composed_end**   | latest composition date   |
-| **workNumber**     | Köchel number             |
+| **workNumber**     | Catalogue number(s)       |
 | **movementNumber** | 1, 2, or 3                |
 | **movementTitle**  | title of the movement     |
 
@@ -131,8 +131,8 @@ This section explains the meaning of the columns contained in `metadata.tsv`.
 | **musescore**   | MuseScore version                                      |
 | **source**      | URL to the first typesetter's file                     |
 | **typesetter**  | first typesetter                                       |
-| **annotator**   | creator of the chord labels                            |
-| **reviewers**   | reviewers of the chord labels                          |
+| **annotators**  | creator(s) of the chord labels                         |
+| **reviewers**   | reviewer(s) of the chord labels                        |
 
 ### Identifiers
 
@@ -173,7 +173,7 @@ For questions, remarks etc., please create an issue and feel free to fork and su
  Creative Commons Attribution-ShareAlike 4.0 International License ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)).
 
 
-# The 32 sonatas
+## Naming convention
 
 The file names listed in the [Overview](#overview) below refer to the following numbering of the sonatas from 1-32.
 For example, the four movements of sonata no. 1 are named `01-1`, `01-2`, `01-3`, and `01-4`.
