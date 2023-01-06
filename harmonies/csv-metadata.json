@@ -1,0 +1,372 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw#",
+    {
+      "@language": "en "
+    }
+  ],
+  "dc:title": "DCML harmony annotations for beethoven_piano_sonatas",
+  "dialect": {
+    "delimiter": "\t"
+  },
+  "dc:description": "One feature matrix per score, containing one line per label. The first columns (until 'label') are the same as in extracted 'labels' tables with the difference that only those harmony labels that match the DCML harmony annotation standard (dcmlab.github.io/standards) are included. Since these follow a specific syntax, they can be split into their components (features) and transformed into scale degrees. For more information, please refer to the docs at https://johentsch.github.io/ms3/columns",
+  "dc:created": "2022-12-22T15:34:24",
+  "dc:creator": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "SoftwareApplication",
+      "@id": "https://github.com/johentsch/ms3",
+      "name": "ms3",
+      "description": "A parser for MuseScore 3 files.",
+      "author": {
+        "name": "Johannes Hentschel",
+        "@id": "https://orcid.org/0000-0002-1986-9545"
+      },
+      "softwareVersion": "1.0.4"
+    }
+  ],
+  "tables": [
+    {
+      "url": "01-1.tsv"
+    },
+    {
+      "url": "01-2.tsv"
+    },
+    {
+      "url": "01-3.tsv"
+    },
+    {
+      "url": "01-4.tsv"
+    },
+    {
+      "url": "02-1.tsv"
+    },
+    {
+      "url": "02-2.tsv"
+    },
+    {
+      "url": "02-3.tsv"
+    },
+    {
+      "url": "02-4.tsv"
+    },
+    {
+      "url": "03-1.tsv"
+    },
+    {
+      "url": "03-2.tsv"
+    },
+    {
+      "url": "03-3.tsv"
+    },
+    {
+      "url": "03-4.tsv"
+    },
+    {
+      "url": "05-1.tsv"
+    },
+    {
+      "url": "05-2.tsv"
+    },
+    {
+      "url": "05-3.tsv"
+    },
+    {
+      "url": "06-1.tsv"
+    },
+    {
+      "url": "06-2.tsv"
+    },
+    {
+      "url": "06-3.tsv"
+    },
+    {
+      "url": "07-1.tsv"
+    },
+    {
+      "url": "07-2.tsv"
+    },
+    {
+      "url": "07-3.tsv"
+    },
+    {
+      "url": "07-4.tsv"
+    },
+    {
+      "url": "08-1.tsv"
+    },
+    {
+      "url": "08-2.tsv"
+    },
+    {
+      "url": "08-3.tsv"
+    },
+    {
+      "url": "09-1.tsv"
+    },
+    {
+      "url": "09-2.tsv"
+    },
+    {
+      "url": "09-3.tsv"
+    },
+    {
+      "url": "10-1.tsv"
+    },
+    {
+      "url": "10-2.tsv"
+    },
+    {
+      "url": "10-3.tsv"
+    },
+    {
+      "url": "16-1.tsv"
+    },
+    {
+      "url": "16-2.tsv"
+    },
+    {
+      "url": "16-3.tsv"
+    },
+    {
+      "url": "17-1.tsv"
+    },
+    {
+      "url": "17-2.tsv"
+    },
+    {
+      "url": "17-3.tsv"
+    },
+    {
+      "url": "18-1.tsv"
+    },
+    {
+      "url": "18-2.tsv"
+    },
+    {
+      "url": "18-3.tsv"
+    },
+    {
+      "url": "18-4.tsv"
+    },
+    {
+      "url": "19-1.tsv"
+    },
+    {
+      "url": "19-2.tsv"
+    },
+    {
+      "url": "20-1.tsv"
+    },
+    {
+      "url": "20-2.tsv"
+    },
+    {
+      "url": "21-1.tsv"
+    },
+    {
+      "url": "21-2.tsv"
+    },
+    {
+      "url": "21-3.tsv"
+    },
+    {
+      "url": "23-1.tsv"
+    },
+    {
+      "url": "23-2.tsv"
+    },
+    {
+      "url": "23-3.tsv"
+    },
+    {
+      "url": "24-1.tsv"
+    },
+    {
+      "url": "24-2.tsv"
+    },
+    {
+      "url": "26-1.tsv"
+    },
+    {
+      "url": "26-2.tsv"
+    },
+    {
+      "url": "26-3.tsv"
+    },
+    {
+      "url": "30-1.tsv"
+    },
+    {
+      "url": "30-2.tsv"
+    },
+    {
+      "url": "30-3.tsv"
+    },
+    {
+      "url": "31-1.tsv"
+    },
+    {
+      "url": "31-2.tsv"
+    },
+    {
+      "url": "31-3.tsv"
+    },
+    {
+      "url": "32-1.tsv"
+    },
+    {
+      "url": "32-2.tsv"
+    }
+  ],
+  "tableSchema": {
+    "columns": [
+      {
+        "titles": "mc",
+        "datatype": "integer",
+        "dc:description": "Measure count."
+      },
+      {
+        "titles": "mn",
+        "datatype": "string",
+        "dc:description": "Measure number."
+      },
+      {
+        "titles": "quarterbeats",
+        "datatype": {
+          "base": "string",
+          "format": "-?\\d+(?:\\/\\d+)?"
+        }
+      },
+      {
+        "titles": "duration_qb",
+        "datatype": "float"
+      },
+      {
+        "titles": "mc_onset",
+        "datatype": {
+          "base": "string",
+          "format": "-?\\d+(?:\\/\\d+)?"
+        },
+        "dc:description": "An event's distance (fraction of a whole note) from the beginning of the MC."
+      },
+      {
+        "titles": "mn_onset",
+        "datatype": {
+          "base": "string",
+          "format": "-?\\d+(?:\\/\\d+)?"
+        },
+        "dc:description": "An event's distance (fraction of a whole note) from the beginning of the MN."
+      },
+      {
+        "titles": "timesig",
+        "datatype": "string"
+      },
+      {
+        "titles": "staff",
+        "datatype": "integer"
+      },
+      {
+        "titles": "voice",
+        "datatype": "integer"
+      },
+      {
+        "titles": "volta",
+        "datatype": "integer"
+      },
+      {
+        "titles": "label",
+        "datatype": "string"
+      },
+      {
+        "titles": "alt_label",
+        "datatype": "string"
+      },
+      {
+        "titles": "globalkey",
+        "datatype": "string"
+      },
+      {
+        "titles": "localkey",
+        "datatype": "string"
+      },
+      {
+        "titles": "pedal",
+        "datatype": "string"
+      },
+      {
+        "titles": "chord",
+        "datatype": "string"
+      },
+      {
+        "titles": "special",
+        "datatype": "string"
+      },
+      {
+        "titles": "numeral",
+        "datatype": "string"
+      },
+      {
+        "titles": "form",
+        "datatype": "string"
+      },
+      {
+        "titles": "figbass",
+        "datatype": "string"
+      },
+      {
+        "titles": "changes",
+        "datatype": "string"
+      },
+      {
+        "titles": "relativeroot",
+        "datatype": "string"
+      },
+      {
+        "titles": "pedalend"
+      },
+      {
+        "titles": "cadence",
+        "datatype": "string"
+      },
+      {
+        "titles": "phraseend",
+        "datatype": "string"
+      },
+      {
+        "titles": "chord_type",
+        "datatype": "string"
+      },
+      {
+        "titles": "globalkey_is_minor",
+        "datatype": "boolean"
+      },
+      {
+        "titles": "localkey_is_minor",
+        "datatype": "boolean"
+      },
+      {
+        "titles": "chord_tones",
+        "datatype": {
+          "base": "string",
+          "format": "\\(-?\\d+, ?-?\\d+\\)"
+        }
+      },
+      {
+        "titles": "added_tones",
+        "datatype": {
+          "base": "string",
+          "format": "\\(-?\\d+, ?-?\\d+\\)"
+        }
+      },
+      {
+        "titles": "root",
+        "datatype": "integer"
+      },
+      {
+        "titles": "bass_note",
+        "datatype": "integer"
+      }
+    ]
+  }
+}
