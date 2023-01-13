@@ -1,0 +1,67 @@
+{
+    "license": "CC-BY-NC-SA-4.0",
+    "description": "<p>This corpus of annotated <a href=\"https://musescore.org\">MuseScore</a> files has been created within the <a href=\"https://github.com/DCMLab/dcml_corpora\">DCML corpus initiative</a> and employs the <a href=\"https://github.com/DCMLab/standards\">DCML harmony annotation standard</a>. It is one out of nine similar corpora that have been grouped together to <a href=\"https://github.com/DCMLab/romantic_piano_corpus\">An Annotated Corpus of Tonal Piano Music from the Long 19th Century</a> which comes with a data report that is currently under review.</p>\n\n<p><strong>Version 1</strong> has been released for submitting it as part of the data report <code>Hentschel, J., Rammos, Y., Neuwirth, M., Rohrmeier, M. (forthcoming). An Annotated Corpus of Tonal Piano Music from the Long 19th Century</code> that accompanies nine corpora grouped under the DOI <a href=\"https://doi.org/10.5281/zenodo.7483349\">10.5281/zenodo.7483349</a>.</p>\n\n<p><strong>Version 1.1</strong> comes with a complete set of metadata and score headers. Among more accurate composition dates, the metadata now include URIs that identify the compositions in terms of the <a href=\"https://viaf.org/\">Virtual International Authority File (VIAF)</a>, <a href=\"https://www.wikidata.org\">Wikidata</a>, <a href=\"https://imslp.org/\">IMSLP</a> and <a href=\"https://musicbrainz.org/\">MusicBrainz</a>. The data has been re-extracted from the scores using <a href=\"https://pypi.org/project/ms3/\">ms3 1.1.1</a>.</p>",
+    "contributors": [
+        {
+            "orcid": "0000-0002-6329-7492",
+            "type": "DataCollector",
+            "name": "Amelia Brey"
+        }
+    ],
+    "title": "Ludwig van Beethoven - Piano Sonatas (A corpus of annotated scores)",
+    "keywords": [
+        "corpora",
+        "symbolic datasets",
+        "scores",
+        "harmony",
+        "grouping",
+        "phrase",
+        "cadence",
+        "piano",
+        "19th century"
+    ],
+    "grants": [
+        {
+            "id": "10.13039/501100001711::105216_182811"
+        }
+    ],
+    "upload_type": "dataset",
+    "version": "v1.1",
+    "communities": [
+        {
+            "identifier": "dcml"
+        }
+    ],
+    "publication_date": "2022-12-22",
+    "creators": [
+        {
+            "orcid": "0000-0002-1986-9545",
+            "affiliation": "\u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne",
+            "name": "Johannes Hentschel"
+        },
+        {
+            "orcid": "0000-0003-1455-5990",
+            "affiliation": "\u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne",
+            "name": "Yannis Rammos"
+        },
+        {
+            "orcid": "0000-0003-1990-052X",
+            "affiliation": "Anton Bruckner University Linz",
+            "name": "Markus Neuwirth"
+        },
+        {
+            "orcid": "0000-0002-4323-7257",
+            "affiliation": "\u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne",
+            "name": "Martin Rohrmeier"
+        }
+    ],
+    "access_right": "open",
+    "related_identifiers": [
+        {
+            "scheme": "url",
+            "identifier": "https://github.com/DCMLab/schumann_kinderszenen/tree/v1.1",
+            "relation": "isSupplementTo"
+        }
+    ]
+}
+

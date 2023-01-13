@@ -19,15 +19,24 @@
 * [Overview](#overview)
 <!-- TOC -->
 
-# Ludwig van Beethoven - Piano Sonatas
+# Ludwig van Beethoven - Piano Sonatas (A corpus of annotated scores)
 
-This corpus has been created within the [DCML corpus initiative](https://github.com/DCMLab/dcml_corpora) and employs
-the [DCML harmony annotation standard](https://github.com/DCMLab/standards).
+This corpus of annotated [MuseScore](https://musescore.org) files has been created within
+the [DCML corpus initiative](https://github.com/DCMLab/dcml_corpora) and employs
+the [DCML harmony annotation standard](https://github.com/DCMLab/standards). It is one out of nine similar corpora that
+have been grouped together
+to [An Annotated Corpus of Tonal Piano Music from the Long 19th Century](https://github.com/DCMLab/romantic_piano_corpus)
+which comes with a data report that is currently under review.
 
-It is part of a larger dataset that has been submitted for publication as 
-`Hentschel, J., Rammos, Y., Neuwirth, M., Rohrmeier, M. (forthcoming). 
-An Annotated Corpus of Tonal Piano Music from the Long 19th Century`.
+**Version 1** has been released for submitting it as part of the data
+report `Hentschel, J., Rammos, Y., Neuwirth, M., Rohrmeier, M. (forthcoming). An Annotated Corpus of Tonal Piano Music from the Long 19th Century`
+that accompanies nine corpora grouped under the DOI [10.5281/zenodo.7483349](https://doi.org/10.5281/zenodo.7483349).
 
+**Version 1.1** comes with a complete set of metadata and score headers. Among more accurate composition dates, the
+metadata now include URIs that identify the compositions in terms of
+the [Virtual International Authority File (VIAF)](https://viaf.org/), [Wikidata](https://www.wikidata.org), [IMSLP](https://imslp.org/)
+and [MusicBrainz](https://musicbrainz.org/). The data has been re-extracted from the scores
+using [ms3 1.1.1](https://pypi.org/project/ms3/).
 
 
 ## Getting the data
@@ -306,4 +315,4 @@ For example, the four movements of sonata no. 1 are named `01-1`, `01-2`, `01-3`
 |32-2     |     177|   869|2.3.0   |Adrian Nagel (2.2.0), Victor Zheng (2.3.0)        |AN                              |
 
 
-*Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.0.4.*
+*Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.1.1.*
