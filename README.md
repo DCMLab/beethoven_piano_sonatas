@@ -1,5 +1,11 @@
+![Version](https://img.shields.io/github/v/release/DCMLab/beethoven_piano_sonatas?display_name=tag)
+[![DOI](https://zenodo.org/badge/383397003.svg)](https://zenodo.org/badge/latestdoi/383397003)
+![GitHub repo size](https://img.shields.io/github/repo-size/DCMLab/beethoven_piano_sonatas)
+![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-9cf)
+
+
 <!-- TOC -->
-* [Ludwig van Beethoven - Piano Sonatas](#ludwig-van-beethoven---piano-sonatas)
+* [Ludwig van Beethoven - Piano Sonatas (A corpus of annotated scores)](#ludwig-van-beethoven---piano-sonatas--a-corpus-of-annotated-scores-)
   * [Getting the data](#getting-the-data)
     * [With full version history](#with-full-version-history)
     * [Without full version history](#without-full-version-history)
