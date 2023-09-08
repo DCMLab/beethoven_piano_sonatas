@@ -1,0 +1,127 @@
+Warnings encountered during the last execution of ms3 review
+============================================================
+
+VOLTAS_WITH_DIFFERING_LENGTHS_WARNING (4, 115) ms3.Parse.beethoven_piano_sonatas.02-1
+	Volta group of MC 115 contains voltas with different lengths: [4, 8] Check for correct computation of MNs and copy this message into an IGNORED_WARNINGS file to make the warning disappear.
+WARNING  ms3.Parse.beethoven_piano_sonatas.02-1
+	The startRepeat in MC 127 is missing its endRepeat.
+	For correction, MC 342 is interpreted as such because it is the last bar of the piece..
+INCORRECT_VOLTA_MN_WARNING (2, 119) ms3.Parse.beethoven_piano_sonatas.02-1
+	MC 119, the 1st measure of a 2nd volta, should have MN 113, not MN 114.
+INCORRECT_VOLTA_MN_WARNING (2, 120) ms3.Parse.beethoven_piano_sonatas.02-1
+	MC 120, the 2nd measure of a 2nd volta, should have MN 113, not MN 115.
+INCORRECT_VOLTA_MN_WARNING (2, 121) ms3.Parse.beethoven_piano_sonatas.02-1
+	MC 121, the 3rd measure of a 2nd volta, should have MN 113, not MN 116.
+INCORRECT_VOLTA_MN_WARNING (2, 122) ms3.Parse.beethoven_piano_sonatas.02-1
+	MC 122, the 4th measure of a 2nd volta, should have MN 113, not MN 117.
+FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.beethoven_piano_sonatas.02-1
+	No metronome mark found in the first measure nor anywhere else in the score.
+DCML_HARMONY_SYNTAX_WARNING (15,) ms3.Parse.beethoven_piano_sonatas.02-1
+	Score contains 1 labels that don't (and 479 that do) match the DCML standard:
+	    mc  mn          label harmony_layer
+	72  39  38  empty_harmony             1
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.beethoven_piano_sonatas.02-1
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            0a         {             4a         }
+	            8a         {            19a         }
+	           20a         {            32a        }{
+	           32a        }{            46a        }{
+	           46a        }{            58a         }
+	           58a         {            75a         }
+	           83a         {            92a        }{
+	           92a        }{           112a         }
+	          113a         {             4b         }
+	            8b         {            19b         }
+	           20b         {            32b        }{
+	           32b        }{            46b        }{
+	           46b        }{            58b         }
+	           58b         {            75b         }
+	           83b         {            92b        }{
+	           92b        }{           112b         }
+	          121a         {           130a        }{
+	          130a        }{           156a         }
+	          160a         {           170a        }{
+	          170a        }{           180a         }
+	          180a         {           223a         }
+	          224a         {           228a         }
+	          232a         {           243a         }
+	          244a         {           251a        }{
+	          248a         {           265a        }{
+	          251a        }{           277a         }
+	          265a        }{           294a         }
+	          277a         {           311a        }{
+	          302a         {           323a        }{
+	          311a        }{           331a         }
+	          323a        }{           130b        }{
+	          336a         {           156b         }
+	          130b        }{           170b        }{
+	          160b         {           180b         }
+	          170b        }{           223b         }
+	          180b         {           228b         }
+	          224b         {           243b         }
+	          232b         {           251b        }{
+	          244b         {           265b        }{
+	          248b         {           277b         }
+	          251b        }{           294b         }
+	          265b        }{           311b        }{
+	          277b         {           323b        }{
+	          302b         {           331b         }
+	          311b        }{            NaN       NaN
+	          323b        }{            NaN       NaN
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 34, '0', 'I') ms3.Parse.beethoven_piano_sonatas.02-1
+	The label 'I' in m. 33, onset 0 (MC 34, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of A.I, it expresses the scale degrees
+	('1', '3', '5') [('A', 'C#', 'E')].
+	The corresponding score segment has 1 within-label and 2 out-of-label note onsets,
+	a ratio of 0.6666666666666666 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 94, '0', 'I') ms3.Parse.beethoven_piano_sonatas.02-1
+	The label 'I' in m. 93, onset 0 (MC 94, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of A.V, it expresses the scale degrees
+	('1', '3', '5') [('E', 'G#', 'B')].
+	The corresponding score segment has 1 within-label and 2 out-of-label note onsets,
+	a ratio of 0.6666666666666666 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 98, '0', 'I') ms3.Parse.beethoven_piano_sonatas.02-1
+	The label 'I' in m. 97, onset 0 (MC 98, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of A.V, it expresses the scale degrees
+	('1', '3', '5') [('E', 'G#', 'B')].
+	The corresponding score segment has 1 within-label and 2 out-of-label note onsets,
+	a ratio of 0.6666666666666666 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 258, '0', 'I') ms3.Parse.beethoven_piano_sonatas.02-1
+	The label 'I' in m. 252, onset 0 (MC 258, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of A.I, it expresses the scale degrees
+	('1', '3', '5') [('A', 'C#', 'E')].
+	The corresponding score segment has 1 within-label and 2 out-of-label note onsets,
+	a ratio of 0.6666666666666666 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 262, '0', 'I') ms3.Parse.beethoven_piano_sonatas.02-1
+	The label 'I' in m. 256, onset 0 (MC 262, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of A.I, it expresses the scale degrees
+	('1', '3', '5') [('A', 'C#', 'E')].
+	The corresponding score segment has 1 within-label and 2 out-of-label note onsets,
+	a ratio of 0.6666666666666666 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 318, '0', 'I') ms3.Parse.beethoven_piano_sonatas.02-1
+	The label 'I' in m. 312, onset 0 (MC 318, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of A.I, it expresses the scale degrees
+	('1', '3', '5') [('A', 'C#', 'E')].
+	The corresponding score segment has 1 within-label and 2 out-of-label note onsets,
+	a ratio of 0.6666666666666666 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 322, '0', 'I') ms3.Parse.beethoven_piano_sonatas.02-1
+	The label 'I' in m. 316, onset 0 (MC 322, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of A.I, it expresses the scale degrees
+	('1', '3', '5') [('A', 'C#', 'E')].
+	The corresponding score segment has 1 within-label and 2 out-of-label note onsets,
+	a ratio of 0.6666666666666666 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.

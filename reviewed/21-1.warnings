@@ -1,0 +1,7 @@
+Warnings encountered during the last execution of ms3 review
+============================================================
+
+INCORRECT_VOLTA_MN_WARNING (2, 88) ms3.Parse.beethoven_piano_sonatas.21-1
+	MC 88, the 1st measure of a 2nd volta, should have MN 86, not MN 87.
+FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.beethoven_piano_sonatas.21-1
+	No metronome mark found in the first measure nor anywhere else in the score.

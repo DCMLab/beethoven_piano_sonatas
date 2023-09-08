@@ -1,0 +1,11 @@
+Warnings encountered during the last execution of ms3 review
+============================================================
+
+INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 109) ms3.Parse.beethoven_piano_sonatas.03-3
+	None of the MCs following the irregular MC 109 complete it.
+	    nominal_duration actual_duration expected_completion    next
+	mc                                                              
+	109              3/4             3/8                 3/8  (110,)
+	110              3/4             3/4                   0  (111,)
+FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.beethoven_piano_sonatas.03-3
+	No metronome mark found in the first measure nor anywhere else in the score.

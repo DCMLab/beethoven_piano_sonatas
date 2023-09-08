@@ -1,0 +1,86 @@
+Warnings encountered during the last execution of ms3 review
+============================================================
+
+VOLTAS_WITH_DIFFERING_LENGTHS_WARNING (4, 33) ms3.Parse.beethoven_piano_sonatas.30-3
+	Volta group of MC 33 contains voltas with different lengths: [2, 1] Check for correct computation of MNs and copy this message into an IGNORED_WARNINGS file to make the warning disappear.
+WARNING  ms3.Parse.beethoven_piano_sonatas.30-3
+	The incorrect structure {1: [117], 2: [119]} of the volta groupa of MC 117 has been corrected to {1: [117, 118], 2: [119]}.
+INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 167) ms3.Parse.beethoven_piano_sonatas.30-3
+	None of the MCs following the irregular MC 167 complete it.
+	    nominal_duration actual_duration expected_completion    next
+	mc                                                              
+	167              9/8             3/4                 3/8  (168,)
+	168              3/4             1/4                 1/2  (169,)
+INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 168) ms3.Parse.beethoven_piano_sonatas.30-3
+	None of the MCs following the irregular MC 168 complete it.
+	    nominal_duration actual_duration expected_completion    next
+	mc                                                              
+	168              3/4             1/4                 1/2  (169,)
+	169              3/4             3/4                   0  (170,)
+INCORRECT_VOLTA_MN_WARNING (2, 110) ms3.Parse.beethoven_piano_sonatas.30-3
+	MC 110, the 2nd measure of a 2nd volta, should have MN 104, not MN 105.
+FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.beethoven_piano_sonatas.30-3
+	No metronome mark found in the first measure nor anywhere else in the score.
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.beethoven_piano_sonatas.30-3
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             4a         }
+	            5a         {             8a         }
+	            1b         {             4b         }
+	            5b         {             8b         }
+	            9a         {            12a         }
+	           13a         {            16a         }
+	            9b         {            12b         }
+	           13b         {            16b         }
+	           17a         {            24a         }
+	           17b         {            24b         }
+	           25a         {            28a         }
+	           28a         {            32a         }
+	           32a         {            28b         }
+	           28b         {            32b         }
+	           33a         {            36a         }
+	           37a         {            40a         }
+	           41a         {            48a         }
+	           49a         {            52a         }
+	           52a         {            60a         }
+	           60a         {            64a         }
+	           65a         {            68a         }
+	           69a         {            72a         }
+	           73a         {            76a         }
+	           76a         {            80a         }
+	           81a         {            84a         }
+	           84a         {            88a         }
+	           88a         {            92a         }
+	           92a         {            96a         }
+	           96a         {           104a         }
+	          104a         {           104b         }
+	          104b         {           108a         }
+	          108a         {           112a         }
+	          112a         {           108b         }
+	          108b         {           112b         }
+	          113a         {           120a         }
+	          121a         {           128a         }
+	          129a         {           132a         }
+	          137a         {           136a         }
+	          141a         {           140a         }
+	          144a         {           144a         }
+	          149a         {           148a         }
+	          152a         {           152a         }
+	          156a         {           156a         }
+	          161a         {           160a         }
+	          164a         {           164a         }
+	          168a         {           168a         }
+	          176a        }{           176a        }{
+	          188a        }{           188a        }{
+	          192a         {           191a         }
+	          196a         {           195a         }
+	          200a         {           199a         }
+	           NaN       NaN           203a         }
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 94, '1/4', 'iii') ms3.Parse.beethoven_piano_sonatas.30-3
+	The label 'iii' in m. 91, onset 1/4 (MC 94, onset 1/4) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of E.I, it expresses the scale degrees
+	('3', '5', '7') [('G#', 'B', 'D#')].
+	The corresponding score segment has 3 within-label and 5 out-of-label note onsets,
+	a ratio of 0.625 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
