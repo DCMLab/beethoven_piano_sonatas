@@ -229,7 +229,7 @@ For example, the four movements of sonata no. 1 are named `01-1`, `01-2`, `01-3`
 | Piano Sonata No.32 in C minor       | Op.111                            |
 
 
-# Overview
+## Overview
 |file_name|measures|labels|standard|                    annotators                    |           reviewers            |
 |---------|-------:|-----:|--------|--------------------------------------------------|--------------------------------|
 |01-1     |     152|   241|2.3.0   |Lars & Ya-Chuan (2.2.0), John Heilig (2.3.0)      |AN                              |
@@ -321,4 +321,4 @@ For example, the four movements of sonata no. 1 are named `01-1`, `01-2`, `01-3`
 |32-2     |     177|   869|2.3.0   |Adrian Nagel (2.2.0), Victor Zheng (2.3.0)        |AN                              |
 
 
-*Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.1.1.*
+*Overview table automatically updated using [ms3](https://johentsch.github.io/ms3/).*
