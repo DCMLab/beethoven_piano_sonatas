@@ -1,0 +1,149 @@
+Warnings encountered during the last execution of ms3 review
+============================================================
+
+FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.beethoven_piano_sonatas.26-3
+	No metronome mark found in the first measure nor anywhere else in the score.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 88, '5/8', 'bVI.V') ms3.Parse.beethoven_piano_sonatas.26-3
+	The label 'bVI.V' in m. 87, onset 5/8 (MC 88, onset 5/8) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of Eb.bVI, it expresses the scale degrees
+	('5', '7', '2') [('Gb', 'Bb', 'Db')].
+	The corresponding score segment has 0 within-label and 8 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 89, '3/8', 'V(64)') ms3.Parse.beethoven_piano_sonatas.26-3
+	The label 'V(64)' in m. 88, onset 3/8 (MC 89, onset 3/8) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of Eb.bVI, it expresses the scale degrees
+	('5', '1', '3') [('Gb', 'Cb', 'Eb')].
+	The corresponding score segment has 0 within-label and 8 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 90, '0', 'V(6#4)') ms3.Parse.beethoven_piano_sonatas.26-3
+	The label 'V(6#4)' in m. 89, onset 0 (MC 90, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of Eb.bVI, it expresses the scale degrees
+	('5', '7', '#1', '3') [('Gb', 'Bb', 'C', 'Eb')].
+	The corresponding score segment has 0 within-label and 8 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 90, '3/8', 'V7') ms3.Parse.beethoven_piano_sonatas.26-3
+	The label 'V7' in m. 89, onset 3/8 (MC 90, onset 3/8) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of Eb.bVI, it expresses the scale degrees
+	('5', '7', '2', '4') [('Gb', 'Bb', 'Db', 'Fb')].
+	The corresponding score segment has 0 within-label and 16 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 91, '3/8', 'V(64)') ms3.Parse.beethoven_piano_sonatas.26-3
+	The label 'V(64)' in m. 90, onset 3/8 (MC 91, onset 3/8) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of Eb.bVI, it expresses the scale degrees
+	('5', '1', '3') [('Gb', 'Cb', 'Eb')].
+	The corresponding score segment has 0 within-label and 8 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 92, '0', 'V7(b9)') ms3.Parse.beethoven_piano_sonatas.26-3
+	The label 'V7(b9)' in m. 91, onset 0 (MC 92, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of Eb.bVI, it expresses the scale degrees
+	('5', '7', '2', '4') [('Gb', 'Bb', 'Db', 'Fb')] plus the added ('b6',) [('Abb',)].
+	The corresponding score segment has 0 within-label and 8 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 92, '3/8', 'V7(9)') ms3.Parse.beethoven_piano_sonatas.26-3
+	The label 'V7(9)' in m. 91, onset 3/8 (MC 92, onset 3/8) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of Eb.bVI, it expresses the scale degrees
+	('5', '7', '2', '4') [('Gb', 'Bb', 'Db', 'Fb')] plus the added ('6',) [('Ab',)].
+	The corresponding score segment has 0 within-label and 16 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 93, '3/8', 'V(64)') ms3.Parse.beethoven_piano_sonatas.26-3
+	The label 'V(64)' in m. 92, onset 3/8 (MC 93, onset 3/8) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of Eb.bVI, it expresses the scale degrees
+	('5', '1', '3') [('Gb', 'Cb', 'Eb')].
+	The corresponding score segment has 0 within-label and 8 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 94, '0', 'V7') ms3.Parse.beethoven_piano_sonatas.26-3
+	The label 'V7' in m. 93, onset 0 (MC 94, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of Eb.bVI, it expresses the scale degrees
+	('5', '7', '2', '4') [('Gb', 'Bb', 'Db', 'Fb')].
+	The corresponding score segment has 0 within-label and 8 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 94, '3/8', 'V2') ms3.Parse.beethoven_piano_sonatas.26-3
+	The label 'V2' in m. 93, onset 3/8 (MC 94, onset 3/8) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of Eb.bVI, it expresses the scale degrees
+	('4', '5', '7', '2') [('Fb', 'Gb', 'Bb', 'Db')].
+	The corresponding score segment has 0 within-label and 11 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 95, '0', 'I6|IAC}{') ms3.Parse.beethoven_piano_sonatas.26-3
+	The label 'I6|IAC}{' in m. 94, onset 0 (MC 95, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of Eb.bVI, it expresses the scale degrees
+	('3', '5', '1') [('Eb', 'Gb', 'Cb')].
+	The corresponding score segment has 0 within-label and 10 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 95, '3/8', 'I') ms3.Parse.beethoven_piano_sonatas.26-3
+	The label 'I' in m. 94, onset 3/8 (MC 95, onset 3/8) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of Eb.bVI, it expresses the scale degrees
+	('1', '3', '5') [('Cb', 'Eb', 'Gb')].
+	The corresponding score segment has 0 within-label and 9 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 96, '0', 'V6') ms3.Parse.beethoven_piano_sonatas.26-3
+	The label 'V6' in m. 95, onset 0 (MC 96, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of Eb.bVI, it expresses the scale degrees
+	('7', '2', '5') [('Bb', 'Db', 'Gb')].
+	The corresponding score segment has 0 within-label and 10 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 96, '3/8', 'V2') ms3.Parse.beethoven_piano_sonatas.26-3
+	The label 'V2' in m. 95, onset 3/8 (MC 96, onset 3/8) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of Eb.bVI, it expresses the scale degrees
+	('4', '5', '7', '2') [('Fb', 'Gb', 'Bb', 'Db')].
+	The corresponding score segment has 0 within-label and 9 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 97, '0', 'I') ms3.Parse.beethoven_piano_sonatas.26-3
+	The label 'I' in m. 96, onset 0 (MC 97, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of Eb.bVI, it expresses the scale degrees
+	('1', '3', '5') [('Cb', 'Eb', 'Gb')].
+	The corresponding score segment has 0 within-label and 19 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 98, '0', 'V') ms3.Parse.beethoven_piano_sonatas.26-3
+	The label 'V' in m. 97, onset 0 (MC 98, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of Eb.bVI, it expresses the scale degrees
+	('5', '7', '2') [('Gb', 'Bb', 'Db')].
+	The corresponding score segment has 0 within-label and 10 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 98, '3/8', 'V2') ms3.Parse.beethoven_piano_sonatas.26-3
+	The label 'V2' in m. 97, onset 3/8 (MC 98, onset 3/8) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of Eb.bVI, it expresses the scale degrees
+	('4', '5', '7', '2') [('Fb', 'Gb', 'Bb', 'Db')].
+	The corresponding score segment has 0 within-label and 10 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 99, '0', 'I6') ms3.Parse.beethoven_piano_sonatas.26-3
+	The label 'I6' in m. 98, onset 0 (MC 99, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of Eb.bVI, it expresses the scale degrees
+	('3', '5', '1') [('Eb', 'Gb', 'Cb')].
+	The corresponding score segment has 0 within-label and 8 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.

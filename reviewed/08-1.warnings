@@ -1,0 +1,174 @@
+Warnings encountered during the last execution of ms3 review
+============================================================
+
+INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 298) ms3.Parse.beethoven_piano_sonatas.08-1
+	None of the MCs following the irregular MC 298 complete it.
+	    nominal_duration actual_duration expected_completion    next
+	mc                                                              
+	298                1           31/32                1/32  (299,)
+	299                1               1                   0  (300,)
+INCORRECT_VOLTA_MN_WARNING (2, 134) ms3.Parse.beethoven_piano_sonatas.08-1
+	MC 134, the 1st measure of a 2nd volta, should have MN 131, not MN 132.
+DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.beethoven_piano_sonatas.08-1
+	propagate_pedal() failed with
+	17 organ points started, 16 ended:
+	     mc  pedal    mc pedalend
+	0    12      i    16        ]
+	1    20      i    24        ]
+	2    36      V    39        ]
+	3    40     VI    42        ]
+	4    44      V    50        ]
+	5    52      V    60        ]
+	6    64  V/VII    72        ]
+	7   122      I   126        ]
+	8   140      i   144        ]
+	9   146      V   176        ]
+	10  170      V   184        ]
+	11  178      V   202        ]
+	12  198      i   210        ]
+	13  206      i   232        ]
+	14  222      V   244        ]
+	15  236      V   292        ]
+	16  288      i  <NA>      NaN
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.beethoven_piano_sonatas.08-1
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             1a         }
+	            1a         {             2a         }
+	            2a         {             5a        }{
+	            5a        }{            11a        }{
+	           11a        }{            19a        }{
+	           19a        }{            27a        }{
+	           27a        }{            31a        }{
+	           31a        }{            35a        }{
+	           35a        }{            37a         }
+	           38a         {            41a         }
+	           42a         {            49a         }
+	           51a         {            89a        }{
+	           89a        }{           101a        }{
+	          101a        }{           113a        }{
+	          113a        }{           117a        }{
+	          117a        }{           121a        }{
+	          121a        }{           132a         }
+	            1b         {             1b         }
+	            1b         {             2b         }
+	            2b         {             5b        }{
+	            5b        }{            11b        }{
+	           11b        }{            19b        }{
+	           19b        }{            27b        }{
+	           27b        }{            31b        }{
+	           31b        }{            35b        }{
+	           35b        }{            37b         }
+	           38b         {            41b         }
+	           42b         {            49b         }
+	           51b         {            89b        }{
+	           89b        }{           101b        }{
+	          101b        }{           113b        }{
+	          113b        }{           117b        }{
+	          117b        }{           121b        }{
+	          121b        }{           132b         }
+	          133a         {           133a         }
+	          133a         {           134a         }
+	          134a         {           136a         }
+	          137a         {           139a        }{
+	          139a        }{           145a        }{
+	          145a        }{           167a         }
+	          195a         {           175a         }
+	          203a        }{           183a         }
+	          221a         {           203a        }{
+	          253a        }{           219a         }
+	          265a        }{           253a        }{
+	          277a        }{           265a        }{
+	          281a        }{           277a        }{
+	          285a        }{           281a        }{
+	          295a         {           285a        }{
+	          296a         {           293a         }
+	          297a         {           295a         }
+	          299a        }{           296a         }
+	           NaN       NaN           299a        }{
+	           NaN       NaN           309a         }
+DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.beethoven_piano_sonatas.08-1
+	propagate_pedal() failed with
+	17 organ points started, 16 ended:
+	     mc  pedal    mc pedalend
+	0    12      i    16        ]
+	1    20      i    24        ]
+	2    36      V    39        ]
+	3    40     VI    42        ]
+	4    44      V    50        ]
+	5    52      V    60        ]
+	6    64  V/VII    72        ]
+	7   122      I   126        ]
+	8   140      i   144        ]
+	9   146      V   176        ]
+	10  170      V   184        ]
+	11  178      V   202        ]
+	12  198      i   210        ]
+	13  206      i   232        ]
+	14  222      V   244        ]
+	15  236      V   292        ]
+	16  288      i  <NA>      NaN
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 36, '1/4', 'viio/V') ms3.Parse.beethoven_piano_sonatas.08-1
+	The label 'viio/V' in m. 35, onset 1/4 (MC 36, onset 1/4) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of c.i, it expresses the scale degrees
+	('#4', '#6', '1') [('F#', 'A', 'C')].
+	The corresponding score segment has 1 within-label and 2 out-of-label note onsets,
+	a ratio of 0.6666666666666666 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 40, '1/4', 'viio64/VI') ms3.Parse.beethoven_piano_sonatas.08-1
+	The label 'viio64/VI' in m. 39, onset 1/4 (MC 40, onset 1/4) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of c.i, it expresses the scale degrees
+	('b2', '5', '7') [('Db', 'G', 'Bb')].
+	The corresponding score segment has 1 within-label and 2 out-of-label note onsets,
+	a ratio of 0.6666666666666666 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 46, '1/2', 'viio64/V') ms3.Parse.beethoven_piano_sonatas.08-1
+	The label 'viio64/V' in m. 45, onset 1/2 (MC 46, onset 1/2) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of c.III, it expresses the scale degrees
+	('1', '#4', '6') [('Eb', 'A', 'C')].
+	The corresponding score segment has 2 within-label and 4 out-of-label note onsets,
+	a ratio of 0.6666666666666666 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 47, '1/2', 'viio/V') ms3.Parse.beethoven_piano_sonatas.08-1
+	The label 'viio/V' in m. 46, onset 1/2 (MC 47, onset 1/2) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of c.III, it expresses the scale degrees
+	('#4', '6', '1') [('A', 'C', 'Eb')].
+	The corresponding score segment has 2 within-label and 4 out-of-label note onsets,
+	a ratio of 0.6666666666666666 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 48, '1/2', 'viio64/V') ms3.Parse.beethoven_piano_sonatas.08-1
+	The label 'viio64/V' in m. 47, onset 1/2 (MC 48, onset 1/2) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of c.III, it expresses the scale degrees
+	('1', '#4', '6') [('Eb', 'A', 'C')].
+	The corresponding score segment has 2 within-label and 4 out-of-label note onsets,
+	a ratio of 0.6666666666666666 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 49, '1/2', 'viio/V') ms3.Parse.beethoven_piano_sonatas.08-1
+	The label 'viio/V' in m. 48, onset 1/2 (MC 49, onset 1/2) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of c.III, it expresses the scale degrees
+	('#4', '6', '1') [('A', 'C', 'Eb')].
+	The corresponding score segment has 2 within-label and 4 out-of-label note onsets,
+	a ratio of 0.6666666666666666 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 140, '1/4', '#viio64') ms3.Parse.beethoven_piano_sonatas.08-1
+	The label '#viio64' in m. 137, onset 1/4 (MC 140, onset 1/4) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of c.#iii, it expresses the scale degrees
+	('4', '#7', '2') [('A', 'D#', 'F#')].
+	The corresponding score segment has 1 within-label and 2 out-of-label note onsets,
+	a ratio of 0.6666666666666666 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 146, '1/4', 'viio64/V') ms3.Parse.beethoven_piano_sonatas.08-1
+	The label 'viio64/V' in m. 143, onset 1/4 (MC 146, onset 1/4) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of c.v, it expresses the scale degrees
+	('1', '#4', '#6') [('G', 'C#', 'E')].
+	The corresponding score segment has 1 within-label and 2 out-of-label note onsets,
+	a ratio of 0.6666666666666666 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.

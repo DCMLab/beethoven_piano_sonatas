@@ -1,0 +1,21 @@
+Warnings encountered during the last execution of ms3 review
+============================================================
+
+FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.beethoven_piano_sonatas.10-3
+	No metronome mark found in the first measure nor anywhere else in the score.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 240, '0', 'V7') ms3.Parse.beethoven_piano_sonatas.10-3
+	The label 'V7' in m. 239, onset 0 (MC 240, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of G.I, it expresses the scale degrees
+	('5', '7', '2', '4') [('D', 'F#', 'A', 'C')].
+	The corresponding score segment has 5 within-label and 9 out-of-label note onsets,
+	a ratio of 0.6428571428571429 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 244, '0', 'V7') ms3.Parse.beethoven_piano_sonatas.10-3
+	The label 'V7' in m. 243, onset 0 (MC 244, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of G.I, it expresses the scale degrees
+	('5', '7', '2', '4') [('D', 'F#', 'A', 'C')].
+	The corresponding score segment has 5 within-label and 9 out-of-label note onsets,
+	a ratio of 0.6428571428571429 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.

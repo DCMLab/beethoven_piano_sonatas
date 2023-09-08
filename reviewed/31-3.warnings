@@ -1,0 +1,91 @@
+Warnings encountered during the last execution of ms3 review
+============================================================
+
+INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 6) ms3.Parse.beethoven_piano_sonatas.31-3
+	None of the MCs following the irregular MC 6 complete it.
+	   nominal_duration actual_duration expected_completion  next
+	mc                                                           
+	6                 1             1/2                 1/2  (7,)
+	7                 1             3/4                 1/4  (8,)
+INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 9) ms3.Parse.beethoven_piano_sonatas.31-3
+	None of the MCs following the irregular MC 9 complete it.
+	   nominal_duration actual_duration expected_completion   next
+	mc                                                            
+	9               3/4             3/8                 3/8  (10,)
+	10              3/4             3/4                   0  (11,)
+FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.beethoven_piano_sonatas.31-3
+	No metronome mark found in the first measure nor anywhere else in the score.
+DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 155: ') ms3.Parse.beethoven_piano_sonatas.31-3
+	MC 155: #vii in major context corrected to vii.
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.beethoven_piano_sonatas.31-3
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             4a         }
+	            4a         {             6a         }
+	            7a         {            13a        }{
+	           13a        }{            16a         }
+	           16a         {            20a         }
+	           21a         {            24a         }
+	           24a         {            25a         }
+	           25a         {            39a        }{
+	           39a        }{            45a        }{
+	           45a        }{            72a        }{
+	           72a        }{           109a         }
+	          113a         {           118a         }
+	          119a         {           126a         }
+	          135a         {           130a         }
+	          151a         {           151a         }
+	          173a        }{           173a        }{
+	          183a        }{           183a        }{
+	          200a         {           199a         }
+	           NaN       NaN           208a         }
+DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 155: ') ms3.Parse.beethoven_piano_sonatas.31-3
+	MC 155: #vii in major context corrected to vii.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 1, '1/4', 'ii6/ii') ms3.Parse.beethoven_piano_sonatas.31-3
+	The label 'ii6/ii' in m. 1, onset 1/4 (MC 1, onset 1/4) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of Ab.I, it expresses the scale degrees
+	('5', '7', '3') [('Eb', 'G', 'C')].
+	The corresponding score segment has 1 within-label and 3 out-of-label note onsets,
+	a ratio of 0.75 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 5, '0', 'V7/bVI') ms3.Parse.beethoven_piano_sonatas.31-3
+	The label 'V7/bVI' in m. 5, onset 0 (MC 5, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of Ab.I, it expresses the scale degrees
+	('b3', '5', 'b7', 'b2') [('Cb', 'Eb', 'Gb', 'Bbb')].
+	The corresponding score segment has 0 within-label and 45 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 6, '0', 'bVI') ms3.Parse.beethoven_piano_sonatas.31-3
+	The label 'bVI' in m. 6, onset 0 (MC 6, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of Ab.I, it expresses the scale degrees
+	('b6', '1', 'b3') [('Fb', 'Ab', 'Cb')].
+	The corresponding score segment has 0 within-label and 5 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 56, '0', 'IV(42)') ms3.Parse.beethoven_piano_sonatas.31-3
+	The label 'IV(42)' in m. 52, onset 0 (MC 56, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of Ab.I, it expresses the scale degrees
+	('5', '7', '1') [('Eb', 'G', 'Ab')].
+	The corresponding score segment has 1 within-label and 4 out-of-label note onsets,
+	a ratio of 0.8 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 62, '1/8', 'vi') ms3.Parse.beethoven_piano_sonatas.31-3
+	The label 'vi' in m. 58, onset 1/8 (MC 62, onset 1/8) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of Ab.I, it expresses the scale degrees
+	('6', '1', '3') [('F', 'Ab', 'C')].
+	The corresponding score segment has 1 within-label and 2 out-of-label note onsets,
+	a ratio of 0.6666666666666666 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 181, '0', 'V43') ms3.Parse.beethoven_piano_sonatas.31-3
+	The label 'V43' in m. 176, onset 0 (MC 181, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of Ab.I, it expresses the scale degrees
+	('2', '4', '5', '7') [('Bb', 'Db', 'Eb', 'G')].
+	The corresponding score segment has 2 within-label and 6 out-of-label note onsets,
+	a ratio of 0.75 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
