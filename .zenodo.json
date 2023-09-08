@@ -1,5 +1,6 @@
 {
     "license": "CC-BY-NC-SA-4.0",
+    "description": "<p>This corpus of annotated <a href=\"https://musescore.org\">MuseScore</a> files has been created within the <a href=\"https://github.com/DCMLab/dcml_corpora\">DCML corpus initiative</a> and employs the <a href=\"https://github.com/DCMLab/standards\">DCML harmony annotation standard</a>. It is one out of nine similar corpora that have been grouped together to <a href=\"https://doi.org/10.5281/zenodo.7473560\">An Annotated Corpus of Tonal Piano Music from the Long 19th Century</a> which comes with a data report that is currently under review.</p>\n\n<p>The dataset lives on GitHub (link under &quot;Related identifiers&quot;) and is stored on Zenodo purely for conservation and automatic DOI generation for new GitHub releases. For technical reasons, we include only brief, generic instructions on how to use the data. For more detailed documentation, please refer to the dataset&#39;s GitHub page.</p>\n\n<p><strong>What is included</strong></p>\n\n<p>The dataset includes annotated MusicScores <strong>.mscx</strong> files that have been created with <a href=\"https://github.com/musescore/MuseScore/releases/tag/v3.6.2\">MuseScore 3.6.2</a> and can be opened with any MuseScore 3, or later version. Apart from that, the score information (measures, notes, harmony labels) have been extracted in the form of TSV files which can be found respectively in the folders <code>measures</code>, <code>notes</code>, and <code>harmonies</code>. They have been extracted with the Python library <a href=\"https://pypi.org/project/ms3/\">ms3</a> and its documentation has a <a href=\"https://ms3.readthedocs.io/columns\">column glossary for looking up the meaning of a column</a>.</p>\n\n<p><strong>Getting the data</strong></p>\n\n<p>You can download the dataset as a ZIP file from Zenodo or GitHub. Please note that these automatically generated ZIP files do not include submodules, which would appear as empty folders. If you need ZIP files, you will need to find the submodule repositories (e.g. via GitHub) and download them individually.</p>\n\n<p>Apart from that, there is the possibility to git-clone the GitHub repository to your disk. This has the advantage that it allows to version-control any changes you want to make to the dataset and to ask for your changes to be included (&quot;merged&quot;) in a future version.</p>",
     "contributors": [
         {
             "orcid": "0000-0002-6329-7492",
@@ -61,9 +62,18 @@
     "related_identifiers": [
         {
             "scheme": "url",
-            "identifier": "https://github.com/DCMLab/beethoven_sonatas/tree/v2.0",
-            "relation": "isSupplementTo"
+            "identifier": "https://github.com/DCMLab/beethoven_piano_sonatas/tree/v2.0",
+            "relation": "references"
+        },
+        {
+            "scheme": "url",
+            "identifier": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+            "relation": "isDocumentedBy"
+        },
+        {
+            "scheme": "doi",
+            "identifier": "10.5281/zenodo.7483349",
+            "relation": "isPartOf"
         }
     ]
 }
-
