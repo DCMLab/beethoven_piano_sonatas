@@ -108,15 +108,19 @@
     <metaTag name="composer">Ludwig van Beethoven</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2020-05-28</metaTag>
+    <metaTag name="imslp">https://imslp.org/wiki/Klaviersonaten_(Beethoven,_Ludwig_van)</metaTag>
     <metaTag name="lyricist"></metaTag>
-    <metaTag name="movementNumber"></metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="movementNumber">2</metaTag>
+    <metaTag name="movementTitle">Allegro molto e vivace</metaTag>
     <metaTag name="mscVersion">3.02</metaTag>
+    <metaTag name="musicbrainz">https://musicbrainz.org/work/b9d471bf-ac74-3927-abdc-641bf6289ae5</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
     <metaTag name="source">http://musescore.com/user/3797871/scores/6237100</metaTag>
     <metaTag name="transcriber">https://musescore.com/user/3797871</metaTag>
     <metaTag name="translator"></metaTag>
+    <metaTag name="viaf">https://viaf.org/viaf/182690402</metaTag>
+    <metaTag name="wikidata">https://www.wikidata.org/wiki/Q145699</metaTag>
     <metaTag name="workNumber">op.27/1</metaTag>
     <metaTag name="workTitle">Sonata no. 13 'quasi una fantasia'</metaTag>
     <Part>
@@ -132,18 +136,17 @@
           </StaffType>
         <defaultClef>F</defaultClef>
         </Staff>
-      <trackName>グランドピアノ</trackName>
-      <Instrument id="grand-piano">
-        <longName>グランドピアノ</longName>
+      <trackName>Piano</trackName>
+      <Instrument id="piano">
+        <longName>Piano</longName>
         <shortName>Pno.</shortName>
-        <trackName>グランドピアノ</trackName>
+        <trackName>Piano</trackName>
         <minPitchP>21</minPitchP>
         <maxPitchP>108</maxPitchP>
         <minPitchA>21</minPitchA>
         <maxPitchA>108</maxPitchA>
-        <instrumentId>keyboard.piano.grand</instrumentId>
+        <instrumentId>keyboard.piano</instrumentId>
         <clef staff="2">F</clef>
-        <singleNoteDynamics>0</singleNoteDynamics>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>95</gateTime>
@@ -192,6 +195,22 @@
         </Instrument>
       </Part>
     <Staff id="1">
+      <VBox>
+        <height>14.0704</height>
+        <boxAutoSize>0</boxAutoSize>
+        <Text>
+          <style>Title</style>
+          <text>Sonata no. 13 'quasi una fantasia'</text>
+          </Text>
+        <Text>
+          <style>Subtitle</style>
+          <text>2. Allegro molto e vivace</text>
+          </Text>
+        <Text>
+          <style>Composer</style>
+          <text>Ludwig van Beethoven</text>
+          </Text>
+        </VBox>
       <Measure>
         <voice>
           <TimeSig>
@@ -216,10 +235,10 @@
             <family>FreeSerif</family>
             <offset x="0" y="-6"/>
             <text>
-              <b></b>
-              <font face="ScoreText"></font> 
+<b></b>
+<font face="ScoreText"></font> 
               <b><font face="FreeSerif"></font> = 108</b>
-            </text>
+</text>
             </Tempo>
           <Chord>
             <staffMove>1</staffMove>
@@ -770,10 +789,10 @@
             <family>FreeSerif</family>
             <offset x="0" y="-6"/>
             <text>
-              <b></b>
-              <font face="ScoreText"></font> 
+<b></b>
+<font face="ScoreText"></font> 
               <b><font face="FreeSerif"></font> = 106</b>
-            </text>
+</text>
             </Tempo>
           <Chord>
             <durationType>quarter</durationType>
@@ -946,10 +965,10 @@
             <family>FreeSerif</family>
             <offset x="0" y="-6"/>
             <text>
-              <b></b>
-              <font face="ScoreText"></font> 
+<b></b>
+<font face="ScoreText"></font> 
               <b><font face="FreeSerif"></font> = 108</b>
-            </text>
+</text>
             </Tempo>
           <Chord>
             <staffMove>1</staffMove>
@@ -1014,10 +1033,10 @@
             <family>FreeSerif</family>
             <offset x="0" y="-6"/>
             <text>
-              <b></b>
-              <font face="ScoreText"></font> 
+<b></b>
+<font face="ScoreText"></font> 
               <b><font face="FreeSerif"></font> = 106</b>
-            </text>
+</text>
             </Tempo>
           <Spanner type="Volta">
             <prev>
@@ -1071,10 +1090,10 @@
             <family>FreeSerif</family>
             <offset x="0" y="-6"/>
             <text>
-              <b></b>
-              <font face="ScoreText"></font> 
+<b></b>
+<font face="ScoreText"></font> 
               <b><font face="FreeSerif"></font> = 108</b>
-            </text>
+</text>
             </Tempo>
           <Chord>
             <durationType>quarter</durationType>
@@ -2023,10 +2042,10 @@
             <family>FreeSerif</family>
             <offset x="0" y="-6"/>
             <text>
-              <b></b>
-              <font face="ScoreText"></font> 
+<b></b>
+<font face="ScoreText"></font> 
               <b><font face="FreeSerif"></font> = 106</b>
-            </text>
+</text>
             </Tempo>
           <Spanner type="HairPin">
             <prev>
@@ -2212,10 +2231,10 @@
             <family>FreeSerif</family>
             <offset x="0" y="-6"/>
             <text>
-              <b></b>
-              <font face="ScoreText"></font> 
+<b></b>
+<font face="ScoreText"></font> 
               <b><font face="FreeSerif"></font> = 108</b>
-            </text>
+</text>
             </Tempo>
           <Chord>
             <durationType>quarter</durationType>
@@ -2366,10 +2385,10 @@
             <family>FreeSerif</family>
             <offset x="0" y="-6"/>
             <text>
-              <b></b>
-              <font face="ScoreText"></font> 
+<b></b>
+<font face="ScoreText"></font> 
               <b><font face="FreeSerif"></font> = 108</b>
-            </text>
+</text>
             </Tempo>
           <Chord>
             <durationType>quarter</durationType>
@@ -2516,10 +2535,10 @@
             <family>FreeSerif</family>
             <offset x="0" y="-6"/>
             <text>
-              <b></b>
-              <font face="ScoreText"></font> 
+<b></b>
+<font face="ScoreText"></font> 
               <b><font face="FreeSerif"></font> = 110</b>
-            </text>
+</text>
             </Tempo>
           <Rest>
             <durationType>quarter</durationType>
@@ -2645,10 +2664,10 @@
             <family>FreeSerif</family>
             <offset x="0" y="-6"/>
             <text>
-              <b></b>
-              <font face="ScoreText"></font> 
+<b></b>
+<font face="ScoreText"></font> 
               <b><font face="FreeSerif"></font> = 112</b>
-            </text>
+</text>
             </Tempo>
           <Spanner type="HairPin">
             <prev>
@@ -3301,10 +3320,10 @@
             <family>FreeSerif</family>
             <offset x="0" y="-6"/>
             <text>
-              <b></b>
-              <font face="ScoreText"></font> 
+<b></b>
+<font face="ScoreText"></font> 
               <b><font face="FreeSerif"></font> = 110</b>
-            </text>
+</text>
             </Tempo>
           <Spanner type="HairPin">
             <prev>
@@ -3385,10 +3404,10 @@
             <family>FreeSerif</family>
             <offset x="0" y="-6"/>
             <text>
-              <b></b>
-              <font face="ScoreText"></font> 
+<b></b>
+<font face="ScoreText"></font> 
               <b><font face="FreeSerif"></font> = 108</b>
-            </text>
+</text>
             </Tempo>
           <Chord>
             <durationType>quarter</durationType>
@@ -3426,10 +3445,10 @@
             <family>FreeSerif</family>
             <offset x="0" y="-6"/>
             <text>
-              <b></b>
-              <font face="ScoreText"></font> 
+<b></b>
+<font face="ScoreText"></font> 
               <b><font face="FreeSerif"></font> = 110</b>
-            </text>
+</text>
             </Tempo>
           <Spanner type="Volta">
             <prev>
@@ -3505,10 +3524,10 @@
             <family>FreeSerif</family>
             <offset x="0" y="-6"/>
             <text>
-              <b></b>
-              <font face="ScoreText"></font> 
+<b></b>
+<font face="ScoreText"></font> 
               <b><font face="FreeSerif"></font> = 108</b>
-            </text>
+</text>
             </Tempo>
           <Chord>
             <staffMove>1</staffMove>
@@ -3545,10 +3564,10 @@
             <family>FreeSerif</family>
             <offset x="0" y="-6"/>
             <text>
-              <b></b>
-              <font face="ScoreText"></font> 
+<b></b>
+<font face="ScoreText"></font> 
               <b><font face="FreeSerif"></font> = 108</b>
-            </text>
+</text>
             </Tempo>
           <Spanner type="Volta">
             <prev>
@@ -4012,10 +4031,10 @@
             <family>FreeSerif</family>
             <offset x="0" y="-6"/>
             <text>
-              <b></b>
-              <font face="ScoreText"></font> 
+<b></b>
+<font face="ScoreText"></font> 
               <b><font face="FreeSerif"></font> = 106</b>
-            </text>
+</text>
             </Tempo>
           <Rest>
             <durationType>quarter</durationType>
@@ -4157,10 +4176,10 @@
             <family>FreeSerif</family>
             <offset x="0" y="-6"/>
             <text>
-              <b></b>
-              <font face="ScoreText"></font> 
+<b></b>
+<font face="ScoreText"></font> 
               <b><font face="FreeSerif"></font> = 108</b>
-            </text>
+</text>
             </Tempo>
           <Spanner type="Volta">
             <prev>
@@ -4767,11 +4786,11 @@
             <family>FreeSerif</family>
             <offset x="0" y="-6"/>
             <text>
-              <b></b>
-              <font face="ScoreText"></font> 
+<b></b>
+<font face="ScoreText"></font> 
               <b><font face="FreeSerif"></font> = 106
 </b>
-            </text>
+</text>
             </Tempo>
           <Chord>
             <durationType>quarter</durationType>
@@ -4930,10 +4949,10 @@
             <family>FreeSerif</family>
             <offset x="0" y="-6"/>
             <text>
-              <b></b>
-              <font face="ScoreText"></font> 
+<b></b>
+<font face="ScoreText"></font> 
               <b><font face="FreeSerif"></font> = 108</b>
-            </text>
+</text>
             </Tempo>
           <Rest>
             <offset x="0" y="-1"/>
@@ -6900,10 +6919,10 @@
             <family>FreeSerif</family>
             <offset x="0" y="-6"/>
             <text>
-              <b></b>
-              <font face="ScoreText"></font> 
+<b></b>
+<font face="ScoreText"></font> 
               <b><font face="FreeSerif"></font> = 106</b>
-            </text>
+</text>
             </Tempo>
           <Rest>
             <durationType>eighth</durationType>
@@ -7125,10 +7144,10 @@
             <family>FreeSerif</family>
             <offset x="0" y="-6"/>
             <text>
-              <b></b>
-              <font face="ScoreText"></font> 
+<b></b>
+<font face="ScoreText"></font> 
               <b><font face="FreeSerif"></font> = 104</b>
-            </text>
+</text>
             </Tempo>
           <Rest>
             <durationType>eighth</durationType>
@@ -7244,10 +7263,10 @@
             <family>FreeSerif</family>
             <offset x="0" y="-6"/>
             <text>
-              <b></b>
-              <font face="ScoreText"></font> 
+<b></b>
+<font face="ScoreText"></font> 
               <b><font face="FreeSerif"></font> = 100</b>
-            </text>
+</text>
             </Tempo>
           <Chord>
             <durationType>quarter</durationType>
@@ -7360,10 +7379,10 @@
             <family>FreeSerif</family>
             <offset x="0" y="-6"/>
             <text>
-              <b></b>
-              <font face="ScoreText"></font> 
+<b></b>
+<font face="ScoreText"></font> 
               <b><font face="FreeSerif"></font> = 96</b>
-            </text>
+</text>
             </Tempo>
           <Rest>
             <durationType>eighth</durationType>
@@ -7427,10 +7446,10 @@
             <family>FreeSerif</family>
             <offset x="0" y="-6"/>
             <text>
-              <b></b>
-              <font face="ScoreText"></font> 
+<b></b>
+<font face="ScoreText"></font> 
               <b><font face="FreeSerif"></font> = 92</b>
-            </text>
+</text>
             </Tempo>
           <Chord>
             <durationType>eighth</durationType>
@@ -7491,10 +7510,10 @@
             <family>FreeSerif</family>
             <offset x="0" y="-6"/>
             <text>
-              <b></b>
-              <font face="ScoreText"></font> 
+<b></b>
+<font face="ScoreText"></font> 
               <b><font face="FreeSerif"></font> = 88</b>
-            </text>
+</text>
             </Tempo>
           <Chord>
             <durationType>eighth</durationType>
@@ -7559,10 +7578,10 @@
             <family>FreeSerif</family>
             <offset x="0" y="-6"/>
             <text>
-              <b></b>
-              <font face="ScoreText"></font> 
+<b></b>
+<font face="ScoreText"></font> 
               <b><font face="FreeSerif"></font> = 84</b>
-            </text>
+</text>
             </Tempo>
           <Chord>
             <durationType>eighth</durationType>
@@ -7627,10 +7646,10 @@
             <family>FreeSerif</family>
             <offset x="0" y="-6"/>
             <text>
-              <b></b>
-              <font face="ScoreText"></font> 
+<b></b>
+<font face="ScoreText"></font> 
               <b><font face="FreeSerif"></font> = 80</b>
-            </text>
+</text>
             </Tempo>
           <Chord>
             <durationType>quarter</durationType>
