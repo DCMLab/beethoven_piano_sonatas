@@ -34,7 +34,7 @@ For information on how to obtain and use the dataset, please refer to [this docu
   * [Overview](#overview)
 <!-- TOC -->
 
-# Ludwig van Beethoven - Piano Sonatas (A corpus of annotated scores)
+# Ludwig van Beethoven - Piano Sonatas v2.0 (A corpus of annotated scores)
 
 This corpus of annotated [MuseScore](https://musescore.org) files has been created within
 the [DCML corpus initiative](https://github.com/DCMLab/dcml_corpora) and employs
