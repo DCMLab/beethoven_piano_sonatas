@@ -34,7 +34,7 @@ For information on how to obtain and use the dataset, please refer to [this docu
   * [Overview](#overview)
 <!-- TOC -->
 
-# Ludwig van Beethoven - Piano Sonatas (A corpus of annotated scores)
+# Ludwig van Beethoven - Piano Sonatas v2.0 (A corpus of annotated scores)
 
 This corpus of annotated [MuseScore](https://musescore.org) files has been created within
 the [DCML corpus initiative](https://github.com/DCMLab/dcml_corpora) and employs
@@ -277,8 +277,8 @@ For example, the four movements of sonata no. 1 are named `01-1`, `01-2`, `01-3`
 |12-2     |      95|     0|        |                                                  |                                |
 |12-3     |      75|     0|        |                                                  |                                |
 |12-4     |     170|     0|        |                                                  |                                |
-|13-1     |      88|     0|        |                                                  |                                |
-|13-2     |     147|     0|        |                                                  |                                |
+|13-1     |      86|     0|        |                                                  |                                |
+|13-2     |     140|     0|        |                                                  |                                |
 |13-3     |      26|     0|        |                                                  |                                |
 |13-4     |     285|     0|        |                                                  |                                |
 |14-1     |      69|     0|        |                                                  |                                |

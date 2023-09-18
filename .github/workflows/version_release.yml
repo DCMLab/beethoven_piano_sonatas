@@ -1,0 +1,55 @@
+on:
+  pull_request:
+    types:
+      - closed
+
+jobs:
+  if_merged:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout corpus repository
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.MS3_BOT_TOKEN }}
+          ref: "${{ github.event.pull_request.base.ref }}"
+      - name: "Get ms3 package & transform"
+        id: tag
+        continue-on-error: true
+        run: |
+            res=$(gh api -H "Accept: application/vnd.github+json" repos/${{ github.event.repository.full_name }}/releases/latest --jq '.tag_name')
+            echo "tag_version=${res}" >> $GITHUB_OUTPUT
+        env:
+            GITHUB_TOKEN: ${{ secrets.MS3_BOT_TOKEN }}
+
+      - name: "Generate new tag version"
+        id: generate_tag
+        run: |
+            python .github/workflows/helper.py --tag "${{ steps.tag.outputs.tag_version }}"
+
+      - name: Setup Github credentials & push zenodo and citation changes
+        continue-on-error: true
+        run: |
+          git config --global user.name "ms3-bot"
+          git config --global user.email dcml.annotators@epfl.ch
+          git add .zenodo.json CITATION.cff
+          git commit -m 'chore: zenodo and citation files updated with tag: ${{ steps.generate_tag.outputs.new_tag }}'
+          git push
+    
+      - name: "Get ms3 package & apply transform"
+        run: |
+            pip install --upgrade pip
+            pip install ms3
+            ms3 transform -M -N -X -F -D
+
+      - uses: ncipollo/release-action@v1
+        with:
+          artifacts: "${{ github.event.repository.name }}.zip,\
+                      ${{ github.event.repository.name }}.datapackage.json,\
+                      ${{ github.event.repository.name }}.datapackage.errors"
+          body: "${{ github.event.pull_request.body }}"
+          name: "${{ github.event.pull_request.title }}"
+          tag: "${{ steps.generate_tag.outputs.new_tag }}"
+          makeLatest: "latest"
+          commit: "${{ github.event.pull_request.base.ref }}"
