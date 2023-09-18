@@ -97,7 +97,7 @@
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.2</Spatium>
       </Style>
-    <showInvisible>0</showInvisible>
+    <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>0</showFrames>
     <showMargins>0</showMargins>
@@ -39003,6 +39003,24 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <TextLine>
+              <beginTextPlace>auto</beginTextPlace>
+              <lineWidth>0.5</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.43906" y="-0.884335"/>
+                <off2 x="-0.591043" y="0"/>
+                <minDistance>-0.944641</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-3/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Spanner type="Pedal">
             <Pedal>
               <endHookType>1</endHookType>
@@ -39022,38 +39040,9 @@
                 </location>
               </next>
             </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <beginTextPlace>auto</beginTextPlace>
-              <lineWidth>0.5</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="1.43906" y="-0.884335"/>
-                <off2 x="-0.591043" y="0"/>
-                <minDistance>-0.944641</minDistance>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-3/8</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <up>down</up>
-                </Slur>
-              <next>
-                <location>
-                  <measures>1</measures>
-                  <fractions>-3/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
@@ -39066,6 +39055,17 @@
                   <offset x="-0.20558" y="1.64464"/>
                   </SlurSegment>
                 <up>up</up>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>-3/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -39118,7 +39118,7 @@
                 </location>
               </next>
             </Spanner>
-          <Spanner type="Pedal">
+          <Spanner type="TextLine">
             <prev>
               <location>
                 <measures>-1</measures>
@@ -39126,7 +39126,7 @@
                 </location>
               </prev>
             </Spanner>
-          <Spanner type="TextLine">
+          <Spanner type="Pedal">
             <prev>
               <location>
                 <measures>-1</measures>
