@@ -11739,7 +11739,6 @@ Note: Certain fingerings of Beethoven are provided, based on Schenker edition.</
           </voice>
         </Measure>
       <Measure>
-        <irregular>1</irregular>
         <voice>
           <Dynamic>
             <subtype>ff</subtype>
@@ -11807,7 +11806,6 @@ Note: Certain fingerings of Beethoven are provided, based on Schenker edition.</
           </voice>
         </Measure>
       <Measure>
-        <irregular>1</irregular>
         <voice>
           <Tempo>
             <tempo>4.0666700000000002</tempo>
@@ -11900,7 +11898,6 @@ Note: Certain fingerings of Beethoven are provided, based on Schenker edition.</
           </voice>
         </Measure>
       <Measure>
-        <irregular>1</irregular>
         <vspacerDown>4.55723</vspacerDown>
         <voice>
           <SystemText>
@@ -11933,7 +11930,6 @@ Note: Certain fingerings of Beethoven are provided, based on Schenker edition.</
           </voice>
         </Measure>
       <Measure>
-        <irregular>1</irregular>
         <voice>
           <Tempo>
             <tempo>4</tempo>
@@ -11969,7 +11965,6 @@ Note: Certain fingerings of Beethoven are provided, based on Schenker edition.</
           </voice>
         </Measure>
       <Measure>
-        <irregular>1</irregular>
         <voice>
           <Dynamic>
             <subtype>sf</subtype>
@@ -12013,7 +12008,6 @@ Note: Certain fingerings of Beethoven are provided, based on Schenker edition.</
         </Measure>
       <Measure len="7/8">
         <endRepeat>2</endRepeat>
-        <irregular>1</irregular>
         <voice>
           <Rest>
             <durationType>half</durationType>
@@ -12027,6 +12021,7 @@ Note: Certain fingerings of Beethoven are provided, based on Schenker edition.</
           </voice>
         </Measure>
       <Measure>
+        <noOffset>-6</noOffset>
         <voice>
           <Dynamic>
             <subtype>sf</subtype>
@@ -12046,21 +12041,6 @@ Note: Certain fingerings of Beethoven are provided, based on Schenker edition.</
                 </location>
               </prev>
             </Spanner>
-          <Spanner type="Ottava">
-            <Ottava>
-              <subtype>8va</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-3"/>
-                <off2 x="3.12333" y="0"/>
-                </Segment>
-              </Ottava>
-            <next>
-              <location>
-                <measures>4</measures>
-                </location>
-              </next>
-            </Spanner>
           <Spanner type="Volta">
             <Volta>
               <beginText>2.</beginText>
@@ -12071,6 +12051,21 @@ Note: Certain fingerings of Beethoven are provided, based on Schenker edition.</
                 </Segment>
               <endings>2</endings>
               </Volta>
+            <next>
+              <location>
+                <measures>4</measures>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="Ottava">
+            <Ottava>
+              <subtype>8va</subtype>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="-3"/>
+                <off2 x="3.12333" y="0"/>
+                </Segment>
+              </Ottava>
             <next>
               <location>
                 <measures>4</measures>
@@ -12216,14 +12211,14 @@ Note: Certain fingerings of Beethoven are provided, based on Schenker edition.</
             <velocity>33</velocity>
             <offset x="0.268121" y="1.80394"/>
             </Dynamic>
-          <Spanner type="Ottava">
+          <Spanner type="Volta">
             <prev>
               <location>
                 <measures>-4</measures>
                 </location>
               </prev>
             </Spanner>
-          <Spanner type="Volta">
+          <Spanner type="Ottava">
             <prev>
               <location>
                 <measures>-4</measures>

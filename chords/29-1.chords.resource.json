@@ -180,19 +180,11 @@
         "type": "string"
       },
       {
-        "name": "crescendo_line",
+        "name": "Trill:trill",
         "type": "string"
       },
       {
-        "name": "crescendo_hairpin",
-        "type": "string"
-      },
-      {
-        "name": "decrescendo_hairpin",
-        "type": "string"
-      },
-      {
-        "name": "diminuendo_line",
+        "name": "Trill:prallprall",
         "type": "string"
       },
       {
@@ -206,11 +198,19 @@
         "type": "string"
       },
       {
-        "name": "Trill:prallprall",
+        "name": "decrescendo_hairpin",
         "type": "string"
       },
       {
-        "name": "Trill:trill",
+        "name": "crescendo_hairpin",
+        "type": "string"
+      },
+      {
+        "name": "crescendo_line",
+        "type": "string"
+      },
+      {
+        "name": "diminuendo_line",
         "type": "string"
       },
       {
@@ -219,8 +219,8 @@
       }
     ],
     "facet": "chords",
-    "identifier": "xxfeKdCWaAAv8Q",
-    "filepath": "chords/xxfeKdCWaAAv8Q.schema.yaml",
+    "identifier": "ujlsjOk7M7Lc_Q",
+    "filepath": "chords/ujlsjOk7M7Lc_Q.schema.yaml",
     "used_in": "29-1"
   },
   "creator": {
@@ -233,8 +233,6 @@
       "name": "Johannes Hentschel",
       "@id": "https://orcid.org/0000-0002-1986-9545"
     },
-    "softwareVersion": "2.4.4"
-  },
-  "git_revision": "bc23036a68d5bbe4857006d51979d5fbaf33d784",
-  "git_tag": "v2.2-3-gbc23036"
+    "softwareVersion": "0.0.post1.dev1+gee402e3"
+  }
 }
