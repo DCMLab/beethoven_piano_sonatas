@@ -150,11 +150,7 @@
         "description": "IDs of active slurs that a chord falls under, as a tuple of integers."
       },
       {
-        "name": "crescendo_line",
-        "type": "string"
-      },
-      {
-        "name": "diminuendo_line",
+        "name": "Trill:trill",
         "type": "string"
       },
       {
@@ -162,13 +158,17 @@
         "type": "string"
       },
       {
-        "name": "Trill:trill",
+        "name": "diminuendo_line",
+        "type": "string"
+      },
+      {
+        "name": "crescendo_line",
         "type": "string"
       }
     ],
     "facet": "chords",
-    "identifier": "whC3MN_AG57wUg",
-    "filepath": "chords/whC3MN_AG57wUg.schema.yaml",
+    "identifier": "W8e6Ue0aBKWf6g",
+    "filepath": "chords/W8e6Ue0aBKWf6g.schema.yaml",
     "used_in": "16-3"
   },
   "creator": {
@@ -181,8 +181,6 @@
       "name": "Johannes Hentschel",
       "@id": "https://orcid.org/0000-0002-1986-9545"
     },
-    "softwareVersion": "2.4.1"
-  },
-  "git_revision": "46bb7c8c7bddf204e15a123be1d76fa7f09b8f1c",
-  "git_tag": "v2.1"
+    "softwareVersion": "2.4.4"
+  }
 }

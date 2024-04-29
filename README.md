@@ -313,6 +313,10 @@ For example, the four movements of sonata no. 1 are named `01-1`, `01-2`, `01-3`
 |26-1     |     255|   537|2.3.0   |Adrian Nagel (2.2.0), John Heilig (2.3.0)         |AN                              |
 |26-2     |      42|   127|2.3.0   |Adrian Nagel (2.2.0), Amelia Brey (2.3.0)         |AB, Victor Zheng                |
 |26-3     |     196|   317|2.3.0   |Adrian Nagel (2.3.0)                              |VZ                              |
+|29-1     |     405|     0|        |                                                  |                                |
+|29-2     |     175|     0|        |                                                  |                                |
+|29-3     |     187|     0|        |                                                  |                                |
+|29-4     |     400|     0|        |                                                  |                                |
 |30-1     |      99|   252|2.3.0   |Adrian Nagel (2.2.0), Amelia Brey (2.3.0)         |AB, AN                          |
 |30-2     |     177|   320|2.3.0   |Adrian Nagel (2.3.0)                              |Victor Zheng                    |
 |30-3     |     203|   656|2.3.0   |Adrian Nagel (2.3.0)                              |Victor Zheng                    |
@@ -321,10 +325,6 @@ For example, the four movements of sonata no. 1 are named `01-1`, `01-2`, `01-3`
 |31-3     |     212|   644|2.3.0   |Adrian Nagel (2.2.0), Victor Zheng (2.3.0)        |AN                              |
 |32-1     |     157|   576|2.3.0   |Adrian Nagel (2.2.0), Amelia Brey (2.3.0)         |AB, AN                          |
 |32-2     |     177|   869|2.3.0   |Adrian Nagel (2.2.0), Victor Zheng (2.3.0)        |AN                              |
-|29-1     |     405|     0|        |                                                  |                                |
-|29-2     |     175|     0|        |                                                  |                                |
-|29-3     |     187|     0|        |                                                  |                                |
-|29-4     |     400|     0|        |                                                  |                                |
 
 
 *Overview table automatically updated using [ms3](https://ms3.readthedocs.io/).*
