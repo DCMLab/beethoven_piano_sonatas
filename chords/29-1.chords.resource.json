@@ -188,6 +188,10 @@
         "type": "string"
       },
       {
+        "name": "Ottava:8va",
+        "type": "string"
+      },
+      {
         "name": "pedal",
         "title": "Pedal Point",
         "description": "Specified as Roman numeral.",
@@ -202,7 +206,7 @@
         "type": "string"
       },
       {
-        "name": "crescendo_hairpin",
+        "name": "diminuendo_line",
         "type": "string"
       },
       {
@@ -210,17 +214,13 @@
         "type": "string"
       },
       {
-        "name": "diminuendo_line",
-        "type": "string"
-      },
-      {
-        "name": "Ottava:8va",
+        "name": "crescendo_hairpin",
         "type": "string"
       }
     ],
     "facet": "chords",
-    "identifier": "ujlsjOk7M7Lc_Q",
-    "filepath": "chords/ujlsjOk7M7Lc_Q.schema.yaml",
+    "identifier": "LjpoUKQSIiDwHg",
+    "filepath": "chords/LjpoUKQSIiDwHg.schema.yaml",
     "used_in": "29-1"
   },
   "creator": {
@@ -233,6 +233,6 @@
       "name": "Johannes Hentschel",
       "@id": "https://orcid.org/0000-0002-1986-9545"
     },
-    "softwareVersion": "0.0.post1.dev1+gee402e3"
+    "softwareVersion": "2.4.4"
   }
 }
