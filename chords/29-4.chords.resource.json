@@ -174,7 +174,11 @@
         "type": "string"
       },
       {
-        "name": "crescendo_line",
+        "name": "crescendo_hairpin",
+        "type": "string"
+      },
+      {
+        "name": "diminuendo_line",
         "type": "string"
       },
       {
@@ -182,11 +186,11 @@
         "type": "string"
       },
       {
-        "name": "crescendo_hairpin",
+        "name": "crescendo_line",
         "type": "string"
       },
       {
-        "name": "diminuendo_line",
+        "name": "Ottava:8vb",
         "type": "string"
       },
       {
@@ -202,15 +206,11 @@
       {
         "name": "Trill:trill",
         "type": "string"
-      },
-      {
-        "name": "Ottava:8vb",
-        "type": "string"
       }
     ],
     "facet": "chords",
-    "identifier": "s3KninkFLRYA7A",
-    "filepath": "chords/s3KninkFLRYA7A.schema.yaml",
+    "identifier": "u1e524UdUvul0g",
+    "filepath": "chords/u1e524UdUvul0g.schema.yaml",
     "used_in": "29-4"
   },
   "creator": {
@@ -223,8 +223,6 @@
       "name": "Johannes Hentschel",
       "@id": "https://orcid.org/0000-0002-1986-9545"
     },
-    "softwareVersion": "2.4.4"
-  },
-  "git_revision": "bc23036a68d5bbe4857006d51979d5fbaf33d784",
-  "git_tag": "v2.2-3-gbc23036"
+    "softwareVersion": "0.0.post1.dev1+gee402e3"
+  }
 }
