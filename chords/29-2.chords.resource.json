@@ -160,22 +160,6 @@
         "type": "string"
       },
       {
-        "name": "crescendo_line",
-        "type": "string"
-      },
-      {
-        "name": "decrescendo_hairpin",
-        "type": "string"
-      },
-      {
-        "name": "crescendo_hairpin",
-        "type": "string"
-      },
-      {
-        "name": "diminuendo_line",
-        "type": "string"
-      },
-      {
         "name": "pedal",
         "title": "Pedal Point",
         "description": "Specified as Roman numeral.",
@@ -188,11 +172,27 @@
       {
         "name": "Ottava:8va",
         "type": "string"
+      },
+      {
+        "name": "crescendo_hairpin",
+        "type": "string"
+      },
+      {
+        "name": "crescendo_line",
+        "type": "string"
+      },
+      {
+        "name": "diminuendo_line",
+        "type": "string"
+      },
+      {
+        "name": "decrescendo_hairpin",
+        "type": "string"
       }
     ],
     "facet": "chords",
-    "identifier": "jEJ8Ijl83tAZtA",
-    "filepath": "chords/jEJ8Ijl83tAZtA.schema.yaml",
+    "identifier": "AkLRTBEHNjowxg",
+    "filepath": "chords/AkLRTBEHNjowxg.schema.yaml",
     "used_in": "29-2"
   },
   "creator": {
@@ -205,8 +205,6 @@
       "name": "Johannes Hentschel",
       "@id": "https://orcid.org/0000-0002-1986-9545"
     },
-    "softwareVersion": "2.4.4"
-  },
-  "git_revision": "bc23036a68d5bbe4857006d51979d5fbaf33d784",
-  "git_tag": "v2.2-3-gbc23036"
+    "softwareVersion": "0.0.post1.dev1+gee402e3"
+  }
 }

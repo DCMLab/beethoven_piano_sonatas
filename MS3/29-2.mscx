@@ -247,7 +247,7 @@
             <tempo>4</tempo>
             <followText>1</followText>
             <visible>0</visible>
-            <offset x="-16.1895" y="-1.61247"/>
+            <offset x="-8.74192" y="-3.71307"/>
             <text><sym>metNoteHalfUp</sym><sym>space</sym><sym>metAugmentationDot</sym> = 80</text>
             </Tempo>
           <Dynamic>
@@ -433,13 +433,6 @@
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <SystemText>
-            <visible>0</visible>
-            <placement>below</placement>
-            <offset x="-30.4751" y="9.6575"/>
-            <text><i><font size="12"></font>5 - 6 - 7 - (Prestissimo)6 - 6 (end movement)
-5 - 7 - 7 - </i></text>
-            </SystemText>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
@@ -535,10 +528,8 @@
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <o4 x="-0.610538" y="-0.666041"/>
-                  <offset x="-0.218166" y="-0.101389"/>
+                  <offset x="0.111007" y="0.16651"/>
                   </SlurSegment>
-                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -549,8 +540,10 @@
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <offset x="0.111007" y="0.16651"/>
+                  <o4 x="-0.610538" y="-0.666041"/>
+                  <offset x="-0.218166" y="-0.101389"/>
                   </SlurSegment>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -702,9 +695,9 @@
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <offset x="-0.111007" y="2.27564"/>
+                  <o1 x="1.0422" y="0.46899"/>
+                  <offset x="-0.866601" y="-0.762381"/>
                   </SlurSegment>
-                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -715,9 +708,9 @@
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <o1 x="1.0422" y="0.46899"/>
-                  <offset x="-0.866601" y="-0.762381"/>
+                  <offset x="-0.111007" y="2.27564"/>
                   </SlurSegment>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -1792,10 +1785,9 @@
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <o4 x="0.0697813" y="-0.348906"/>
-                  <offset x="0.133228" y="-2.99285"/>
+                  <o4 x="-0.837375" y="0.0348906"/>
+                  <offset x="0.482134" y="0.27279"/>
                   </SlurSegment>
-                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -1806,9 +1798,10 @@
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <o4 x="-0.837375" y="0.0348906"/>
-                  <offset x="0.482134" y="0.27279"/>
+                  <o4 x="0.0697813" y="-0.348906"/>
+                  <offset x="0.133228" y="-2.99285"/>
                   </SlurSegment>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -1961,10 +1954,10 @@
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <o4 x="0.132051" y="-0.308119"/>
-                  <offset x="0.0861049" y="-3.06015"/>
+                  <o4 x="-0.488453" y="0.18317"/>
+                  <offset x="0.259337" y="0.149786"/>
                   </SlurSegment>
-                <up>down</up>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -1975,10 +1968,10 @@
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <o4 x="-0.488453" y="0.18317"/>
-                  <offset x="0.259337" y="0.149786"/>
+                  <o4 x="0.132051" y="-0.308119"/>
+                  <offset x="0.0861049" y="-3.06015"/>
                   </SlurSegment>
-                <up>up</up>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -3939,11 +3932,9 @@
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <o2 x="0.0601296" y="-0.210454"/>
-                  <o3 x="0.0601296" y="-0.210454"/>
-                  <offset x="0.0901944" y="-2.70583"/>
+                  <o2 x="0" y="0.180389"/>
+                  <o3 x="0" y="0.180389"/>
                   </SlurSegment>
-                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -3954,9 +3945,11 @@
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <o2 x="0" y="0.180389"/>
-                  <o3 x="0" y="0.180389"/>
+                  <o2 x="0.0601296" y="-0.210454"/>
+                  <o3 x="0.0601296" y="-0.210454"/>
+                  <offset x="0.0901944" y="-2.70583"/>
                   </SlurSegment>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -5749,7 +5742,6 @@
           </voice>
         </Measure>
       <Measure len="1/2">
-        <irregular>1</irregular>
         <voice>
           <Chord>
             <durationType>eighth</durationType>
@@ -5771,11 +5763,12 @@
             <durationType>quarter</durationType>
             </Rest>
           <BarLine>
-            <visible>0</visible>
+            <subtype>double</subtype>
             </BarLine>
           </voice>
         </Measure>
       <Measure len="1/4">
+        <irregular>1</irregular>
         <voice>
           <KeySig>
             <accidental>-5</accidental>
@@ -13050,11 +13043,12 @@
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <o2 x="1.38769e-18" y="0.281595"/>
-                  <o3 x="1.38769e-18" y="0.281595"/>
-                  <o4 x="-0.724742" y="0.953608"/>
-                  <offset x="-0.190722" y="1.14433"/>
+                  <o2 x="-0.114433" y="0.324361"/>
+                  <o3 x="-0.114433" y="0.324361"/>
+                  <o4 x="-0.800762" y="1.08859"/>
+                  <offset x="-0.219665" y="2.17717"/>
                   </SlurSegment>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -13065,12 +13059,11 @@
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <o2 x="-0.114433" y="0.324361"/>
-                  <o3 x="-0.114433" y="0.324361"/>
-                  <o4 x="-0.800762" y="1.08859"/>
-                  <offset x="-0.219665" y="2.17717"/>
+                  <o2 x="1.38769e-18" y="0.281595"/>
+                  <o3 x="1.38769e-18" y="0.281595"/>
+                  <o4 x="-0.724742" y="0.953608"/>
+                  <offset x="-0.190722" y="1.14433"/>
                   </SlurSegment>
-                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -14205,11 +14198,9 @@
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <o2 x="0.0601296" y="-0.210454"/>
-                  <o3 x="0.0601296" y="-0.210454"/>
-                  <offset x="0.0901944" y="-2.70583"/>
+                  <o2 x="0" y="0.180389"/>
+                  <o3 x="0" y="0.180389"/>
                   </SlurSegment>
-                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -14220,9 +14211,11 @@
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <o2 x="0" y="0.180389"/>
-                  <o3 x="0" y="0.180389"/>
+                  <o2 x="0.0601296" y="-0.210454"/>
+                  <o3 x="0.0601296" y="-0.210454"/>
+                  <offset x="0.0901944" y="-2.70583"/>
                   </SlurSegment>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -15703,13 +15696,8 @@
               <endText></endText>
               <lineVisible>0</lineVisible>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>0</subtype>
                 <offset x="0" y="1.51586"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              <Segment>
-                <subtype>3</subtype>
-                <offset x="0" y="4"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               </HairPin>
@@ -17468,9 +17456,10 @@
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <o4 x="-1.37596" y="0.260317"/>
-                  <offset x="0.706575" y="0.445078"/>
+                  <o4 x="0.466446" y="0.0518273"/>
+                  <offset x="0.362791" y="-3.05781"/>
                   </SlurSegment>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -17481,10 +17470,9 @@
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <o4 x="0.466446" y="0.0518273"/>
-                  <offset x="0.362791" y="-3.05781"/>
+                  <o4 x="-1.37596" y="0.260317"/>
+                  <offset x="0.706575" y="0.445078"/>
                   </SlurSegment>
-                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -17583,9 +17571,9 @@
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <o4 x="-1.00408" y="0.0743763"/>
-                  <offset x="0.446258" y="0.293838"/>
+                  <offset x="0.702279" y="-3.07247"/>
                   </SlurSegment>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -17596,9 +17584,9 @@
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <offset x="0.702279" y="-3.07247"/>
+                  <o4 x="-1.00408" y="0.0743763"/>
+                  <offset x="0.446258" y="0.293838"/>
                   </SlurSegment>
-                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -17700,9 +17688,9 @@
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <o4 x="-0.92638" y="0.138957"/>
-                  <offset x="0.46319" y="0.265781"/>
+                  <offset x="0.702279" y="-2.85301"/>
                   </SlurSegment>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -17713,9 +17701,9 @@
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <offset x="0.702279" y="-2.85301"/>
+                  <o4 x="-0.92638" y="0.138957"/>
+                  <offset x="0.46319" y="0.265781"/>
                   </SlurSegment>
-                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -18060,9 +18048,9 @@
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <o4 x="-1.26751" y="-0.0422502"/>
-                  <offset x="0.422502" y="-0.380252"/>
+                  <offset x="-0.169001" y="1.98576"/>
                   </SlurSegment>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -18073,9 +18061,9 @@
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <offset x="-0.169001" y="1.98576"/>
+                  <o4 x="-1.26751" y="-0.0422502"/>
+                  <offset x="0.422502" y="-0.380252"/>
                   </SlurSegment>
-                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -18349,9 +18337,9 @@
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <o4 x="-0.2726" y="0.116829"/>
-                  <offset x="0.311543" y="-0.247852"/>
+                  <offset x="-0.193407" y="2.22376"/>
                   </SlurSegment>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -18362,9 +18350,9 @@
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <offset x="-0.193407" y="2.22376"/>
+                  <o4 x="-0.2726" y="0.116829"/>
+                  <offset x="0.311543" y="-0.247852"/>
                   </SlurSegment>
-                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -18467,9 +18455,9 @@
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <o4 x="-0.628032" y="0.104672"/>
-                  <offset x="0.418688" y="-0.338788"/>
+                  <offset x="-0.169987" y="2.52015"/>
                   </SlurSegment>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -18480,9 +18468,9 @@
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <offset x="-0.169987" y="2.52015"/>
+                  <o4 x="-0.628032" y="0.104672"/>
+                  <offset x="0.418688" y="-0.338788"/>
                   </SlurSegment>
-                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -18578,10 +18566,8 @@
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <o4 x="-0.702279" y="0"/>
-                  <offset x="0.342339" y="-0.280627"/>
+                  <offset x="-0.201533" y="2.63907"/>
                   </SlurSegment>
-                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -18592,8 +18578,10 @@
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <offset x="-0.201533" y="2.63907"/>
+                  <o4 x="-0.702279" y="0"/>
+                  <offset x="0.342339" y="-0.280627"/>
                   </SlurSegment>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -18836,9 +18824,9 @@
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <o4 x="-0.80063" y="0.0762505"/>
-                  <offset x="0.266877" y="-0.228751"/>
+                  <offset x="-0.152501" y="2.17314"/>
                   </SlurSegment>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -18849,9 +18837,9 @@
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <offset x="-0.152501" y="2.17314"/>
+                  <o4 x="-0.80063" y="0.0762505"/>
+                  <offset x="0.266877" y="-0.228751"/>
                   </SlurSegment>
-                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -21022,7 +21010,7 @@
             <durationType>quarter</durationType>
             </Rest>
           <BarLine>
-            <visible>0</visible>
+            <subtype>double</subtype>
             </BarLine>
           </voice>
         </Measure>
@@ -25284,9 +25272,10 @@
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <o4 x="-1.37596" y="0.260317"/>
-                  <offset x="0.706575" y="0.445078"/>
+                  <o4 x="0.466446" y="0.0518273"/>
+                  <offset x="0.362791" y="-3.05781"/>
                   </SlurSegment>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -25297,10 +25286,9 @@
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <o4 x="0.466446" y="0.0518273"/>
-                  <offset x="0.362791" y="-3.05781"/>
+                  <o4 x="-1.37596" y="0.260317"/>
+                  <offset x="0.706575" y="0.445078"/>
                   </SlurSegment>
-                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -25898,11 +25886,9 @@
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <o2 x="0" y="-0.299716"/>
-                  <o3 x="0" y="-0.299716"/>
-                  <o4 x="-1.26751" y="-0.0422502"/>
-                  <offset x="0.422502" y="-0.380252"/>
+                  <offset x="-0.169001" y="1.98576"/>
                   </SlurSegment>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -25913,9 +25899,11 @@
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <offset x="-0.169001" y="1.98576"/>
+                  <o2 x="0" y="-0.299716"/>
+                  <o3 x="0" y="-0.299716"/>
+                  <o4 x="-1.26751" y="-0.0422502"/>
+                  <offset x="0.422502" y="-0.380252"/>
                   </SlurSegment>
-                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -26189,9 +26177,9 @@
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <o4 x="-0.2726" y="0.116829"/>
-                  <offset x="0.311543" y="-0.247852"/>
+                  <offset x="-0.193407" y="2.22376"/>
                   </SlurSegment>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -26202,9 +26190,9 @@
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <offset x="-0.193407" y="2.22376"/>
+                  <o4 x="-0.2726" y="0.116829"/>
+                  <offset x="0.311543" y="-0.247852"/>
                   </SlurSegment>
-                <up>up</up>
                 </Slur>
               <next>
                 <location>
