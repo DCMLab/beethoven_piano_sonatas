@@ -294,7 +294,7 @@ For example, the four movements of sonata no. 1 are named `01-1`, `01-2`, `01-3`
 |17-1     |     228|   352|2.3.0   |Adrian Nagel (2.2.0), Hanné Becker (2.3.0)        |AN                              |
 |17-2     |     103|   223|2.3.0   |Adrian Nagel (2.3.0)                              |Victor Zheng                    |
 |17-3     |     399|   460|2.3.0   |Adrian Nagel (2.3.0)                              |Victor Zheng                    |
-|18-1     |     253|   269|2.3.0   |Adrian Nagel (2.2.0), Hanné Becker (2.3.0)        |AN                              |
+|18-1     |     253|   268|2.3.0   |Adrian Nagel (2.2.0), Hanné Becker (2.3.0)        |AN                              |
 |18-2     |     169|   273|2.3.0   |Adrian Nagel (2.3.0)                              |Victor Zheng                    |
 |18-3     |      61|   178|2.3.0   |Adrian Nagel (2.3.0)                              |Victor Zheng                    |
 |18-4     |     333|   410|2.3.0   |Adrian Nagel (2.3.0)                              |Victor Zheng                    |
