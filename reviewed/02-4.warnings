@@ -3,40 +3,6 @@ Warnings encountered during the last execution of ms3 review
 
 FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.beethoven_piano_sonatas.02-4
 	No metronome mark found in the first measure nor anywhere else in the score.
-DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.beethoven_piano_sonatas.02-4
-	Phrase beginning and endings don't match:
-	mn_playthrough phraseend mn_playthrough phraseend
-	            1a         {             4a         }
-	            5a         {             8a         }
-	            8a         {            12a         }
-	           13a         {            16a         }
-	           16a         {            26a        }{
-	           26a        }{            39a         }
-	           41a         {            44a         }
-	           45a         {            48a         }
-	           48a         {            52a         }
-	           53a         {            56a         }
-	           56a         {            61a        }{
-	           61a        }{            66a         }
-	           61b        }{            61b        }{
-	           67a         {            66b         }
-	           75a        }{            75a        }{
-	           80a         {            79a         }
-	           88a        }{            88a        }{
-	          100a         {            94a         }
-	          104a         {           103a         }
-	          107a         {           107a         }
-	          112a         {           111a         }
-	          115a         {           115a         }
-	          123a        }{           123a        }{
-	          135a        }{           135a        }{
-	          139a         {           138a         }
-	          148a        }{           148a        }{
-	          156a        }{           156a        }{
-	          173a         {           169a         }
-	          180a        }{           176a         }
-	           NaN       NaN           180a        }{
-	           NaN       NaN           187a         }
 DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 69, '1/4', 'V6') ms3.Parse.beethoven_piano_sonatas.02-4
 	The label 'V6' in m. 68, onset 1/4 (MC 69, onset 1/4) seems not to correspond well to the score (which does not necessarily mean it is wrong).
 	In the context of A.bIII, it expresses the scale degrees
