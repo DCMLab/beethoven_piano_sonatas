@@ -9,31 +9,6 @@ INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 298) ms3.Parse.beethoven_piano_sonat
 	299                1               1                   0  (300,)
 INCORRECT_VOLTA_MN_WARNING (2, 134) ms3.Parse.beethoven_piano_sonatas.08-1
 	MC 134, the 1st measure of a 2nd volta, should have MN 131, not MN 132.
-DCML_HARMONY_SYNTAX_WARNING (15,) ms3.Parse.beethoven_piano_sonatas.08-1
-	Score contains 1 labels that don't (and 503 that do) match the DCML standard:
-	     mc  mn label harmony_layer
-	140  59  58     ]             0
-DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.beethoven_piano_sonatas.08-1
-	propagate_pedal() failed with
-	17 organ points started, 16 ended:
-	     mc  pedal    mc pedalend
-	0    12      i    16        ]
-	1    20      i    24        ]
-	2    36      V    38        ]
-	3    40     VI    42        ]
-	4    44      V    50        ]
-	5    52      V    72        ]
-	6    64  V/VII   126        ]
-	7   122      I   142        ]
-	8   140      i   148        ]
-	9   146      V   176        ]
-	10  170      V   190        ]
-	11  178      V   202        ]
-	12  198      i   210        ]
-	13  206      i   228        ]
-	14  222      V   244        ]
-	15  236      V   292        ]
-	16  288      i  <NA>      NaN
 DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.beethoven_piano_sonatas.08-1
 	Phrase beginning and endings don't match:
 	mn_playthrough phraseend mn_playthrough phraseend
@@ -91,27 +66,6 @@ DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.beethoven_piano_sonatas.08-1
 	          299a        }{           296a         }
 	           NaN       NaN           299a        }{
 	           NaN       NaN           309a         }
-DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.beethoven_piano_sonatas.08-1
-	propagate_pedal() failed with
-	17 organ points started, 16 ended:
-	     mc  pedal    mc pedalend
-	0    12      i    16        ]
-	1    20      i    24        ]
-	2    36      V    38        ]
-	3    40     VI    42        ]
-	4    44      V    50        ]
-	5    52      V    72        ]
-	6    64  V/VII   126        ]
-	7   122      I   142        ]
-	8   140      i   148        ]
-	9   146      V   176        ]
-	10  170      V   190        ]
-	11  178      V   202        ]
-	12  198      i   210        ]
-	13  206      i   228        ]
-	14  222      V   244        ]
-	15  236      V   292        ]
-	16  288      i  <NA>      NaN
 DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 36, '1/4', 'viio/V') ms3.Parse.beethoven_piano_sonatas.08-1
 	The label 'viio/V' in m. 35, onset 1/4 (MC 36, onset 1/4) seems not to correspond well to the score (which does not necessarily mean it is wrong).
 	In the context of c.i, it expresses the scale degrees
