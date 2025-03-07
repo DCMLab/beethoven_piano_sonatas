@@ -3,19 +3,3 @@ Warnings encountered during the last execution of ms3 review
 
 FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.beethoven_piano_sonatas.20-1
 	No metronome mark found in the first measure nor anywhere else in the score.
-DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.beethoven_piano_sonatas.20-1
-	propagate_pedal() failed with
-	4 organ points started, 3 ended:
-	    mc pedal    mc pedalend
-	0   49     I    52        ]
-	1   59  V/ii    63        ]
-	2   82     V   121        ]
-	3  116     I  <NA>      NaN
-DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.beethoven_piano_sonatas.20-1
-	propagate_pedal() failed with
-	4 organ points started, 3 ended:
-	    mc pedal    mc pedalend
-	0   49     I    52        ]
-	1   59  V/ii    63        ]
-	2   82     V   121        ]
-	3  116     I  <NA>      NaN
