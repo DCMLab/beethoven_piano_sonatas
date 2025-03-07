@@ -3,32 +3,6 @@ Warnings encountered during the last execution of ms3 review
 
 FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.beethoven_piano_sonatas.32-1
 	No metronome mark found in the first measure nor anywhere else in the score.
-DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.beethoven_piano_sonatas.32-1
-	Phrase beginning and endings don't match:
-	mn_playthrough phraseend mn_playthrough phraseend
-	            0a         {             2a         }
-	            2a         {             4a         }
-	            4a         {            11a         }
-	           11a         {            12a         }
-	           13a         {            14a         }
-	           19a         {            29a        }{
-	           29a        }{            31a         }
-	           31a         {            35a        }{
-	           35a        }{            43a        }{
-	           43a        }{            58a        }{
-	           58a        }{            68a         }
-	           68a         {            29b        }{
-	           19b         {            31b         }
-	           29b        }{            35b        }{
-	           31b         {            43b        }{
-	           35b        }{            58b        }{
-	           43b        }{            68b         }
-	           58b        }{            85a        }{
-	           71a         {            91a        }{
-	           85a        }{           134a        }{
-	           91a        }{           145a        }{
-	          134a        }{           156a         }
-	          145a        }{            NaN       NaN
 DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 24, '3/4', 'i') ms3.Parse.beethoven_piano_sonatas.32-1
 	The label 'i' in m. 23, onset 3/4 (MC 24, onset 3/4) seems not to correspond well to the score (which does not necessarily mean it is wrong).
 	In the context of c.i, it expresses the scale degrees
