@@ -232,10 +232,6 @@
           <style>Composer</style>
           <text>Ludwig van Beethoven</text>
           </Text>
-        <Text>
-          <style>Lyricist</style>
-          <text></text>
-          </Text>
         </VBox>
       <Measure>
         <voice>
@@ -13072,6 +13068,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V2/V</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V2/V{</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-2.75374"/>
             </Harmony>
           <Chord>
@@ -17082,6 +17084,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I/bVI|DC}{</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I/bVI|DC</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <BeamMode>begin</BeamMode>
