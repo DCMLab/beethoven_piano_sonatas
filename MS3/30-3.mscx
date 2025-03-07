@@ -231,10 +231,6 @@
           <style>Composer</style>
           <text>Ludwig van Beethoven</text>
           </Text>
-        <Text>
-          <style>Lyricist</style>
-          <text></text>
-          </Text>
         </VBox>
       <Measure>
         <voice>
@@ -13173,7 +13169,7 @@
               </Volta>
             <next>
               <location>
-                <measures>1</measures>
+                <measures>2</measures>
                 </location>
               </next>
             </Spanner>
@@ -13387,13 +13383,6 @@
         <endRepeat>2</endRepeat>
         <irregular>1</irregular>
         <voice>
-          <Spanner type="Volta">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
-            </Spanner>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -13589,6 +13578,13 @@
       <Measure>
         <irregular>1</irregular>
         <voice>
+          <Spanner type="Volta">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
