@@ -214,6 +214,10 @@
           <program value="0"/>
           <synti>Fluid</synti>
           </Channel>
+        <Channel name="harmony">
+          <program value="0"/>
+          <synti>Fluid</synti>
+          </Channel>
         </Instrument>
       </Part>
     <Staff id="1">
@@ -605,7 +609,6 @@
               </Spanner>
             <Spanner type="Slur">
               <Slur>
-                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -615,6 +618,7 @@
               </Spanner>
             <Spanner type="Slur">
               <Slur>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -3674,7 +3678,6 @@
             <durationType>whole</durationType>
             <Spanner type="Slur">
               <Slur>
-                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -3685,6 +3688,7 @@
               </Spanner>
             <Spanner type="Slur">
               <Slur>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -5649,7 +5653,6 @@
             <durationType>half</durationType>
             <Spanner type="Slur">
               <Slur>
-                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -5660,6 +5663,7 @@
               </Spanner>
             <Spanner type="Slur">
               <Slur>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -38008,7 +38012,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7(b9^6#4)-#viio(b6)/ii{</name>
+            <name>V7(b9^6#4){-#viio(b6)/ii{</name>
             <offset x="-0.742506" y="-6.83368"/>
             </Harmony>
           <Beam>
@@ -38608,8 +38612,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V[V|HC}</name>
-            <minDistance>-5.90807</minDistance>
-            <offset x="-0.70858" y="-4.75614"/>
+            <offset x="0.256281" y="7.85094"/>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -38647,7 +38650,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7(b9^6#4)-#viio(b6)/ii{</name>
+            <name>V7(b9^6#4){-#viio(b6)/ii{</name>
             <offset x="0" y="-4.08"/>
             </Harmony>
           <Beam>
