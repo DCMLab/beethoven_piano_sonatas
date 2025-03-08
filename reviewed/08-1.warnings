@@ -9,10 +9,6 @@ INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 298) ms3.Parse.beethoven_piano_sonat
 	299                1               1                   0  (300,)
 INCORRECT_VOLTA_MN_WARNING (2, 134) ms3.Parse.beethoven_piano_sonatas.08-1
 	MC 134, the 1st measure of a 2nd volta, should have MN 131, not MN 132.
-DCML_HARMONY_SYNTAX_WARNING (15,) ms3.Parse.beethoven_piano_sonatas.08-1
-	Score contains 1 labels that don't (and 503 that do) match the DCML standard:
-	   mc  mn label harmony_layer
-	0   1   1   ci{             3
 DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 36, '1/4', 'viio/V') ms3.Parse.beethoven_piano_sonatas.08-1
 	The label 'viio/V' in m. 35, onset 1/4 (MC 36, onset 1/4) seems not to correspond well to the score (which does not necessarily mean it is wrong).
 	In the context of c.i, it expresses the scale degrees
