@@ -1,0 +1,126 @@
+cff-version: 1.2.0
+message: "Please cite this dataset using the metadata from 'preferred-citation'."
+title: "Ludwig van Beethoven – Piano Sonatas (A corpus of annotated scores)"
+type: dataset
+abstract: >-
+  <jats:p>This corpus of annotated MuseScore files has been created within the DCML
+  corpus initiative and employs the DCML harmony annotation standard. It is
+  one out of nine similar corpora that have been grouped together to "An
+  Annotated Corpus of Tonal Piano Music from the Long 19th Century" which comes
+  with a data report: https://doi.org/10.18061/emr.v18i1.8903</jats:p>
+doi: 10.5281/ZENODO.7473560
+url: https://zenodo.org/doi/10.5281/zenodo.7473560
+repository: https://github.com/DCMLab/beethoven_piano_sonatas
+identifiers:
+  - type: doi
+    value: 10.5281/ZENODO.7473560
+  - type: url
+    value: https://zenodo.org/doi/10.5281/zenodo.7473560
+authors:
+    - given-names: Johannes
+      family-names: Hentschel
+      email: johannes.hentschel@bruckneruni.at
+      affiliation: "Anton Bruckner University Linz"
+      orcid: "https://orcid.org/0000-0002-1986-9545"
+    - given-names: Yannis
+      family-names: Rammos
+      email: yannis.rammos@epfl.ch
+      affiliation: "École Polytechnique Fédérale de Lausanne"
+      orcid: "https://orcid.org/0000-0003-1455-5990"
+    - given-names: Markus
+      family-names: Neuwirth
+      email: markus.neuwirth@bruckneruni.at
+      affiliation: "Anton Bruckner University Linz"
+      orcid: "https://orcid.org/0000-0003-1990-052X"
+    - given-names: Martin
+      family-names: Rohrmeier
+      email: martin.rohrmeier@epfl.ch
+      affiliation: "École Polytechnique Fédérale de Lausanne"
+      orcid: "https://orcid.org/0000-0002-4323-7257"
+version: v2.3
+date-released: 2024-04-30
+keywords:
+  - "expert-annotated dataset"
+  - "tonal harmony"
+  - "music research"
+  - "music theory"
+  - "music analysis"
+  - "music history"
+  - "corpus studies"
+  - "corpora"
+  - "symbolic dataset"
+  - "scores"
+  - "annotated dataset"
+  - "harmony"
+  - "key annotations"
+  - "chord annotations"
+  - "phrase annotations"
+  - "cadence annotations"
+  - "19th century"
+  - "piano music"
+license: "CC-BY-NC-4.0"
+preferred-citation:
+  authors:
+    - given-names: Johannes
+      family-names: Hentschel
+      email: johannes.hentschel@bruckneruni.at
+      affiliation: "Anton Bruckner University Linz"
+      orcid: "https://orcid.org/0000-0002-1986-9545"
+    - given-names: Yannis
+      family-names: Rammos
+      email: yannis.rammos@epfl.ch
+      affiliation: "École Polytechnique Fédérale de Lausanne"
+      orcid: "https://orcid.org/0000-0003-1455-5990"
+    - given-names: Markus
+      family-names: Neuwirth
+      email: markus.neuwirth@bruckneruni.at
+      affiliation: "Anton Bruckner University Linz"
+      orcid: "https://orcid.org/0000-0003-1990-052X"
+    - given-names: Martin
+      family-names: Rohrmeier
+      email: martin.rohrmeier@epfl.ch
+      affiliation: "École Polytechnique Fédérale de Lausanne"
+      orcid: "https://orcid.org/0000-0002-4323-7257"
+  title: An Annotated Corpus of Tonal Piano Music from the Long 19th Century
+  doi: 10.18061/emr.v18i1.8903
+  url: http://dx.doi.org/10.18061/emr.v18i1.8903
+  identifiers:
+    - type: doi
+      value: 10.18061/emr.v18i1.8903
+    - type: url
+      value: http://dx.doi.org/10.18061/emr.v18i1.8903
+    - type: other
+      value: urn:issn:1559-5749
+  type: article
+  journal: Empirical Musicology Review
+  issn: 1559-5749
+  publisher:
+    name: The Ohio State University Libraries
+  volume: 18
+  issue: 1
+  year: 2024
+  date-published: 2024-01-12
+  month: 1
+  start: 84
+  end: 95
+  abstract: >-
+    <jats:p>We present a dataset of 264 annotated piano pieces of nine
+    composers, composed in the long 19th century
+    (https://doi.org/10.5281/zenodo.7483349). Annotations adhere to the DCML
+    harmony annotation standard and include Roman numerals, phrase boundaries,
+    and cadence types. The scores are encoded in the XML-based MuseScore 3
+    format. Annotations are embedded within the MuseScore files. In addition,
+    all harmony information, alongside key features of the encoded measure and
+    note objects, is provided in the form of plaintext TSV-formatted tables for
+    increased interoperability with other datasets and analysis tools.
+    Annotations were collaboratively created and reviewed by a pool of trained
+    music theorists. Collaboration took place asynchronously online via a
+    semi-automated GitHub-based workflow designed for quality assurance,
+    allowing cycles of revisions and reviews until consensus is reached. The
+    full revision history is retained, providing data for further empirical
+    research on inter-annotator agreement and related topics. We also present
+    descriptive statistics about the nine corpora and the dataset as a whole,
+    including comparisons of pitch-class contents, phrase lengths, modulations,
+    and cadence types. We conclude with a discussion of our musicological
+    principles for corpus building and considerations of
+    representability.</jats:p>
