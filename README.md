@@ -88,7 +88,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License 
 
 ![cc-by-nc-sa-image](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)
 
-## Naming convention
+## File naming convention
 
 The file names listed in the [Overview](#overview) below refer to the following numbering of the sonatas from 1-32.
 For example, the four movements of sonata no. 1 are named `01-1`, `01-2`, `01-3`, and `01-4`.
