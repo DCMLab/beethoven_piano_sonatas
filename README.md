@@ -1,7 +1,8 @@
 ![Version](https://img.shields.io/github/v/release/DCMLab/beethoven_piano_sonatas?display_name=tag)
-[![DOI](https://zenodo.org/badge/383397003.svg)](https://zenodo.org/badge/latestdoi/383397003)
+[![DOI](https://zenodo.org/badge/383397003.svg)](https://doi.org/10.5281/zenodo.7473560)
 ![GitHub repo size](https://img.shields.io/github/repo-size/DCMLab/beethoven_piano_sonatas)
 ![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-9cf)
+
 
 This is a README file for a data repository originating from the [DCML corpus initiative](https://github.com/DCMLab/dcml_corpora)
 and serves as welcome page for both 
@@ -11,77 +12,40 @@ and serves as welcome page for both
 
 For information on how to obtain and use the dataset, please refer to [this documentation page](https://dcmlab.github.io/beethoven_piano_sonatas/introduction).
 
+# Ludwig van Beethoven – Piano Sonatas
 
-<!-- TOC -->
-* [Ludwig van Beethoven - Piano Sonatas (A corpus of annotated scores)](#ludwig-van-beethoven---piano-sonatas-a-corpus-of-annotated-scores)
-  * [Version history](#version-history)
-  * [Getting the data](#getting-the-data)
-    * [With full version history](#with-full-version-history)
-    * [Without full version history](#without-full-version-history)
-  * [Data Formats](#data-formats)
-    * [Opening Scores](#opening-scores)
-    * [Opening TSV files in a spreadsheet](#opening-tsv-files-in-a-spreadsheet)
-    * [Loading TSV files in Python](#loading-tsv-files-in-python)
-  * [How to read `metadata.tsv`](#how-to-read-metadatatsv)
-    * [File information](#file-information)
-    * [Composition information](#composition-information)
-    * [Score information](#score-information)
-    * [Identifiers](#identifiers)
-  * [Generating all TSV files from the scores](#generating-all-tsv-files-from-the-scores)
-  * [Questions, Suggestions, Corrections, Bug Reports](#questions-suggestions-corrections-bug-reports)
-  * [License](#license)
-  * [Naming convention](#naming-convention)
-  * [Overview](#overview)
-<!-- TOC -->
-
-# Ludwig van Beethoven - Piano Sonatas v2.0 (A corpus of annotated scores)
-
-This corpus of annotated [MuseScore](https://musescore.org) files has been created within
-the [DCML corpus initiative](https://github.com/DCMLab/dcml_corpora) and employs
-the [DCML harmony annotation standard](https://github.com/DCMLab/standards). It is one out of nine similar corpora that
-have been grouped together
-to [An Annotated Corpus of Tonal Piano Music from the Long 19th Century](https://doi.org/10.5281/zenodo.7483349)
-which comes with a data report that is currently in press at Empirical Musicology Review.
-
-## Version history
-
-See the [GitHub releases](https://github.com/DCMLab/beethoven_piano_sonatas/releases).
 
 ## Getting the data
 
-### With full version history
-
-The dataset is version-controlled via [git](https://git-scm.com/). In order to download the files with all
-revisions they have gone through, git needs to be installed on your machine. Then you can clone this 
-repository using the command
-
-```bash
-git clone https://github.com/DCMLab/beethoven_piano_sonatas.git
-```
-
-### Without full version history
-
-If you are only interested in the current version of the corpus, you can simply download and unpack
-[this ZIP file](https://github.com/DCMLab/beethoven_piano_sonatas/archive/refs/heads/main.zip).
+* download repository as a [ZIP file](https://github.com/DCMLab/beethoven_piano_sonatas/archive/main.zip)
+* download a [Frictionless Datapackage](https://specs.frictionlessdata.io/data-package/) that includes concatenations
+  of the TSV files in the four folders (`measures`, `notes`, `chords`, and `harmonies`) and a JSON descriptor:
+  * [beethoven_piano_sonatas.zip](https://github.com/DCMLab/beethoven_piano_sonatas/releases/latest/download/beethoven_piano_sonatas.zip)
+  * [beethoven_piano_sonatas.datapackage.json](https://github.com/DCMLab/beethoven_piano_sonatas/releases/latest/download/beethoven_piano_sonatas.datapackage.json)
+* clone the repo: `git clone https://github.com/DCMLab/beethoven_piano_sonatas.git` 
 
 
 ## Data Formats
 
-Each piece in this corpus is represented by four files with identical names, each in its own folder. For example, the
-first movement of the first sonata Op. 2 no. 1 has the following files:
+Each piece in this corpus is represented by five files with identical name prefixes, each in its own folder. 
+For example, the first movement of the first sonata Op. 2 no. 1 has the following files:
 
-* `MS3/01-1.mscx`: Uncompressed MuseScore file including the music and annotation labels.
-* `notes/01-1.tsv`: A table of all note heads contained in the score and their relevant features (not each of them represents an onset, some are tied together)
-* `measures/01-1.tsv`: A table with relevant information about the measures in the score.
-* `harmonies/01-1.tsv`: A list of the included harmony labels (including cadences and phrases) with their positions in
-  the score.
+* `MS3/01-1.mscx`: Uncompressed MuseScore 3.6.2 file including the music and annotation labels.
+* `notes/01-1.notes.tsv`: A table of all note heads contained in the score and their relevant features (not each of them represents an onset, some are tied together)
+* `measures/01-1.measures.tsv`: A table with relevant information about the measures in the score.
+* `chords/01-1.chords.tsv`: A table containing layer-wise unique onset positions with the musical markup (such as dynamics, articulation, lyrics, figured bass, etc.).
+* `harmonies/01-1.harmonies.tsv`: A table of the included harmony labels (including cadences and phrases) with their positions in the score.
+
+Each TSV file comes with its own JSON descriptor that describes the meanings and datatypes of the columns ("fields") it contains,
+follows the [Frictionless specification](https://specs.frictionlessdata.io/tabular-data-resource/),
+and can be used to validate and correctly load the described file. 
 
 ### Opening Scores
 
 After navigating to your local copy, you can open the scores in the folder `MS3` with the free and open source score
 editor [MuseScore](https://musescore.org). Please note that the scores have been edited, annotated and tested with
 [MuseScore 3.6.2](https://github.com/musescore/MuseScore/releases/tag/v3.6.2). 
-MuseScore 4 has since been released and preliminary tests suggest that it renders them correctly.
+MuseScore 4 has since been released which renders them correctly but cannot store them back in the same format.
 
 ### Opening TSV files in a spreadsheet
 
@@ -101,94 +65,28 @@ to use this code to load any TSV files related to this repository (provided you'
 ```python
 import ms3
 
-labels = ms3.load_tsv('harmonies/01-1.tsv')
-notes = ms3.load_tsv('notes/01-1.tsv')
+labels = ms3.load_tsv("harmonies/01-1.harmonies.tsv")
+notes = ms3.load_tsv("notes/01-1.notes.tsv"")
 ```
 
-## How to read `metadata.tsv`
 
-This section explains the meaning of the columns contained in `metadata.tsv`.
+## Version history
 
-### File information
-
-| column                 | content                                                    |
-|------------------------|------------------------------------------------------------|
-| **fname**              | name without extension (for referencing related files)     |
-| **rel_path**           | relative file path of the score, including extension       |
-| **subdirectory**       | folder where the score is located                          |    
-| **last_mn**            | last measure number                                        |
-| **last_mn_unfolded**   | number of measures when playing all repeats                |
-| **length_qb**          | length of the piece, measured in quarter notes             |
-| **length_qb_unfolded** | length of the piece when playing all repeats               |
-| **volta_mcs**          | measure counts of first and second endings                 |
-| **all_notes_qb**       | summed up duration of all notes, measured in quarter notes |
-| **n_onsets**           | number of note onsets                                      |
-| **n_onset_positions**  | number of unique note onsets ("slices")                    |
-
-
-### Composition information
-
-| column             | content                   |
-|--------------------|---------------------------|
-| **composer**       | composer name             |
-| **workTitle**      | work title                |
-| **composed_start** | earliest composition date |
-| **composed_end**   | latest composition date   |
-| **workNumber**     | Catalogue number(s)       |
-| **movementNumber** | 1, 2, or 3                |
-| **movementTitle**  | title of the movement     |
-
-### Score information
-
-| column          | content                                                |
-|-----------------|--------------------------------------------------------|
-| **label_count** | number of chord labels                                 |
-| **KeySig**      | key signature(s) (negative = flats, positive = sharps) |
-| **TimeSig**     | time signature(s)                                      |
-| **musescore**   | MuseScore version                                      |
-| **source**      | URL to the first typesetter's file                     |
-| **typesetter**  | first typesetter                                       |
-| **annotators**  | creator(s) of the chord labels                         |
-| **reviewers**   | reviewer(s) of the chord labels                        |
-
-### Identifiers
-
-These columns provide a mapping between multiple identifiers for the sonatas (not for individual movements).
-
-| column          | content                                                                                                 |
-|-----------------|---------------------------------------------------------------------------------------------------------|
-| **wikidata**    | URL of the [WikiData](https://www.wikidata.org/) item                                                   |
-| **viaf**        | URL of the Virtual International Authority File ([VIAF](http://viaf.org/)) entry                        |
-| **musicbrainz** | [MusicBrainz](https://musicbrainz.org/) identifier                                                      |
-| **imslp**       | URL to the wiki page within the International Music Score Library Project ([IMSLP](https://imslp.org/)) |
-
-
-## Generating all TSV files from the scores
-
-When you have made changes to the scores and want to update the TSV files accordingly, you can use the following
-command (provided you have pip-installed [ms3](https://github.com/johentsch/ms3)):
-
-```python
-ms3 extract -M -N -X -D # for measures, notes, expanded annotations, and metadata
-```
-
-If, in addition, you want to generate the reviewed scores with out-of-label notes colored in red, you can do
-
-```python
-ms3 review -M -N -X -D # for extracting measures, notes, expanded annotations, and metadata
-```
-
-By adding the flag `-c` to the review command, it will additionally compare the (potentially modified) annotations in the score
-with the ones currently present in the harmonies TSV files and reflect the comparison in the reviewed scores.
+See the [GitHub releases](https://github.com/DCMLab/beethoven_piano_sonatas/releases).
 
 ## Questions, Suggestions, Corrections, Bug Reports
 
-For questions, remarks etc., please create an issue and feel free to fork and submit pull requests.
+Please [create an issue](https://github.com/DCMLab/beethoven_piano_sonatas/issues) and/or feel free to fork and submit pull requests.
+
+## Cite as
+
+> Hentschel, J., Rammos, Y., Neuwirth, M., Moss, F. C., & Rohrmeier, M. (2024). An annotated corpus of tonal piano music from the long 19th century. Empirical Musicology Review, 18(1), 84–95. https://doi.org/10.18061/emr.v18i1.8903
 
 ## License
 
-Creative Commons Attribution-ShareAlike 4.0 International License ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)).
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License ([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)).
 
+![cc-by-nc-sa-image](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)
 
 ## Naming convention
 
@@ -259,7 +157,7 @@ For example, the four movements of sonata no. 1 are named `01-1`, `01-2`, `01-3`
 |07-1     |     344|   527|2.3.0   |Lydia Carlisi (2.2.0), Amelia Brey (2.3.0)        |AB                              |
 |07-2     |      87|   218|2.3.0   |Lydia Carlisi (2.2.0), Adrian Nagel (2.3.0)       |Victor Zheng                    |
 |07-3     |      86|    92|2.3.0   |Lydia Carlisi (2.2.0), Adrian Nagel (2.3.0)       |Victor Zheng                    |
-|07-4     |     113|   266|2.3.0   |Lydia Carlisi (2.2.0), Adrian Nagel (2.3.0)       |Victor Zheng                    |
+|07-4     |     113|   268|2.3.0   |Lydia Carlisi (2.2.0), Adrian Nagel (2.3.0)       |Victor Zheng                    |
 |08-1     |     310|   503|2.3.0   |Lydia Carlisi (2.2.0), John Heilig (2.3.0)        |AN                              |
 |08-2     |      73|   143|2.3.0   |Lydia Carlisi (2.2.0), Adrian Nagel (2.3.0)       |Victor Zheng                    |
 |08-3     |     210|   365|2.3.0   |Lydia Carlisi (2.2.0), Adrian Nagel (2.3.0)       |Victor Zheng                    |
@@ -294,7 +192,7 @@ For example, the four movements of sonata no. 1 are named `01-1`, `01-2`, `01-3`
 |17-1     |     228|   352|2.3.0   |Adrian Nagel (2.2.0), Hanné Becker (2.3.0)        |AN                              |
 |17-2     |     103|   223|2.3.0   |Adrian Nagel (2.3.0)                              |Victor Zheng                    |
 |17-3     |     399|   460|2.3.0   |Adrian Nagel (2.3.0)                              |Victor Zheng                    |
-|18-1     |     253|   269|2.3.0   |Adrian Nagel (2.2.0), Hanné Becker (2.3.0)        |AN                              |
+|18-1     |     253|   268|2.3.0   |Adrian Nagel (2.2.0), Hanné Becker (2.3.0)        |AN                              |
 |18-2     |     169|   273|2.3.0   |Adrian Nagel (2.3.0)                              |Victor Zheng                    |
 |18-3     |      61|   178|2.3.0   |Adrian Nagel (2.3.0)                              |Victor Zheng                    |
 |18-4     |     333|   410|2.3.0   |Adrian Nagel (2.3.0)                              |Victor Zheng                    |

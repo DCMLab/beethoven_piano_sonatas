@@ -31,7 +31,7 @@
       {
         "name": "quarterbeats",
         "type": "string",
-        "title": "Offset from Beginning",
+        "title": "Offset from Beginning (leaving out alternative endings)",
         "description": "Distance of an event from the piece's beginning. By default, only second endings are taken into account to reflect the proportions of a simply playthrough without repeats.",
         "constraints": {
           "pattern": "\\d+(?:\\/\\d+)?"
@@ -40,7 +40,7 @@
       {
         "name": "quarterbeats_all_endings",
         "type": "string",
-        "title": "Offset from Beginning (Including Endings)",
+        "title": "Offset from Beginning (counting through alternative endings as if they were adjacent bars)",
         "description": "Distance from the piece's beginning, taking all endings into account for addressability purposes.",
         "constraints": {
           "pattern": "\\d+(?:\\/\\d+)?"
@@ -156,11 +156,19 @@
         "description": "IDs of active slurs that a chord falls under, as a tuple of integers."
       },
       {
-        "name": "Trill:trill",
+        "name": "decrescendo_hairpin",
+        "type": "string"
+      },
+      {
+        "name": "crescendo_hairpin",
         "type": "string"
       },
       {
         "name": "Ottava:8va",
+        "type": "string"
+      },
+      {
+        "name": "Trill:trill",
         "type": "string"
       },
       {
@@ -172,19 +180,11 @@
       {
         "name": "Pedal_<sym>keyboardPedalPed</sym>",
         "type": "string"
-      },
-      {
-        "name": "decrescendo_hairpin",
-        "type": "string"
-      },
-      {
-        "name": "crescendo_hairpin",
-        "type": "string"
       }
     ],
     "facet": "chords",
-    "identifier": "RksNmGdvimXoHg",
-    "filepath": "chords/RksNmGdvimXoHg.schema.yaml",
+    "identifier": "qAdKoondhg-cIA",
+    "filepath": "chords/qAdKoondhg-cIA.schema.yaml",
     "used_in": "26-3"
   },
   "creator": {
@@ -197,6 +197,8 @@
       "name": "Johannes Hentschel",
       "@id": "https://orcid.org/0000-0002-1986-9545"
     },
-    "softwareVersion": "2.4.4"
-  }
+    "softwareVersion": "2.5.4"
+  },
+  "git_revision": "79b61baaf4b67d2dda0ad71c61125e9f90b9c8f5",
+  "git_tag": "v2.3-63-g79b61ba"
 }

@@ -3,38 +3,11 @@ Warnings encountered during the last execution of ms3 review
 
 FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.beethoven_piano_sonatas.02-2
 	No metronome mark found in the first measure nor anywhere else in the score.
-DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.beethoven_piano_sonatas.02-2
-	Phrase beginning and endings don't match:
-	mn_playthrough phraseend mn_playthrough phraseend
-	            1a         {             4a         }
-	            5a         {             8a         }
-	            8a         {            13a        }{
-	           13a        }{            19a         }
-	           19a         {            23a         }
-	           23a         {            31a         }
-	           32a         {            35a         }
-	           36a         {            39a         }
-	           39a         {            44a        }{
-	           44a        }{            50a         }
-	           50a         {            54a         }
-	           54a         {            58a        }{
-	           58a        }{            68a        }{
-	           68a        }{            71a         }
-	           75a         {            75a         }
-	           NaN       NaN            79a         }
 DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 43, '1/4', 'viio6(+2)/V') ms3.Parse.beethoven_piano_sonatas.02-2
 	The label 'viio6(+2)/V' in m. 43, onset 1/4 (MC 43, onset 1/4) seems not to correspond well to the score (which does not necessarily mean it is wrong).
 	In the context of D.V, it expresses the scale degrees
 	('6', '1', '#4') [('F#', 'A', 'D#')] plus the added ('5',) [('E',)].
 	The corresponding score segment has 1 within-label and 3 out-of-label note onsets,
 	a ratio of 0.75 > 0.6 (the current, arbitrary, threshold).
-	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
-	by a free-text comment in subsequent lines starting with a space or tab.
-DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 46, '1/2', 'ii') ms3.Parse.beethoven_piano_sonatas.02-2
-	The label 'ii' in m. 46, onset 1/2 (MC 46, onset 1/2) seems not to correspond well to the score (which does not necessarily mean it is wrong).
-	In the context of D.I, it expresses the scale degrees
-	('2', '4', '6') [('E', 'G', 'B')].
-	The corresponding score segment has 2 within-label and 7 out-of-label note onsets,
-	a ratio of 0.7777777777777778 > 0.6 (the current, arbitrary, threshold).
 	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
 	by a free-text comment in subsequent lines starting with a space or tab.

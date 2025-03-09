@@ -1,59 +1,6 @@
 Warnings encountered during the last execution of ms3 review
 ============================================================
 
-DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.beethoven_piano_sonatas.18-1
-	Phrase beginning and endings don't match:
-	mn_playthrough phraseend mn_playthrough phraseend
-	            1a         {             8a         }
-	           10a         {            17a         }
-	           18a         {            21a         }
-	           22a         {            25a        }{
-	           25a        }{            27a        }{
-	           27a        }{            31a         }
-	           33a         {            44a         }
-	           45a         {            53a         }
-	           57a         {            64a        }{
-	           64a        }{            66a        }{
-	           66a        }{            72a        }{
-	           72a        }{            82a         }
-	           82a         {            86a         }
-	           86a         {             8b         }
-	            1b         {            17b         }
-	           10b         {            21b         }
-	           18b         {            25b        }{
-	           22b         {            27b        }{
-	           25b        }{            31b         }
-	           27b        }{            44b         }
-	           33b         {            53b         }
-	           45b         {            64b        }{
-	           57b         {            66b        }{
-	           64b        }{            72b        }{
-	           66b        }{            82b         }
-	           72b        }{            86b         }
-	           82b         {           100a        }{
-	           86b         {           104a         }
-	          100a        }{           108a         }
-	          105a         {           114a        }{
-	          108a         {           116a         }
-	          114a        }{           122a        }{
-	          116a         {           144a         }
-	          122a        }{           153a         }
-	          146a         {           157a         }
-	          154a         {           161a        }{
-	          158a         {           163a        }{
-	          161a        }{           167a         }
-	          163a        }{           177a         }
-	          169a         {           190a        }{
-	          183a         {           192a        }{
-	          190a        }{           202a        }{
-	          192a        }{           213a         }
-	          202a        }{           217a         }
-	          213a         {           235a         }
-	          217a         {           246a        }{
-	          237a         {           248a        }{
-	          246a        }{           250a        }{
-	          248a        }{           253a         }
-	          250a        }{            NaN       NaN
 DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 235, '0', 'I|PAC}') ms3.Parse.beethoven_piano_sonatas.18-1
 	The label 'I|PAC}' in m. 235, onset 0 (MC 235, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
 	In the context of Eb.I, it expresses the scale degrees

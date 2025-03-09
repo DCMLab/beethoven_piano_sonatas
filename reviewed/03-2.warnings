@@ -3,25 +3,3 @@ Warnings encountered during the last execution of ms3 review
 
 FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.beethoven_piano_sonatas.03-2
 	No metronome mark found in the first measure nor anywhere else in the score.
-DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.beethoven_piano_sonatas.03-2
-	Phrase beginning and endings don't match:
-	mn_playthrough phraseend mn_playthrough phraseend
-	            1a         {             4a         }
-	            5a         {             8a         }
-	           11a        }{            11a        }{
-	           19a        }{            19a        }{
-	           25a        }{            25a        }{
-	           29a        }{            29a        }{
-	           32a        }{            32a        }{
-	           37a        }{            37a        }{
-	           43a        }{            43a        }{
-	           47a         {            46a         }
-	           50a         {            50a         }
-	           53a        }{            53a        }{
-	           55a         {            54a         }
-	           59a        }{            59a        }{
-	           62a        }{            62a        }{
-	           66a         {            66a         }
-	           71a         {            70a         }
-	           77a         {            77a         }
-	           NaN       NaN            82a         }

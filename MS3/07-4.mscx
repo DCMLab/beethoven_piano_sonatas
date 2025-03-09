@@ -232,10 +232,6 @@
           <style>Composer</style>
           <text>Ludwig van Beethoven</text>
           </Text>
-        <Text>
-          <style>Lyricist</style>
-          <text></text>
-          </Text>
         </VBox>
       <Measure len="1/8">
         <irregular>1</irregular>
@@ -19659,7 +19655,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bVI.I|DC}{</name>
+            <name>bVI.I|DC}</name>
             </Harmony>
           <Chord>
             <durationType>whole</durationType>
@@ -19947,6 +19943,10 @@
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -21885,7 +21885,7 @@
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bVI</name>
+            <name>bVI{</name>
             <offset x="0" y="-3.14748"/>
             </Harmony>
           <Chord>
@@ -22468,7 +22468,7 @@
             </Dynamic>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7(4)|HC</name>
+            <name>V7(4)|HC}</name>
             <offset x="0" y="-3.8597"/>
             </Harmony>
           <Chord>
@@ -22516,7 +22516,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7}</name>
+            <name>V7</name>
             <offset x="0" y="-3.60071"/>
             </Harmony>
           <Fermata>
@@ -22932,7 +22932,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I{</name>
             <offset x="0" y="-5.17354"/>
             </Harmony>
           <Dynamic>
@@ -24912,6 +24912,10 @@
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -25027,11 +25031,6 @@
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>{</name>
-            <offset x="0" y="-4.60974"/>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -28014,7 +28013,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7(4)|HC</name>
+            <name>V7(4)|HC}</name>
             <offset x="0" y="-6.70545"/>
             </Harmony>
           <Chord>
@@ -28074,7 +28073,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7]}</name>
+            <name>V7]</name>
             <offset x="0" y="-3.26386"/>
             </Harmony>
           <Chord>
@@ -29055,7 +29054,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I[I|PAC}{</name>
+            <name>I[I|PAC}</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
@@ -29064,6 +29063,10 @@
             <offset x="0" y="3"/>
             <durationType>eighth</durationType>
             </Rest>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>

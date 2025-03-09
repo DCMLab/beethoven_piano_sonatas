@@ -1,23 +1,77 @@
 {
     "license": "CC-BY-NC-SA-4.0",
-    "description": "<p>This corpus of annotated <a href=\"https://musescore.org\">MuseScore</a> files has been created within the <a href=\"https://github.com/DCMLab/dcml_corpora\">DCML corpus initiative</a> and employs the <a href=\"https://github.com/DCMLab/standards\">DCML harmony annotation standard</a>. It is one out of nine similar corpora that have been grouped together to <a href=\"https://doi.org/10.5281/zenodo.7473560\">An Annotated Corpus of Tonal Piano Music from the Long 19th Century</a> which comes with a data report that is currently under review.</p>\n\n<p>The dataset lives on GitHub (link under &quot;Related identifiers&quot;) and is stored on Zenodo purely for conservation and automatic DOI generation for new GitHub releases. For technical reasons, we include only brief, generic instructions on how to use the data. For more detailed documentation, please refer to the dataset&#39;s GitHub page.</p>\n\n<p><strong>What is included</strong></p>\n\n<p>The dataset includes annotated MusicScores <strong>.mscx</strong> files that have been created with <a href=\"https://github.com/musescore/MuseScore/releases/tag/v3.6.2\">MuseScore 3.6.2</a> and can be opened with any MuseScore 3, or later version. Apart from that, the score information (measures, notes, harmony labels) have been extracted in the form of TSV files which can be found respectively in the folders <code>measures</code>, <code>notes</code>, and <code>harmonies</code>. They have been extracted with the Python library <a href=\"https://pypi.org/project/ms3/\">ms3</a> and its documentation has a <a href=\"https://ms3.readthedocs.io/columns\">column glossary for looking up the meaning of a column</a>.</p>\n\n<p><strong>Getting the data</strong></p>\n\n<p>You can download the dataset as a ZIP file from Zenodo or GitHub. Please note that these automatically generated ZIP files do not include submodules, which would appear as empty folders. If you need ZIP files, you will need to find the submodule repositories (e.g. via GitHub) and download them individually.</p>\n\n<p>Apart from that, there is the possibility to git-clone the GitHub repository to your disk. This has the advantage that it allows to version-control any changes you want to make to the dataset and to ask for your changes to be included (&quot;merged&quot;) in a future version.</p>",
     "contributors": [
+        {
+            "type": "DataCollector",
+            "name": "Adrian Nagel"
+        },
         {
             "orcid": "0000-0002-6329-7492",
             "type": "DataCollector",
             "name": "Amelia Brey"
+        },
+        {
+            "type": "DataCollector",
+            "name": "Daniel Grote"
+        },
+        {
+            "orcid": "0000-0002-6588-2257",
+            "type": "DataCollector",
+            "name": "Davor Krkljus"
+        },
+        {
+            "orcid": "0009-0005-5468-5871",
+            "type": "DataCollector",
+            "name": "Ehsan Mohagheghi Fard"
+        },
+        {
+            "type": "DataCollector",
+            "name": "Gabriela Ortiz Würth"
+        },
+        {
+            "orcid": "0000-0002-2105-525X",
+            "type": "DataCollector",
+            "name": "Hanné Becker"
+        },
+        {
+            "type": "DataCollector",
+            "name": "John Heilig"
+        },
+        {
+            "type": "DataCollector",
+            "name": "Lydia Carlisi"
+        },
+        {
+            "type": "DataCollector",
+            "name": "Lars Opfermann"
+        },
+        {
+            "orcid": "0009-0001-0954-4448",
+            "type": "DataCollector",
+            "name": "Victor Zheng"
+        },
+        {
+            "type": "DataCollector",
+            "name": "Ya-Chuan Wu"
         }
     ],
-    "title": "Ludwig van Beethoven - Piano Sonatas (A corpus of annotated scores)",
+    "title": "Ludwig van Beethoven – Piano Sonatas (A corpus of annotated scores)",
     "keywords": [
+        "music research",
+        "music theory",
+        "music analysis",
+        "music history",
+        "corpus studies",
         "corpora",
-        "symbolic datasets",
+        "symbolic dataset",
         "scores",
+        "annotated dataset",
         "harmony",
-        "grouping",
-        "phrase",
-        "cadence",
-        "piano",
+        "key annotations",
+        "chord annotations",
+        "phrase annotations",
+        "cadence annotations",
+        "piano music",
         "19th century"
     ],
     "grants": [
@@ -26,7 +80,7 @@
         }
     ],
     "upload_type": "dataset",
-    "version": "v2.0",
+    "version": "v2.3",
     "communities": [
         {
             "identifier": "dcml"
@@ -35,16 +89,16 @@
             "identifier": "epfl"
         }
     ],
-    "publication_date": "2022-12-22",
+    "publication_date": "2025-03-03",
     "creators": [
         {
             "orcid": "0000-0002-1986-9545",
-            "affiliation": "\u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne",
+            "affiliation": "Anton Bruckner University Linz",
             "name": "Johannes Hentschel"
         },
         {
             "orcid": "0000-0003-1455-5990",
-            "affiliation": "\u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne",
+            "affiliation": "École Polytechnique Fédérale de Lausanne",
             "name": "Yannis Rammos"
         },
         {
@@ -54,7 +108,7 @@
         },
         {
             "orcid": "0000-0002-4323-7257",
-            "affiliation": "\u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne",
+            "affiliation": "École Polytechnique Fédérale de Lausanne",
             "name": "Martin Rohrmeier"
         }
     ],
@@ -62,7 +116,7 @@
     "related_identifiers": [
         {
             "scheme": "url",
-            "identifier": "https://github.com/DCMLab/beethoven_piano_sonatas/tree/v2.0",
+            "identifier": "https://github.com/DCMLab/beethoven_piano_sonatas/tree/v2.3",
             "relation": "references"
         },
         {
@@ -73,7 +127,8 @@
         {
             "scheme": "doi",
             "identifier": "10.5281/zenodo.7483349",
-            "relation": "isPartOf"
+            "relation": "isPartOf",
+            "resource_type":"dataset"
         }
     ]
 }

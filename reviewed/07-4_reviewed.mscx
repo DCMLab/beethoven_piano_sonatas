@@ -153,7 +153,7 @@
     <showMargins>0</showMargins>
     <metaTag name="annotators">Lydia Carlisi (2.2.0), Adrian Nagel (2.3.0)</metaTag>
     <metaTag name="arranger"></metaTag>
-    <metaTag name="compared_against">v2.2</metaTag>
+    <metaTag name="compared_against">LATEST_VERSION</metaTag>
     <metaTag name="composed_end">1798</metaTag>
     <metaTag name="composed_source">OxfordMusicOnline</metaTag>
     <metaTag name="composed_start">1797</metaTag>
@@ -232,10 +232,6 @@
         <Text>
           <style>Composer</style>
           <text>Ludwig van Beethoven</text>
-          </Text>
-        <Text>
-          <style>Lyricist</style>
-          <text></text>
           </Text>
         </VBox>
       <Measure len="1/8">
@@ -19934,6 +19930,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>bVI.I|DC}{</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>bVI.I|DC}</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>whole</durationType>
@@ -20226,6 +20228,11 @@
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            <color r="0" g="85" b="0" a="255"/>
+            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -22180,6 +22187,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>bVI</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>bVI{</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-3.14748"/>
             </Harmony>
           <Chord>
@@ -22765,6 +22778,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7(4)|HC</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7(4)|HC}</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-3.8597"/>
             </Harmony>
           <Chord>
@@ -22813,6 +22832,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7}</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-3.60071"/>
             </Harmony>
           <Fermata>
@@ -23231,6 +23256,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I{</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-5.17354"/>
             </Harmony>
           <Dynamic>
@@ -25242,6 +25273,11 @@
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            <color r="0" g="85" b="0" a="255"/>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -25362,7 +25398,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>{</name>
-            <offset x="0" y="-4.60974"/>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -28379,6 +28415,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7(4)|HC</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7(4)|HC}</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-6.70545"/>
             </Harmony>
           <Chord>
@@ -28439,6 +28481,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7]}</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7]</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-3.26386"/>
             </Harmony>
           <Chord>
@@ -29423,6 +29471,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I[I|PAC}{</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I[I|PAC}</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
@@ -29431,6 +29485,11 @@
             <offset x="0" y="3"/>
             <durationType>eighth</durationType>
             </Rest>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            <color r="0" g="85" b="0" a="255"/>
+            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>

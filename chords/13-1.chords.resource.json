@@ -30,7 +30,7 @@
       },
       {
         "name": "quarterbeats",
-        "title": "Offset from Beginning",
+        "title": "Offset from Beginning (leaving out alternative endings)",
         "description": "Distance of an event from the piece's beginning. By default, only second endings are taken into account to reflect the proportions of a simply playthrough without repeats.",
         "type": "string",
         "constraints": {
@@ -39,7 +39,7 @@
       },
       {
         "name": "quarterbeats_all_endings",
-        "title": "Offset from Beginning (Including Endings)",
+        "title": "Offset from Beginning (counting through alternative endings as if they were adjacent bars)",
         "description": "Distance from the piece's beginning, taking all endings into account for addressability purposes.",
         "type": "string",
         "constraints": {
@@ -162,25 +162,7 @@
         "type": "string"
       },
       {
-        "name": "pedal",
-        "title": "Pedal Point",
-        "description": "Specified as Roman numeral.",
-        "type": "string"
-      },
-      {
-        "name": "Pedal_<sym>keyboardPedalPed</sym>",
-        "type": "string"
-      },
-      {
         "name": "decrescendo_hairpin",
-        "type": "string"
-      },
-      {
-        "name": "crescendo_hairpin",
-        "type": "string"
-      },
-      {
-        "name": "crescendo_line",
         "type": "string"
       },
       {
@@ -190,11 +172,29 @@
       {
         "name": "HairPin:3_decresc.",
         "type": "string"
+      },
+      {
+        "name": "crescendo_line",
+        "type": "string"
+      },
+      {
+        "name": "crescendo_hairpin",
+        "type": "string"
+      },
+      {
+        "name": "pedal",
+        "title": "Pedal Point",
+        "description": "Specified as Roman numeral.",
+        "type": "string"
+      },
+      {
+        "name": "Pedal_<sym>keyboardPedalPed</sym>",
+        "type": "string"
       }
     ],
     "facet": "chords",
-    "identifier": "y8ejY2uxDw7AUw",
-    "filepath": "chords/y8ejY2uxDw7AUw.schema.yaml",
+    "identifier": "laGjcxc7RytSuA",
+    "filepath": "chords/laGjcxc7RytSuA.schema.yaml",
     "used_in": "13-1"
   },
   "creator": {
@@ -207,6 +207,8 @@
       "name": "Johannes Hentschel",
       "@id": "https://orcid.org/0000-0002-1986-9545"
     },
-    "softwareVersion": "2.4.4"
-  }
+    "softwareVersion": "2.5.4"
+  },
+  "git_revision": "79b61baaf4b67d2dda0ad71c61125e9f90b9c8f5",
+  "git_tag": "v2.3-63-g79b61ba"
 }

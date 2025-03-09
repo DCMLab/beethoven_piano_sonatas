@@ -151,7 +151,7 @@
     <showMargins>0</showMargins>
     <metaTag name="annotators">Adrian Nagel (2.2.0), Amelia Brey (2.3.0)</metaTag>
     <metaTag name="arranger"></metaTag>
-    <metaTag name="compared_against">v2.2</metaTag>
+    <metaTag name="compared_against">LATEST_VERSION</metaTag>
     <metaTag name="composed_end">1802</metaTag>
     <metaTag name="composed_source">OxfordMusicOnline</metaTag>
     <metaTag name="composed_start">1802</metaTag>
@@ -233,10 +233,6 @@
         <Text>
           <style>Composer</style>
           <text>Ludwig van Beethoven</text>
-          </Text>
-        <Text>
-          <style>Lyricist</style>
-          <text></text>
           </Text>
         </VBox>
       <Measure>
@@ -28212,6 +28208,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>bVI/V</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>bVI/V{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>

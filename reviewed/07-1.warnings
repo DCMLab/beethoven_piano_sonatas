@@ -3,66 +3,6 @@ Warnings encountered during the last execution of ms3 review
 
 FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.beethoven_piano_sonatas.07-1
 	No metronome mark found in the first measure nor anywhere else in the score.
-DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.beethoven_piano_sonatas.07-1
-	Phrase beginning and endings don't match:
-	mn_playthrough phraseend mn_playthrough phraseend
-	            0a         {             4a         }
-	            4a         {            10a         }
-	           10a         {            16a         }
-	           16a         {            22a         }
-	           22a         {            30a         }
-	           30a         {            53a         }
-	           53a         {            60a         }
-	           60a         {            65a         }
-	           66a         {            70a         }
-	           70a         {            93a         }
-	           93a         {            97a         }
-	           97a         {           101a         }
-	          101a         {           105a         }
-	          105a         {           109a         }
-	          109a         {           113a         }
-	          113a         {           119a         }
-	          124a         {             4b         }
-	            4b         {            10b         }
-	           10b         {            16b         }
-	           16b         {            22b         }
-	           22b         {            30b         }
-	           30b         {            53b         }
-	           53b         {            60b         }
-	           60b         {            65b         }
-	           66b         {            70b         }
-	           70b         {            93b         }
-	           93b         {            97b         }
-	           97b         {           101b         }
-	          101b         {           105b         }
-	          105b         {           109b         }
-	          109b         {           113b         }
-	          113b         {           119b         }
-	          124b         {           132a         }
-	          133a         {           137a         }
-	          137a         {           141a         }
-	          141a         {           149a         }
-	          149a         {           157a         }
-	          157a         {           167a         }
-	          183a         {           179a         }
-	          187a         {           187a         }
-	          193a         {           193a         }
-	          204a         {           203a         }
-	          212a         {           212a         }
-	          233a         {           233a         }
-	          240a         {           240a         }
-	          247a         {           246a         }
-	          251a         {           251a         }
-	          274a         {           274a         }
-	          278a         {           278a         }
-	          282a         {           282a         }
-	          286a         {           286a         }
-	          290a         {           290a         }
-	          294a        }{           294a        }{
-	          298a         {           298a         }
-	          327a         {           327a         }
-	          333a        }{           333a        }{
-	           NaN       NaN           341a         }
 DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 25, '0', 'i') ms3.Parse.beethoven_piano_sonatas.07-1
 	The label 'i' in m. 24, onset 0 (MC 25, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
 	In the context of D.I, it expresses the scale degrees
